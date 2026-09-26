@@ -1,7 +1,5 @@
 # When Local Definitions Matter: Diagnosing Source-Linked Language Model Errors
 
-Code and data for the paper *When Local Definitions Matter: Diagnosing Source-Linked Language Model Errors* (under double-blind review).
-
 The paper studies errors on source-linked questions about locally defined terms. A local 7B proxy ranks other readers' errors
 on the same synthetic and contract questions, while source definitions can correct many constructed-task answers. The risk
 score also tracks general question difficulty, and a successful definition-allocation policy for new user requests has not
