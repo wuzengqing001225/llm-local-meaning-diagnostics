@@ -1,0 +1,585 @@
+{
+  "status": "development_only_not_confirmatory",
+  "task_count": 30,
+  "prediction_count": 120,
+  "planned_prediction_count": 120,
+  "complete": true,
+  "A": {
+    "cuadfull:108:Third Party": {
+      "n": 4,
+      "mean_R": 0.5732143670320511,
+      "mean_dp": 0.30168214440345764,
+      "min_dp": 0.158146470785141,
+      "max_dp": 0.4621685743331909
+    },
+    "cuadfull:170:Products": {
+      "n": 4,
+      "mean_R": 0.3769313916563988,
+      "mean_dp": 0.18706940859556198,
+      "min_dp": 0.09714281558990479,
+      "max_dp": 0.23956367373466492
+    },
+    "cuadfull:171:Confidential Information": {
+      "n": 4,
+      "mean_R": 0.3990066275000572,
+      "mean_dp": 0.20047792047262192,
+      "min_dp": 0.04107612371444702,
+      "max_dp": 0.5895849168300629
+    },
+    "cuadfull:250:System Images": {
+      "n": 4,
+      "mean_R": 0.5124881789088249,
+      "mean_dp": 0.17833900451660156,
+      "min_dp": -0.05248817801475525,
+      "max_dp": 0.38243481516838074
+    },
+    "cuadfull:38:New Product": {
+      "n": 4,
+      "mean_R": 0.4572495296597481,
+      "mean_dp": 0.29676906019449234,
+      "min_dp": 0.1545293927192688,
+      "max_dp": 0.5590595901012421
+    }
+  },
+  "B": {
+    "deepseek_reader": {
+      "n_pairs": 30,
+      "bare_accuracy": 0.9333333333333333,
+      "definition_accuracy": 1.0,
+      "transition_counts": {
+        "correct_to_correct": 28,
+        "wrong_to_correct": 2
+      },
+      "per_rule": {
+        "cuadfull:108:Third Party": {
+          "n": 6,
+          "bare_correct": 6,
+          "defined_correct": 6,
+          "repairs": 0,
+          "harms": 0
+        },
+        "cuadfull:170:Products": {
+          "n": 6,
+          "bare_correct": 5,
+          "defined_correct": 6,
+          "repairs": 1,
+          "harms": 0
+        },
+        "cuadfull:171:Confidential Information": {
+          "n": 6,
+          "bare_correct": 6,
+          "defined_correct": 6,
+          "repairs": 0,
+          "harms": 0
+        },
+        "cuadfull:250:System Images": {
+          "n": 6,
+          "bare_correct": 6,
+          "defined_correct": 6,
+          "repairs": 0,
+          "harms": 0
+        },
+        "cuadfull:38:New Product": {
+          "n": 6,
+          "bare_correct": 5,
+          "defined_correct": 6,
+          "repairs": 1,
+          "harms": 0
+        }
+      },
+      "bare_wrong_task_ids": [
+        "B:cuadfull:170:Products:b_doughnut",
+        "B:cuadfull:38:New Product:b_new_hardware"
+      ],
+      "usage_reported": {
+        "prompt_tokens": 8922,
+        "completion_tokens": 79556,
+        "total_tokens": 88478
+      },
+      "items": [
+        {
+          "task_id": "B:cuadfull:170:Products:b_bread_side",
+          "definition_id": "cuadfull:170:Products",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:170:Products:b_approved_piadina",
+          "definition_id": "cuadfull:170:Products",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:170:Products:b_branded_pizza",
+          "definition_id": "cuadfull:170:Products",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:170:Products:b_unapproved_dessert",
+          "definition_id": "cuadfull:170:Products",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:170:Products:b_doughnut",
+          "definition_id": "cuadfull:170:Products",
+          "bare_correct": false,
+          "defined_correct": true,
+          "transition": "wrong_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:170:Products:b_other_brand",
+          "definition_id": "cuadfull:170:Products",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:108:Third Party:b_distributor",
+          "definition_id": "cuadfull:108:Third Party",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:108:Third Party:b_investigator",
+          "definition_id": "cuadfull:108:Third Party",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:108:Third Party:b_bank",
+          "definition_id": "cuadfull:108:Third Party",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:108:Third Party:b_aimmune",
+          "definition_id": "cuadfull:108:Third Party",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:108:Third Party:b_xencor_subsidiary",
+          "definition_id": "cuadfull:108:Third Party",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:108:Third Party:b_common_control",
+          "definition_id": "cuadfull:108:Third Party",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:250:System Images:b_bootloader",
+          "definition_id": "cuadfull:250:System Images",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:250:System Images:b_app_config",
+          "definition_id": "cuadfull:250:System Images",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:250:System Images:b_app_update",
+          "definition_id": "cuadfull:250:System Images",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:250:System Images:b_invoices",
+          "definition_id": "cuadfull:250:System Images",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:250:System Images:b_profiles",
+          "definition_id": "cuadfull:250:System Images",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:250:System Images:b_marketing",
+          "definition_id": "cuadfull:250:System Images",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:171:Confidential Information:b_written_proprietary",
+          "definition_id": "cuadfull:171:Confidential Information",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:171:Confidential Information:b_oral_29",
+          "definition_id": "cuadfull:171:Confidential Information",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:171:Confidential Information:b_oral_7",
+          "definition_id": "cuadfull:171:Confidential Information",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:171:Confidential Information:b_written_plain",
+          "definition_id": "cuadfull:171:Confidential Information",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:171:Confidential Information:b_oral_undesig",
+          "definition_id": "cuadfull:171:Confidential Information",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:171:Confidential Information:b_oral_31",
+          "definition_id": "cuadfull:171:Confidential Information",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:38:New Product:b_new_hardware",
+          "definition_id": "cuadfull:38:New Product",
+          "bare_correct": false,
+          "defined_correct": true,
+          "transition": "wrong_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:38:New Product:b_new_software",
+          "definition_id": "cuadfull:38:New Product",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:38:New Product:b_new_device",
+          "definition_id": "cuadfull:38:New Product",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:38:New Product:b_successor",
+          "definition_id": "cuadfull:38:New Product",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:38:New Product:b_firmware_update",
+          "definition_id": "cuadfull:38:New Product",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:38:New Product:b_unrelated",
+          "definition_id": "cuadfull:38:New Product",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        }
+      ]
+    },
+    "gpt_reader": {
+      "n_pairs": 30,
+      "bare_accuracy": 0.9333333333333333,
+      "definition_accuracy": 1.0,
+      "transition_counts": {
+        "correct_to_correct": 28,
+        "wrong_to_correct": 2
+      },
+      "per_rule": {
+        "cuadfull:108:Third Party": {
+          "n": 6,
+          "bare_correct": 6,
+          "defined_correct": 6,
+          "repairs": 0,
+          "harms": 0
+        },
+        "cuadfull:170:Products": {
+          "n": 6,
+          "bare_correct": 5,
+          "defined_correct": 6,
+          "repairs": 1,
+          "harms": 0
+        },
+        "cuadfull:171:Confidential Information": {
+          "n": 6,
+          "bare_correct": 6,
+          "defined_correct": 6,
+          "repairs": 0,
+          "harms": 0
+        },
+        "cuadfull:250:System Images": {
+          "n": 6,
+          "bare_correct": 6,
+          "defined_correct": 6,
+          "repairs": 0,
+          "harms": 0
+        },
+        "cuadfull:38:New Product": {
+          "n": 6,
+          "bare_correct": 5,
+          "defined_correct": 6,
+          "repairs": 1,
+          "harms": 0
+        }
+      },
+      "bare_wrong_task_ids": [
+        "B:cuadfull:170:Products:b_doughnut",
+        "B:cuadfull:38:New Product:b_firmware_update"
+      ],
+      "usage_reported": {
+        "prompt_tokens": 7730,
+        "completion_tokens": 2412,
+        "total_tokens": 10142
+      },
+      "items": [
+        {
+          "task_id": "B:cuadfull:170:Products:b_bread_side",
+          "definition_id": "cuadfull:170:Products",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:170:Products:b_approved_piadina",
+          "definition_id": "cuadfull:170:Products",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:170:Products:b_branded_pizza",
+          "definition_id": "cuadfull:170:Products",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:170:Products:b_unapproved_dessert",
+          "definition_id": "cuadfull:170:Products",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:170:Products:b_doughnut",
+          "definition_id": "cuadfull:170:Products",
+          "bare_correct": false,
+          "defined_correct": true,
+          "transition": "wrong_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:170:Products:b_other_brand",
+          "definition_id": "cuadfull:170:Products",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:108:Third Party:b_distributor",
+          "definition_id": "cuadfull:108:Third Party",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:108:Third Party:b_investigator",
+          "definition_id": "cuadfull:108:Third Party",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:108:Third Party:b_bank",
+          "definition_id": "cuadfull:108:Third Party",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:108:Third Party:b_aimmune",
+          "definition_id": "cuadfull:108:Third Party",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:108:Third Party:b_xencor_subsidiary",
+          "definition_id": "cuadfull:108:Third Party",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:108:Third Party:b_common_control",
+          "definition_id": "cuadfull:108:Third Party",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:250:System Images:b_bootloader",
+          "definition_id": "cuadfull:250:System Images",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:250:System Images:b_app_config",
+          "definition_id": "cuadfull:250:System Images",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:250:System Images:b_app_update",
+          "definition_id": "cuadfull:250:System Images",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:250:System Images:b_invoices",
+          "definition_id": "cuadfull:250:System Images",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:250:System Images:b_profiles",
+          "definition_id": "cuadfull:250:System Images",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:250:System Images:b_marketing",
+          "definition_id": "cuadfull:250:System Images",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:171:Confidential Information:b_written_proprietary",
+          "definition_id": "cuadfull:171:Confidential Information",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:171:Confidential Information:b_oral_29",
+          "definition_id": "cuadfull:171:Confidential Information",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:171:Confidential Information:b_oral_7",
+          "definition_id": "cuadfull:171:Confidential Information",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:171:Confidential Information:b_written_plain",
+          "definition_id": "cuadfull:171:Confidential Information",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:171:Confidential Information:b_oral_undesig",
+          "definition_id": "cuadfull:171:Confidential Information",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:171:Confidential Information:b_oral_31",
+          "definition_id": "cuadfull:171:Confidential Information",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:38:New Product:b_new_hardware",
+          "definition_id": "cuadfull:38:New Product",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:38:New Product:b_new_software",
+          "definition_id": "cuadfull:38:New Product",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:38:New Product:b_new_device",
+          "definition_id": "cuadfull:38:New Product",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:38:New Product:b_successor",
+          "definition_id": "cuadfull:38:New Product",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:38:New Product:b_firmware_update",
+          "definition_id": "cuadfull:38:New Product",
+          "bare_correct": false,
+          "defined_correct": true,
+          "transition": "wrong_to_correct"
+        },
+        {
+          "task_id": "B:cuadfull:38:New Product:b_unrelated",
+          "definition_id": "cuadfull:38:New Product",
+          "bare_correct": true,
+          "defined_correct": true,
+          "transition": "correct_to_correct"
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "Only five source rules, author-reviewed summaries and partial task review.",
+    "A and B came from one deterministic generator.",
+    "No token-budget policy comparison or independent-request evidence."
+  ]
+}

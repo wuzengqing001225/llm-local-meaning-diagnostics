@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying paper and the datasets used."
+title: "When Local Definitions Matter: Diagnosing Source-Linked Language Model Errors"
+type: software
+version: 1.0.0
+date-released: 2026-09-26
+authors:
+  - name: "Anonymous authors"

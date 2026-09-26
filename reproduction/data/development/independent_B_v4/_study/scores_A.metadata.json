@@ -1,0 +1,15 @@
+{
+  "scored": 955,
+  "model": "Qwen/Qwen2.5-7B",
+  "revision": "d149729398750b98c0af14eb82c78cfe92750796",
+  "resolved_model_commit": "d149729398750b98c0af14eb82c78cfe92750796",
+  "device": "mps",
+  "dtype": "torch.float16",
+  "torch_version": "2.10.0",
+  "started_at": "2026-09-23T09:17:30.469361+00:00",
+  "finished_at": "2026-09-23T10:12:06.340724+00:00",
+  "load_seconds_including_import_and_download": 7.992069667001488,
+  "scoring_seconds": 3267.801040582999,
+  "total_seconds": 3275.7931172919925,
+  "forward_passes": 7252
+}

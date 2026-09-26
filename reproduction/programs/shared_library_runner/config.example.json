@@ -1,0 +1,31 @@
+{
+  "allow_http": true,
+  "roles": {
+    "reader": {
+      "model": "gpt-5.6-terra",
+      "base_url": "http://YOUR_GPT_PROXY/v1",
+      "api_key": "PASTE_KEY_HERE"
+    },
+    "draft": {
+      "model": "deepseek-flash",
+      "base_url": "https://api.deepseek.com",
+      "api_key": "PASTE_KEY_HERE"
+    }
+  },
+  "study": {
+    "catalog": "data/catalog.jsonl",
+    "a_questions": "data/A_questions.jsonl",
+    "f_posts": "data/F_posts.jsonl",
+    "f_start_utc": "SET_F_START_UTC",
+    "f_end_utc": "SET_F_END_UTC",
+    "b_start_utc": "SET_B_START_UTC",
+    "b_tasks": "data/B_tasks.jsonl",
+    "frequency_complete_stream": false,
+    "budget_fraction": 0.25,
+    "proxy_model": "Qwen/Qwen2.5-7B",
+    "proxy_revision": "d149729398750b98c0af14eb82c78cfe92750796",
+    "proxy_device": "auto",
+    "development_only": false,
+    "results_dir": "results"
+  }
+}

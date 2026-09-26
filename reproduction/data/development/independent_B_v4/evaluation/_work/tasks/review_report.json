@@ -1,0 +1,25 @@
+{
+  "total_records": 60,
+  "accepted": 57,
+  "rejected": [
+    {
+      "task_id": "B:28847d562c57b214",
+      "reason": "Malformed/unsupported draft: Unsupported evidence quote"
+    },
+    {
+      "task_id": "B:88e954f160c35f5c",
+      "reason": "Malformed/unsupported draft: Unsupported evidence quote"
+    },
+    {
+      "task_id": "B:a34f57167b692328",
+      "reason": "The source passage contains only an omitted-text/confidential-treatment notation and a placeholder fragment ('[***] over the [***]'), with no substantive clause, obligation, scope provision, or community utterance that could support a scenario-based application question. The sole definition ('Act') is not connected to any operative text in the passage, so no membership, scope, applicability, or utterance-meaning question can be built without inventing content."
+    }
+  ],
+  "source_types": {
+    "model_generated": 57
+  },
+  "definition_dependence": {
+    "required": 45,
+    "not_required": 12
+  }
+}

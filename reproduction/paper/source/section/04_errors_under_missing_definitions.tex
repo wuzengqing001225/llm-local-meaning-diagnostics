@@ -1,0 +1,27 @@
+\section{Errors under missing definitions can be stable}
+\label{sec:stable}
+\input{section/table_prediction.tex}
+Table~\ref{tab:prediction} shows errors on source-linked diagnostic questions. Without the definition, DeepSeek V4 Flash errs on 28.5\% of matched synthetic questions and GPT-6-astra on 18.2\%. The design-weighted estimate is 13.2\% in the 6,529-question CUAD scoring frame; this is a rate for retained diagnostic questions, not all contract uses or live requests. Adding a definition lowers error in every tested row, but a corrected answer alone does not establish that the original error was specifically a conflict with ordinary meaning. It does show why a system must treat local definitions as answer-bearing source material.
+
+\begin{table}[t]\centering\footnotesize\setlength{\tabcolsep}{4pt}
+\caption{Contract questions from the validation sample that GPT-5.6-terra answers wrongly without the definition and correctly with it. The usual meaning of each term suggests a broader reading. Percentiles are within the 6,529-question risk index.}
+\label{tab:examples}
+\begin{tabular}{@{}p{1.5cm}p{3.6cm}p{3.9cm}p{2.9cm}r@{}}\toprule
+Term & Local definition & Question (abridged) & Answer implied by the definition & Risk\\\midrule
+\emph{Products} & dietary supplements manufactured within the United States & Which products must the endorser have used to give honest findings? & only U.S.-made supplements & 97th\\
+\emph{Trademarks} & the trademarks and trade names identified in Exhibit~A & Must the distributor report a confusable third-party name not in Exhibit~A? & report only names listed in Exhibit~A & 99.7th\\
+\emph{Term} & the period from the Signing Date to the End Date & During which period must the required insurance stay in force? & from signing to the stated end date, not until termination & 98th\\
+\bottomrule\end{tabular}\end{table}
+
+\begin{figure}[t]
+\centering\includegraphics[width=.85\linewidth]{figs/phenomenon.pdf}
+\caption{(a) Error without the definition on synthetic questions by designed term class. Familiar words given a new meaning are misread most often. (b) Share of GPT-6-astra's errors that an older model also makes on the same questions, against the share expected if errors were independent, which is the older models' overall error rate on those questions (for DeFi, the rate at which DeepSeek V4.1 Flash or GPT-5.6-terra errs).}
+\label{fig:phenomenon}
+\end{figure}
+
+The designed synthetic classes help isolate where local meaning has the largest effect. DeepSeek V4 Flash errs on 44.2\% of questions about familiar words given a conflicting meaning, against 25.3\% for coined words and 14.8\% for words retaining their usual meaning. GPT-6-astra shows the same ordering (36.5\%, 12.7\%, and 4.2\%; Figure~\ref{fig:phenomenon}a). Table~\ref{tab:examples} gives contract instances where an ordinary reading would broaden the local scope. The class comparison is consistent with a misleading prior, but it does not label the cause of every individual error.
+
+Many errors are stable enough to survive a common runtime safeguard. On 761 synthetic questions, DeepSeek V4 Flash gave a greedy answer and ten sampled answers. Among 229 greedy errors, 93 (40.6\%) repeat the same wrong answer in all ten samples, and the sampled majority remains wrong for 142 (62\%). Majority voting would correct some errors, but 65\% of errors on redefined common words survive, versus 43\% on usual-meaning terms. Agreement across samples \citep{self-consistency} is therefore not a reliable signal that a local definition was unnecessary.
+
+The tested readers also share many difficult items. On questions answered by all readers in each corpus, 78\% of GPT-6-astra's synthetic errors overlap DeepSeek V4 Flash errors, 70\% of its Reddit errors overlap DeepSeek V4.1 Flash errors, and 94\% of its DeFi errors overlap at least one of DeepSeek V4.1 Flash and GPT-5.6-terra. Under independent error sets, the corresponding expected shares are 29\%, 30\%, and 36\% (Figure~\ref{fig:phenomenon}b). These cross-model overlaps make a reusable corpus audit plausible, while the heterogeneous reader families and question sets do not establish that a risk index will retain its ranking for every future model.
+

@@ -1,0 +1,733 @@
+{"corpus": "cuad", "id": "cuad:26:Seller Party", "term": "Seller Party", "ctx_idx": 10, "risk": 0.21224171818351112, "gold": "A", "spill_term": "Services", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "cuad", "id": "cuad:26:Transferred IP", "term": "Transferred IP", "ctx_idx": 1, "risk": 0.7435625237888928, "gold": "A", "spill_term": "LICENSED VARIETY", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:26:Transferred IP", "term": "Transferred IP", "ctx_idx": 2, "risk": 0.20521184447842689, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:26:Transferred IP", "term": "Transferred IP", "ctx_idx": 3, "risk": 0.24587576611003736, "gold": "A", "bare": 1.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:26:Transferred IP", "term": "Transferred IP", "ctx_idx": 6, "risk": 0.14825948442960069, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:26:Transferred IP", "term": "Transferred IP", "ctx_idx": 11, "risk": 0.09125212248377668, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:26:Purchaser Licensees", "term": "Purchaser Licensees", "ctx_idx": 0, "risk": 0.3249940431061483, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:26:Purchaser Licensees", "term": "Purchaser Licensees", "ctx_idx": 1, "risk": 0.5457433151380553, "gold": "A", "spill_term": "MBE Center", "bare": 0.0, "inline": 0.0, "spill": 0.0}
+{"corpus": "cuad", "id": "cuad:26:Licensed IP", "term": "Licensed IP", "ctx_idx": 0, "risk": 0.06665349598801529, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:26:Licensed IP", "term": "Licensed IP", "ctx_idx": 4, "risk": 0.40063424117039603, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:26:Licensed IP", "term": "Licensed IP", "ctx_idx": 6, "risk": 0.16682814059060058, "gold": "A", "bare": 0.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:26:Licensed IP", "term": "Licensed IP", "ctx_idx": 7, "risk": 0.7943309580764836, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:26:Source Code", "term": "Source Code", "ctx_idx": 3, "risk": 0.585121732975312, "gold": "A", "spill_term": "Territory", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:26:Source Code", "term": "Source Code", "ctx_idx": 6, "risk": 0.0778620836394307, "gold": "A", "spill_term": "Customer", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:466:Property", "term": "Property", "ctx_idx": 0, "risk": 0.028647685542272816, "gold": "A", "spill_term": "Dispute", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:466:Property", "term": "Property", "ctx_idx": 5, "risk": 0.3405978219663133, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:466:Property", "term": "Property", "ctx_idx": 8, "risk": 0.03993721645314563, "gold": "A", "spill_term": "Enhancement", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:466:Property", "term": "Property", "ctx_idx": 13, "risk": 0.03371452154655896, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:466:Property", "term": "Property", "ctx_idx": 15, "risk": 0.08564349260685933, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:466:Product", "term": "Product", "ctx_idx": 0, "risk": 0.05902984078951312, "gold": "A", "spill_term": "Products", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:466:Product", "term": "Product", "ctx_idx": 2, "risk": 0.032296792365301696, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:466:Product", "term": "Product", "ctx_idx": 5, "risk": 0.06362069496215905, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:466:Product", "term": "Product", "ctx_idx": 8, "risk": 0.2530171765120717, "gold": "A", "spill_term": "Services", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:466:Product", "term": "Product", "ctx_idx": 9, "risk": 0.05247665309674121, "gold": "A", "spill_term": "Affinity", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:466:Term", "term": "Term", "ctx_idx": 1, "risk": 0.08571034093451202, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:466:Term", "term": "Term", "ctx_idx": 2, "risk": 0.8466241423344004, "gold": "A", "spill_term": "Use", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:466:Term", "term": "Term", "ctx_idx": 3, "risk": 0.013171510352462557, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:466:Term", "term": "Term", "ctx_idx": 5, "risk": 0.1713382189367948, "gold": "A", "spill_term": "Enhancement", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:427:Service", "term": "Service", "ctx_idx": 1, "risk": 0.06523372999014454, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:427:Service", "term": "Service", "ctx_idx": 7, "risk": 0.11506985546664528, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:427:Service", "term": "Service", "ctx_idx": 14, "risk": 0.1143066655556304, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:427:Service", "term": "Service", "ctx_idx": 15, "risk": 0.06460906210183104, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:427:Specifications", "term": "Specifications", "ctx_idx": 2, "risk": 0.22786938803778822, "gold": "B", "spill_term": "Third Party", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:427:Specifications", "term": "Specifications", "ctx_idx": 4, "risk": 0.35970309706166215, "gold": "A", "spill_term": "Customer", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:427:Specifications", "term": "Specifications", "ctx_idx": 5, "risk": 0.03254934416067079, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:427:Specifications", "term": "Specifications", "ctx_idx": 10, "risk": 0.07040307603151996, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:427:Specifications", "term": "Specifications", "ctx_idx": 11, "risk": 0.23906432232188224, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:427:Specifications", "term": "Specifications", "ctx_idx": 13, "risk": 0.06111382891587136, "gold": "A", "spill_term": "Territory", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:427:Specifications", "term": "Specifications", "ctx_idx": 15, "risk": 0.06831047768878373, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:427:Manifest", "term": "Manifest", "ctx_idx": 2, "risk": 0.5585742494920358, "gold": "A", "spill_term": "Parties", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:427:Manifest", "term": "Manifest", "ctx_idx": 3, "risk": 0.06057333897284145, "gold": "A", "spill_term": "Parties", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:427:Manifest", "term": "Manifest", "ctx_idx": 4, "risk": 0.08925461480942065, "gold": "A", "spill_term": "Licensed Product", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:427:Manifest", "term": "Manifest", "ctx_idx": 5, "risk": 0.2445214859819178, "gold": "A", "spill_term": "Products", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:427:Manifest", "term": "Manifest", "ctx_idx": 6, "risk": 0.0728494860145521, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:427:Manifest", "term": "Manifest", "ctx_idx": 7, "risk": 0.16293844425623094, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:427:Manifest", "term": "Manifest", "ctx_idx": 8, "risk": 0.24363015089323725, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:427:Manifest", "term": "Manifest", "ctx_idx": 10, "risk": 0.6765555036920807, "gold": "A", "spill_term": "Source Code", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "cuad", "id": "cuad:427:Manifest", "term": "Manifest", "ctx_idx": 11, "risk": 0.305379835893423, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:427:Manifest", "term": "Manifest", "ctx_idx": 12, "risk": 0.39427022614872276, "gold": "B", "bare": 0.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:427:MBE Center", "term": "MBE Center", "ctx_idx": 3, "risk": 0.604909016995915, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:427:Confidential Information", "term": "Confidential Information", "ctx_idx": 1, "risk": 0.08629318555220522, "gold": "A", "spill_term": "Law", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:427:Confidential Information", "term": "Confidential Information", "ctx_idx": 2, "risk": 0.25791342134329753, "gold": "A", "spill_term": "Trademark", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:427:Confidential Information", "term": "Confidential Information", "ctx_idx": 3, "risk": 0.3693590508368988, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:427:Confidential Information", "term": "Confidential Information", "ctx_idx": 4, "risk": 0.03582390568406746, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:427:Confidential Information", "term": "Confidential Information", "ctx_idx": 5, "risk": 0.05902344650915248, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:168:Product", "term": "Product", "ctx_idx": 0, "risk": 0.06503706470544168, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:168:Product", "term": "Product", "ctx_idx": 1, "risk": 0.012532331842084687, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:168:Product", "term": "Product", "ctx_idx": 2, "risk": 0.3447673716322657, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:168:Product", "term": "Product", "ctx_idx": 4, "risk": 0.0622677141862763, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:168:Product", "term": "Product", "ctx_idx": 5, "risk": 0.2506896318052815, "gold": "A", "spill_term": "Joint Venture", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:168:Product", "term": "Product", "ctx_idx": 7, "risk": 0.012335237953497669, "gold": "A", "spill_term": "Parties", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:168:Product", "term": "Product", "ctx_idx": 8, "risk": 0.6829319957447311, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:168:Product", "term": "Product", "ctx_idx": 10, "risk": 0.23753207211244753, "gold": "A", "spill_term": "Confidential Information", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:168:Product", "term": "Product", "ctx_idx": 12, "risk": 0.1289788913199973, "gold": "A", "spill_term": "Documentation", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:168:Product", "term": "Product", "ctx_idx": 14, "risk": 0.046902363561826865, "gold": "A", "spill_term": "Inventory", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:168:Services", "term": "Services", "ctx_idx": 10, "risk": 0.0337960652667183, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:168:Specifications", "term": "Specifications", "ctx_idx": 3, "risk": 0.0370539190329956, "gold": "A", "spill_term": "Sublicense", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:168:Specifications", "term": "Specifications", "ctx_idx": 5, "risk": 0.022419067394530368, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:168:Confidential Information", "term": "Confidential Information", "ctx_idx": 0, "risk": 0.5628868784151974, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:168:Confidential Information", "term": "Confidential Information", "ctx_idx": 1, "risk": 0.04682737626348421, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:168:Confidential Information", "term": "Confidential Information", "ctx_idx": 2, "risk": 0.08834773779020355, "gold": "A", "spill_term": "Licensed IP", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:168:Confidential Information", "term": "Confidential Information", "ctx_idx": 5, "risk": 0.14570744136590996, "gold": "A", "spill_term": "Trademark", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:168:Confidential Information", "term": "Confidential Information", "ctx_idx": 8, "risk": 0.38646087990364986, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:168:Confidential Information", "term": "Confidential Information", "ctx_idx": 9, "risk": 0.21470261216286546, "gold": "A", "spill_term": "Service", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "cuad", "id": "cuad:168:Confidential Information", "term": "Confidential Information", "ctx_idx": 13, "risk": 0.26476812594990107, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:168:Confidential Information", "term": "Confidential Information", "ctx_idx": 14, "risk": 0.2847145223621993, "gold": "B", "spill_term": "Team Companies", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:168:Applicable Laws", "term": "Applicable Laws", "ctx_idx": 0, "risk": 0.2624049486706985, "gold": "A", "bare": 0.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:168:Applicable Laws", "term": "Applicable Laws", "ctx_idx": 3, "risk": 0.08110576294514671, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:168:Applicable Laws", "term": "Applicable Laws", "ctx_idx": 4, "risk": 0.0742760488484131, "gold": "A", "bare": 0.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:168:Applicable Laws", "term": "Applicable Laws", "ctx_idx": 6, "risk": 0.2998054859504167, "gold": "A", "bare": 0.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:168:Applicable Laws", "term": "Applicable Laws", "ctx_idx": 7, "risk": 0.08541157511519493, "gold": "A", "spill_term": "Licensed Product", "bare": 1.0, "inline": 0.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:168:Third Party", "term": "Third Party", "ctx_idx": 0, "risk": 0.34402865737989907, "gold": "A", "bare": 1.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:168:Third Party", "term": "Third Party", "ctx_idx": 4, "risk": 0.06593904590205968, "gold": "A", "spill_term": "DESIGNATED UNIT", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:284:Products", "term": "Products", "ctx_idx": 3, "risk": 0.02710618181781299, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:284:Products", "term": "Products", "ctx_idx": 6, "risk": 0.5181760935503608, "gold": "A", "spill_term": "Confidential Information", "bare": 0.0, "inline": 0.0, "spill": 0.0}
+{"corpus": "cuad", "id": "cuad:284:Products", "term": "Products", "ctx_idx": 8, "risk": 0.32745697629810067, "gold": "A", "bare": 1.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:284:Products", "term": "Products", "ctx_idx": 9, "risk": 0.8867276520442126, "gold": "A", "bare": 0.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:284:Duval Identification", "term": "Duval Identification", "ctx_idx": 2, "risk": 0.047209547032426635, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:284:Duval Identification", "term": "Duval Identification", "ctx_idx": 7, "risk": 0.18588408810109625, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:73:Company", "term": "Company", "ctx_idx": 2, "risk": 0.15512941051547335, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:73:Company", "term": "Company", "ctx_idx": 3, "risk": 0.08000624170221349, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:73:Company", "term": "Company", "ctx_idx": 8, "risk": 0.03698216617908279, "gold": "A", "spill_term": "Project", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:73:Company", "term": "Company", "ctx_idx": 11, "risk": 0.05731422988292212, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:73:Company", "term": "Company", "ctx_idx": 12, "risk": 0.7298055296769039, "gold": "A", "spill_term": "Contract Year", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:73:Investor", "term": "Investor", "ctx_idx": 1, "risk": 0.09579636920228163, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:73:Investor", "term": "Investor", "ctx_idx": 3, "risk": 0.04490167684532054, "gold": "A", "spill_term": "Services", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:73:Investor", "term": "Investor", "ctx_idx": 4, "risk": 0.1027802647706354, "gold": "A", "spill_term": "Third Party", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:73:Investor", "term": "Investor", "ctx_idx": 7, "risk": 0.023088610405873844, "gold": "A", "spill_term": "Customer", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:73:Investor", "term": "Investor", "ctx_idx": 8, "risk": 0.03238696863498425, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:73:Investor", "term": "Investor", "ctx_idx": 9, "risk": 0.14047177017188006, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:73:Investor", "term": "Investor", "ctx_idx": 10, "risk": 0.3295238886423555, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:73:Investor", "term": "Investor", "ctx_idx": 11, "risk": 0.7190506430106764, "gold": "A", "spill_term": "Governmental Authority", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:73:Investor", "term": "Investor", "ctx_idx": 12, "risk": 0.09273883064868405, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:73:Investor", "term": "Investor", "ctx_idx": 13, "risk": 0.06125720248510147, "gold": "A", "spill_term": "Governmental Authority", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:73:Investor", "term": "Investor", "ctx_idx": 14, "risk": 0.4778966041259035, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:73:Investor", "term": "Investor", "ctx_idx": 15, "risk": 0.07888243098718173, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:73:Patents", "term": "Patents", "ctx_idx": 0, "risk": 0.07371884987810817, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:73:Patents", "term": "Patents", "ctx_idx": 1, "risk": 0.07067134357807603, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:73:Patents", "term": "Patents", "ctx_idx": 3, "risk": 0.09201882039823683, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:73:Patents", "term": "Patents", "ctx_idx": 6, "risk": 0.19935084461867092, "gold": "A", "spill_term": "Trademark", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:73:Dispute", "term": "Dispute", "ctx_idx": 0, "risk": 0.13728117019267028, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:73:Dispute", "term": "Dispute", "ctx_idx": 1, "risk": 0.010668749290988377, "gold": "A", "spill_term": "MBE Center", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:73:Dispute", "term": "Dispute", "ctx_idx": 2, "risk": 0.042717256865413056, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:73:Dispute", "term": "Dispute", "ctx_idx": 3, "risk": 0.24307165165157296, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:73:Dispute", "term": "Dispute", "ctx_idx": 4, "risk": 0.23731674131913694, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:73:Dispute", "term": "Dispute", "ctx_idx": 5, "risk": 0.014904439401845715, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:73:Improvements", "term": "Improvements", "ctx_idx": 0, "risk": 0.1413827852184778, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:73:Improvements", "term": "Improvements", "ctx_idx": 1, "risk": 0.07204096092059198, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:73:Improvements", "term": "Improvements", "ctx_idx": 3, "risk": 0.22366922650226295, "gold": "A", "spill_term": "Governmental Authority", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:73:Improvements", "term": "Improvements", "ctx_idx": 4, "risk": 0.68532357984986, "gold": "A", "spill_term": "Products", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:73:Improvements", "term": "Improvements", "ctx_idx": 6, "risk": 0.2183405643318701, "gold": "A", "spill_term": "Parties", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:134:Distributor", "term": "Distributor", "ctx_idx": 3, "risk": 0.40561182805089435, "gold": "A", "bare": 1.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:134:Distributor", "term": "Distributor", "ctx_idx": 4, "risk": 0.236598942510288, "gold": "A", "spill_term": "Parties", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "cuad", "id": "cuad:134:Distributor", "term": "Distributor", "ctx_idx": 5, "risk": 0.3726923766875856, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:134:Distributor", "term": "Distributor", "ctx_idx": 6, "risk": 0.30940327661598577, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:134:Distributor", "term": "Distributor", "ctx_idx": 7, "risk": 0.22534402003492193, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:134:Distributor", "term": "Distributor", "ctx_idx": 8, "risk": 0.6661417514668548, "gold": "A", "spill_term": "Customer", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "cuad", "id": "cuad:134:Distributor", "term": "Distributor", "ctx_idx": 11, "risk": 0.3728438795284179, "gold": "A", "spill_term": "USE", "bare": 0.0, "inline": 0.0, "spill": 0.0}
+{"corpus": "cuad", "id": "cuad:134:Distributor", "term": "Distributor", "ctx_idx": 14, "risk": 0.1085482440937584, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:134:Customer", "term": "Customer", "ctx_idx": 0, "risk": 0.0986423683341926, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:134:Customer", "term": "Customer", "ctx_idx": 1, "risk": 0.0817440475896627, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:134:Customer", "term": "Customer", "ctx_idx": 5, "risk": 0.08674759184080072, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:134:Customer", "term": "Customer", "ctx_idx": 8, "risk": 0.19742628000819595, "gold": "A", "spill_term": "Third Party", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:134:Customer", "term": "Customer", "ctx_idx": 9, "risk": 0.8301270986343093, "gold": "A", "spill_term": "Product Die", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:134:Customer", "term": "Customer", "ctx_idx": 11, "risk": 0.18702364176897646, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:134:Customer", "term": "Customer", "ctx_idx": 12, "risk": 0.65126632067924, "gold": "A", "spill_term": "Project", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:134:Customer", "term": "Customer", "ctx_idx": 15, "risk": 0.18061398390494166, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:134:Quote", "term": "Quote", "ctx_idx": 1, "risk": 0.19472872301781863, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:134:Quote", "term": "Quote", "ctx_idx": 3, "risk": 0.1349367169073331, "gold": "A", "spill_term": "Trademark", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:134:Quote", "term": "Quote", "ctx_idx": 4, "risk": 0.7039044642400036, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:134:Quote", "term": "Quote", "ctx_idx": 6, "risk": 0.10944304182862086, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:134:Quote", "term": "Quote", "ctx_idx": 8, "risk": 0.02040215069145146, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:208:Agreement", "term": "Agreement", "ctx_idx": 0, "risk": 0.02657014337569341, "gold": "A", "spill_term": "LICENSED VARIETY", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:208:Agreement", "term": "Agreement", "ctx_idx": 6, "risk": 0.06251854925144174, "gold": "A", "spill_term": "Source Code", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:208:Agreement", "term": "Agreement", "ctx_idx": 8, "risk": 0.20850623072384122, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:208:Agreement", "term": "Agreement", "ctx_idx": 11, "risk": 0.0604000565605648, "gold": "A", "spill_term": "Services", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:208:Employees", "term": "Employees", "ctx_idx": 1, "risk": 0.12702970484226717, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:208:Employees", "term": "Employees", "ctx_idx": 2, "risk": 0.36048664780770356, "gold": "A", "bare": 1.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:208:Employees", "term": "Employees", "ctx_idx": 6, "risk": 0.05972482953890956, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:208:Employees", "term": "Employees", "ctx_idx": 7, "risk": 0.47060389363886024, "gold": "A", "spill_term": "Project", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:208:Employees", "term": "Employees", "ctx_idx": 9, "risk": 0.14513421582438446, "gold": "A", "spill_term": "Enhancement", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:208:Vehicle", "term": "Vehicle", "ctx_idx": 0, "risk": 0.21789997855939092, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:208:Vehicle", "term": "Vehicle", "ctx_idx": 1, "risk": 0.16952521110861474, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:208:Vehicle", "term": "Vehicle", "ctx_idx": 4, "risk": 0.05253195536311073, "gold": "A", "spill_term": "Services", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:208:Vehicle", "term": "Vehicle", "ctx_idx": 5, "risk": 0.032520594342996034, "gold": "A", "spill_term": "Patents", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:208:Vehicle", "term": "Vehicle", "ctx_idx": 6, "risk": 0.21546448955503872, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:98:Gas", "term": "Gas", "ctx_idx": 0, "risk": 0.4665282225922277, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:98:Gas", "term": "Gas", "ctx_idx": 3, "risk": 0.5244816520239097, "gold": "A", "spill_term": "HSWI Websites", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:98:Gas", "term": "Gas", "ctx_idx": 6, "risk": 0.09600208484918049, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:98:Gas", "term": "Gas", "ctx_idx": 13, "risk": 0.057751387250089214, "gold": "A", "spill_term": "Purchaser Licensees", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:98:Gas", "term": "Gas", "ctx_idx": 15, "risk": 0.10476239664312326, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:98:Services", "term": "Services", "ctx_idx": 0, "risk": 0.14285856817905918, "gold": "A", "spill_term": "Team Companies", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:98:Services", "term": "Services", "ctx_idx": 1, "risk": 0.04758908009552931, "gold": "A", "spill_term": "Affinity", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:98:Services", "term": "Services", "ctx_idx": 2, "risk": 0.16122471690895734, "gold": "A", "spill_term": "Personnel", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:98:Services", "term": "Services", "ctx_idx": 3, "risk": 0.7974251856152724, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:98:Services", "term": "Services", "ctx_idx": 4, "risk": 0.05123580147903928, "gold": "A", "spill_term": "Purchaser Licensees", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:98:Services", "term": "Services", "ctx_idx": 5, "risk": 0.08772862121774094, "gold": "A", "spill_term": "LICENSED VARIETY", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:98:Services", "term": "Services", "ctx_idx": 6, "risk": 0.15208254509867303, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:98:Customer Gas", "term": "Customer Gas", "ctx_idx": 0, "risk": 0.44233257500573775, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:98:Customer Gas", "term": "Customer Gas", "ctx_idx": 8, "risk": 0.15167574234770698, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:187:LICENSED VARIETY", "term": "LICENSED VARIETY", "ctx_idx": 10, "risk": 0.38473322422338985, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:187:IGER INTELLECTUAL PROPERTY", "term": "IGER INTELLECTUAL PROPERTY", "ctx_idx": 0, "risk": 0.2500381706504696, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:251:Law", "term": "Law", "ctx_idx": 0, "risk": 0.285922459373507, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:251:Law", "term": "Law", "ctx_idx": 1, "risk": 0.03731470972317619, "gold": "B", "spill_term": "Governmental Authority", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:251:Law", "term": "Law", "ctx_idx": 2, "risk": 0.09192806993144054, "gold": "A", "spill_term": "Purchaser Licensees", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:251:Law", "term": "Law", "ctx_idx": 3, "risk": 0.15316653344718056, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:251:Law", "term": "Law", "ctx_idx": 8, "risk": 0.5352188982317461, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:251:Law", "term": "Law", "ctx_idx": 9, "risk": 0.10387303704770134, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:251:Law", "term": "Law", "ctx_idx": 11, "risk": 0.4713381673707202, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:251:Law", "term": "Law", "ctx_idx": 12, "risk": 0.10844501666249329, "gold": "A", "spill_term": "Contract Year", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:251:Person", "term": "Person", "ctx_idx": 0, "risk": 0.18953733205260492, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:251:Person", "term": "Person", "ctx_idx": 1, "risk": 0.02130289691151921, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:251:Person", "term": "Person", "ctx_idx": 4, "risk": 0.030474869423684603, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:251:Person", "term": "Person", "ctx_idx": 5, "risk": 0.09924866478278038, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:251:Person", "term": "Person", "ctx_idx": 6, "risk": 0.11270277671036089, "gold": "A", "spill_term": "Subscriber", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:251:Person", "term": "Person", "ctx_idx": 8, "risk": 0.0513123551945277, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:251:Person", "term": "Person", "ctx_idx": 9, "risk": 0.048453481994523706, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:251:Closing", "term": "Closing", "ctx_idx": 3, "risk": 0.7948695417757861, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:251:Closing", "term": "Closing", "ctx_idx": 4, "risk": 0.05006195193632468, "gold": "A", "spill_term": "Subscriber", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:251:Closing", "term": "Closing", "ctx_idx": 7, "risk": 0.08006269812155287, "gold": "A", "spill_term": "Source Code", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:251:Closing", "term": "Closing", "ctx_idx": 8, "risk": 0.17686500737445388, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:251:Contract", "term": "Contract", "ctx_idx": 1, "risk": 0.0964983800051793, "gold": "A", "spill_term": "Services", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:251:Contract", "term": "Contract", "ctx_idx": 2, "risk": 0.0525762016253406, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:251:Governmental Authority", "term": "Governmental Authority", "ctx_idx": 0, "risk": 0.6203800819129766, "gold": "A", "spill_term": "Documentation", "bare": 1.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "cuad", "id": "cuad:251:Governmental Authority", "term": "Governmental Authority", "ctx_idx": 1, "risk": 0.30330090743102467, "gold": "A", "spill_term": "Use", "bare": 0.0, "inline": 0.0, "spill": 0.0}
+{"corpus": "cuad", "id": "cuad:251:Governmental Authority", "term": "Governmental Authority", "ctx_idx": 2, "risk": 0.5535832729268351, "gold": "A", "spill_term": "Use", "bare": 0.0, "inline": 0.0, "spill": 0.0}
+{"corpus": "cuad", "id": "cuad:251:Governmental Authority", "term": "Governmental Authority", "ctx_idx": 3, "risk": 0.18710158652882625, "gold": "A", "spill_term": "Enhancement", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:251:Governmental Authority", "term": "Governmental Authority", "ctx_idx": 4, "risk": 0.5952230255267543, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:251:Governmental Authority", "term": "Governmental Authority", "ctx_idx": 5, "risk": 0.4817244152568383, "gold": "A", "bare": 1.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:109:Agreement", "term": "Agreement", "ctx_idx": 4, "risk": 0.16104419843182105, "gold": "A", "spill_term": "Services", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:109:Agreement", "term": "Agreement", "ctx_idx": 6, "risk": 0.03624337965834279, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:109:Agreement", "term": "Agreement", "ctx_idx": 10, "risk": 0.10322556887655587, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:109:Agreement", "term": "Agreement", "ctx_idx": 12, "risk": 0.054490827297754896, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:109:Agreement", "term": "Agreement", "ctx_idx": 15, "risk": 0.051908745790394506, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:109:Hardware", "term": "Hardware", "ctx_idx": 0, "risk": 0.16337846897223274, "gold": "A", "spill_term": "Enhancement", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:109:Hardware", "term": "Hardware", "ctx_idx": 1, "risk": 0.10115087308281545, "gold": "A", "spill_term": "Documentation", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:109:Hardware", "term": "Hardware", "ctx_idx": 3, "risk": 0.09380550848776625, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:109:Hardware", "term": "Hardware", "ctx_idx": 5, "risk": 0.045712698736529056, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:109:Hardware", "term": "Hardware", "ctx_idx": 7, "risk": 0.24526595287020947, "gold": "A", "spill_term": "Licensed IP", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:109:Use", "term": "Use", "ctx_idx": 2, "risk": 0.1491065162610169, "gold": "A", "spill_term": "Parties", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:109:Use", "term": "Use", "ctx_idx": 4, "risk": 0.8168320254758026, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:109:Use", "term": "Use", "ctx_idx": 6, "risk": 0.24935690874899252, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:216:Product", "term": "Product", "ctx_idx": 13, "risk": 0.09143976665683429, "gold": "A", "spill_term": "Purchaser Licensees", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:216:Development", "term": "Development", "ctx_idx": 0, "risk": 0.7505704191203362, "gold": "A", "spill_term": "Governmental Authority", "bare": 0.0, "inline": 0.0, "spill": 0.0}
+{"corpus": "cuad", "id": "cuad:216:Development", "term": "Development", "ctx_idx": 6, "risk": 0.19702107720235973, "gold": "A", "spill_term": "Third Party", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:216:Development", "term": "Development", "ctx_idx": 7, "risk": 0.49846386805153997, "gold": "A", "spill_term": "USE", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:216:Development", "term": "Development", "ctx_idx": 8, "risk": 0.04357817666434505, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:216:Development", "term": "Development", "ctx_idx": 9, "risk": 0.03616214151176311, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:216:Development", "term": "Development", "ctx_idx": 10, "risk": 0.01907712113054094, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:216:Development", "term": "Development", "ctx_idx": 12, "risk": 0.029405043579125656, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:216:Person", "term": "Person", "ctx_idx": 1, "risk": 0.06149431468999966, "gold": "A", "spill_term": "Sublicense", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:216:Person", "term": "Person", "ctx_idx": 2, "risk": 0.17520945521012798, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:216:Person", "term": "Person", "ctx_idx": 4, "risk": 0.12098385407879964, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:216:Trademark", "term": "Trademark", "ctx_idx": 0, "risk": 0.2008609056890185, "gold": "A", "spill_term": "Product Die", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:216:Trademark", "term": "Trademark", "ctx_idx": 3, "risk": 0.6051343562875757, "gold": "A", "spill_term": "LICENSED VARIETY", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:216:Third Party", "term": "Third Party", "ctx_idx": 6, "risk": 0.7349134863808928, "gold": "A", "spill_term": "MBE Center", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "cuad", "id": "cuad:216:Third Party", "term": "Third Party", "ctx_idx": 9, "risk": 0.48325496660043143, "gold": "B", "spill_term": "Personnel", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:216:Third Party", "term": "Third Party", "ctx_idx": 13, "risk": 0.480659727046459, "gold": "B", "spill_term": "MBE Center", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:501:Parties", "term": "Parties", "ctx_idx": 1, "risk": 0.8494494755523859, "gold": "A", "spill_term": "Licensed Product", "bare": 1.0, "inline": 0.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:501:Parties", "term": "Parties", "ctx_idx": 2, "risk": 0.6218585274892201, "gold": "A", "bare": 0.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:501:Parties", "term": "Parties", "ctx_idx": 3, "risk": 0.2196833453891196, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:501:Parties", "term": "Parties", "ctx_idx": 5, "risk": 0.7854767810561536, "gold": "A", "bare": 0.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:501:Parties", "term": "Parties", "ctx_idx": 7, "risk": 0.911395467406325, "gold": "A", "bare": 0.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:501:Parties", "term": "Parties", "ctx_idx": 8, "risk": 0.7610880170866021, "gold": "A", "bare": 0.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:501:Parties", "term": "Parties", "ctx_idx": 10, "risk": 0.6896528143229488, "gold": "B", "bare": 0.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:501:Parties", "term": "Parties", "ctx_idx": 11, "risk": 0.9680386557840286, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:501:Parties", "term": "Parties", "ctx_idx": 14, "risk": 0.8547488135546665, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:501:Agreement", "term": "Agreement", "ctx_idx": 0, "risk": 0.0608068375494889, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:501:Agreement", "term": "Agreement", "ctx_idx": 1, "risk": 0.016844962724760215, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:501:Agreement", "term": "Agreement", "ctx_idx": 2, "risk": 0.05655662713297238, "gold": "A", "spill_term": "Governmental Authority", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:501:Agreement", "term": "Agreement", "ctx_idx": 5, "risk": 0.19470939961202827, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:501:Agreement", "term": "Agreement", "ctx_idx": 6, "risk": 0.659722552267789, "gold": "A", "spill_term": "HSWI Websites", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:501:Agreement", "term": "Agreement", "ctx_idx": 7, "risk": 0.027170577479164515, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:501:Company", "term": "Company", "ctx_idx": 0, "risk": 0.09076769417992736, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:501:Company", "term": "Company", "ctx_idx": 3, "risk": 0.050945911539774125, "gold": "A", "spill_term": "DESIGNATED UNIT", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:501:Company", "term": "Company", "ctx_idx": 4, "risk": 0.3625341337616783, "gold": "A", "spill_term": "Contract Year", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:501:Company", "term": "Company", "ctx_idx": 5, "risk": 0.035862974983137286, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:501:Joint Venture", "term": "Joint Venture", "ctx_idx": 0, "risk": 0.02125380926300735, "gold": "A", "spill_term": "Subscriber", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:501:Joint Venture", "term": "Joint Venture", "ctx_idx": 3, "risk": 0.6415986997289054, "gold": "A", "spill_term": "LICENSED VARIETY", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:27:Content", "term": "Content", "ctx_idx": 11, "risk": 0.014801300273909024, "gold": "A", "spill_term": "Source Code", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:27:Law", "term": "Law", "ctx_idx": 0, "risk": 0.17278390048719983, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:27:Law", "term": "Law", "ctx_idx": 1, "risk": 0.1828373826851004, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:27:Law", "term": "Law", "ctx_idx": 4, "risk": 0.17153933108549146, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:27:Law", "term": "Law", "ctx_idx": 5, "risk": 0.05588656843907669, "gold": "A", "spill_term": "Affinity", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:27:Law", "term": "Law", "ctx_idx": 6, "risk": 0.3130059171909072, "gold": "A", "bare": 1.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:27:Law", "term": "Law", "ctx_idx": 7, "risk": 0.058447646727618485, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:27:Business", "term": "Business", "ctx_idx": 5, "risk": 0.08229191129304259, "gold": "A", "spill_term": "Project", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:27:Licensed Content", "term": "Licensed Content", "ctx_idx": 1, "risk": 0.6359506632544452, "gold": "A", "bare": 1.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:27:Licensed Content", "term": "Licensed Content", "ctx_idx": 4, "risk": 0.20409482494079223, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:27:Licensed Content", "term": "Licensed Content", "ctx_idx": 5, "risk": 0.18607717860415807, "gold": "B", "bare": 1.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:27:Licensed Content", "term": "Licensed Content", "ctx_idx": 9, "risk": 0.1863759847857419, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:27:Governmental Authority", "term": "Governmental Authority", "ctx_idx": 6, "risk": 0.40634970981296714, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Carrier", "term": "Carrier", "ctx_idx": 1, "risk": 0.05336651178732421, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Carrier", "term": "Carrier", "ctx_idx": 2, "risk": 0.7804329184721336, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Carrier", "term": "Carrier", "ctx_idx": 3, "risk": 0.10041038649982081, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Carrier", "term": "Carrier", "ctx_idx": 5, "risk": 0.1310328137725394, "gold": "A", "spill_term": "Dispute", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Carrier", "term": "Carrier", "ctx_idx": 6, "risk": 0.03506338960932853, "gold": "A", "spill_term": "Documentation", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Carrier", "term": "Carrier", "ctx_idx": 8, "risk": 0.1281506140703792, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Carrier", "term": "Carrier", "ctx_idx": 9, "risk": 0.27267690424798974, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Carrier", "term": "Carrier", "ctx_idx": 11, "risk": 0.1569069164661937, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Carrier", "term": "Carrier", "ctx_idx": 12, "risk": 0.07124314177122515, "gold": "A", "spill_term": "Product Die", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Carrier", "term": "Carrier", "ctx_idx": 13, "risk": 0.029546836437086, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Carrier", "term": "Carrier", "ctx_idx": 14, "risk": 0.8964727259012082, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Carrier", "term": "Carrier", "ctx_idx": 15, "risk": 0.0405084911050817, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Product", "term": "Product", "ctx_idx": 0, "risk": 0.46818560176003665, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Product", "term": "Product", "ctx_idx": 1, "risk": 0.021379269456188288, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Product", "term": "Product", "ctx_idx": 3, "risk": 0.7116658727007364, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Product", "term": "Product", "ctx_idx": 5, "risk": 0.013372818322550661, "gold": "A", "spill_term": "Licensed Product", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Product", "term": "Product", "ctx_idx": 7, "risk": 0.6362218042291371, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Product", "term": "Product", "ctx_idx": 8, "risk": 0.05206004917912821, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Product", "term": "Product", "ctx_idx": 9, "risk": 0.0696410757340914, "gold": "A", "spill_term": "Licensed IP", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Product", "term": "Product", "ctx_idx": 12, "risk": 0.3232670638916475, "gold": "A", "spill_term": "MBE Center", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Product", "term": "Product", "ctx_idx": 14, "risk": 0.10705437131153084, "gold": "A", "spill_term": "Trademark", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Product", "term": "Product", "ctx_idx": 15, "risk": 0.22710346894590472, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:System", "term": "System", "ctx_idx": 2, "risk": 0.15057298226083182, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:System", "term": "System", "ctx_idx": 5, "risk": 0.0695636680833448, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:System", "term": "System", "ctx_idx": 6, "risk": 0.029066978349741812, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:System", "term": "System", "ctx_idx": 7, "risk": 0.7684146275410213, "gold": "A", "spill_term": "Governmental Authority", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Services", "term": "Services", "ctx_idx": 0, "risk": 0.06136574707256848, "gold": "A", "spill_term": "Products", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Services", "term": "Services", "ctx_idx": 1, "risk": 0.8177666243391657, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Services", "term": "Services", "ctx_idx": 4, "risk": 0.08004422800021072, "gold": "A", "spill_term": "Confidential Information", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Services", "term": "Services", "ctx_idx": 6, "risk": 0.31466872337801677, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Services", "term": "Services", "ctx_idx": 7, "risk": 0.4752546289755143, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Services", "term": "Services", "ctx_idx": 8, "risk": 0.03370324339591935, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Services", "term": "Services", "ctx_idx": 9, "risk": 0.8485318167253789, "gold": "A", "spill_term": "USE", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Services", "term": "Services", "ctx_idx": 10, "risk": 0.24443397968808156, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Services", "term": "Services", "ctx_idx": 12, "risk": 0.24419160742669577, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Dispute", "term": "Dispute", "ctx_idx": 0, "risk": 0.07007706768840671, "gold": "A", "spill_term": "Licensed IP", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Dispute", "term": "Dispute", "ctx_idx": 3, "risk": 0.7801031662593869, "gold": "A", "spill_term": "Content", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Dispute", "term": "Dispute", "ctx_idx": 5, "risk": 0.1218744929277561, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Dispute", "term": "Dispute", "ctx_idx": 7, "risk": 0.2561127374410641, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Dispute", "term": "Dispute", "ctx_idx": 8, "risk": 0.7848020259327552, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Dispute", "term": "Dispute", "ctx_idx": 9, "risk": 0.1142198704162265, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Person", "term": "Person", "ctx_idx": 0, "risk": 0.05979324834855693, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Person", "term": "Person", "ctx_idx": 1, "risk": 0.09761245318232581, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Person", "term": "Person", "ctx_idx": 2, "risk": 0.03586472711505706, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Person", "term": "Person", "ctx_idx": 4, "risk": 0.07909358759197593, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:295:Person", "term": "Person", "ctx_idx": 5, "risk": 0.07263828154855978, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:129:Theatres", "term": "Theatres", "ctx_idx": 1, "risk": 0.131612633807771, "gold": "A", "spill_term": "Use", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:129:Theatres", "term": "Theatres", "ctx_idx": 3, "risk": 0.09719665210270656, "gold": "A", "spill_term": "Enhancement", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:129:Theatres", "term": "Theatres", "ctx_idx": 4, "risk": 0.17371576306036285, "gold": "A", "spill_term": "Personnel", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:129:Theatres", "term": "Theatres", "ctx_idx": 5, "risk": 0.15592108914314728, "gold": "A", "spill_term": "Territory", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:129:Theatres", "term": "Theatres", "ctx_idx": 13, "risk": 0.05519268504838992, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:129:Theatres", "term": "Theatres", "ctx_idx": 15, "risk": 0.045644885905472, "gold": "A", "spill_term": "Affinity", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:129:Service", "term": "Service", "ctx_idx": 1, "risk": 0.4017565424116112, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:129:Service", "term": "Service", "ctx_idx": 3, "risk": 0.20870576046831868, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:129:Service", "term": "Service", "ctx_idx": 4, "risk": 0.5827565019368235, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:129:Service", "term": "Service", "ctx_idx": 11, "risk": 0.14677665052694455, "gold": "A", "spill_term": "Dispute", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:129:Equipment", "term": "Equipment", "ctx_idx": 3, "risk": 0.32633885438658394, "gold": "B", "spill_term": "Content", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:129:Equipment", "term": "Equipment", "ctx_idx": 12, "risk": 0.1368875526993244, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:129:Equipment", "term": "Equipment", "ctx_idx": 14, "risk": 0.6554897717291699, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:129:Equipment", "term": "Equipment", "ctx_idx": 15, "risk": 0.13182622951734746, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:129:Software", "term": "Software", "ctx_idx": 0, "risk": 0.43723751410321354, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:129:Software", "term": "Software", "ctx_idx": 2, "risk": 0.2557073019424473, "gold": "A", "spill_term": "Enhancement", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:129:Software", "term": "Software", "ctx_idx": 3, "risk": 0.10374923388939616, "gold": "A", "spill_term": "Documentation", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:129:Software", "term": "Software", "ctx_idx": 6, "risk": 0.7487478224433854, "gold": "A", "bare": 0.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:129:Software", "term": "Software", "ctx_idx": 7, "risk": 0.02117718631665566, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:129:Software", "term": "Software", "ctx_idx": 10, "risk": 0.052166827377777, "gold": "A", "spill_term": "LICENSED VARIETY", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:129:Software", "term": "Software", "ctx_idx": 13, "risk": 0.2453905633183514, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:129:Software", "term": "Software", "ctx_idx": 15, "risk": 0.5375997254110776, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:129:Trailer", "term": "Trailer", "ctx_idx": 4, "risk": 0.30295545606455776, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:129:Digital Content Service", "term": "Digital Content Service", "ctx_idx": 1, "risk": 0.19075034389757894, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:108:Product", "term": "Product", "ctx_idx": 8, "risk": 0.3073534068128908, "gold": "A", "spill_term": "Products", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:108:Product", "term": "Product", "ctx_idx": 12, "risk": 0.3127848497454885, "gold": "A", "spill_term": "Licensed Product", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:108:Product", "term": "Product", "ctx_idx": 15, "risk": 0.07491297938150498, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:108:Patents", "term": "Patents", "ctx_idx": 4, "risk": 0.5796038213601957, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:108:Patents", "term": "Patents", "ctx_idx": 6, "risk": 0.7097690971543431, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:108:Patents", "term": "Patents", "ctx_idx": 9, "risk": 0.05748662589732212, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:108:Applicable Law", "term": "Applicable Law", "ctx_idx": 4, "risk": 0.06365392247293533, "gold": "A", "spill_term": "Parties", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:108:Applicable Law", "term": "Applicable Law", "ctx_idx": 12, "risk": 0.33832291016627414, "gold": "A", "spill_term": "Licensed Product", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:108:Third Party", "term": "Third Party", "ctx_idx": 7, "risk": 0.5921689850591125, "gold": "A", "spill_term": "Products", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:108:Third Party", "term": "Third Party", "ctx_idx": 9, "risk": 0.1498196695857702, "gold": "B", "spill_term": "Third Party", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:108:Third Party", "term": "Third Party", "ctx_idx": 13, "risk": 0.10435615835609713, "gold": "A", "spill_term": "Subscriber", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:108:Regulatory Materials", "term": "Regulatory Materials", "ctx_idx": 7, "risk": 0.12032041210045197, "gold": "A", "spill_term": "Content", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:1:Application", "term": "Application", "ctx_idx": 0, "risk": 0.13126939753110178, "gold": "A", "spill_term": "Inventory", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:1:Application", "term": "Application", "ctx_idx": 2, "risk": 0.032793224611677774, "gold": "B", "spill_term": "DESIGNATED UNIT", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:1:Application", "term": "Application", "ctx_idx": 5, "risk": 0.46343609778424244, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:1:Application", "term": "Application", "ctx_idx": 7, "risk": 0.020926843514008753, "gold": "A", "spill_term": "Trademark", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:1:Application", "term": "Application", "ctx_idx": 8, "risk": 0.043335575418613215, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:1:Application", "term": "Application", "ctx_idx": 9, "risk": 0.07309641390526123, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:1:Application", "term": "Application", "ctx_idx": 10, "risk": 0.3389427824462877, "gold": "A", "spill_term": "Service", "bare": 0.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:1:Application", "term": "Application", "ctx_idx": 14, "risk": 0.27995056846564437, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:1:Products", "term": "Products", "ctx_idx": 0, "risk": 0.18861716427687647, "gold": "A", "spill_term": "Third Party", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:1:Products", "term": "Products", "ctx_idx": 2, "risk": 0.3687670615055285, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:1:Products", "term": "Products", "ctx_idx": 3, "risk": 0.35499173047600274, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:1:Products", "term": "Products", "ctx_idx": 4, "risk": 0.5614800933476125, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:1:Products", "term": "Products", "ctx_idx": 5, "risk": 0.1450032084493892, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:1:Products", "term": "Products", "ctx_idx": 6, "risk": 0.024339838597135732, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:1:Products", "term": "Products", "ctx_idx": 7, "risk": 0.14834450203079774, "gold": "A", "spill_term": "Subscriber", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:1:Products", "term": "Products", "ctx_idx": 11, "risk": 0.7782044922751977, "gold": "A", "spill_term": "Confidential Information", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:1:Products", "term": "Products", "ctx_idx": 13, "risk": 0.29110717337563297, "gold": "A", "spill_term": "Documentation", "bare": 1.0, "inline": 0.0, "spill": 0.0}
+{"corpus": "cuad", "id": "cuad:1:Term", "term": "Term", "ctx_idx": 2, "risk": 0.2801868411122601, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:1:Term", "term": "Term", "ctx_idx": 3, "risk": 0.3030402183188249, "gold": "A", "spill_term": "Third Party", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:1:Term", "term": "Term", "ctx_idx": 8, "risk": 0.04935995280069805, "gold": "A", "spill_term": "Joint Venture", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:1:Chrome Browser", "term": "Chrome Browser", "ctx_idx": 2, "risk": 0.41287302769592504, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:1:Chrome Browser", "term": "Chrome Browser", "ctx_idx": 6, "risk": 0.08357535621774759, "gold": "A", "spill_term": "LICENSED VARIETY", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:1:End User", "term": "End User", "ctx_idx": 11, "risk": 0.1754725798139003, "gold": "A", "spill_term": "Sublicense", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:247:Programming", "term": "Programming", "ctx_idx": 2, "risk": 0.46270034451481656, "gold": "B", "spill_term": "Licensed IP", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "cuad", "id": "cuad:247:Programming", "term": "Programming", "ctx_idx": 3, "risk": 0.6704986515134356, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:247:Programming", "term": "Programming", "ctx_idx": 5, "risk": 0.314339172489849, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:247:Programming", "term": "Programming", "ctx_idx": 6, "risk": 0.010012417917518057, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:247:Programming", "term": "Programming", "ctx_idx": 7, "risk": 0.06784078239574376, "gold": "A", "spill_term": "Affinity", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:247:Programming", "term": "Programming", "ctx_idx": 8, "risk": 0.018628334992660922, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:247:Programming", "term": "Programming", "ctx_idx": 13, "risk": 0.3650366186740591, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:247:Programming", "term": "Programming", "ctx_idx": 14, "risk": 0.06943161664685527, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:247:Programming", "term": "Programming", "ctx_idx": 15, "risk": 0.02320884995964434, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:247:Subscriber", "term": "Subscriber", "ctx_idx": 1, "risk": 0.5280167555516461, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:247:Subscriber", "term": "Subscriber", "ctx_idx": 7, "risk": 0.5884253633649321, "gold": "B", "bare": 0.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:247:Subscriber", "term": "Subscriber", "ctx_idx": 8, "risk": 0.08785621956835554, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:247:Subscriber", "term": "Subscriber", "ctx_idx": 9, "risk": 0.7424125145832883, "gold": "A", "spill_term": "Distributor", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "cuad", "id": "cuad:247:Subscriber", "term": "Subscriber", "ctx_idx": 10, "risk": 0.8032601624184508, "gold": "A", "spill_term": "Governmental Authority", "bare": 0.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:247:Subscriber", "term": "Subscriber", "ctx_idx": 12, "risk": 0.863141956203832, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:247:Territory", "term": "Territory", "ctx_idx": 2, "risk": 0.667017351588761, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:247:Territory", "term": "Territory", "ctx_idx": 3, "risk": 0.7805561771326939, "gold": "A", "bare": 0.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:247:Territory", "term": "Territory", "ctx_idx": 4, "risk": 0.9019084570021598, "gold": "A", "bare": 0.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:247:Territory", "term": "Territory", "ctx_idx": 7, "risk": 0.8386387971358484, "gold": "A", "bare": 0.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:247:Territory", "term": "Territory", "ctx_idx": 10, "risk": 0.9300136190186221, "gold": "A", "spill_term": "Distributor", "bare": 0.0, "inline": 0.0, "spill": 0.0}
+{"corpus": "cuad", "id": "cuad:247:Content", "term": "Content", "ctx_idx": 0, "risk": 0.2475929762550424, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:247:Content", "term": "Content", "ctx_idx": 1, "risk": 0.0346943338674961, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:247:Content", "term": "Content", "ctx_idx": 2, "risk": 0.11696114429537652, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:247:Content", "term": "Content", "ctx_idx": 3, "risk": 0.02828820726449477, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:247:Content", "term": "Content", "ctx_idx": 4, "risk": 0.1944314482106131, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:247:Content", "term": "Content", "ctx_idx": 6, "risk": 0.06901613813534158, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:247:Content", "term": "Content", "ctx_idx": 7, "risk": 0.06867142532057657, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:247:Content", "term": "Content", "ctx_idx": 8, "risk": 0.22655727580873652, "gold": "A", "spill_term": "Documentation", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:247:Subscribers", "term": "Subscribers", "ctx_idx": 0, "risk": 0.1886141339531805, "gold": "A", "spill_term": "Sublicense", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:247:Subscribers", "term": "Subscribers", "ctx_idx": 1, "risk": 0.030317428198259666, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:247:Subscribers", "term": "Subscribers", "ctx_idx": 2, "risk": 0.3183187144463073, "gold": "A", "spill_term": "Content", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:247:Subscribers", "term": "Subscribers", "ctx_idx": 4, "risk": 0.03936806893468148, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:247:Subscribers", "term": "Subscribers", "ctx_idx": 5, "risk": 0.10485547798778416, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:247:Subscribers", "term": "Subscribers", "ctx_idx": 6, "risk": 0.051951469692126384, "gold": "A", "spill_term": "Service", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:247:Subscribers", "term": "Subscribers", "ctx_idx": 8, "risk": 0.14490001119285545, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:458:Products", "term": "Products", "ctx_idx": 0, "risk": 0.28379627008593167, "gold": "A", "bare": 0.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:458:Products", "term": "Products", "ctx_idx": 2, "risk": 0.2860079738398137, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:458:Products", "term": "Products", "ctx_idx": 3, "risk": 0.621845001833818, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:458:Products", "term": "Products", "ctx_idx": 4, "risk": 0.4622540235534396, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:458:Products", "term": "Products", "ctx_idx": 5, "risk": 0.1312306613764297, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:458:Products", "term": "Products", "ctx_idx": 6, "risk": 0.21756966271661116, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:458:Products", "term": "Products", "ctx_idx": 7, "risk": 0.1542257651783051, "gold": "A", "spill_term": "Products", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:458:Products", "term": "Products", "ctx_idx": 8, "risk": 0.16840333792760487, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:458:Products", "term": "Products", "ctx_idx": 10, "risk": 0.6469438496804828, "gold": "A", "bare": 0.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:458:Products", "term": "Products", "ctx_idx": 13, "risk": 0.05566769124143234, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:458:Territory", "term": "Territory", "ctx_idx": 3, "risk": 0.02566216430903323, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:458:Territory", "term": "Territory", "ctx_idx": 4, "risk": 0.03642559818818569, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:458:Territory", "term": "Territory", "ctx_idx": 7, "risk": 0.06158077090902714, "gold": "A", "spill_term": "Governmental Authority", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:458:Territory", "term": "Territory", "ctx_idx": 12, "risk": 0.16374161571949386, "gold": "A", "spill_term": "Contract Year", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:458:Territory", "term": "Territory", "ctx_idx": 13, "risk": 0.07728769869572116, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:458:Territory", "term": "Territory", "ctx_idx": 15, "risk": 0.0441256546141503, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:458:Customer", "term": "Customer", "ctx_idx": 1, "risk": 0.2922119889812895, "gold": "A", "bare": 0.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:458:Customer", "term": "Customer", "ctx_idx": 3, "risk": 0.09097032503894131, "gold": "A", "spill_term": "Use", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:458:Customer", "term": "Customer", "ctx_idx": 4, "risk": 0.590909899726729, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:458:Customer", "term": "Customer", "ctx_idx": 5, "risk": 0.7814210964211177, "gold": "A", "spill_term": "Governmental Authority", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "cuad", "id": "cuad:458:Marks", "term": "Marks", "ctx_idx": 1, "risk": 0.041549948511986345, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:458:Marks", "term": "Marks", "ctx_idx": 3, "risk": 0.01599446394844639, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:458:Marks", "term": "Marks", "ctx_idx": 5, "risk": 0.15078845062388668, "gold": "A", "spill_term": "Law", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:458:Net Revenue", "term": "Net Revenue", "ctx_idx": 7, "risk": 0.14666222350053548, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:458:Net Revenue", "term": "Net Revenue", "ctx_idx": 11, "risk": 0.021836458615473786, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:458:Hydraspin Share", "term": "Hydraspin Share", "ctx_idx": 5, "risk": 0.07760749329851335, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:396:Content", "term": "Content", "ctx_idx": 3, "risk": 0.4058061140211918, "gold": "A", "spill_term": "Parties", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:396:Content", "term": "Content", "ctx_idx": 7, "risk": 0.44616705463558537, "gold": "A", "spill_term": "Service", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:396:Content", "term": "Content", "ctx_idx": 9, "risk": 0.049841811793917556, "gold": "A", "spill_term": "Third Party", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:396:Content", "term": "Content", "ctx_idx": 11, "risk": 0.5570942964703733, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:396:Content", "term": "Content", "ctx_idx": 12, "risk": 0.9341770647386403, "gold": "A", "bare": 0.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:396:Content", "term": "Content", "ctx_idx": 13, "risk": 0.06000867058294235, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:396:Content", "term": "Content", "ctx_idx": 15, "risk": 0.90118656737233, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:396:Images", "term": "Images", "ctx_idx": 1, "risk": 0.08492909857092157, "gold": "A", "spill_term": "Products", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:396:Images", "term": "Images", "ctx_idx": 3, "risk": 0.2263063431263196, "gold": "A", "spill_term": "Confidential Information", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:396:Images", "term": "Images", "ctx_idx": 14, "risk": 0.2314800865532829, "gold": "A", "bare": 0.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:396:Display", "term": "Display", "ctx_idx": 1, "risk": 0.2665498706294088, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:396:Display", "term": "Display", "ctx_idx": 2, "risk": 0.853419220261145, "gold": "A", "bare": 0.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:396:Display", "term": "Display", "ctx_idx": 5, "risk": 0.0770123680665521, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:396:Display", "term": "Display", "ctx_idx": 6, "risk": 0.07815491873718239, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:396:Display", "term": "Display", "ctx_idx": 7, "risk": 0.30853465278792613, "gold": "A", "bare": 0.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:396:Display", "term": "Display", "ctx_idx": 12, "risk": 0.08094655700288633, "gold": "A", "bare": 0.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:396:Affinity", "term": "Affinity", "ctx_idx": 2, "risk": 0.1782384251248642, "gold": "B", "spill_term": "Third Party", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:396:Affinity", "term": "Affinity", "ctx_idx": 4, "risk": 0.06335058868837018, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:396:Affinity", "term": "Affinity", "ctx_idx": 7, "risk": 0.7673401937530095, "gold": "B", "spill_term": "DESIGNATED UNIT", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:396:Confidential Information", "term": "Confidential Information", "ctx_idx": 3, "risk": 0.05288805165924482, "gold": "A", "spill_term": "Product Die", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:396:Confidential Information", "term": "Confidential Information", "ctx_idx": 4, "risk": 0.17782111927455735, "gold": "A", "spill_term": "Project", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:396:Confidential Information", "term": "Confidential Information", "ctx_idx": 9, "risk": 0.058685428604685286, "gold": "A", "bare": 0.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:396:HSWI Websites", "term": "HSWI Websites", "ctx_idx": 0, "risk": 0.6745143877570223, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Product", "term": "Product", "ctx_idx": 0, "risk": 0.15128253055256535, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Product", "term": "Product", "ctx_idx": 1, "risk": 0.2150612376411699, "gold": "A", "spill_term": "Services", "bare": 1.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "cuad", "id": "cuad:275:Product", "term": "Product", "ctx_idx": 3, "risk": 0.07500801388275813, "gold": "A", "spill_term": "Personnel", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Product", "term": "Product", "ctx_idx": 4, "risk": 0.05645061933119633, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Product", "term": "Product", "ctx_idx": 8, "risk": 0.07345030208849812, "gold": "A", "spill_term": "MBE Center", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Product", "term": "Product", "ctx_idx": 11, "risk": 0.12962944298295698, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Product", "term": "Product", "ctx_idx": 14, "risk": 0.04588038494723401, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Project", "term": "Project", "ctx_idx": 0, "risk": 0.06808113978938313, "gold": "A", "spill_term": "Affinity", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Project", "term": "Project", "ctx_idx": 9, "risk": 0.06282046152375442, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Project", "term": "Project", "ctx_idx": 11, "risk": 0.14093548996726324, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Project", "term": "Project", "ctx_idx": 15, "risk": 0.15476157915928102, "gold": "A", "spill_term": "Parties", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Process", "term": "Process", "ctx_idx": 2, "risk": 0.3432452778975148, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Process", "term": "Process", "ctx_idx": 4, "risk": 0.38887070732913365, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Process", "term": "Process", "ctx_idx": 7, "risk": 0.1406846653068532, "gold": "A", "spill_term": "Personnel", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Process", "term": "Process", "ctx_idx": 10, "risk": 0.07477099236314644, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Material", "term": "Material", "ctx_idx": 0, "risk": 0.15541590285700624, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Material", "term": "Material", "ctx_idx": 1, "risk": 0.05152121582749325, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Material", "term": "Material", "ctx_idx": 3, "risk": 0.05515721343983615, "gold": "B", "spill_term": "Governmental Authority", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Material", "term": "Material", "ctx_idx": 4, "risk": 0.1308508159165176, "gold": "A", "spill_term": "Services", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Material", "term": "Material", "ctx_idx": 5, "risk": 0.518295142833342, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Material", "term": "Material", "ctx_idx": 6, "risk": 0.18399347527662469, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Material", "term": "Material", "ctx_idx": 7, "risk": 0.05340122026838323, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Material", "term": "Material", "ctx_idx": 8, "risk": 0.06028172370634666, "gold": "A", "spill_term": "Parties", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Material", "term": "Material", "ctx_idx": 9, "risk": 0.40570776270538245, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Material", "term": "Material", "ctx_idx": 10, "risk": 0.16470503583759888, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Material", "term": "Material", "ctx_idx": 12, "risk": 0.12339828155645016, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Material", "term": "Material", "ctx_idx": 13, "risk": 0.14971566431948713, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Material", "term": "Material", "ctx_idx": 14, "risk": 0.04245039451432808, "gold": "B", "spill_term": "Purchaser Licensees", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Material", "term": "Material", "ctx_idx": 15, "risk": 0.08024551254162637, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Technology", "term": "Technology", "ctx_idx": 4, "risk": 0.03036092986462524, "gold": "A", "spill_term": "Contract Year", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Technology", "term": "Technology", "ctx_idx": 7, "risk": 0.16987976605056532, "gold": "A", "spill_term": "Dispute", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Technology", "term": "Technology", "ctx_idx": 8, "risk": 0.13117026822420486, "gold": "A", "spill_term": "Governmental Authority", "bare": 0.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Technology", "term": "Technology", "ctx_idx": 10, "risk": 0.10067034703487132, "gold": "A", "spill_term": "USE", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Technology", "term": "Technology", "ctx_idx": 11, "risk": 0.10560037629462649, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Improvements", "term": "Improvements", "ctx_idx": 0, "risk": 0.3929380416612984, "gold": "A", "spill_term": "Third Party", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Improvements", "term": "Improvements", "ctx_idx": 3, "risk": 0.07955289229121043, "gold": "A", "spill_term": "Inventory", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Improvements", "term": "Improvements", "ctx_idx": 4, "risk": 0.3806526033607248, "gold": "A", "spill_term": "Trademark", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Improvements", "term": "Improvements", "ctx_idx": 5, "risk": 0.463735492293584, "gold": "A", "spill_term": "Distributor", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:275:Improvements", "term": "Improvements", "ctx_idx": 6, "risk": 0.261467032633358, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:340:Documentation", "term": "Documentation", "ctx_idx": 0, "risk": 0.5353593923697471, "gold": "A", "spill_term": "DESIGNATED UNIT", "bare": 0.0, "inline": 0.0, "spill": 0.0}
+{"corpus": "cuad", "id": "cuad:340:Documentation", "term": "Documentation", "ctx_idx": 3, "risk": 0.4511315222955806, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:340:Documentation", "term": "Documentation", "ctx_idx": 6, "risk": 0.11936213744496493, "gold": "A", "spill_term": "Affinity", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:340:Documentation", "term": "Documentation", "ctx_idx": 8, "risk": 0.0331004685697599, "gold": "A", "spill_term": "Distributor", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:340:Documentation", "term": "Documentation", "ctx_idx": 12, "risk": 0.08169504977687692, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:340:Customer", "term": "Customer", "ctx_idx": 5, "risk": 0.5770305799647358, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:340:Customer", "term": "Customer", "ctx_idx": 7, "risk": 0.023498913773120744, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:340:Customer", "term": "Customer", "ctx_idx": 9, "risk": 0.3492098024743542, "gold": "A", "spill_term": "Parties", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:340:Licensed Product", "term": "Licensed Product", "ctx_idx": 1, "risk": 0.5560815572058524, "gold": "A", "spill_term": "Product Die", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:340:Licensed Product", "term": "Licensed Product", "ctx_idx": 2, "risk": 0.43702488010934626, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:340:Licensed Product", "term": "Licensed Product", "ctx_idx": 6, "risk": 0.3357925814440562, "gold": "A", "spill_term": "MBE Center", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:340:Licensed Product", "term": "Licensed Product", "ctx_idx": 11, "risk": 0.5147985778521336, "gold": "A", "spill_term": "Service", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:340:Licensed Product", "term": "Licensed Product", "ctx_idx": 12, "risk": 0.3813872122293165, "gold": "A", "spill_term": "Products", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:340:Licensed Product", "term": "Licensed Product", "ctx_idx": 14, "risk": 0.5384110274963047, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:340:Redistributor", "term": "Redistributor", "ctx_idx": 0, "risk": 0.07654344475141761, "gold": "A", "spill_term": "Personnel", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:340:Redistributor", "term": "Redistributor", "ctx_idx": 2, "risk": 0.3078225984414923, "gold": "A", "spill_term": "Licensed IP", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "cuad", "id": "cuad:340:Redistributor", "term": "Redistributor", "ctx_idx": 3, "risk": 0.029565804795139816, "gold": "A", "spill_term": "Licensed Product", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:340:Redistributor", "term": "Redistributor", "ctx_idx": 5, "risk": 0.1305077059174713, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:340:Sublicense", "term": "Sublicense", "ctx_idx": 0, "risk": 0.38113110556620067, "gold": "A", "spill_term": "Project", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:340:Sublicense", "term": "Sublicense", "ctx_idx": 2, "risk": 0.40080965300524096, "gold": "A", "spill_term": "Service", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:340:Sublicense", "term": "Sublicense", "ctx_idx": 3, "risk": 0.12500157895581365, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:340:Sublicense", "term": "Sublicense", "ctx_idx": 5, "risk": 0.2304067694123345, "gold": "A", "spill_term": "Confidential Information", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:340:Sublicense", "term": "Sublicense", "ctx_idx": 6, "risk": 0.05606092391780937, "gold": "A", "spill_term": "Contract Year", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:340:Sublicense", "term": "Sublicense", "ctx_idx": 7, "risk": 0.7135958833745317, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:194:Person", "term": "Person", "ctx_idx": 2, "risk": 0.19806868704433644, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:194:Person", "term": "Person", "ctx_idx": 3, "risk": 0.08671022841687426, "gold": "A", "spill_term": "Services", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:194:Person", "term": "Person", "ctx_idx": 4, "risk": 0.30983015734847186, "gold": "A", "spill_term": "DESIGNATED UNIT", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:194:Person", "term": "Person", "ctx_idx": 5, "risk": 0.12942986648719235, "gold": "A", "spill_term": "Confidential Information", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:194:Person", "term": "Person", "ctx_idx": 6, "risk": 0.290105116234038, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:194:Person", "term": "Person", "ctx_idx": 10, "risk": 0.25506875629474157, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:194:Person", "term": "Person", "ctx_idx": 11, "risk": 0.34546652905941, "gold": "A", "spill_term": "Product Die", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:194:Person", "term": "Person", "ctx_idx": 12, "risk": 0.3780041245500806, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:194:Law", "term": "Law", "ctx_idx": 1, "risk": 0.7388562250441832, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:194:Law", "term": "Law", "ctx_idx": 3, "risk": 0.04484205003153774, "gold": "A", "spill_term": "Governmental Authority", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:194:Law", "term": "Law", "ctx_idx": 5, "risk": 0.48350566122018357, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:194:Indemnifiable Losses", "term": "Indemnifiable Losses", "ctx_idx": 1, "risk": 0.6250171204781589, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:194:Indemnifiable Losses", "term": "Indemnifiable Losses", "ctx_idx": 2, "risk": 0.07890246445072957, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:194:Indemnifiable Losses", "term": "Indemnifiable Losses", "ctx_idx": 4, "risk": 0.026262681363325324, "gold": "A", "spill_term": "Territory", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:194:Indemnifiable Losses", "term": "Indemnifiable Losses", "ctx_idx": 5, "risk": 0.06552057550932489, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:194:Indemnifiable Losses", "term": "Indemnifiable Losses", "ctx_idx": 7, "risk": 0.03496896971641528, "gold": "A", "spill_term": "Contract Year", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:176:Agreement", "term": "Agreement", "ctx_idx": 2, "risk": 0.28862246312231277, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:176:Agreement", "term": "Agreement", "ctx_idx": 4, "risk": 0.22990143867812962, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:176:Agreement", "term": "Agreement", "ctx_idx": 8, "risk": 0.059736945120534735, "gold": "A", "spill_term": "Team Companies", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:176:Agreement", "term": "Agreement", "ctx_idx": 9, "risk": 0.09480670114220568, "gold": "A", "spill_term": "Purchaser Licensees", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:176:Agreement", "term": "Agreement", "ctx_idx": 14, "risk": 0.8202397344990169, "gold": "A", "spill_term": "Distributor", "bare": 0.0, "inline": 0.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:463:Parties", "term": "Parties", "ctx_idx": 2, "risk": 0.04465572191430356, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:463:Parties", "term": "Parties", "ctx_idx": 3, "risk": 0.014312986578072007, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:463:Parties", "term": "Parties", "ctx_idx": 5, "risk": 0.23451669579834233, "gold": "A", "spill_term": "Joint Venture", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:463:Parties", "term": "Parties", "ctx_idx": 6, "risk": 0.10407134264435747, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:463:Parties", "term": "Parties", "ctx_idx": 9, "risk": 0.051853842749345125, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:463:Parties", "term": "Parties", "ctx_idx": 11, "risk": 0.025869545800853877, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:463:Parties", "term": "Parties", "ctx_idx": 12, "risk": 0.23176700776495562, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:463:Parties", "term": "Parties", "ctx_idx": 15, "risk": 0.09111988433140028, "gold": "A", "spill_term": "Products", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:463:Products", "term": "Products", "ctx_idx": 0, "risk": 0.08721273111955674, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:463:Products", "term": "Products", "ctx_idx": 2, "risk": 0.1615929884322702, "gold": "A", "bare": 1.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:463:Products", "term": "Products", "ctx_idx": 7, "risk": 0.12748320492213572, "gold": "A", "spill_term": "Governmental Authority", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:463:Act", "term": "Act", "ctx_idx": 1, "risk": 0.01295652658289459, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:130:Services", "term": "Services", "ctx_idx": 0, "risk": 0.09884040393707416, "gold": "C", "spill_term": "Personnel", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:130:Services", "term": "Services", "ctx_idx": 9, "risk": 0.038578081467585346, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:130:Services", "term": "Services", "ctx_idx": 11, "risk": 0.271605379345327, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:130:Services", "term": "Services", "ctx_idx": 13, "risk": 0.2832233813054206, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:130:Services", "term": "Services", "ctx_idx": 14, "risk": 0.0820608503590674, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:130:Personnel", "term": "Personnel", "ctx_idx": 1, "risk": 0.46945153344712265, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:130:Personnel", "term": "Personnel", "ctx_idx": 4, "risk": 0.8019124437885964, "gold": "A", "spill_term": "Distributor", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:130:Personnel", "term": "Personnel", "ctx_idx": 5, "risk": 0.566799410561184, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:130:Documentation", "term": "Documentation", "ctx_idx": 0, "risk": 0.49758824257172085, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:130:Documentation", "term": "Documentation", "ctx_idx": 1, "risk": 0.0733352105931383, "gold": "A", "spill_term": "Products", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:130:Documentation", "term": "Documentation", "ctx_idx": 2, "risk": 0.17996810654229145, "gold": "A", "spill_term": "Purchaser Licensees", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:130:Documentation", "term": "Documentation", "ctx_idx": 4, "risk": 0.4961452402738945, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:130:Documentation", "term": "Documentation", "ctx_idx": 5, "risk": 0.44616758512495847, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:130:Enhancement", "term": "Enhancement", "ctx_idx": 1, "risk": 0.597679060767171, "gold": "A", "spill_term": "Licensed IP", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:130:Professional Services", "term": "Professional Services", "ctx_idx": 1, "risk": 0.049344350724337405, "gold": "A", "spill_term": "DESIGNATED UNIT", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:130:Professional Services", "term": "Professional Services", "ctx_idx": 2, "risk": 0.055081037440160574, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:130:Professional Services", "term": "Professional Services", "ctx_idx": 10, "risk": 0.16117667065704688, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:130:Professional Services", "term": "Professional Services", "ctx_idx": 13, "risk": 0.15153678002544313, "gold": "A", "spill_term": "DESIGNATED UNIT", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:22:Confidential Information", "term": "Confidential Information", "ctx_idx": 3, "risk": 0.31889157831473003, "gold": "A", "spill_term": "HSWI Websites", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:22:Incorporated Technology", "term": "Incorporated Technology", "ctx_idx": 2, "risk": 0.028497619896582616, "gold": "A", "spill_term": "USE", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:22:Incorporated Technology", "term": "Incorporated Technology", "ctx_idx": 4, "risk": 0.49330639084622085, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:22:Deliverable", "term": "Deliverable", "ctx_idx": 0, "risk": 0.07037258974551686, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:22:Deliverable", "term": "Deliverable", "ctx_idx": 2, "risk": 0.281315446578141, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:22:Deliverable", "term": "Deliverable", "ctx_idx": 5, "risk": 0.4786216982430096, "gold": "A", "bare": 1.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:22:Deliverable", "term": "Deliverable", "ctx_idx": 6, "risk": 0.10798958998377906, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:22:Deliverable", "term": "Deliverable", "ctx_idx": 8, "risk": 0.0520061385281263, "gold": "A", "spill_term": "Services", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:22:Deliverable", "term": "Deliverable", "ctx_idx": 9, "risk": 0.6552848358818425, "gold": "A", "spill_term": "Patents", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:22:Deliverable", "term": "Deliverable", "ctx_idx": 10, "risk": 0.01634144612258026, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:22:Deliverable", "term": "Deliverable", "ctx_idx": 11, "risk": 0.6175776895688398, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:177:Product", "term": "Product", "ctx_idx": 2, "risk": 0.06955347090547648, "gold": "A", "spill_term": "Project", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:177:Product", "term": "Product", "ctx_idx": 11, "risk": 0.2510073353063672, "gold": "A", "spill_term": "Governmental Authority", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:177:Product", "term": "Product", "ctx_idx": 12, "risk": 0.03735712829935878, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:177:Product", "term": "Product", "ctx_idx": 15, "risk": 0.04455157576566715, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:177:Information", "term": "Information", "ctx_idx": 11, "risk": 0.10107162522604751, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:177:Protocol", "term": "Protocol", "ctx_idx": 1, "risk": 0.11097996493605677, "gold": "A", "spill_term": "HSWI Websites", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:177:Protocol", "term": "Protocol", "ctx_idx": 2, "risk": 0.032309111768011656, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:177:Protocol", "term": "Protocol", "ctx_idx": 4, "risk": 0.3722467255491869, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:177:Protocol", "term": "Protocol", "ctx_idx": 5, "risk": 0.11606527286075907, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:177:Protocol", "term": "Protocol", "ctx_idx": 10, "risk": 0.04689236659024243, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:177:Controlled", "term": "Controlled", "ctx_idx": 5, "risk": 0.03208167955026864, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:177:Controlled", "term": "Controlled", "ctx_idx": 6, "risk": 0.26913540515999224, "gold": "A", "spill_term": "Parties", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:177:Clinical Trials", "term": "Clinical Trials", "ctx_idx": 1, "risk": 0.3334412129092571, "gold": "A", "spill_term": "Services", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:177:Clinical Trials", "term": "Clinical Trials", "ctx_idx": 3, "risk": 0.18476258758404485, "gold": "A", "spill_term": "Contract Year", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:177:Clinical Trials", "term": "Clinical Trials", "ctx_idx": 8, "risk": 0.19282179987105041, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:177:Clinical Trials", "term": "Clinical Trials", "ctx_idx": 10, "risk": 0.5228466789425263, "gold": "A", "spill_term": "Third Party", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:14:Party", "term": "Party", "ctx_idx": 1, "risk": 0.05572375674430985, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:14:Party", "term": "Party", "ctx_idx": 5, "risk": 0.04856008289816993, "gold": "A", "spill_term": "Documentation", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:14:Party", "term": "Party", "ctx_idx": 6, "risk": 0.02062492911271252, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:14:Party", "term": "Party", "ctx_idx": 7, "risk": 0.02006456100367393, "gold": "A", "spill_term": "Confidential Information", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:14:Party", "term": "Party", "ctx_idx": 8, "risk": 0.025803367852979542, "gold": "A", "spill_term": "MBE Center", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:14:Party", "term": "Party", "ctx_idx": 13, "risk": 0.039168093941978954, "gold": "B", "spill_term": "Third Party", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:14:Data", "term": "Data", "ctx_idx": 1, "risk": 0.1218089763037955, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:14:Data", "term": "Data", "ctx_idx": 3, "risk": 0.35130581271563655, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:14:Data", "term": "Data", "ctx_idx": 5, "risk": 0.04717731524959323, "gold": "A", "spill_term": "Use", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:14:Patents", "term": "Patents", "ctx_idx": 0, "risk": 0.6280682300011595, "gold": "A", "spill_term": "Contract Year", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:14:Patents", "term": "Patents", "ctx_idx": 2, "risk": 0.25113148493672877, "gold": "A", "bare": 0.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:14:Patents", "term": "Patents", "ctx_idx": 5, "risk": 0.22597829928870572, "gold": "A", "spill_term": "Parties", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:14:Patents", "term": "Patents", "ctx_idx": 6, "risk": 0.155624602664162, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:14:Nuance IP", "term": "Nuance IP", "ctx_idx": 0, "risk": 0.23349367917738706, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:14:Nuance IP", "term": "Nuance IP", "ctx_idx": 1, "risk": 0.08904146792591139, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:14:Nuance IP", "term": "Nuance IP", "ctx_idx": 7, "risk": 0.083347308780507, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:14:SpinCo IP", "term": "SpinCo IP", "ctx_idx": 0, "risk": 0.04934244162150336, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:14:SpinCo IP", "term": "SpinCo IP", "ctx_idx": 4, "risk": 0.09267648929257577, "gold": "A", "spill_term": "Products", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:14:SpinCo IP", "term": "SpinCo IP", "ctx_idx": 6, "risk": 0.6242389175334324, "gold": "A", "spill_term": "Inventory", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:210:Auction", "term": "Auction", "ctx_idx": 5, "risk": 0.030271452305509428, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:210:Inventory", "term": "Inventory", "ctx_idx": 2, "risk": 0.9546807055786686, "gold": "A", "spill_term": "DESIGNATED UNIT", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:210:Inventory", "term": "Inventory", "ctx_idx": 3, "risk": 0.03571821282313714, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:210:Inventory", "term": "Inventory", "ctx_idx": 4, "risk": 0.06905950596840038, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:210:Auction Platform", "term": "Auction Platform", "ctx_idx": 9, "risk": 0.060829132417239196, "gold": "A", "spill_term": "Inventory", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:341:SOFTWARE", "term": "SOFTWARE", "ctx_idx": 3, "risk": 0.4966799013615255, "gold": "A", "spill_term": "HSWI Websites", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:341:SOFTWARE", "term": "SOFTWARE", "ctx_idx": 5, "risk": 0.23642172242251203, "gold": "A", "spill_term": "Subscriber", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:341:SOFTWARE", "term": "SOFTWARE", "ctx_idx": 8, "risk": 0.39180318559410243, "gold": "B", "spill_term": "Services", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:341:SOFTWARE", "term": "SOFTWARE", "ctx_idx": 9, "risk": 0.05744351996530295, "gold": "A", "spill_term": "Third Party", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:341:SOFTWARE", "term": "SOFTWARE", "ctx_idx": 11, "risk": 0.020935574338383, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:341:SOFTWARE", "term": "SOFTWARE", "ctx_idx": 13, "risk": 0.24281466959286757, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:341:SOFTWARE", "term": "SOFTWARE", "ctx_idx": 15, "risk": 0.2929329202174882, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:341:USE", "term": "USE", "ctx_idx": 6, "risk": 0.5510001117368017, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:341:PROPRIETARY INFORMATION", "term": "PROPRIETARY INFORMATION", "ctx_idx": 2, "risk": 0.0634611552721902, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:341:PROPRIETARY INFORMATION", "term": "PROPRIETARY INFORMATION", "ctx_idx": 5, "risk": 0.06653682747052925, "gold": "B", "spill_term": "Territory", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:341:PROPRIETARY INFORMATION", "term": "PROPRIETARY INFORMATION", "ctx_idx": 7, "risk": 0.4391451502061473, "gold": "B", "spill_term": "Parties", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:341:DOCUMENTATION", "term": "DOCUMENTATION", "ctx_idx": 1, "risk": 0.8102668293515679, "gold": "A", "spill_term": "Confidential Information", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:341:DOCUMENTATION", "term": "DOCUMENTATION", "ctx_idx": 2, "risk": 0.20488590465245304, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:341:DOCUMENTATION", "term": "DOCUMENTATION", "ctx_idx": 4, "risk": 0.5125193944465436, "gold": "A", "spill_term": "Products", "bare": 0.0, "inline": 0.0, "spill": 0.0}
+{"corpus": "cuad", "id": "cuad:341:DOCUMENTATION", "term": "DOCUMENTATION", "ctx_idx": 5, "risk": 0.24962981814302165, "gold": "A", "spill_term": "Services", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:341:DOCUMENTATION", "term": "DOCUMENTATION", "ctx_idx": 6, "risk": 0.08166612889803848, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:341:DOCUMENTATION", "term": "DOCUMENTATION", "ctx_idx": 8, "risk": 0.30609624728025686, "gold": "A", "spill_term": "Sublicense", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:341:DOCUMENTATION", "term": "DOCUMENTATION", "ctx_idx": 9, "risk": 0.15729722145597858, "gold": "B", "spill_term": "Law", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:341:DOCUMENTATION", "term": "DOCUMENTATION", "ctx_idx": 10, "risk": 0.03030758612880291, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:341:DOCUMENTATION", "term": "DOCUMENTATION", "ctx_idx": 11, "risk": 0.20908315981891268, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:341:DESIGNATED UNIT", "term": "DESIGNATED UNIT", "ctx_idx": 11, "risk": 0.39077675209385765, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:341:DESIGNATED SITE", "term": "DESIGNATED SITE", "ctx_idx": 2, "risk": 0.04581846964205072, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:341:DESIGNATED SITE", "term": "DESIGNATED SITE", "ctx_idx": 4, "risk": 0.12677570570082397, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:341:DESIGNATED SITE", "term": "DESIGNATED SITE", "ctx_idx": 5, "risk": 0.08398790174061321, "gold": "A", "spill_term": "Subscriber", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:341:DESIGNATED SITE", "term": "DESIGNATED SITE", "ctx_idx": 8, "risk": 0.20782249703989575, "gold": "A", "spill_term": "Source Code", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:196:Recipient", "term": "Recipient", "ctx_idx": 2, "risk": 0.21533716829728045, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:196:Recipient", "term": "Recipient", "ctx_idx": 5, "risk": 0.2720513058948496, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:196:Recipient", "term": "Recipient", "ctx_idx": 6, "risk": 0.8565533610835222, "gold": "A", "spill_term": "Use", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:196:Recipient", "term": "Recipient", "ctx_idx": 7, "risk": 0.09280996587883839, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:196:Recipient", "term": "Recipient", "ctx_idx": 8, "risk": 0.06165215743604946, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:196:Project", "term": "Project", "ctx_idx": 0, "risk": 0.07382235296054862, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:196:Project", "term": "Project", "ctx_idx": 3, "risk": 0.4490597904443514, "gold": "A", "spill_term": "Content", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "cuad", "id": "cuad:196:Project", "term": "Project", "ctx_idx": 4, "risk": 0.7562085883094403, "gold": "A", "spill_term": "LICENSED VARIETY", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:196:Project", "term": "Project", "ctx_idx": 6, "risk": 0.800501519106233, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:196:Project", "term": "Project", "ctx_idx": 7, "risk": 0.11019840688365645, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:196:Confidential Information", "term": "Confidential Information", "ctx_idx": 2, "risk": 0.028605155652464465, "gold": "A", "spill_term": "Documentation", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:196:Confidential Information", "term": "Confidential Information", "ctx_idx": 3, "risk": 0.06869320352011132, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:196:Confidential Information", "term": "Confidential Information", "ctx_idx": 5, "risk": 0.11934532200197612, "gold": "A", "spill_term": "Enhancement", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:43:Agreement", "term": "Agreement", "ctx_idx": 0, "risk": 0.07296220712184165, "gold": "A", "spill_term": "HSWI Websites", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:43:Agreement", "term": "Agreement", "ctx_idx": 1, "risk": 0.05369256485667706, "gold": "A", "spill_term": "Products", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:43:Agreement", "term": "Agreement", "ctx_idx": 2, "risk": 0.2234592406475392, "gold": "A", "spill_term": "Inventory", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:43:Agreement", "term": "Agreement", "ctx_idx": 3, "risk": 0.13690474903576022, "gold": "A", "spill_term": "Products", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:43:Agreement", "term": "Agreement", "ctx_idx": 4, "risk": 0.12002281847450003, "gold": "A", "spill_term": "Sublicense", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:43:Agreement", "term": "Agreement", "ctx_idx": 7, "risk": 0.02983291766322993, "gold": "A", "spill_term": "Governmental Authority", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:43:Agreement", "term": "Agreement", "ctx_idx": 8, "risk": 0.24711473992945243, "gold": "A", "spill_term": "Enhancement", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:43:Agreement", "term": "Agreement", "ctx_idx": 9, "risk": 0.37650352194410375, "gold": "A", "spill_term": "Products", "bare": 1.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "cuad", "id": "cuad:43:Agreement", "term": "Agreement", "ctx_idx": 12, "risk": 0.33827316232218163, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:43:Agreement", "term": "Agreement", "ctx_idx": 13, "risk": 0.05620590065108566, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:43:Agreement", "term": "Agreement", "ctx_idx": 14, "risk": 0.5807999325254869, "gold": "A", "spill_term": "Project", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:43:Agreement", "term": "Agreement", "ctx_idx": 15, "risk": 0.3737258913057574, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:43:Royalty", "term": "Royalty", "ctx_idx": 2, "risk": 0.02263807719829003, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:43:Royalty", "term": "Royalty", "ctx_idx": 4, "risk": 0.017923865195213273, "gold": "A", "spill_term": "Services", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:43:Royalty", "term": "Royalty", "ctx_idx": 5, "risk": 0.06771239184386202, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:43:Licensed Property", "term": "Licensed Property", "ctx_idx": 3, "risk": 0.10489445228040506, "gold": "A", "spill_term": "DESIGNATED UNIT", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:43:Licensed Property", "term": "Licensed Property", "ctx_idx": 4, "risk": 0.017916441335842803, "gold": "A", "spill_term": "Project", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:43:Licensed Property", "term": "Licensed Property", "ctx_idx": 5, "risk": 0.03107657620873505, "gold": "A", "spill_term": "Enhancement", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:213:Marks", "term": "Marks", "ctx_idx": 3, "risk": 0.1342348090312745, "gold": "A", "spill_term": "Affinity", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:213:Marks", "term": "Marks", "ctx_idx": 4, "risk": 0.025268679112831927, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:213:Marks", "term": "Marks", "ctx_idx": 8, "risk": 0.2657765157309858, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:213:Marks", "term": "Marks", "ctx_idx": 12, "risk": 0.08648369497551389, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:213:Team Companies", "term": "Team Companies", "ctx_idx": 4, "risk": 0.8719367908716184, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:213:Team Companies", "term": "Team Companies", "ctx_idx": 5, "risk": 0.4740544578503898, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:213:Team Companies", "term": "Team Companies", "ctx_idx": 9, "risk": 0.5253731317793394, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:213:Team Companies", "term": "Team Companies", "ctx_idx": 14, "risk": 0.1897775733898699, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:213:Team Marks", "term": "Team Marks", "ctx_idx": 0, "risk": 0.1383221548698207, "gold": "A", "spill_term": "Content", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:213:Team Marks", "term": "Team Marks", "ctx_idx": 2, "risk": 0.07060269724727408, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:213:Team Marks", "term": "Team Marks", "ctx_idx": 5, "risk": 0.10719126162817894, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:213:Team Marks", "term": "Team Marks", "ctx_idx": 7, "risk": 0.16037806344716876, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:213:Contract Year", "term": "Contract Year", "ctx_idx": 3, "risk": 0.8877364945152026, "gold": "A", "spill_term": "HSWI Websites", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:213:Sponsor Marks", "term": "Sponsor Marks", "ctx_idx": 0, "risk": 0.020538910868263205, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:213:Sponsor Marks", "term": "Sponsor Marks", "ctx_idx": 1, "risk": 0.1607184236929433, "gold": "B", "spill_term": "LICENSED VARIETY", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:213:Sponsor Marks", "term": "Sponsor Marks", "ctx_idx": 8, "risk": 0.02688061785495144, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:253:Services", "term": "Services", "ctx_idx": 2, "risk": 0.05168242798135603, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:253:Services", "term": "Services", "ctx_idx": 4, "risk": 0.46524487140966664, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:253:Services", "term": "Services", "ctx_idx": 5, "risk": 0.47385590691835144, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:253:Services", "term": "Services", "ctx_idx": 9, "risk": 0.3136312279014589, "gold": "A", "spill_term": "Dispute", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "cuad", "id": "cuad:253:Services", "term": "Services", "ctx_idx": 15, "risk": 0.06759033521169744, "gold": "A", "spill_term": "Trademark", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:253:Documentation", "term": "Documentation", "ctx_idx": 11, "risk": 0.09012281186904192, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:253:Documentation", "term": "Documentation", "ctx_idx": 12, "risk": 0.06281568517495928, "gold": "A", "spill_term": "Content", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:253:Documentation", "term": "Documentation", "ctx_idx": 14, "risk": 0.04689629091583958, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:253:Person", "term": "Person", "ctx_idx": 2, "risk": 0.07805352008453414, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:253:Person", "term": "Person", "ctx_idx": 4, "risk": 0.05822243508411262, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:253:Person", "term": "Person", "ctx_idx": 7, "risk": 0.14360060864525648, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:253:Law", "term": "Law", "ctx_idx": 1, "risk": 0.2594395206927178, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:253:Law", "term": "Law", "ctx_idx": 2, "risk": 0.019529902047806025, "gold": "A", "spill_term": "Inventory", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:253:Law", "term": "Law", "ctx_idx": 4, "risk": 0.3324734358677175, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:253:Law", "term": "Law", "ctx_idx": 8, "risk": 0.032908824799989356, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:253:Law", "term": "Law", "ctx_idx": 9, "risk": 0.04023918469938592, "gold": "A", "spill_term": "Use", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:253:Law", "term": "Law", "ctx_idx": 10, "risk": 0.04694406214234481, "gold": "C", "spill_term": "Sublicense", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:418:Services", "term": "Services", "ctx_idx": 6, "risk": 0.8289779678781889, "gold": "A", "bare": 0.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:418:Services", "term": "Services", "ctx_idx": 10, "risk": 0.3347210490870136, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:418:Person", "term": "Person", "ctx_idx": 1, "risk": 0.14498892623064275, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:418:Person", "term": "Person", "ctx_idx": 2, "risk": 0.0655585152394369, "gold": "A", "spill_term": "Personnel", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "cuad", "id": "cuad:418:Person", "term": "Person", "ctx_idx": 4, "risk": 0.09658418833872517, "gold": "B", "spill_term": "Parties", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:418:Person", "term": "Person", "ctx_idx": 5, "risk": 0.04860493984785663, "gold": "A", "spill_term": "Parties", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:418:Contract Year", "term": "Contract Year", "ctx_idx": 7, "risk": 0.37087192971721017, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:418:Applicable Law", "term": "Applicable Law", "ctx_idx": 5, "risk": 0.03955642181249708, "gold": "A", "spill_term": "Documentation", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:38:Products", "term": "Products", "ctx_idx": 0, "risk": 0.09040840003463801, "gold": "B", "spill_term": "Products", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:38:Products", "term": "Products", "ctx_idx": 1, "risk": 0.12677169963328072, "gold": "A", "spill_term": "Territory", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:38:Products", "term": "Products", "ctx_idx": 2, "risk": 0.19648160525563652, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:38:Products", "term": "Products", "ctx_idx": 3, "risk": 0.649041702921844, "gold": "A", "spill_term": "Affinity", "bare": 0.0, "inline": 0.0, "spill": 0.0}
+{"corpus": "cuad", "id": "cuad:38:Products", "term": "Products", "ctx_idx": 5, "risk": 0.08583347885665216, "gold": "A", "spill_term": "Joint Venture", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:38:Products", "term": "Products", "ctx_idx": 7, "risk": 0.19521779911807546, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:38:Products", "term": "Products", "ctx_idx": 8, "risk": 0.3148874780647283, "gold": "A", "bare": 1.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:38:Products", "term": "Products", "ctx_idx": 12, "risk": 0.22778248369644472, "gold": "A", "bare": 1.0, "inline": 0.0}
+{"corpus": "cuad", "id": "cuad:38:Manufacturing Subcontractors", "term": "Manufacturing Subcontractors", "ctx_idx": 0, "risk": 0.05460689065716107, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:38:Manufacturing Subcontractors", "term": "Manufacturing Subcontractors", "ctx_idx": 2, "risk": 0.1228929231135174, "gold": "A", "spill_term": "Joint Venture", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:38:Manufacturing Subcontractors", "term": "Manufacturing Subcontractors", "ctx_idx": 3, "risk": 0.0627534946323538, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:38:Manufacturing Subcontractors", "term": "Manufacturing Subcontractors", "ctx_idx": 6, "risk": 0.4736185960074226, "gold": "A", "spill_term": "Licensed Product", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "cuad", "id": "cuad:38:Manufacturing Subcontractors", "term": "Manufacturing Subcontractors", "ctx_idx": 7, "risk": 0.24741829950679362, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:38:Confidential Information", "term": "Confidential Information", "ctx_idx": 0, "risk": 0.23297075434807524, "gold": "A", "spill_term": "Governmental Authority", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:38:Confidential Information", "term": "Confidential Information", "ctx_idx": 1, "risk": 0.08063076858215623, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:38:Confidential Information", "term": "Confidential Information", "ctx_idx": 4, "risk": 0.11668639179502593, "gold": "A", "spill_term": "MBE Center", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "cuad", "id": "cuad:38:Confidential Information", "term": "Confidential Information", "ctx_idx": 5, "risk": 0.07412681673269061, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:38:Deposit Materials", "term": "Deposit Materials", "ctx_idx": 2, "risk": 0.10859893080180794, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:38:Deposit Materials", "term": "Deposit Materials", "ctx_idx": 5, "risk": 0.24965381096409534, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "cuad", "id": "cuad:38:Product Die", "term": "Product Die", "ctx_idx": 1, "risk": 0.32202737526133907, "gold": "A", "spill_term": "Distributor", "bare": 1.0, "inline": 1.0, "spill": 1.0}

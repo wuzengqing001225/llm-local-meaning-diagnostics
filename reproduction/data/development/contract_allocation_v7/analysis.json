@@ -1,0 +1,506 @@
+{
+  "n_rules_B": 11,
+  "n_rules_A": 15,
+  "n_A": 89,
+  "n_B": 63,
+  "n_requests": 504,
+  "groups": {
+    "agreement": 20,
+    "undetermined": 16,
+    "control": 22,
+    "conflict": 5
+  },
+  "A_distribution": {
+    "mean_dp_min": 0.12275912861029308,
+    "mean_dp_max": 0.36713288227717084,
+    "n_nonpositive": 0
+  },
+  "readers": {
+    "gpt": {
+      "forced": {
+        "all": {
+          "n": 63,
+          "bare": {
+            "correct": 51,
+            "wrong": 12
+          },
+          "definition": {
+            "correct": 61,
+            "wrong": 2
+          },
+          "repairs": 10,
+          "harms": 0,
+          "net_wrong_to_correct": 10,
+          "transitions": {
+            "correct -> correct": 51,
+            "wrong -> correct": 10,
+            "wrong -> wrong": 2
+          }
+        },
+        "application": {
+          "n": 41,
+          "bare": {
+            "correct": 30,
+            "wrong": 11
+          },
+          "definition": {
+            "correct": 40,
+            "wrong": 1
+          },
+          "repairs": 10,
+          "harms": 0,
+          "net_wrong_to_correct": 10,
+          "transitions": {
+            "correct -> correct": 30,
+            "wrong -> correct": 10,
+            "wrong -> wrong": 1
+          }
+        },
+        "conflict": {
+          "n": 5,
+          "bare": {
+            "correct": 3,
+            "wrong": 2
+          },
+          "definition": {
+            "correct": 4,
+            "wrong": 1
+          },
+          "repairs": 1,
+          "harms": 0,
+          "net_wrong_to_correct": 1,
+          "transitions": {
+            "correct -> correct": 3,
+            "wrong -> wrong": 1,
+            "wrong -> correct": 1
+          }
+        },
+        "agreement": {
+          "n": 20,
+          "bare": {
+            "correct": 16,
+            "wrong": 4
+          },
+          "definition": {
+            "correct": 20
+          },
+          "repairs": 4,
+          "harms": 0,
+          "net_wrong_to_correct": 4,
+          "transitions": {
+            "correct -> correct": 16,
+            "wrong -> correct": 4
+          }
+        },
+        "undetermined": {
+          "n": 16,
+          "bare": {
+            "correct": 11,
+            "wrong": 5
+          },
+          "definition": {
+            "correct": 16
+          },
+          "repairs": 5,
+          "harms": 0,
+          "net_wrong_to_correct": 5,
+          "transitions": {
+            "correct -> correct": 11,
+            "wrong -> correct": 5
+          }
+        },
+        "control": {
+          "n": 22,
+          "bare": {
+            "correct": 21,
+            "wrong": 1
+          },
+          "definition": {
+            "correct": 21,
+            "wrong": 1
+          },
+          "repairs": 0,
+          "harms": 0,
+          "net_wrong_to_correct": 0,
+          "transitions": {
+            "correct -> correct": 21,
+            "wrong -> wrong": 1
+          }
+        }
+      },
+      "abstain": {
+        "all": {
+          "n": 63,
+          "bare": {
+            "correct": 45,
+            "abstain": 9,
+            "wrong": 9
+          },
+          "definition": {
+            "correct": 61,
+            "wrong": 2
+          },
+          "repairs": 8,
+          "harms": 0,
+          "net_wrong_to_correct": 8,
+          "transitions": {
+            "correct -> correct": 45,
+            "abstain -> correct": 8,
+            "wrong -> correct": 8,
+            "abstain -> wrong": 1,
+            "wrong -> wrong": 1
+          }
+        },
+        "application": {
+          "n": 41,
+          "bare": {
+            "correct": 24,
+            "abstain": 9,
+            "wrong": 8
+          },
+          "definition": {
+            "correct": 39,
+            "wrong": 2
+          },
+          "repairs": 7,
+          "harms": 0,
+          "net_wrong_to_correct": 7,
+          "transitions": {
+            "correct -> correct": 24,
+            "abstain -> correct": 8,
+            "wrong -> correct": 7,
+            "abstain -> wrong": 1,
+            "wrong -> wrong": 1
+          }
+        },
+        "conflict": {
+          "n": 5,
+          "bare": {
+            "correct": 3,
+            "wrong": 2
+          },
+          "definition": {
+            "correct": 4,
+            "wrong": 1
+          },
+          "repairs": 1,
+          "harms": 0,
+          "net_wrong_to_correct": 1,
+          "transitions": {
+            "correct -> correct": 3,
+            "wrong -> wrong": 1,
+            "wrong -> correct": 1
+          }
+        },
+        "agreement": {
+          "n": 20,
+          "bare": {
+            "correct": 14,
+            "wrong": 1,
+            "abstain": 5
+          },
+          "definition": {
+            "correct": 20
+          },
+          "repairs": 1,
+          "harms": 0,
+          "net_wrong_to_correct": 1,
+          "transitions": {
+            "correct -> correct": 14,
+            "wrong -> correct": 1,
+            "abstain -> correct": 5
+          }
+        },
+        "undetermined": {
+          "n": 16,
+          "bare": {
+            "correct": 7,
+            "abstain": 4,
+            "wrong": 5
+          },
+          "definition": {
+            "correct": 15,
+            "wrong": 1
+          },
+          "repairs": 5,
+          "harms": 0,
+          "net_wrong_to_correct": 5,
+          "transitions": {
+            "correct -> correct": 7,
+            "abstain -> correct": 3,
+            "wrong -> correct": 5,
+            "abstain -> wrong": 1
+          }
+        },
+        "control": {
+          "n": 22,
+          "bare": {
+            "correct": 21,
+            "wrong": 1
+          },
+          "definition": {
+            "correct": 22
+          },
+          "repairs": 1,
+          "harms": 0,
+          "net_wrong_to_correct": 1,
+          "transitions": {
+            "correct -> correct": 21,
+            "wrong -> correct": 1
+          }
+        }
+      }
+    },
+    "deepseek": {
+      "forced": {
+        "all": {
+          "n": 63,
+          "bare": {
+            "correct": 51,
+            "wrong": 12
+          },
+          "definition": {
+            "correct": 59,
+            "wrong": 4
+          },
+          "repairs": 10,
+          "harms": 2,
+          "net_wrong_to_correct": 8,
+          "transitions": {
+            "correct -> correct": 49,
+            "wrong -> correct": 10,
+            "correct -> wrong": 2,
+            "wrong -> wrong": 2
+          }
+        },
+        "application": {
+          "n": 41,
+          "bare": {
+            "correct": 29,
+            "wrong": 12
+          },
+          "definition": {
+            "correct": 38,
+            "wrong": 3
+          },
+          "repairs": 10,
+          "harms": 1,
+          "net_wrong_to_correct": 9,
+          "transitions": {
+            "correct -> correct": 28,
+            "wrong -> correct": 10,
+            "wrong -> wrong": 2,
+            "correct -> wrong": 1
+          }
+        },
+        "conflict": {
+          "n": 5,
+          "bare": {
+            "correct": 3,
+            "wrong": 2
+          },
+          "definition": {
+            "correct": 4,
+            "wrong": 1
+          },
+          "repairs": 1,
+          "harms": 0,
+          "net_wrong_to_correct": 1,
+          "transitions": {
+            "correct -> correct": 3,
+            "wrong -> wrong": 1,
+            "wrong -> correct": 1
+          }
+        },
+        "agreement": {
+          "n": 20,
+          "bare": {
+            "correct": 14,
+            "wrong": 6
+          },
+          "definition": {
+            "correct": 19,
+            "wrong": 1
+          },
+          "repairs": 5,
+          "harms": 0,
+          "net_wrong_to_correct": 5,
+          "transitions": {
+            "correct -> correct": 14,
+            "wrong -> wrong": 1,
+            "wrong -> correct": 5
+          }
+        },
+        "undetermined": {
+          "n": 16,
+          "bare": {
+            "correct": 12,
+            "wrong": 4
+          },
+          "definition": {
+            "correct": 15,
+            "wrong": 1
+          },
+          "repairs": 4,
+          "harms": 1,
+          "net_wrong_to_correct": 3,
+          "transitions": {
+            "correct -> correct": 11,
+            "wrong -> correct": 4,
+            "correct -> wrong": 1
+          }
+        },
+        "control": {
+          "n": 22,
+          "bare": {
+            "correct": 22
+          },
+          "definition": {
+            "correct": 21,
+            "wrong": 1
+          },
+          "repairs": 0,
+          "harms": 1,
+          "net_wrong_to_correct": -1,
+          "transitions": {
+            "correct -> correct": 21,
+            "correct -> wrong": 1
+          }
+        }
+      },
+      "abstain": {
+        "all": {
+          "n": 63,
+          "bare": {
+            "correct": 47,
+            "abstain": 3,
+            "wrong": 13
+          },
+          "definition": {
+            "correct": 60,
+            "wrong": 3
+          },
+          "repairs": 11,
+          "harms": 1,
+          "net_wrong_to_correct": 10,
+          "transitions": {
+            "correct -> correct": 46,
+            "abstain -> correct": 3,
+            "wrong -> correct": 11,
+            "wrong -> wrong": 2,
+            "correct -> wrong": 1
+          }
+        },
+        "application": {
+          "n": 41,
+          "bare": {
+            "correct": 25,
+            "abstain": 3,
+            "wrong": 13
+          },
+          "definition": {
+            "correct": 38,
+            "wrong": 3
+          },
+          "repairs": 11,
+          "harms": 1,
+          "net_wrong_to_correct": 10,
+          "transitions": {
+            "correct -> correct": 24,
+            "abstain -> correct": 3,
+            "wrong -> correct": 11,
+            "wrong -> wrong": 2,
+            "correct -> wrong": 1
+          }
+        },
+        "conflict": {
+          "n": 5,
+          "bare": {
+            "correct": 3,
+            "wrong": 2
+          },
+          "definition": {
+            "correct": 4,
+            "wrong": 1
+          },
+          "repairs": 1,
+          "harms": 0,
+          "net_wrong_to_correct": 1,
+          "transitions": {
+            "correct -> correct": 3,
+            "wrong -> wrong": 1,
+            "wrong -> correct": 1
+          }
+        },
+        "agreement": {
+          "n": 20,
+          "bare": {
+            "correct": 12,
+            "wrong": 7,
+            "abstain": 1
+          },
+          "definition": {
+            "correct": 19,
+            "wrong": 1
+          },
+          "repairs": 6,
+          "harms": 0,
+          "net_wrong_to_correct": 6,
+          "transitions": {
+            "correct -> correct": 12,
+            "wrong -> wrong": 1,
+            "wrong -> correct": 6,
+            "abstain -> correct": 1
+          }
+        },
+        "undetermined": {
+          "n": 16,
+          "bare": {
+            "correct": 10,
+            "abstain": 2,
+            "wrong": 4
+          },
+          "definition": {
+            "correct": 15,
+            "wrong": 1
+          },
+          "repairs": 4,
+          "harms": 1,
+          "net_wrong_to_correct": 3,
+          "transitions": {
+            "correct -> correct": 9,
+            "abstain -> correct": 2,
+            "wrong -> correct": 4,
+            "correct -> wrong": 1
+          }
+        },
+        "control": {
+          "n": 22,
+          "bare": {
+            "correct": 22
+          },
+          "definition": {
+            "correct": 22
+          },
+          "repairs": 0,
+          "harms": 0,
+          "net_wrong_to_correct": 0,
+          "transitions": {
+            "correct -> correct": 22
+          }
+        }
+      }
+    }
+  },
+  "gold_positions": {
+    "A": 32,
+    "B": 31
+  },
+  "unparsed": 0,
+  "models": {
+    "deepseek-flash -> deepseek-flash": 252,
+    "gpt-5.6-terra -> gpt-5.6-terra": 252
+  },
+  "deepseek_reasoning_tokens": 0,
+  "status": "provisional_until_human_source_review"
+}

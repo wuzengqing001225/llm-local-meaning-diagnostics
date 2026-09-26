@@ -1,0 +1,153 @@
+{
+  "status": "lower_bound_source_only_named_definition_screen_not_formal_matching",
+  "n": 5314,
+  "n_with_2_names_in_statutes": 666,
+  "n_with_2_names_explicit_in_question": 3,
+  "statutes_name_count_distribution": {
+    "0": 4032,
+    "1": 616,
+    "2": 193,
+    "3": 104,
+    "4": 76,
+    "5": 44,
+    "6": 31,
+    "7": 38,
+    "8": 19,
+    "10": 25,
+    "12": 11,
+    "13": 6,
+    "15": 5,
+    "16": 17,
+    "18": 5,
+    "19": 23,
+    "21": 6,
+    "22": 31,
+    "25": 5,
+    "31": 4,
+    "33": 6,
+    "37": 6,
+    "46": 6,
+    "54": 5
+  },
+  "question_name_count_distribution": {
+    "0": 5202,
+    "1": 109,
+    "2": 3
+  },
+  "limitation": "Regex misses other legal definition forms. Statute excerpts in the dataset are case-specific and may already be gold-relevant. Named definitions are candidates only; no term completeness or relevance check. Labels and Prolog were not read.",
+  "examples": [
+    {
+      "id": "housing_dcac6c48",
+      "state": "Rhode Island",
+      "n_explicit_named_definitions_in_supplied_statutes": 2,
+      "n_named_definitions_mentioned_in_question": 0,
+      "question": "Can a landlord evict a tenant for endangering property? This includes where the law refers to situations that could result in damage to the property; or a pet capable of causing damage to persons or property.",
+      "explicit_names": [
+        "crime of violence",
+        "presumption"
+      ],
+      "question_names": []
+    },
+    {
+      "id": "housing_879e302e",
+      "state": "Georgia",
+      "n_explicit_named_definitions_in_supplied_statutes": 2,
+      "n_named_definitions_mentioned_in_question": 0,
+      "question": "Is the term 'Order of possession' used to refer to the order from the court to the authorities to remove a tenant?",
+      "explicit_names": [
+        "application for execution of a writ of possession",
+        "writ of possession"
+      ],
+      "question_names": []
+    },
+    {
+      "id": "housing_33497c90",
+      "state": "California",
+      "n_explicit_named_definitions_in_supplied_statutes": 2,
+      "n_named_definitions_mentioned_in_question": 0,
+      "question": "Does the law regulating residential evictions specify the type(s) of landlord(s) regulated?",
+      "explicit_names": [
+        "financial institution",
+        "management"
+      ],
+      "question_names": []
+    },
+    {
+      "id": "housing_74baa5c9",
+      "state": "Connecticut",
+      "n_explicit_named_definitions_in_supplied_statutes": 2,
+      "n_named_definitions_mentioned_in_question": 1,
+      "question": "In an eviction action, can a tenant rebut/raise the defense that unpaid rent was lawfully withheld? This includes where the law allows a tenant to procure reasonable alternative housing due to lack of repairs or services, and was excused from paying rent, or where the law allows a tenant to abate rent either in part or in full due to lack of repairs.",
+      "explicit_names": [
+        "landlord",
+        "tenant"
+      ],
+      "question_names": [
+        "tenant"
+      ]
+    },
+    {
+      "id": "housing_3dd7e9e9",
+      "state": "Wisconsin",
+      "n_explicit_named_definitions_in_supplied_statutes": 2,
+      "n_named_definitions_mentioned_in_question": 0,
+      "question": "Can a landlord evict a tenant because they seek to use the property for personal use?",
+      "explicit_names": [
+        "has the meaning given in s. 961.01 (4).2. “drug-related criminal activity",
+        "rent"
+      ],
+      "question_names": []
+    },
+    {
+      "id": "housing_7a6de713",
+      "state": "California",
+      "n_explicit_named_definitions_in_supplied_statutes": 7,
+      "n_named_definitions_mentioned_in_question": 0,
+      "question": "In an eviction action, can a tenant rebut/raise the defense that criminal activity was committed by someone else, and they reported the criminal activity to law enforcement?",
+      "explicit_names": [
+        "immigration or citizenship status",
+        "individual in an emergency",
+        "occupant",
+        "penalties",
+        "resident",
+        "victim of abuse",
+        "victim of crime"
+      ],
+      "question_names": []
+    },
+    {
+      "id": "housing_7a6426b2",
+      "state": "Nevada",
+      "n_explicit_named_definitions_in_supplied_statutes": 10,
+      "n_named_definitions_mentioned_in_question": 0,
+      "question": "Does state/territory eviction law explicitly regulate residential landlords generally?",
+      "explicit_names": [
+        "dwelling unit",
+        "landlord’s agent",
+        "mobile home",
+        "mobile home lot",
+        "park",
+        "premises",
+        "recreational vehicle",
+        "recreational vehicle lot",
+        "recreational vehicle park",
+        "short-term tenancy"
+      ],
+      "question_names": []
+    },
+    {
+      "id": "housing_5fdcfa50",
+      "state": "Ohio",
+      "n_explicit_named_definitions_in_supplied_statutes": 4,
+      "n_named_definitions_mentioned_in_question": 0,
+      "question": "Are eviction cases first heard in high court?",
+      "explicit_names": [
+        "landlord",
+        "personal property",
+        "rental agreement",
+        "tenant"
+      ],
+      "question_names": []
+    }
+  ]
+}

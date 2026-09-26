@@ -1,0 +1,13 @@
+{
+  "status": "A_frozen_before_B_creation",
+  "sha256": {
+    "cards_for_A.jsonl": "aae9629c601835739229ba926cd134ca80ab570291c1e10a804fd879547ece62",
+    "diagnostics_A.jsonl": "52ef610ec74eae6a9c53419354ce39f1116c0a728099e99d9e2ad3db01d3bc9c",
+    "A_scores.jsonl": "58001b03e0d72a0a6c7761d1ff2f0c8bce1fcbbac41081cdfb02688ac37311de",
+    "A_rule_scores.jsonl": "793063bb9077ef1e21e291acdcd7ea65651f33f7892d8908e822e220efcb326d",
+    "B_author_rules.jsonl": "ab945fc8e185bd8f013d511fc539e1e50276b36c096e29781aa594040221ac07",
+    "protocol.md": "cd3abe85afcfe48bcaa96e18cf2dd5f7ef6302133f69ab63d6beba02a791f43f"
+  },
+  "n_rules": 15,
+  "n_A": 89
+}

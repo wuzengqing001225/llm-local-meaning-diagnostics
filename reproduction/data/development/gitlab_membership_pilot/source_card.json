@@ -1,0 +1,31 @@
+{
+  "scope": "gitlab_group_approval_current_docs_snapshot",
+  "definition_source_url": "https://docs.gitlab.com/user/project/members/",
+  "rule_source_url": "https://docs.gitlab.com/user/project/merge_requests/approvals/rules/",
+  "definition_source_sha256": "01628ae21c6f20ff2d558a9284da19e2343c51e64ff598dd41991ca53c19c23b",
+  "rule_source_sha256": "ad8b305c0b1576fb368cbf0727093c9556d41ecf4f3f678b61ade419eb1fef60",
+  "definitions": [
+    {
+      "id": "direct",
+      "term": "Direct member",
+      "definition": "The user is added directly to the current group or project."
+    },
+    {
+      "id": "inherited",
+      "term": "Inherited member",
+      "definition": "The user is a member of a parent group that contains the current group or project."
+    },
+    {
+      "id": "shared",
+      "term": "Shared member",
+      "definition": "The user is a member of a group invited to the current group or project."
+    },
+    {
+      "id": "inherited_shared",
+      "term": "Inherited shared member",
+      "definition": "The user is a member of a group invited to an ancestor of the current group or project."
+    }
+  ],
+  "common_rule": "For group-based approvals, only direct members of the group can approve merge requests. Inherited members of the eligible groups cannot provide approvals.",
+  "status": "development_source_candidate_not_formal_gold"
+}

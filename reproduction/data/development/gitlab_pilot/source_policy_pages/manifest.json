@@ -1,0 +1,38 @@
+[
+  {
+    "name": "visibility",
+    "url": "https://docs.gitlab.com/user/public_access/",
+    "sha256": "95549be8ce22335133589a00cf0bf754d1f1bbfb532803e9a3fa0850c0f2e253",
+    "bytes": 37956
+  },
+  {
+    "name": "external",
+    "url": "https://docs.gitlab.com/administration/external_users/",
+    "sha256": "e54b1bba6c16c88e12b77a2d6b277a86cbf1810aa4111b97b6928c246b394d0b",
+    "bytes": 34953
+  },
+  {
+    "name": "permissions",
+    "url": "https://docs.gitlab.com/user/permissions/",
+    "sha256": "eae0e05114afd4c8c651478b05f9e3d546dae078286bec506960d2d41ddcdfa2",
+    "bytes": 140903
+  },
+  {
+    "name": "members",
+    "url": "https://docs.gitlab.com/user/project/members/",
+    "sha256": "e257e30ec7d19127cd3f10e39d1df664c40f006e6c4dafeb576ae91c93634d23",
+    "bytes": 60253
+  },
+  {
+    "name": "approvals",
+    "url": "https://docs.gitlab.com/user/project/merge_requests/approvals/rules/",
+    "sha256": "d142283955e4854fc08e1893aa707b4bac1204dfdcde0805e8b8c50f81d4effb",
+    "bytes": 66909
+  },
+  {
+    "name": "protected_branches",
+    "url": "https://docs.gitlab.com/user/project/repository/branches/protected/",
+    "sha256": "d2b548e18d77349ce003c72d3eb5df18381f2fcb56560db77bdfa2fb293b7609",
+    "bytes": 70999
+  }
+]

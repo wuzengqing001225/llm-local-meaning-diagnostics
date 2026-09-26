@@ -1,0 +1,13 @@
+\begin{table}[htbp]\centering\small
+\caption{Public-task interventions. Metric changes are in raw F1/accuracy units, with paired cluster-bootstrap intervals. Reddit labels refer to post--term items.}
+\begin{tabular}{@{}lr lcc@{}}\toprule
+Task & $n$ & Arm & Score & Difference [95\% CI]\\\midrule
+CUAD F1 & 1661 & rag\_full & 0.5270 & +0.0029 [-0.0037, +0.0100]\\
+CUAD F1 & 1661 & rag\_gated & 0.5249 & +0.0008 [-0.0051, +0.0073]\\
+ContractNLI acc. & 3060 & note\_gated & 0.8173 & +0.0059 [-0.0020, +0.0147]\\
+ContractNLI acc. & 3060 & note\_all & 0.8222 & +0.0108 [+0.0026, +0.0193]\\
+Reddit / GPT & 178 & note\_gated & 0.5169 & +0.0169 [-0.0382, +0.0566]\\
+Reddit / GPT & 178 & note\_all & 0.5281 & +0.0281 [-0.0715, +0.0909]\\
+Reddit / DS & 178 & note\_gated & 0.6124 & +0.0056 [-0.0335, +0.0473]\\
+Reddit / DS & 178 & note\_all & 0.5955 & -0.0112 [-0.0592, +0.0373]\\
+\bottomrule\end{tabular}\end{table}

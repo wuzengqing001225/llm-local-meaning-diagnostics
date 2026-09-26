@@ -1,0 +1,21 @@
+{
+  "status": "source_only_forum_title_excerpt_preflight_not_formal_B",
+  "n_glossary_candidates": 53,
+  "screened_rows": 25,
+  "n_forum_questions": 240,
+  "n_with_two_plus": 0,
+  "match_distribution": {
+    "0": 225,
+    "1": 15
+  },
+  "glossary_source_hashes": {
+    "gitlab_support.html": "b61f0f055e6d339c80475f08d484d9b7067616c2118f49dcc1379100a2cab350",
+    "gitlab_licensing.html": "ca74d94178e891d73b1415d272a34dd78ee9d18295be762e8a7791636a069456"
+  },
+  "question_snapshot_hash": "819867a61202143266194f06186929a0e962e2c4ec5c020cd66f5e209174d5f7",
+  "limitations": [
+    "Some full descriptions still need source review and may depend on linked policy text.",
+    "Forum title/excerpt is not full original post; matcher counts are provisional.",
+    "Forum replies are not vetted answer keys."
+  ]
+}

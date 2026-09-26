@@ -1,0 +1,308 @@
+[
+  {
+    "task": {
+      "contract_index": 167,
+      "definition_id": "cuadfull:167:Territory",
+      "gold": "A",
+      "group": "control",
+      "id": "cuadfull:167:Territory:B6",
+      "kind": "control",
+      "mapping": "14 April 2025 is after 11 April 2025, not before it. Classification of the display under Territory is irrelevant to this date comparison.",
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "ordinary_answer": null,
+      "question": "An email titled 'Territory review: silk scarf display' was sent by Elena Ortiz to Marcus Chen on 14 April 2025 and records delivery of the display on 11 April 2025. Was the email sent before the recorded delivery date?",
+      "source_answer": "no",
+      "status": "provisional_model_checked_not_human_gold",
+      "term": "Territory"
+    },
+    "responses": {
+      "forced_bare": {
+        "arm": "forced_bare",
+        "content": "A",
+        "elapsed_seconds": 0.5985820000059903,
+        "finish_reason": "stop",
+        "prediction": "A",
+        "provider_response_id": "464bd88d-f4ab-47e8-8abd-45b93556899e",
+        "request_id": "dbcc89d697a0f6dc146697689553339649ca925e0879f0f732f945f1d6682ed0",
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "role": "deepseek",
+        "settings": {
+          "max_tokens": 64,
+          "model": "deepseek-flash",
+          "temperature": 0,
+          "thinking": {
+            "type": "disabled"
+          }
+        },
+        "status": "provisional_development_only",
+        "task_id": "cuadfull:167:Territory:B6",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 95,
+          "prompt_tokens": 95,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 96
+        }
+      },
+      "forced_definition": {
+        "arm": "forced_definition",
+        "content": "B",
+        "elapsed_seconds": 0.6192535419831984,
+        "finish_reason": "stop",
+        "prediction": "B",
+        "provider_response_id": "cc391251-9c0b-4aba-814a-5017b7611b62",
+        "request_id": "824742fe1888beac9e490c230440da8e5598301952c44df6ddd7631b3517a2c6",
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "role": "deepseek",
+        "settings": {
+          "max_tokens": 64,
+          "model": "deepseek-flash",
+          "temperature": 0,
+          "thinking": {
+            "type": "disabled"
+          }
+        },
+        "status": "provisional_development_only",
+        "task_id": "cuadfull:167:Territory:B6",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 163,
+          "prompt_tokens": 163,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 164
+        }
+      },
+      "abstain_bare": {
+        "arm": "abstain_bare",
+        "content": "A",
+        "elapsed_seconds": 0.6017075420240872,
+        "finish_reason": "stop",
+        "prediction": "A",
+        "provider_response_id": "8a5b9ddc-453d-4df0-96d2-08f7c46330c3",
+        "request_id": "1c51cc7cd47c55d0a4fb0b35a15a8692e747f36e8db7b536c34762864501dab9",
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "role": "deepseek",
+        "settings": {
+          "max_tokens": 64,
+          "model": "deepseek-flash",
+          "temperature": 0,
+          "thinking": {
+            "type": "disabled"
+          }
+        },
+        "status": "provisional_development_only",
+        "task_id": "cuadfull:167:Territory:B6",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 114,
+          "prompt_tokens": 114,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 115
+        }
+      },
+      "abstain_definition": {
+        "arm": "abstain_definition",
+        "content": "A",
+        "elapsed_seconds": 0.7461805830243975,
+        "finish_reason": "stop",
+        "prediction": "A",
+        "provider_response_id": "2eef03fc-1e66-4e09-a44c-62e8b940e977",
+        "request_id": "5920d7a8dfad32896caa7727647c88b2770de3d848ed2381b7b92745243e45a5",
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "role": "deepseek",
+        "settings": {
+          "max_tokens": 64,
+          "model": "deepseek-flash",
+          "temperature": 0,
+          "thinking": {
+            "type": "disabled"
+          }
+        },
+        "status": "provisional_development_only",
+        "task_id": "cuadfull:167:Territory:B6",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 182,
+          "prompt_tokens": 182,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 183
+        }
+      }
+    },
+    "parser_error": false,
+    "mechanism_confirmed": false,
+    "provisional_description": "irrelevant-context-associated date comparison error"
+  },
+  {
+    "task": {
+      "contract_index": 85,
+      "definition_id": "cuadfull:85:Confidential Information",
+      "gold": "A",
+      "group": "undetermined",
+      "id": "cuadfull:85:Confidential Information:B2",
+      "kind": "application",
+      "mapping": "The formula is marked technical proprietary information. The later-public-domain exception does not apply because publication resulted from the receiving party's unauthorized act. The confidentiality obligation therefore still prohibits the proposed customer disclosure.",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "ordinary_answer": "undetermined",
+      "question": "Vale Chemicals gave contract counterparty Harbor Process a proprietary, nonpublic catalyst formula in a writing marked \"Confidential\" on June 3, 2025. Harbor had neither previously possessed nor independently developed the formula and had no other source for it. Harbor then deliberately published the formula on a public website on June 10 without Vale's permission. No law requires disclosure. On June 12, does the agreement's obligation not to divulge Confidential Information still prohibit Harbor from emailing the formula to a customer?",
+      "source_answer": "yes",
+      "status": "provisional_model_checked_not_human_gold",
+      "term": "Confidential Information"
+    },
+    "responses": {
+      "forced_bare": {
+        "arm": "forced_bare",
+        "content": "A",
+        "elapsed_seconds": 0.5245872919913381,
+        "finish_reason": "stop",
+        "prediction": "A",
+        "provider_response_id": "200cac49-3b68-49e2-bdba-72e999f7be9a",
+        "request_id": "84fa959a9c3e70e2d9ad2fcf6b954705e5acfc02fc0185f7575ccd26c143f720",
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "role": "deepseek",
+        "settings": {
+          "max_tokens": 64,
+          "model": "deepseek-flash",
+          "temperature": 0,
+          "thinking": {
+            "type": "disabled"
+          }
+        },
+        "status": "provisional_development_only",
+        "task_id": "cuadfull:85:Confidential Information:B2",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 146,
+          "prompt_tokens": 146,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 147
+        }
+      },
+      "forced_definition": {
+        "arm": "forced_definition",
+        "content": "B",
+        "elapsed_seconds": 0.4422855419688858,
+        "finish_reason": "stop",
+        "prediction": "B",
+        "provider_response_id": "1c1eb4dc-4132-4622-85ab-314e3bfd6612",
+        "request_id": "cbb0384a09ec3fa5c39fc1e44ecf7a1b71160124bf687644414befc66b766b07",
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "role": "deepseek",
+        "settings": {
+          "max_tokens": 64,
+          "model": "deepseek-flash",
+          "temperature": 0,
+          "thinking": {
+            "type": "disabled"
+          }
+        },
+        "status": "provisional_development_only",
+        "task_id": "cuadfull:85:Confidential Information:B2",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_cache_hit_tokens": 256,
+          "prompt_cache_miss_tokens": 249,
+          "prompt_tokens": 505,
+          "prompt_tokens_details": {
+            "cached_tokens": 256
+          },
+          "total_tokens": 506
+        }
+      },
+      "abstain_bare": {
+        "arm": "abstain_bare",
+        "content": "A",
+        "elapsed_seconds": 0.7078766250051558,
+        "finish_reason": "stop",
+        "prediction": "A",
+        "provider_response_id": "7d977a0e-e36e-4174-8de5-9ab1dd477ccd",
+        "request_id": "e4f7f9c0bfd0b868c94622abf9b3ca8f76aa5c6142ff0e709262956163f8b3a8",
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "role": "deepseek",
+        "settings": {
+          "max_tokens": 64,
+          "model": "deepseek-flash",
+          "temperature": 0,
+          "thinking": {
+            "type": "disabled"
+          }
+        },
+        "status": "provisional_development_only",
+        "task_id": "cuadfull:85:Confidential Information:B2",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 165,
+          "prompt_tokens": 165,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 166
+        }
+      },
+      "abstain_definition": {
+        "arm": "abstain_definition",
+        "content": "B",
+        "elapsed_seconds": 0.8643297500093468,
+        "finish_reason": "stop",
+        "prediction": "B",
+        "provider_response_id": "36fbb7e1-585f-4424-bdfd-af4852812338",
+        "request_id": "63d4e79827db6e1faa8f46d3dd1e4bcfcec45227ff73c98aff3fccfeffc0535a",
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "role": "deepseek",
+        "settings": {
+          "max_tokens": 64,
+          "model": "deepseek-flash",
+          "temperature": 0,
+          "thinking": {
+            "type": "disabled"
+          }
+        },
+        "status": "provisional_development_only",
+        "task_id": "cuadfull:85:Confidential Information:B2",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_cache_hit_tokens": 128,
+          "prompt_cache_miss_tokens": 396,
+          "prompt_tokens": 524,
+          "prompt_tokens_details": {
+            "cached_tokens": 128
+          },
+          "total_tokens": 525
+        }
+      }
+    },
+    "parser_error": false,
+    "mechanism_confirmed": false,
+    "provisional_description": "error in application of confidentiality exceptions; do not infer hidden reasoning from single-letter output"
+  }
+]

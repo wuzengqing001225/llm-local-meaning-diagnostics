@@ -1,0 +1,15 @@
+{
+  "status": "B_frozen_before_readers",
+  "n_tasks": 81,
+  "n_rules": 15,
+  "sha256": {
+    "A_freeze.json": "6c0d059fc2b853e409fe2fe44956fe4dff48fb7714dec36709695bb2c2143b31",
+    "A_rule_scores.jsonl": "793063bb9077ef1e21e291acdcd7ea65651f33f7892d8908e822e220efcb326d",
+    "cards_for_A.jsonl": "aae9629c601835739229ba926cd134ca80ab570291c1e10a804fd879547ece62",
+    "tasks_public.jsonl": "2710cbe81f3d4d56b152e5b04fe13d61362fdbf499b32ab14376c2bf321b8866",
+    "tasks_private.jsonl": "5c0925c95aa95df6d8e23852542eeac824dcb3a788abd4b247df3bdca703fafd",
+    "B_quality_decisions.jsonl": "0efaf6bfdf8e9762d122e0badeb9cd34b60f632450c1117f5838f8ffc2ba44c5",
+    "B_usual_labels.jsonl": "3732eed46a62c8b5e9ee4be6193e8be198b1312fb1d309d9ccc6cd8c47045dca",
+    "protocol.md": "cd3abe85afcfe48bcaa96e18cf2dd5f7ef6302133f69ab63d6beba02a791f43f"
+  }
+}

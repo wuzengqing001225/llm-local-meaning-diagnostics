@@ -1,0 +1,49 @@
+{
+  "status": "source_field_and_archived_prompt_mapping_audit",
+  "groups": {
+    "synthetic_diagnostic": {
+      "n_records": 198,
+      "n_auto_gloss_source": 198,
+      "n_used_equal_to_source_gold": 0,
+      "source_sha256": "1ef93962814bddf7c55327178aad71310b8b82337171620d35d20d0c3878ced8"
+    },
+    "reddit_diagnostic": {
+      "n_records": 393,
+      "n_auto_gloss_source": 393,
+      "n_used_equal_to_source_gold": 0,
+      "source_sha256": "b0f001718a2ca192c9373c6f7f0887fa2c2b4b4631b67b015b081b43cec54ed8"
+    },
+    "defi_diagnostic": {
+      "n_records": 98,
+      "n_auto_gloss_source": 98,
+      "n_used_equal_to_source_gold": 0,
+      "source_sha256": "659a0f83a611dfc8a0bc3ab85c8da17fa67e68962d7375774b5e7da8a1822eaa"
+    },
+    "cuad_small_diagnostic": {
+      "n_records": 204,
+      "n_auto_gloss_source": 204,
+      "n_used_equal_to_source_gold": 0,
+      "source_sha256": "e0cc4b8e4e52e324b50d73f761da2eaad5d117e5ecdda0334d02360ef93ff201"
+    },
+    "cuad_small_recovered_671": {
+      "n_questions": 671,
+      "proxy_and_reader_glossC": "automatically_drafted",
+      "reader_glossG": "original_contract_definition",
+      "n_C_equal_G": 0,
+      "n_correctness_C_differs_G": 57,
+      "accuracy": {
+        "bare": 0.7719821162444114,
+        "glossC": 0.9031296572280179,
+        "glossG": 0.9821162444113264
+      },
+      "source_sha256": "85b9061ae04b9701c96b53012f541173081cd963d51413cbe92689dffed5b1f5"
+    },
+    "cuad_full_library": {
+      "n_extracted_term_records": 2174,
+      "definition_field": "def_raw_from_contract",
+      "proxy_and_T2_reader_source": "t1_terms/t2_terms derived from def_raw; T2 reader invoked without weights",
+      "term_source_sha256": "eef610714906683b0ea09b948e154f1aabc5a730b1e5e304729a6896a5b24685"
+    }
+  },
+  "distinction": "The full 1500-question CUAD library uses original contract definitions. The separate 671-question small CUAD set scores and reports glossC from an automatic rewrite; its glossG arm supplies original contract text."
+}

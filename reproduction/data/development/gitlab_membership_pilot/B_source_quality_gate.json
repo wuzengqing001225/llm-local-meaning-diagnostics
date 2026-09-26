@@ -1,0 +1,7 @@
+{
+  "status": "REJECTED_BEFORE_SOURCE_CHECK_OR_READERS",
+  "n_draft_candidates": 12,
+  "reason": "All candidates reuse the same membership-counting template and reveal direct membership with 'member of target itself' wording.",
+  "source_checker_calls": 0,
+  "reader_calls": 0
+}

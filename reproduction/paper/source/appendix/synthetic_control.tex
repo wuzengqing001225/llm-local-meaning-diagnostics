@@ -1,0 +1,16 @@
+\paragraph{Designed-class control for mechanism specificity.}\label{app:synthetic-control}
+The synthetic vocabulary assigns terms to prior-conflict, prior-consistent, and no-ordinary-prior classes before generating diagnostic questions. Table~\ref{tab:synthetic-control} evaluates $R$ against reader bare errors separately in each class, with term-record bootstrap intervals. The score ranks errors in the prior-consistent class, where a conflicting usual meaning was not designed into the term. It also ranks errors for terms with no ordinary prior. These findings show that the observed error-ranking performance is not specific to meaning conflict. The classes are synthetic design labels, not independent diagnoses of each error, and the GPT-6-astra prior-consistent row has only six errors.
+
+\begin{table}[h]\centering\small
+\caption{Error-ranking $R$ by designed synthetic term class. Reader cells give errors, AUROC [95\% CI]. Both readers answer the same 456 questions. Intervals resample term records.}
+\label{tab:synthetic-control}
+\begin{tabular}{@{}lrrr@{}}\toprule
+Class & Questions & DeepSeek V4 Flash & GPT-6-astra\\\midrule
+Prior conflict & 156 & 69, 0.803 [0.739, 0.864] & 57, 0.777 [0.697, 0.854]\\
+Prior consistent & 142 & 21, 0.921 [0.870, 0.966] & 6, 0.846 [0.710, 0.993]\\
+No ordinary prior & 158 & 40, 0.779 [0.704, 0.849] & 20, 0.720 [0.629, 0.819]\\\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Reddit non-glossary controls.}
+The Reddit workload also contains 540 questions attached to terms outside the community glossary. DeepSeek V4.1 Flash has 0.235 bare-error rate and $R$ AUROC 0.842 on these controls, versus 0.343 and 0.781 on 851 glossary-term questions. GPT-6-astra has corresponding control values 0.143 and 0.815, versus 0.148 and 0.659 on glossary terms. The non-glossary terms are a useful difficulty reference, but absence from the collected glossary does not prove absence of every local sense. The separate source audit also finds substantial Reddit question-answerability uncertainty.

@@ -1,0 +1,10 @@
+{
+  "status": "second_source_only_reserve_before_formal_A_or_B_outcomes",
+  "reason": "Only 83 challenge programs were accept/revise after two automated source checks; reserve candidates before any formal A/B reader result.",
+  "parent_frame_sha256": "f0435f3ced72bc619898d979d26a288f13365cacee759068bd6d45939b6ddf4d",
+  "first_topup_sha256": "e6e8ad42e994d048e47f7da788d995dc8228d82b09861e8676e3c750b4ee850a",
+  "source_audit_sha256": "b17efcf78202bde7e60210c3f21b2327dd3e528dca5a82f4a0e1458c487fb121",
+  "n_candidates": 160,
+  "n_contracts": 88,
+  "caveat": "Source-only candidates; model triage, rule-program checks and human review remain."
+}

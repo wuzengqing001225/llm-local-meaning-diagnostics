@@ -1,0 +1,94 @@
+{
+  "model": "Qwen/Qwen2.5-3B",
+  "revision": "3aab1f1954e9cc14eb9509a215f9e5ca08227a9b",
+  "labels": [
+    {
+      "letter": "A",
+      "variants": [
+        {
+          "spelling": "A",
+          "ids": [
+            32
+          ],
+          "single_token": true,
+          "first_token_decoded": "A"
+        },
+        {
+          "spelling": " A",
+          "ids": [
+            362
+          ],
+          "single_token": true,
+          "first_token_decoded": " A"
+        }
+      ]
+    },
+    {
+      "letter": "B",
+      "variants": [
+        {
+          "spelling": "B",
+          "ids": [
+            33
+          ],
+          "single_token": true,
+          "first_token_decoded": "B"
+        },
+        {
+          "spelling": " B",
+          "ids": [
+            425
+          ],
+          "single_token": true,
+          "first_token_decoded": " B"
+        }
+      ]
+    },
+    {
+      "letter": "C",
+      "variants": [
+        {
+          "spelling": "C",
+          "ids": [
+            34
+          ],
+          "single_token": true,
+          "first_token_decoded": "C"
+        },
+        {
+          "spelling": " C",
+          "ids": [
+            356
+          ],
+          "single_token": true,
+          "first_token_decoded": " C"
+        }
+      ]
+    },
+    {
+      "letter": "D",
+      "variants": [
+        {
+          "spelling": "D",
+          "ids": [
+            35
+          ],
+          "single_token": true,
+          "first_token_decoded": "D"
+        },
+        {
+          "spelling": " D",
+          "ids": [
+            422
+          ],
+          "single_token": true,
+          "first_token_decoded": " D"
+        }
+      ]
+    }
+  ],
+  "all_variants_single_token": true,
+  "cross_letter_first_token_collisions": [],
+  "old_first_token_assumption_passes": true,
+  "note": "Passing this check does not validate model identity, calibration, or equivalence of max-over-spellings versus full-sequence scoring."
+}

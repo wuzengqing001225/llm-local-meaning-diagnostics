@@ -1,0 +1,33 @@
+\paragraph{Question-independent meaning difference.}\label{app:meaning-difference}
+We separately measure how unlike a local definition is from a model's prior gloss of the term. The uncontextualized distance is $1-\cos(e(d_{\mathrm{source}}),e(g_{\mathrm{prior}}))$, where $e$ is the reported BAAI/bge-base-en-v1.5 sentence encoder \citep{bge}. A second distance uses the model's domain-conditioned prior gloss. Model self-report scores ask whether the term has a special use in the corpus, and model-assigned relation labels include \emph{none}, \emph{narrower}, and \emph{shifted}. These measurements do not use a diagnostic question. For contrast, we also show a term-mean comparison of an automatically drafted local gloss against an elicited prior gloss, together with term-mean $\Delta p$ and $R$. Those three scores do use diagnostic questions. Distances are unavailable when the model returned an unknown prior gloss.
+
+\begin{table}[h]\centering\small
+\caption{Distinguishing designed redefinitions from usual-meaning terms in the synthetic vocabulary, after excluding one source-definition-conflicted term. Each score uses all available terms for that score. Coverage differs and point estimates should not be ranked as if measured on one common sample. The class label was fixed by construction.}
+\label{tab:term-difference-synthetic}
+\begin{tabular}{@{}lccc@{}}\toprule
+Term score & Uses questions? & Terms (shifted / consistent) & Class AUROC\\\midrule
+No-context definition distance & No & 66 (38 / 28) & 0.946\\
+Domain-prior definition distance & No & 157 (118 / 39) & 0.977\\
+Model self-report & No & 79 (40 / 39) & 0.984\\
+Drafted-local/prior answer contrast & Yes & 78 (40 / 38) & 0.917\\
+Mean $\Delta p$ & Yes & 78 (40 / 38) & 0.783\\
+Mean $R$ & Yes & 78 (40 / 38) & 0.817\\\bottomrule
+\end{tabular}
+\end{table}
+
+The strong synthetic separation is a positive control for a deliberately designed semantic contrast, not an estimate of real-corpus misreading. To compare a source-definition distance with reader behaviour, we use only the archived reader arm that supplied that same source definition, \texttt{glossG}. A term's repair rate is the fraction of its historical questions answered wrongly without a definition and correctly with \texttt{glossG}. This term-level outcome uses a median of four questions per term. The automatically drafted \texttt{glossC} arm would compare a different intervention text and is excluded from this alignment.
+
+\begin{table}[h]\centering\small
+\caption{Spearman association of question-independent term scores with source-definition repair rate. Parentheses give available terms. Distance confidence intervals resample term records. There is no aligned \texttt{glossG} reader arm for this 204-term CUAD package. Only 54 terms have an uncontextualized prior gloss.}
+\label{tab:term-difference-repair}
+\begin{tabular}{@{}lccc@{}}\toprule
+Corpus & No-context distance [95\% interval] & Domain-prior distance & Self-report\\\midrule
+Synthetic & $0.452$ $[0.260,0.602]$ (65) & $0.300$ (186) & $0.465$ (118)\\
+Reddit & $0.181$ $[0.046,0.303]$ (211) & $0.095$ (217) & $0.166$ (217)\\
+DeFi & $-0.087$ $[-0.361,0.186]$ (57) & $0.101$ (64) & $-0.237$ (64)\\\bottomrule
+\end{tabular}
+\end{table}
+
+The direct version-aligned test of the proposed term-level link uses the Reddit proxy's archived scores with the exact community entry. On 209 terms with 418 A questions, no-context distance has Spearman correlation $0.188$ with the term's mean source-definition $\Delta p$, with a term-bootstrap interval $[0.047,0.323]$. This is a weak positive association, not evidence that meaning difference is absent. It cannot identify which future question falls on a decision boundary. Both this proxy test and the repair test still use historical model-drafted questions, and the separate source audit finds substantial answerability uncertainty for Reddit and DeFi.
+
+Model-assigned relation labels also give weak and inconsistent repair separation on the source-definition arm. Among Reddit glossary terms, 186 labelled \emph{narrower} or \emph{shifted} have mean repair rate 0.292, versus 0.266 for 31 labelled \emph{none}. The term-level repair AUROC is 0.531. In DeFi, the corresponding rates are 0.227 versus 0.333 over 32 terms per group, with AUROC 0.411. These are model-assigned lexical relations, not independent annotations of the three situations in Table~\ref{tab:cases}. A single text distance cannot by itself tell whether a use involves meaning conflict, an unspecified local scope, or missing information elsewhere. The synthetic reader-aligned text pairs and embedding script are retained, and the other source/prior texts remain in the archived weights. The exact BGE revision and embedding vectors are not, so exact bitwise reproduction of the cosine values is not guaranteed. The reported associations and source-aligned reader outcomes are reproducible from the archived scores.

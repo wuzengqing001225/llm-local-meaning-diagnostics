@@ -1,0 +1,14 @@
+{
+  "status": "source_only_challenge_reserve_frozen_before_formal_A_or_B_outcomes",
+  "reason": "Plan two additional clean candidates per challenge contract if initial source-only eligibility yield is insufficient for planned rule count.",
+  "parent_frame_sha256": "f0435f3ced72bc619898d979d26a288f13365cacee759068bd6d45939b6ddf4d",
+  "parent_manifest_sha256": "2fd9490d74044b2f412f90e5a80cb678a8253968464ea4f4ca8dedcbce89d829",
+  "source_audit_sha256": "b17efcf78202bde7e60210c3f21b2327dd3e528dca5a82f4a0e1458c487fb121",
+  "n_candidates": 225,
+  "n_contracts": 123,
+  "priority_counts": {
+    "ordinary": 187,
+    "boundary_possible": 38
+  },
+  "caveat": "This is a reserve source frame, not accepted source rules or B tasks."
+}

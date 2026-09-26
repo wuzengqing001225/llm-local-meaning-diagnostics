@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-09-23T10:37:40.472958+00:00",
+  "snapshot_id": "d173a2df377e5b7c5d9f87a314e2a92d0dc7c8175684defbcc02982f6333d0dd",
+  "authoring_input_hash": "381d6ee077080ac486d185d16a298b971de228476b10d4e04db53f647be963a7",
+  "files": {
+    "tasks_public.jsonl": "ee9dde20d3dd94b6ff17513a50225b41175b2764932540772048ab20feb696d9",
+    "gold_private.jsonl": "d613e260a8f8bd4c60b85ebb5023668cca343c2d9447d300f036b25cf9a474bb",
+    "review_report.json": "f5bd98bf896cde5bd01ae25bde80193a0389a9549cfbde4aab247c3c35a3a208"
+  },
+  "task_bundle_id": "f648f7182ca099fa65ec0e6e549245513dc8ecda528a4307368dfbb6f9d2ccdf"
+}

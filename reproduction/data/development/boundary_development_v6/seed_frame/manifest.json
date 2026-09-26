@@ -1,0 +1,16 @@
+{
+  "status": "ten_rule_world_fact_pilot_frozen_before_target_reader_outcomes",
+  "n_rules": 10,
+  "n_membership": 30,
+  "n_controls": 10,
+  "new_development_contract_indices": [
+    21,
+    152,
+    187,
+    254,
+    450
+  ],
+  "source_note": "Five previously human-reviewed development rules plus five source-only model-screened rules manually encoded for this pilot; no formal gold claim.",
+  "draft_visibility": "term and concrete world_fact only; no definition, hidden predicate, source key, A question or A score",
+  "caveat": "This source-chosen challenge pilot cannot estimate natural user traffic frequency."
+}

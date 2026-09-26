@@ -1,0 +1,9 @@
+{
+  "created_before_B": true,
+  "files": {
+    "corpus.json": "93574e374efa49dffe41463cc57b0be319cb3072dcac15ebc5e22ca8e4e3247f",
+    "diagnostics_A.jsonl": "5989a7a73eb01e5736a31517e16842363c750782f0440dd4643faf2388cdd506",
+    "scores_A.jsonl": "0f2ae1dad918ea015b2d3569012a1258c94a49d2835baac7539701c03fc5870d"
+  },
+  "created_at": "2026-09-23T10:12:06.414098+00:00"
+}

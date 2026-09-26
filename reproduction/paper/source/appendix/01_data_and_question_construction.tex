@@ -1,0 +1,48 @@
+\section{Data and question construction}
+\label{app:sources}
+Diagnostic questions are generated from source passages and local definitions. A question specifies an option set and a source-grounded answer key. These keys support behavioural measurement but do not constitute expert adjudication of every application scenario. The supplementary inventory distinguishes question-level results from term-level means and keeps separate task versions separate.
+
+\paragraph{Synthetic vocabulary.}
+The source design uses invented trading-desk and restaurant-group vocabulary. Categories and local definitions are specified before text generation, and the diagnostic intervention uses a model-drafted gloss derived from the source. The archived uncertainty experiment contains 763 questions from 197 nonempty term records. Excluding two questions affected by a source-definition conflict leaves 761 for analysis. The archived 7B proxy overlap has 457 questions from 119 records. Excluding its one affected question leaves 456. The usage-based inline experiment contains 965 questions. Frequency is deliberately varied in the synthetic design, so rarity comparisons concern that design rather than a natural corpus distribution.
+
+\paragraph{CUAD.}
+The source corpus contains 510 contracts. Extraction retains 2,174 term records in 303 contracts and identifies 24,880 candidate occurrences. Question drafting and per-term caps yield a 6,529-question scored frame. The stratified validation sample contains 1,500 questions in 1,012 term records and 215 contracts. A separate definition-anchored task contains 671 questions in 187 terms. These task sets have different construction rules and are analysed separately.
+
+The introductory example is record \texttt{cuadfull:379:Trademarks}, question at context index 2. Its definition restricts Trademarks to the trademarks and trade names identified in Exhibit~A. The usage requires the distributor to notify the manufacturer of unauthorized use of the Trademarks, so the notification duty covers only the listed names.
+
+\paragraph{Reddit.}
+The data contain 393 term records, of which 352 have questions. The 1,391 retained questions span 35 communities. The RAG workload contains 851 glossary-word questions and 540 control-word questions. All 393 stored diagnostic \texttt{gloss\_used} fields are marked as model drafted. Among the 218 glossary terms with a source entry, none of these drafted texts equals \texttt{gloss\_gold}. Controls need not have a source entry. A comparison involving \texttt{gloss\_used} therefore measures that rewrite, not the community source entry alone.
+
+\paragraph{DeFi.}
+The set contains 379 questions from 97 nonempty term records. It tests technical vocabulary in DeFi documentation. All 98 stored candidate glosses are model drafted and differ from the recorded source glosses. Official model cards give knowledge cutoffs of February 16, 2026 for \texttt{gpt-5.6-terra} and April 30, 2026 for \texttt{gpt-6-astra} \citep{openai-gpt56-terra-model,openai-gpt6-astra-model}. The collected documentation snapshot contains later file dates, but each term links a median of 18 documents and questions have no verified first-publication date for their answer-bearing rule. Uniswap v4 and Unichain were public in 2025 \citep{uniswap-v4-launch,unichain-launch}. Thus the GPT readers' $R$ AUROCs of 0.792 and 0.764 measure cross-reader error ranking on these questions. They do not rule out knowledge of earlier documentation or prove that answers were not memorized. The analysis does not depend on an assumption that this material was absent from model training.
+
+\paragraph{Question and answer-key validity.}\label{app:source-screen}
+A fixed SHA-256 rule selected 20 historical questions from each corpus before comparing any new answers with the stored keys. Reddit was split evenly between its ordinary question frame and a frozen strategy-disagreement frame. This 10/10 split is not a natural prevalence estimate. DeepSeek V4.1 Flash and Claude Sonnet 5 independently read the same source cards and question-only excerpts from linked documents. Both were run without explicit reasoning. DeepSeek used temperature zero and a 550-token output cap. Sonnet 5 rejected temperature zero, so its host used the provider default and a 1,000-token cap. All 80 Sonnet responses ended normally, but its host did not expose provider response IDs. The models saw neither the stored key nor reader outcomes. Long contracts and DeFi documents were excerpted, and the Reddit archive preserves glossary entries and selected comments rather than every complete original post.
+
+\begin{table}[h]\centering\small
+\caption{Model source screening on 20 questions per corpus. ``Both key'' means both models gave a unique source-supported answer matching the stored key. ``Both other'' means they agreed on another answer. ``Split answer'' means two supported but different answers. ``One supported'' means one model judged the source sufficient and the other did not. ``Neither supported'' includes insufficient or ambiguous evidence. These are screening categories, not expert answer-key error rates.}
+\label{tab:source-screen}
+\begin{tabular}{@{}lrrrrr@{}}\toprule
+Corpus & Both key & Both other & Split answer & One supported & Neither supported\\\midrule
+Synthetic & 18 & 0 & 0 & 1 & 1\\
+CUAD & 13 & 1 & 1 & 4 & 1\\
+Reddit & 3 & 0 & 0 & 3 & 14\\
+DeFi & 5 & 0 & 0 & 7 & 8\\\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Human source review.}
+From the 80 fixed-hash questions, an author answered 27 from the available source before seeing the stored key. Seventeen were model-screen disagreement cases; ten were sampled within corpus and screen categories. The author selected an option on 11 and marked 16 undetermined. A different letter was not automatically counted as a key error: the local definition supports the stored key in some such cases. Subsequent source reconciliation, conducted after viewing the key, produced Table~\ref{tab:review}; it is not an independent blinded second annotation and yields no agreement coefficient.
+\input{appendix/table_human_review.tex}
+The reviewed defects include a redacted exhibit needed to determine a manufacturer's duty, an item with literal A/B/C/D placeholders as its options, a mandatory-removal question where the contract permits removal, and a blocked-swap status with two possible causes. In one CUAD item the stored option names user guides and technical manuals as rights not granted, although the contract explicitly grants rights to Documentation; the item was removed rather than rekeyed using probabilities computed for the old answer. Conversely, the community entries for \emph{Fill}, \emph{Burst}, and \emph{Standard} can resolve constructed Reddit scenarios without an archived post describing that exact scenario. These distinctions require source reading rather than equating an author-model disagreement with a wrong key.
+\input{appendix/table_validity_sensitivity.tex}
+Removing the 14 clearly invalid or source-insufficient reviewed items changes $R$ error-ranking AUROC by at most 0.00203 and same-question repair $\Delta p$ AUROC by at most 0.00601 across the eight matched settings. CUAD design-weighted $R$ AUROC changes from 0.8456 to 0.8467, and the corrected synthetic repeated-sampling count remains 93 identical wrong answers among 229 greedy errors. Removing the three borderline items as well has little effect on these point estimates. The 17 targeted items and ten stratified controls are not a random draw from all historical questions; their category counts are not defect rates. Most historical questions remain unreviewed, and this local deletion check cannot validate them. The 24 items in the original 80 for which neither screening model found a source-supported unique answer remain unresolved rather than being treated as wrong keys.
+
+\paragraph{Definition version by CUAD task.}
+The 1,500-question CUAD library builds its proxy and reader definition arm from \texttt{def\_raw}, the extracted contract wording. The distinct 671-question definition-anchored CUAD package instead has an automatically drafted \texttt{glossC} arm and a separate original-contract \texttt{glossG} arm. All 204 small-package term records mark \texttt{gloss\_used} as drafted and different from the source entry. Archived per-question prompts confirm that all 671 \texttt{glossC} notes match the drafted text and all 671 \texttt{glossG} notes match the original-contract text. These CUAD tasks must not be described as one common definition intervention.
+
+\input{appendix/setting_design.tex}
+\input{appendix/synthetic_control.tex}
+\input{appendix/reader_difficulty.tex}
+\input{appendix/signals_by_class.tex}
+

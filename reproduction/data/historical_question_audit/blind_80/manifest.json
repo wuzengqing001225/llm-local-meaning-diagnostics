@@ -1,0 +1,40 @@
+{
+  "status": "BLIND_BEFORE_HUMAN_ANSWERS",
+  "selection_seed": "LLM-IDF-human-source-audit-v1-2026-09-26",
+  "algorithm": "SHA256(seed, corpus, source-question-id), ascending within five preregistered strata",
+  "frame_counts": {
+    "synthetic": 456,
+    "reddit_general": 1273,
+    "reddit_disagreement": 118,
+    "defi": 379,
+    "cuad": 1500
+  },
+  "sample_counts": {
+    "synthetic": 20,
+    "reddit_general": 10,
+    "reddit_disagreement": 10,
+    "defi": 20,
+    "cuad": 20
+  },
+  "input_sha256": {
+    "synthetic_proxy": "cec27c03da072979bcb618c7a01fd1ab27d08b167e14f26915e941e54b3299bc",
+    "synthetic_reader": "46e317f5d71f60bc5aa1ab15c4d05d9ff0f32f040348b819c04e9b0990e47100",
+    "synthetic_terms": "eb59c354b0f0c89dfe9a9c3cd8dd3a2ca7c2111183b8ccdb87835954407e5dff",
+    "reddit_proxy": "c98aff9dfd7316203a27fd491cb8a46cd9e6f06b6703c6ab37270e7f3b1203ae",
+    "reddit_reader": "90bfb1a2b128fbb51479b783177bd17b79feedc71b49f24834536b68fbadce43",
+    "reddit_terms": "6bc33b078d95568270dd05bb9ad0760ddf91110ca419bc9284138c0f246b04e5",
+    "defi_proxy": "579fedcbe0c06a8502637308362407982d29e4e521393136b36191fb8913e208",
+    "defi_reader": "55e9706e9f52193018f0a50171f8946acca30fba5a0877b058a7bd4834cdbae5",
+    "defi_terms": "95e4da7492b8d4f30e95c0fbae80431593b86c51133b483066b46e167fa40c25",
+    "defi_corpus": "872a2dfae2910f2fdafbedc9ff847511f9c67310596e36eab922ae2e3456a6e6",
+    "cuad_proxy": "650fdd6583369bb398f512e2e9442e7d036705496abba443f84cd4e5746f1157",
+    "cuad_reader": "46798556ed7f14846d5878e9427fa290eb7c332c295a60b254c6e9015493d6b9",
+    "cuad_terms": "eef610714906683b0ea09b948e154f1aabc5a730b1e5e304729a6896a5b24685",
+    "cuad_full": "ed0b77d85bdf4014d7495800e8e4a70565b48ee6f8a2e5dca9cf8655dbf10eae",
+    "disputed": "71d763922bb5c9a5d4d11ca894ac3245c9322bfa3991cf8401e730dc89052781"
+  },
+  "selected_questions_sha256": "6f5297e526f6f8cec379bdf7dfd8cbd496781c01a7745e4be6a71642d97003b0",
+  "selected_source_ids_commitment_sha256": "ec4581bd0bceaf8b4957743c07fb190023f864588e540a5cbbe41c1364214667",
+  "keys_or_reader_outcomes_in_blind_packet": false,
+  "scope": "Historical model-drafted questions; source audit, not a new downstream result"
+}

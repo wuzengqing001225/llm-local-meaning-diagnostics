@@ -1,0 +1,125 @@
+{
+  "interpretation": "Descriptive leave-one-A-out sensitivity, not independent-sample confidence intervals",
+  "rules": [
+    {
+      "definition_id": "cuadfull:216:Regulatory Approval",
+      "mean_dp": 0.12275912861029308,
+      "leave_one_out_mean_min": 0.07452945709228516,
+      "leave_one_out_mean_max": 0.15086267590522767,
+      "single_A_dp_min": -0.017758607864379883,
+      "single_A_dp_max": 0.36390748620033264
+    },
+    {
+      "definition_id": "cuadfull:268:Regulatory Approval",
+      "mean_dp": 0.12441536287466685,
+      "leave_one_out_mean_min": 0.08358015418052674,
+      "leave_one_out_mean_max": 0.14891801476478578,
+      "single_A_dp_min": 0.0019021034240722656,
+      "single_A_dp_max": 0.32859140634536743
+    },
+    {
+      "definition_id": "cuadfull:332:Copyrights",
+      "mean_dp": 0.12848641723394394,
+      "leave_one_out_mean_min": 0.05827564299106598,
+      "leave_one_out_mean_max": 0.17422704696655272,
+      "single_A_dp_min": -0.10021673142910004,
+      "single_A_dp_max": 0.47954028844833374
+    },
+    {
+      "definition_id": "cuadfull:30:Force Majeure",
+      "mean_dp": 0.13148260613282522,
+      "leave_one_out_mean_min": 0.09904713034629822,
+      "leave_one_out_mean_max": 0.17195640206336976,
+      "single_A_dp_min": -0.07088637351989746,
+      "single_A_dp_max": 0.2936599850654602
+    },
+    {
+      "definition_id": "cuadfull:168:Third Party",
+      "mean_dp": 0.13789052764574686,
+      "leave_one_out_mean_min": 0.08028503060340882,
+      "leave_one_out_mean_max": 0.16115583181381227,
+      "single_A_dp_min": 0.021564006805419922,
+      "single_A_dp_max": 0.42591801285743713
+    },
+    {
+      "definition_id": "cuadfull:39:Force Majeure",
+      "mean_dp": 0.1844117840131124,
+      "leave_one_out_mean_min": 0.13975841999053956,
+      "leave_one_out_mean_max": 0.21886445283889772,
+      "single_A_dp_min": 0.012148439884185791,
+      "single_A_dp_max": 0.40767860412597656
+    },
+    {
+      "definition_id": "cuadfull:167:Territory",
+      "mean_dp": 0.18534688403209051,
+      "leave_one_out_mean_min": 0.1196487933397293,
+      "leave_one_out_mean_max": 0.2750978618860245,
+      "single_A_dp_min": -0.26340800523757935,
+      "single_A_dp_max": 0.5138373374938965
+    },
+    {
+      "definition_id": "cuadfull:371:ICS",
+      "mean_dp": 0.19883261124293009,
+      "leave_one_out_mean_min": 0.17623134851455688,
+      "leave_one_out_mean_max": 0.22390396595001222,
+      "single_A_dp_min": 0.07347583770751953,
+      "single_A_dp_max": 0.31183892488479614
+    },
+    {
+      "definition_id": "cuadfull:295:Business Day",
+      "mean_dp": 0.1991493801275889,
+      "leave_one_out_mean_min": 0.16484979391098023,
+      "leave_one_out_mean_max": 0.23841507434844972,
+      "single_A_dp_min": 0.002820909023284912,
+      "single_A_dp_max": 0.3706473112106323
+    },
+    {
+      "definition_id": "cuadfull:329:Third Party Agreements",
+      "mean_dp": 0.20514308909575144,
+      "leave_one_out_mean_min": 0.1606056034564972,
+      "leave_one_out_mean_max": 0.26575478315353396,
+      "single_A_dp_min": -0.09791538119316101,
+      "single_A_dp_max": 0.4278305172920227
+    },
+    {
+      "definition_id": "cuadfull:85:Confidential Information",
+      "mean_dp": 0.21815159916877747,
+      "leave_one_out_mean_min": 0.1828828811645508,
+      "leave_one_out_mean_max": 0.24085748195648193,
+      "single_A_dp_min": 0.10462218523025513,
+      "single_A_dp_max": 0.3944951891899109
+    },
+    {
+      "definition_id": "cuadfull:348:Processing Day",
+      "mean_dp": 0.2292607625325521,
+      "leave_one_out_mean_min": 0.1910153865814209,
+      "leave_one_out_mean_max": 0.27555480003356936,
+      "single_A_dp_min": -0.0022094249725341797,
+      "single_A_dp_max": 0.420487642288208
+    },
+    {
+      "definition_id": "cuadfull:130:Support Request",
+      "mean_dp": 0.2471552938222885,
+      "leave_one_out_mean_min": 0.15630512312054634,
+      "leave_one_out_mean_max": 0.36121928691864014,
+      "single_A_dp_min": -0.20910067856311798,
+      "single_A_dp_max": 0.6105559766292572
+    },
+    {
+      "definition_id": "cuadfull:289:Training Materials",
+      "mean_dp": 0.30118391911188763,
+      "leave_one_out_mean_min": 0.22280060052871703,
+      "leave_one_out_mean_max": 0.362293016910553,
+      "single_A_dp_min": -0.004361569881439209,
+      "single_A_dp_max": 0.6931005120277405
+    },
+    {
+      "definition_id": "cuadfull:129:Net Revenue",
+      "mean_dp": 0.36713288227717084,
+      "leave_one_out_mean_min": 0.28036056756973265,
+      "leave_one_out_mean_max": 0.4283495545387268,
+      "single_A_dp_min": 0.06104952096939087,
+      "single_A_dp_max": 0.8009944558143616
+    }
+  ]
+}

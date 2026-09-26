@@ -1,0 +1,18 @@
+{
+  "status": "B_frozen_before_readers",
+  "n_tasks": 63,
+  "n_rules": 15,
+  "sha256": {
+    "A_freeze.json": "6c0d059fc2b853e409fe2fe44956fe4dff48fb7714dec36709695bb2c2143b31",
+    "A_rule_scores.jsonl": "793063bb9077ef1e21e291acdcd7ea65651f33f7892d8908e822e220efcb326d",
+    "cards_for_A.jsonl": "aae9629c601835739229ba926cd134ca80ab570291c1e10a804fd879547ece62",
+    "tasks_public.jsonl": "2cc25bb68b39bedac8f0d514a7ff5b5dfb84d22479d3c08357c936b518d92bff",
+    "tasks_private.jsonl": "0a3424a119f5ca5f2b8cd99c4cd2f71a41d2e9dcbdb439669a8e7fada536532a",
+    "B_quality_decisions.jsonl": "0efaf6bfdf8e9762d122e0badeb9cd34b60f632450c1117f5838f8ffc2ba44c5",
+    "B_usual_labels.jsonl": "3732eed46a62c8b5e9ee4be6193e8be198b1312fb1d309d9ccc6cd8c47045dca",
+    "protocol.md": "cd3abe85afcfe48bcaa96e18cf2dd5f7ef6302133f69ab63d6beba02a791f43f",
+    "agent_source_review.json": "838e393450b838fc17ddb51405de46e7b3c8ac759067ce1403cd30154289cac8",
+    "source_review_gate.py": "603e846217482745b9454cb699a69487b899fc972362b6494b8f3c003a2ba630"
+  },
+  "n_rules_with_B": 11
+}

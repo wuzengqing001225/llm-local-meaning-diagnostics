@@ -1,0 +1,2182 @@
+{
+  "unit": "matched_local_definition",
+  "n_catalog_definitions": 53,
+  "n_requests": 240,
+  "budget_rule": "floor(0.5 * median(all_matched_definition_tokens))",
+  "median_all_matched_definition_tokens": 0.0,
+  "budget_tokens": 0,
+  "budget_origin": "GitLab_forum_title_excerpt_source_only_preliminary",
+  "tokenizer": "Qwen/Qwen2.5-7B",
+  "revision": "d149729398750b98c0af14eb82c78cfe92750796",
+  "median_matched_definitions": 0.0,
+  "median_definition_tokens": 0.0,
+  "over_budget_fraction": 0.0625,
+  "multiple_affordable_choices_fraction": 0.0,
+  "source_review_complete": false,
+  "primary_gate_passed": false,
+  "definitions_sha256": "93cfc485fe7bf526a7e4cb323b5a74a84cb39f996ff1bbb4c1f04ccb1ca1123d",
+  "requests_sha256": "a9691abe6df5f98beea0a1e69b590afd2f9e75780c6258c0baf84547a37adb65",
+  "scope_limit": "Schema and token checks do not prove source definitions are complete or all matches are relevant. Validate those separately. No A/B outcomes are read.",
+  "requests": [
+    {
+      "request_id": "gitlab_forum:72138",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:8",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135438",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135430",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135434",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135360",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:78668",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135429",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:60115",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135424",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135421",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135418",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135317",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135409",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:132630",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135402",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 42,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135400",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135363",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135378",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135376",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135368",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135354",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135361",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135327",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:22357",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135353",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135350",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135347",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135344",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135341",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135308",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135333",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 23,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135228",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135266",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135330",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135329",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135328",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 33,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135326",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:132882",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135324",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:36973",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135314",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135316",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 33,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135312",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135304",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135211",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135180",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135267",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135233",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135265",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134064",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135258",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135257",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135216",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135254",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134473",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:132959",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:40261",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135222",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135220",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135217",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135163",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135214",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135210",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135206",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135040",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:83972",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135181",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 33,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134733",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135177",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135174",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135169",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135166",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135165",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:97014",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:123628",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:133553",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 33,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135119",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135121",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135096",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135094",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135092",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135091",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135086",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134911",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135071",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 42,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135085",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135084",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:92202",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135081",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135080",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135077",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135066",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135059",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135062",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135058",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135032",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 68,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:94853",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134949",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134976",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134918",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 34,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135015",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135033",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134887",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135012",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135003",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:135002",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134999",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134996",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134994",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134992",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:87893",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134977",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134978",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134970",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134973",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134921",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134957",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134954",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:122933",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:42832",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 42,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134946",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:131509",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134932",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134927",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:67882",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:121018",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:45180",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:53533",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134909",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134844",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134850",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:81730",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 33,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:128648",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134866",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134886",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:66601",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134868",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134871",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134864",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134858",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134855",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134843",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134602",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134675",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:5696",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:120447",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134796",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134773",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134770",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:98929",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134756",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134753",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134744",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:94510",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134464",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134739",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:14678",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:60768",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134727",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134712",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134707",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134709",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:84718",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134706",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134705",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134699",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134656",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134689",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134688",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:118870",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:35491",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134005",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:16221",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 33,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:75450",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:23610",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134590",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134631",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134287",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134621",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134361",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134611",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134605",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134600",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134554",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:122307",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 30,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134386",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134601",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134597",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134309",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:118240",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134594",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134589",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134593",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:133833",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134585",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134583",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:126074",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134468",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134557",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134551",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134548",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134545",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134524",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134530",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134542",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134528",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134448",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134531",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 30,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:112167",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:133735",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134445",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134529",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134494",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134526",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:133199",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134471",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:100679",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 33,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134508",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134501",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:74140",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134478",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134482",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134491",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134490",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134483",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134481",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:39227",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:312",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:80050",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:133489",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134447",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134467",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134463",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:38867",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134459",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134457",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134456",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:132307",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "gitlab_forum:134442",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    }
+  ]
+}

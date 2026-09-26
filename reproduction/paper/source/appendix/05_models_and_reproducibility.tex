@@ -1,0 +1,23 @@
+\section{Models and reproducibility}
+\label{app:models}
+The GPT reader identifiers are \texttt{gpt-5.6-terra} and \texttt{gpt-6-astra}. The experiment operator confirms that synthetic DeepSeek reader calls made before September 10, 2026 used V4 Flash, while later Reddit and DeFi reader calls used V4.1 Flash. DeepSeek documents \texttt{deepseek-flash} as the current V4.1 API ID and says that the legacy \texttt{deepseek-v4-flash} ID routes to V4.1 after the September 10 release \citep{deepseek-v41-release}. The later source-audit model is also V4.1. We do not assign a knowledge cutoff to either DeepSeek version because no official cutoff was established for these experiments. CUAD's 1,500-question validation uses \texttt{gpt-5.6-terra}. The additional synthetic, Reddit, and DeFi readers use \texttt{gpt-6-astra}. Historical proxy revisions are listed below.
+
+\begin{table}[h]
+\centering\small
+\caption{Proxy model revisions. Full commit identifiers are supplied in the accompanying model records.}
+\begin{tabular}{@{}ll@{}}\toprule
+Model & Revision prefix\\\midrule
+Qwen2.5-0.5B & \texttt{060db6499f32}\\
+Qwen2.5-1.5B & \texttt{8faed761d45a}\\
+Qwen2.5-3B & \texttt{3aab1f1954e9}\\
+Qwen2.5-7B & \texttt{d14972939875}\\
+Qwen2.5-14B & \texttt{97e1e76335b7}\\
+Qwen2.5-14B-Instruct & \texttt{cf98f3b3bbb4}\\
+Llama-3.1-8B & \texttt{d04e592bb4f6}\\\bottomrule
+\end{tabular}
+\end{table}
+
+Reader diagnostic calls use greedy-style decoding, with temperature zero where supported. The uncertainty protocol uses temperature 1.0 and ten samples per item. The proxy scores answer labels from local model logits. RAG costs are reported as context-length units rather than API billing tokens. Sonnet comparisons based on term means are reported at term level. After the source-conflict exclusion, response-level coverage of the GPT-6 synthetic usual-gloss condition is 440 of 456 items, while bare and local-definition responses cover all 456.
+
+The development implementation records request settings, source and question hashes, returned model fields, token usage, response status, and per-policy outcomes. Its code and result export exclude credentials. Construction and maintenance of the diagnostic index are separate costs from supplying notes to a reader. Any deployment-cost analysis must account for reuse over subsequent requests.
+

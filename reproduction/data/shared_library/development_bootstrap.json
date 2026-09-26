@@ -1,0 +1,53 @@
+{
+  "status": "exploratory_only_same_source_A_and_B_questions",
+  "cluster_rule": "Reddit subreddit; synthetic term",
+  "cost_source": "actual_injected_gloss",
+  "budget_fraction": 0.25,
+  "estimand": "frequency-weighted observed correct-answer gain difference divided by source frequency total",
+  "results": [
+    {
+      "setting": "synthetic_DeepSeek",
+      "n_terms": 118,
+      "n_clusters": 118,
+      "point_fraction_of_matched_term_occurrences": 0.045863309352517985,
+      "percentile_95_interval": [
+        0.0019230769230769232,
+        0.08326143226919758
+      ],
+      "n_replicates": 1500
+    },
+    {
+      "setting": "synthetic_GPT6",
+      "n_terms": 118,
+      "n_clusters": 118,
+      "point_fraction_of_matched_term_occurrences": 0.025629496402877698,
+      "percentile_95_interval": [
+        -0.024284475281873375,
+        0.05696757230499562
+      ],
+      "n_replicates": 1500
+    },
+    {
+      "setting": "reddit_DeepSeek",
+      "n_terms": 215,
+      "n_clusters": 35,
+      "point_fraction_of_matched_term_occurrences": 0.022095332671300892,
+      "percentile_95_interval": [
+        -0.01227656648988411,
+        0.05821062602256092
+      ],
+      "n_replicates": 1500
+    },
+    {
+      "setting": "reddit_GPT6",
+      "n_terms": 215,
+      "n_clusters": 35,
+      "point_fraction_of_matched_term_occurrences": 0.012247600132406488,
+      "percentile_95_interval": [
+        -0.010315477842538626,
+        0.05183779464642429
+      ],
+      "n_replicates": 1500
+    }
+  ]
+}

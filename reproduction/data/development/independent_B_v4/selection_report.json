@@ -1,0 +1,53 @@
+{
+  "status": "selected",
+  "counts": {
+    "low": 68,
+    "middle": 32,
+    "high": 26
+  },
+  "selected_counts": {
+    "low": 20,
+    "middle": 20,
+    "high": 20
+  },
+  "thresholds": [
+    0.2,
+    0.6
+  ],
+  "seed": 20260923,
+  "n": 60,
+  "document_count": 38,
+  "evaluation_split": "dev",
+  "eligible_A_contexts_in_split": 126,
+  "complete_A_contexts": 444,
+  "missing_A_contexts": 156,
+  "A_candidates": 1152,
+  "A_accepted": 955,
+  "B_generated": 60,
+  "B_accepted_by_band": {
+    "high": 19,
+    "low": 20,
+    "middle": 18
+  },
+  "B_rejected": 3,
+  "B_reader_audit_agreement_counts": {
+    "True": 48,
+    "False": 9
+  },
+  "position_counts_by_option_count": {
+    "2": {
+      "A": 1
+    },
+    "3": {
+      "C": 2,
+      "A": 2,
+      "B": 2
+    },
+    "4": {
+      "B": 13,
+      "D": 12,
+      "A": 13,
+      "C": 12
+    }
+  }
+}

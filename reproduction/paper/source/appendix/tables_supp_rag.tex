@@ -1,0 +1,15 @@
+\begin{table}[htbp]\centering\small
+\caption{Full RAG accounting: selected-definition policy relative to retrieval only. Repairs and harms are paired counts. Added definition units are inferred by subtracting identical retrieval contexts. They include glossary formatting.}
+\label{tab:supp-rag}
+\begin{tabular}{@{}lrccc@{}}\toprule
+Corpus / tier / subset & $n$ & Gain, pp [95\% CI] & Repair/harm & Selected/full units\\\midrule
+CUAD / BM25 / all & 1200 & 4.17 [2.24, 6.12] & 94 / 44 & 135.8 / 529.2\\
+CUAD / dense / all & 1200 & 5.33 [3.49, 7.35] & 102 / 38 & 79.1 / 529.2\\
+CUAD / hybrid / all & 1200 & 5.00 [3.34, 6.73] & 93 / 33 & 126.6 / 529.2\\
+Reddit / BM25 / all & 1391 & 6.69 [4.45, 9.04] & 112 / 19 & 39.4 / 2765.9\\
+Reddit / BM25 / glossary & 851 & 10.34 [7.01, 13.83] & 97 / 9 & 46.5 / 3285.2\\
+Reddit / BM25 / control & 540 & 0.93 [-0.89, 2.78] & 15 / 10 & 28.3 / 1947.5\\
+Reddit / hybrid / all & 1391 & 5.90 [3.85, 7.77] & 106 / 24 & 38.5 / 2765.9\\
+Reddit / hybrid / glossary & 851 & 10.22 [7.61, 13.30] & 92 / 5 & 46.9 / 3285.2\\
+Reddit / hybrid / control & 540 & -0.93 [-2.86, 1.12] & 14 / 19 & 25.3 / 1947.5\\
+\bottomrule\end{tabular}\end{table}

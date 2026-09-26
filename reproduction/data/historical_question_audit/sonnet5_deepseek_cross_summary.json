@@ -1,0 +1,46 @@
+{
+  "status": "COMPLETE_MODEL_SCREEN_NOT_HUMAN_GOLD",
+  "n": 80,
+  "categories": {
+    "both_support_stored_key": 39,
+    "both_insufficient_or_ambiguous": 24,
+    "one_supported_other_not": 15,
+    "both_dispute_stored_key": 1,
+    "different_supported_answers": 1
+  },
+  "per_corpus": {
+    "synthetic": {
+      "both_support_stored_key": 18,
+      "both_insufficient_or_ambiguous": 1,
+      "one_supported_other_not": 1
+    },
+    "reddit": {
+      "both_insufficient_or_ambiguous": 14,
+      "one_supported_other_not": 3,
+      "both_support_stored_key": 3
+    },
+    "defi": {
+      "one_supported_other_not": 7,
+      "both_insufficient_or_ambiguous": 8,
+      "both_support_stored_key": 5
+    },
+    "cuad": {
+      "both_support_stored_key": 13,
+      "one_supported_other_not": 4,
+      "both_insufficient_or_ambiguous": 1,
+      "both_dispute_stored_key": 1,
+      "different_supported_answers": 1
+    }
+  },
+  "human_priority_n": 17,
+  "model_protocol": {
+    "sonnet": "claude-sonnet-5, provider-default temperature, thinking disabled, max_tokens=1000, no response IDs",
+    "deepseek": "deepseek-flash, temperature=0, thinking disabled, max_tokens=550"
+  },
+  "limitations": [
+    "Models are not independent human gold judges.",
+    "Reddit original posts are not fully preserved in the source cards.",
+    "Long CUAD/DeFi source documents were excerpted identically for both models.",
+    "Targeted human review cannot estimate the total historical key-error rate without random unflagged controls."
+  ]
+}

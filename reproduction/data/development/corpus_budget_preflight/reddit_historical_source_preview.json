@@ -1,0 +1,27 @@
+{
+  "status": "historical_posts_source_only_feasibility_not_independent_formal_B",
+  "glossary_rows_total": 4189,
+  "candidate_definitions_after_automatic_screen": 3380,
+  "duplicate_glossary_rows": 36,
+  "screened_out_rows": 773,
+  "annotated_rows": 367,
+  "unique_posts": 361,
+  "n_at_least_two_matched": 167,
+  "match_count_distribution": {
+    "1": 194,
+    "2": 97,
+    "3": 45,
+    "4": 16,
+    "5": 5,
+    "6": 2,
+    "7": 1,
+    "9": 1
+  },
+  "glossary_sha256": "fcf1d72dae41e039d3cd9df4b8d0802c7a0c45a6f60b045ff785a896d5cbffb6",
+  "posts_sha256": "aaae5487d94f622de5ba83f2db3693c8bbce52f2832042750acb36bd0c0f0e4e",
+  "limitations": [
+    "Definitions are provisional; some rows may be aliases, topic guides, or need source-linked expansion.",
+    "The archived posts overlap previous development and cannot serve as independent new B.",
+    "Literal mention is a candidate matcher, not proof that this meaning controls the question."
+  ]
+}

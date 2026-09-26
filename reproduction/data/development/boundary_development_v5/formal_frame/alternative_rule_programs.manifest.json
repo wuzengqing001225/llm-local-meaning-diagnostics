@@ -1,0 +1,11 @@
+{
+  "status": "source_only_alternative_programs_before_new_A_or_B_outcomes",
+  "n_alternatives": 48,
+  "by_cohort": {
+    "source_sample_candidate": 10,
+    "challenge_topup_candidate": 8,
+    "challenge_candidate": 30
+  },
+  "selected_sha256": "d71a70f0e13cd2dca9aabd1e5f07584b16325304c3f5e9bfc14350b61f30d902",
+  "judgements_sha256": "d1bfc55ceacfb6961b640a9abc502b8655f5a6bfc81eb8f3bfd42020a36afe3e"
+}

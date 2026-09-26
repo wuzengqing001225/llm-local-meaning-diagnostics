@@ -1,0 +1,555 @@
+{
+  "n_requests": 128,
+  "n_tasks": 32,
+  "roles": {
+    "gpt_reader": {
+      "all_membership": {
+        "n": 22,
+        "bare_correct": 18,
+        "definition_correct": 22,
+        "bare_accuracy": 0.8181818181818182,
+        "definition_accuracy": 1.0,
+        "bare_errors": 4,
+        "repairs": 4,
+        "harms": 0,
+        "net": 4,
+        "unparsed": 0,
+        "bare_error_wilson_descriptive_only": [
+          0.07306766024105121,
+          0.38517021976637866
+        ],
+        "n_rules": 10
+      },
+      "groups": {
+        "conflict": {
+          "n": 5,
+          "bare_correct": 4,
+          "definition_correct": 5,
+          "bare_accuracy": 0.8,
+          "definition_accuracy": 1.0,
+          "bare_errors": 1,
+          "repairs": 1,
+          "harms": 0,
+          "net": 1,
+          "unparsed": 0,
+          "bare_error_wilson_descriptive_only": [
+            0.03622316096978745,
+            0.6244717358814613
+          ],
+          "n_rules": 4
+        },
+        "agreement": {
+          "n": 4,
+          "bare_correct": 4,
+          "definition_correct": 4,
+          "bare_accuracy": 1.0,
+          "definition_accuracy": 1.0,
+          "bare_errors": 0,
+          "repairs": 0,
+          "harms": 0,
+          "net": 0,
+          "unparsed": 0,
+          "bare_error_wilson_descriptive_only": [
+            0.0,
+            0.48990002040399916
+          ],
+          "n_rules": 3
+        },
+        "undetermined": {
+          "n": 13,
+          "bare_correct": 10,
+          "definition_correct": 13,
+          "bare_accuracy": 0.7692307692307693,
+          "definition_accuracy": 1.0,
+          "bare_errors": 3,
+          "repairs": 3,
+          "harms": 0,
+          "net": 3,
+          "unparsed": 0,
+          "bare_error_wilson_descriptive_only": [
+            0.08179379092465713,
+            0.5025687399512693
+          ],
+          "n_rules": 5
+        },
+        "control": {
+          "n": 10,
+          "bare_correct": 10,
+          "definition_correct": 9,
+          "bare_accuracy": 1.0,
+          "definition_accuracy": 0.9,
+          "bare_errors": 0,
+          "repairs": 0,
+          "harms": 1,
+          "net": -1,
+          "unparsed": 0,
+          "bare_error_wilson_descriptive_only": [
+            -2.7755575615628914e-17,
+            0.2775401687666166
+          ],
+          "n_rules": 10
+        }
+      },
+      "rules": {
+        "cuadfull:108:Third Party": {
+          "n": 2,
+          "bare_correct": 2,
+          "definition_correct": 2,
+          "bare_accuracy": 1.0,
+          "definition_accuracy": 1.0,
+          "bare_errors": 0,
+          "repairs": 0,
+          "harms": 0,
+          "net": 0,
+          "unparsed": 0,
+          "bare_error_wilson_descriptive_only": [
+            0.0,
+            0.6576280471103807
+          ],
+          "n_rules": 1
+        },
+        "cuadfull:152:Territory": {
+          "n": 3,
+          "bare_correct": 2,
+          "definition_correct": 3,
+          "bare_accuracy": 0.6666666666666666,
+          "definition_accuracy": 1.0,
+          "bare_errors": 1,
+          "repairs": 1,
+          "harms": 0,
+          "net": 1,
+          "unparsed": 0,
+          "bare_error_wilson_descriptive_only": [
+            0.0614903152761605,
+            0.7923450448735121
+          ],
+          "n_rules": 1
+        },
+        "cuadfull:170:Products": {
+          "n": 1,
+          "bare_correct": 1,
+          "definition_correct": 1,
+          "bare_accuracy": 1.0,
+          "definition_accuracy": 1.0,
+          "bare_errors": 0,
+          "repairs": 0,
+          "harms": 0,
+          "net": 0,
+          "unparsed": 0,
+          "bare_error_wilson_descriptive_only": [
+            0.0,
+            0.7934567085261071
+          ],
+          "n_rules": 1
+        },
+        "cuadfull:171:Confidential Information": {
+          "n": 1,
+          "bare_correct": 1,
+          "definition_correct": 1,
+          "bare_accuracy": 1.0,
+          "definition_accuracy": 1.0,
+          "bare_errors": 0,
+          "repairs": 0,
+          "harms": 0,
+          "net": 0,
+          "unparsed": 0,
+          "bare_error_wilson_descriptive_only": [
+            0.0,
+            0.7934567085261071
+          ],
+          "n_rules": 1
+        },
+        "cuadfull:187:TERRITORY": {
+          "n": 3,
+          "bare_correct": 3,
+          "definition_correct": 3,
+          "bare_accuracy": 1.0,
+          "definition_accuracy": 1.0,
+          "bare_errors": 0,
+          "repairs": 0,
+          "harms": 0,
+          "net": 0,
+          "unparsed": 0,
+          "bare_error_wilson_descriptive_only": [
+            0.0,
+            0.5615060804490177
+          ],
+          "n_rules": 1
+        },
+        "cuadfull:21:Excluded Goods": {
+          "n": 2,
+          "bare_correct": 2,
+          "definition_correct": 2,
+          "bare_accuracy": 1.0,
+          "definition_accuracy": 1.0,
+          "bare_errors": 0,
+          "repairs": 0,
+          "harms": 0,
+          "net": 0,
+          "unparsed": 0,
+          "bare_error_wilson_descriptive_only": [
+            0.0,
+            0.6576280471103807
+          ],
+          "n_rules": 1
+        },
+        "cuadfull:250:System Images": {
+          "n": 2,
+          "bare_correct": 2,
+          "definition_correct": 2,
+          "bare_accuracy": 1.0,
+          "definition_accuracy": 1.0,
+          "bare_errors": 0,
+          "repairs": 0,
+          "harms": 0,
+          "net": 0,
+          "unparsed": 0,
+          "bare_error_wilson_descriptive_only": [
+            0.0,
+            0.6576280471103807
+          ],
+          "n_rules": 1
+        },
+        "cuadfull:254:Product": {
+          "n": 3,
+          "bare_correct": 3,
+          "definition_correct": 3,
+          "bare_accuracy": 1.0,
+          "definition_accuracy": 1.0,
+          "bare_errors": 0,
+          "repairs": 0,
+          "harms": 0,
+          "net": 0,
+          "unparsed": 0,
+          "bare_error_wilson_descriptive_only": [
+            0.0,
+            0.5615060804490177
+          ],
+          "n_rules": 1
+        },
+        "cuadfull:38:New Product": {
+          "n": 2,
+          "bare_correct": 1,
+          "definition_correct": 2,
+          "bare_accuracy": 0.5,
+          "definition_accuracy": 1.0,
+          "bare_errors": 1,
+          "repairs": 1,
+          "harms": 0,
+          "net": 1,
+          "unparsed": 0,
+          "bare_error_wilson_descriptive_only": [
+            0.09452865480086614,
+            0.9054713451991339
+          ],
+          "n_rules": 1
+        },
+        "cuadfull:450:Covered Regions": {
+          "n": 3,
+          "bare_correct": 1,
+          "definition_correct": 3,
+          "bare_accuracy": 0.3333333333333333,
+          "definition_accuracy": 1.0,
+          "bare_errors": 2,
+          "repairs": 2,
+          "harms": 0,
+          "net": 2,
+          "unparsed": 0,
+          "bare_error_wilson_descriptive_only": [
+            0.2076549551264879,
+            0.9385096847238394
+          ],
+          "n_rules": 1
+        }
+      }
+    },
+    "deepseek_reader": {
+      "all_membership": {
+        "n": 22,
+        "bare_correct": 16,
+        "definition_correct": 22,
+        "bare_accuracy": 0.7272727272727273,
+        "definition_accuracy": 1.0,
+        "bare_errors": 6,
+        "repairs": 6,
+        "harms": 0,
+        "net": 6,
+        "unparsed": 0,
+        "bare_error_wilson_descriptive_only": [
+          0.1315058201581444,
+          0.4815212369900198
+        ],
+        "n_rules": 10
+      },
+      "groups": {
+        "conflict": {
+          "n": 5,
+          "bare_correct": 4,
+          "definition_correct": 5,
+          "bare_accuracy": 0.8,
+          "definition_accuracy": 1.0,
+          "bare_errors": 1,
+          "repairs": 1,
+          "harms": 0,
+          "net": 1,
+          "unparsed": 0,
+          "bare_error_wilson_descriptive_only": [
+            0.03622316096978745,
+            0.6244717358814613
+          ],
+          "n_rules": 4
+        },
+        "agreement": {
+          "n": 4,
+          "bare_correct": 3,
+          "definition_correct": 4,
+          "bare_accuracy": 0.75,
+          "definition_accuracy": 1.0,
+          "bare_errors": 1,
+          "repairs": 1,
+          "harms": 0,
+          "net": 1,
+          "unparsed": 0,
+          "bare_error_wilson_descriptive_only": [
+            0.045586062644636216,
+            0.6993639475573634
+          ],
+          "n_rules": 3
+        },
+        "undetermined": {
+          "n": 13,
+          "bare_correct": 9,
+          "definition_correct": 13,
+          "bare_accuracy": 0.6923076923076923,
+          "definition_accuracy": 1.0,
+          "bare_errors": 4,
+          "repairs": 4,
+          "harms": 0,
+          "net": 4,
+          "unparsed": 0,
+          "bare_error_wilson_descriptive_only": [
+            0.12680497161618087,
+            0.5763111218666236
+          ],
+          "n_rules": 5
+        },
+        "control": {
+          "n": 10,
+          "bare_correct": 9,
+          "definition_correct": 10,
+          "bare_accuracy": 0.9,
+          "definition_accuracy": 1.0,
+          "bare_errors": 1,
+          "repairs": 1,
+          "harms": 0,
+          "net": 1,
+          "unparsed": 0,
+          "bare_error_wilson_descriptive_only": [
+            0.01787574951572113,
+            0.4041563854975721
+          ],
+          "n_rules": 10
+        }
+      },
+      "rules": {
+        "cuadfull:108:Third Party": {
+          "n": 2,
+          "bare_correct": 2,
+          "definition_correct": 2,
+          "bare_accuracy": 1.0,
+          "definition_accuracy": 1.0,
+          "bare_errors": 0,
+          "repairs": 0,
+          "harms": 0,
+          "net": 0,
+          "unparsed": 0,
+          "bare_error_wilson_descriptive_only": [
+            0.0,
+            0.6576280471103807
+          ],
+          "n_rules": 1
+        },
+        "cuadfull:152:Territory": {
+          "n": 3,
+          "bare_correct": 2,
+          "definition_correct": 3,
+          "bare_accuracy": 0.6666666666666666,
+          "definition_accuracy": 1.0,
+          "bare_errors": 1,
+          "repairs": 1,
+          "harms": 0,
+          "net": 1,
+          "unparsed": 0,
+          "bare_error_wilson_descriptive_only": [
+            0.0614903152761605,
+            0.7923450448735121
+          ],
+          "n_rules": 1
+        },
+        "cuadfull:170:Products": {
+          "n": 1,
+          "bare_correct": 1,
+          "definition_correct": 1,
+          "bare_accuracy": 1.0,
+          "definition_accuracy": 1.0,
+          "bare_errors": 0,
+          "repairs": 0,
+          "harms": 0,
+          "net": 0,
+          "unparsed": 0,
+          "bare_error_wilson_descriptive_only": [
+            0.0,
+            0.7934567085261071
+          ],
+          "n_rules": 1
+        },
+        "cuadfull:171:Confidential Information": {
+          "n": 1,
+          "bare_correct": 1,
+          "definition_correct": 1,
+          "bare_accuracy": 1.0,
+          "definition_accuracy": 1.0,
+          "bare_errors": 0,
+          "repairs": 0,
+          "harms": 0,
+          "net": 0,
+          "unparsed": 0,
+          "bare_error_wilson_descriptive_only": [
+            0.0,
+            0.7934567085261071
+          ],
+          "n_rules": 1
+        },
+        "cuadfull:187:TERRITORY": {
+          "n": 3,
+          "bare_correct": 1,
+          "definition_correct": 3,
+          "bare_accuracy": 0.3333333333333333,
+          "definition_accuracy": 1.0,
+          "bare_errors": 2,
+          "repairs": 2,
+          "harms": 0,
+          "net": 2,
+          "unparsed": 0,
+          "bare_error_wilson_descriptive_only": [
+            0.2076549551264879,
+            0.9385096847238394
+          ],
+          "n_rules": 1
+        },
+        "cuadfull:21:Excluded Goods": {
+          "n": 2,
+          "bare_correct": 2,
+          "definition_correct": 2,
+          "bare_accuracy": 1.0,
+          "definition_accuracy": 1.0,
+          "bare_errors": 0,
+          "repairs": 0,
+          "harms": 0,
+          "net": 0,
+          "unparsed": 0,
+          "bare_error_wilson_descriptive_only": [
+            0.0,
+            0.6576280471103807
+          ],
+          "n_rules": 1
+        },
+        "cuadfull:250:System Images": {
+          "n": 2,
+          "bare_correct": 1,
+          "definition_correct": 2,
+          "bare_accuracy": 0.5,
+          "definition_accuracy": 1.0,
+          "bare_errors": 1,
+          "repairs": 1,
+          "harms": 0,
+          "net": 1,
+          "unparsed": 0,
+          "bare_error_wilson_descriptive_only": [
+            0.09452865480086614,
+            0.9054713451991339
+          ],
+          "n_rules": 1
+        },
+        "cuadfull:254:Product": {
+          "n": 3,
+          "bare_correct": 3,
+          "definition_correct": 3,
+          "bare_accuracy": 1.0,
+          "definition_accuracy": 1.0,
+          "bare_errors": 0,
+          "repairs": 0,
+          "harms": 0,
+          "net": 0,
+          "unparsed": 0,
+          "bare_error_wilson_descriptive_only": [
+            0.0,
+            0.5615060804490177
+          ],
+          "n_rules": 1
+        },
+        "cuadfull:38:New Product": {
+          "n": 2,
+          "bare_correct": 1,
+          "definition_correct": 2,
+          "bare_accuracy": 0.5,
+          "definition_accuracy": 1.0,
+          "bare_errors": 1,
+          "repairs": 1,
+          "harms": 0,
+          "net": 1,
+          "unparsed": 0,
+          "bare_error_wilson_descriptive_only": [
+            0.09452865480086614,
+            0.9054713451991339
+          ],
+          "n_rules": 1
+        },
+        "cuadfull:450:Covered Regions": {
+          "n": 3,
+          "bare_correct": 2,
+          "definition_correct": 3,
+          "bare_accuracy": 0.6666666666666666,
+          "definition_accuracy": 1.0,
+          "bare_errors": 1,
+          "repairs": 1,
+          "harms": 0,
+          "net": 1,
+          "unparsed": 0,
+          "bare_error_wilson_descriptive_only": [
+            0.0614903152761605,
+            0.7923450448735121
+          ],
+          "n_rules": 1
+        }
+      }
+    }
+  },
+  "coverage_gate": false,
+  "reader_feasibility_gate": true,
+  "expansion_gate": false,
+  "requested_returned_models": {
+    "deepseek-flash -> deepseek-flash": 64,
+    "gpt-5.6-terra -> gpt-5.6-terra": 64
+  },
+  "usage": {
+    "gpt_reader": {
+      "prompt_tokens": 7721,
+      "completion_tokens": 2612,
+      "total_tokens": 10333
+    },
+    "deepseek_reader": {
+      "prompt_tokens": 9032,
+      "completion_tokens": 99817,
+      "total_tokens": 108849
+    }
+  },
+  "limitations": [
+    "Development source-selected challenge sample, not natural frequency.",
+    "No abstention condition; forced-choice errors do not establish confident misreading.",
+    "No A scores or budget comparison; no claim about R/Delta-p allocation utility.",
+    "Only five conflict cases in four rules; descriptive intervals do not account for clustering.",
+    "Assistant authored source-aware seeds; DeepSeek drafted wording and is also a reader.",
+    "Model source checks and assistant vetoes are not independent human annotation."
+  ]
+}

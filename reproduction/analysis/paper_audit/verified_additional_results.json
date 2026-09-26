@@ -1,0 +1,113 @@
+{
+  "cuad_definition_anchored": {
+    "setting": "CUAD gold / recovered DeepSeek",
+    "n": 671,
+    "stem_mismatches": [],
+    "risk_auc": 0.8580891816185934,
+    "pd_auc": 0.666464784111843,
+    "bare_accuracy": 0.7719821162444114,
+    "definition_accuracy": 0.9031296572280179
+  },
+  "uncertainty": {
+    "raw_sample_letters": 7630,
+    "full": {
+      "n": 763,
+      "greedy_errors": 231,
+      "identical_among_errors": 154,
+      "identical_wrong_among_errors": 93,
+      "majority_wrong_among_errors": 143,
+      "aucs": {
+        "consistency": 0.5992904338769001,
+        "entropy": 0.5992782280376265,
+        "confidence": 0.6240479445366663
+      }
+    },
+    "shared": {
+      "n": 457,
+      "greedy_errors": 131,
+      "identical_among_errors": 83,
+      "identical_wrong_among_errors": 50,
+      "majority_wrong_among_errors": 81,
+      "aucs": {
+        "consistency": 0.6189294244368473,
+        "entropy": 0.6187889289561186,
+        "confidence": 0.6169273638364633,
+        "risk": 0.8479838898515432
+      }
+    },
+    "alignment_and_vote_checks_passed": true
+  },
+  "sampler": {
+    "exact_sample_match": true,
+    "frame_n": 6529,
+    "frame_counts": {
+      "0": 2529,
+      "1": 1430,
+      "2": 1085,
+      "3": 980,
+      "4": 505
+    },
+    "flat_labels_match": true,
+    "weighted_failure": 0.1320477867973656,
+    "weighted_risk_auc": 0.8456231929392303,
+    "weighted_pd_auc": 0.5004414687902105,
+    "transitions": {
+      "(1.0, 1.0)": 1097,
+      "(0.0, 1.0)": 163,
+      "(0.0, 0.0)": 157,
+      "(1.0, 0.0)": 83
+    }
+  },
+  "proxy_revisions": [
+    {
+      "file": "tokenizer_check_llama8b.json",
+      "model": "meta-llama/Llama-3.1-8B",
+      "revision": "d04e592bb4f6aa9cfee91e2e20afa771667e1d4b",
+      "reported_pass": true,
+      "payload_consistent": true
+    },
+    {
+      "file": "tokenizer_check_qwen05b.json",
+      "model": "Qwen/Qwen2.5-0.5B",
+      "revision": "060db6499f32faf8b98477b0a26969ef7d8b9987",
+      "reported_pass": true,
+      "payload_consistent": true
+    },
+    {
+      "file": "tokenizer_check_qwen14b.json",
+      "model": "Qwen/Qwen2.5-14B",
+      "revision": "97e1e76335b7017d8f67c08a19d103c0504298c9",
+      "reported_pass": true,
+      "payload_consistent": true
+    },
+    {
+      "file": "tokenizer_check_qwen14b_inst.json",
+      "model": "Qwen/Qwen2.5-14B-Instruct",
+      "revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+      "reported_pass": true,
+      "payload_consistent": true
+    },
+    {
+      "file": "tokenizer_check_qwen15b.json",
+      "model": "Qwen/Qwen2.5-1.5B",
+      "revision": "8faed761d45a263340a0528343f099c05c9a4323",
+      "reported_pass": true,
+      "payload_consistent": true
+    },
+    {
+      "file": "tokenizer_check_qwen3b.json",
+      "model": "Qwen/Qwen2.5-3B",
+      "revision": "3aab1f1954e9cc14eb9509a215f9e5ca08227a9b",
+      "reported_pass": true,
+      "payload_consistent": true
+    },
+    {
+      "file": "tokenizer_check_qwen7b.json",
+      "model": "Qwen/Qwen2.5-7B",
+      "revision": "d149729398750b98c0af14eb82c78cfe92750796",
+      "reported_pass": true,
+      "payload_consistent": true
+    }
+  ],
+  "rag_resolution": "../rag_resolution_20260923/resolution.json"
+}

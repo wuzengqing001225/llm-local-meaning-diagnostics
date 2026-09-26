@@ -1,0 +1,153 @@
+{
+ "v1": {
+  "Qwen2.5-7B (proxy argmax)": {
+   "n": 457,
+   "fail": 0.341,
+   "auroc": 0.995,
+   "ci": [
+    0.99,
+    1.0
+   ],
+   "top_bin_fail": 1.0,
+   "low_bin_fail": 0.0
+  },
+  "DeepSeek": {
+   "n": 457,
+   "fail": 0.287,
+   "auroc": 0.848,
+   "ci": [
+    0.81,
+    0.88
+   ],
+   "top_bin_fail": 0.64,
+   "low_bin_fail": 0.0
+  },
+  "Astra 6": {
+   "n": 457,
+   "fail": 0.182,
+   "auroc": 0.809,
+   "ci": [
+    0.77,
+    0.85
+   ],
+   "top_bin_fail": 0.47,
+   "low_bin_fail": 0.02
+  }
+ },
+ "biz": {
+  "Qwen2.5-7B (proxy argmax)": {
+   "n": 152,
+   "fail": 0.25,
+   "auroc": 0.986,
+   "ci": [
+    0.97,
+    1.0
+   ],
+   "top_bin_fail": 1.0,
+   "low_bin_fail": 0.0
+  },
+  "GPT 5.6": {
+   "n": 152,
+   "fail": 0.191,
+   "auroc": 0.809,
+   "ci": [
+    0.71,
+    0.9
+   ],
+   "top_bin_fail": 0.54,
+   "low_bin_fail": 0.02
+  },
+  "Astra 6": {
+   "n": 152,
+   "fail": 0.145,
+   "auroc": 0.836,
+   "ci": [
+    0.76,
+    0.89
+   ],
+   "top_bin_fail": 0.38,
+   "low_bin_fail": 0.0
+  }
+ },
+ "defi_strict": {
+  "Qwen2.5-7B (proxy argmax)": {
+   "n": 379,
+   "fail": 0.406,
+   "auroc": 0.986,
+   "ci": [
+    0.98,
+    0.99
+   ],
+   "top_bin_fail": 1.0,
+   "low_bin_fail": 0.0
+  },
+  "DeepSeek": {
+   "n": 379,
+   "fail": 0.282,
+   "auroc": 0.809,
+   "ci": [
+    0.75,
+    0.85
+   ],
+   "top_bin_fail": 0.68,
+   "low_bin_fail": 0.02
+  },
+  "GPT 5.6": {
+   "n": 379,
+   "fail": 0.23,
+   "auroc": 0.792,
+   "ci": [
+    0.74,
+    0.84
+   ],
+   "top_bin_fail": 0.54,
+   "low_bin_fail": 0.0
+  },
+  "Astra 6": {
+   "n": 379,
+   "fail": 0.169,
+   "auroc": 0.764,
+   "ci": [
+    0.7,
+    0.82
+   ],
+   "top_bin_fail": 0.41,
+   "low_bin_fail": 0.0
+  }
+ },
+ "reddit": {
+  "Qwen2.5-7B (proxy argmax)": {
+   "n": 1391,
+   "fail": 0.42,
+   "auroc": 0.988,
+   "ci": [
+    0.98,
+    0.99
+   ],
+   "top_bin_fail": 1.0,
+   "low_bin_fail": 0.0
+  },
+  "DeepSeek": {
+   "n": 1391,
+   "fail": 0.301,
+   "auroc": 0.808,
+   "ci": [
+    0.78,
+    0.83
+   ],
+   "top_bin_fail": 0.68,
+   "low_bin_fail": 0.02
+  },
+  "Astra 6": {
+   "n": 1391,
+   "fail": 0.146,
+   "auroc": 0.72,
+   "ci": [
+    0.68,
+    0.76
+   ],
+   "top_bin_fail": 0.34,
+   "low_bin_fail": 0.02
+  }
+ }
+}

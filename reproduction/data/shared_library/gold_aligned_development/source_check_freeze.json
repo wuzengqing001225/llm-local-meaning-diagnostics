@@ -1,0 +1,7 @@
+{
+  "packet_sha256": "71d763922bb5c9a5d4d11ca894ac3245c9322bfa3991cf8401e730dc89052781",
+  "system_sha256": "5bc43b872499ae48e8c2354df1135ec4ff39b8b0570041702eaf18afc4213df9",
+  "model": "deepseek-flash",
+  "script_sha256": "2195a3306b30a6b2e0b22c58533431abb2af5dccb80156579e5319255e4823b7",
+  "status": "OUTCOME_BLIND_DEVELOPMENT_SOURCE_CHECK"
+}

@@ -1,0 +1,19 @@
+{
+  "catalog": "data/catalog.jsonl",
+  "a_scores": "data/a_scores.jsonl",
+  "frequency": "data/frequency.jsonl",
+  "frequency_matches": "data/F/post_matches.jsonl",
+  "budget_fraction": 0.25,
+  "frequency_frame": {
+    "type": "complete_community_stream",
+    "sha256": "PASTE_AUTHORIZED_SOURCE_POST_EXPORT_SHA256",
+    "matches_sha256": "PASTE_F_POST_MATCHES_SHA256",
+    "communities_sha256": "PASTE_F_COMMUNITIES_SHA256",
+    "start_utc": "2020-01-01T00:00:00Z",
+    "end_utc": "2021-01-01T00:00:00Z",
+    "overlap_check_passed": false
+  },
+  "b_start_utc": "2021-01-01T00:00:00Z",
+  "development_only": false,
+  "out": "frozen_plan.json"
+}

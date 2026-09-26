@@ -1,0 +1,276 @@
+{
+  "status": "DESCRIPTIVE_OFFLINE_CONTROL_NOT_CAUSAL_SIGNAL_SEPARATION",
+  "identity": "delta_p = R + p_definition - 1; hence R-1 <= delta_p <= R for option probabilities in [0,1]",
+  "settings": [
+    {
+      "setting": "Synthetic / DeepSeek",
+      "corpus": "synthetic",
+      "n": 456,
+      "R_error_auroc": 0.8479235488437943,
+      "delta_p_error_auroc": 0.7447852760736197,
+      "p_definition_error_auroc": 0.31205757432751297,
+      "spearman_R_delta_p": 0.8138881963366589,
+      "bare_error_items": {
+        "n": 130,
+        "mean_R": 0.6921977136134609,
+        "mean_p_definition": 0.8039188678095002,
+        "mean_delta_p": 0.4961165814229611,
+        "delta_p_positive_fraction": 0.9384615384615385
+      },
+      "bare_correct_items": {
+        "n": 326,
+        "mean_R": 0.3219020955389507,
+        "mean_p_definition": 0.9237457607673868,
+        "mean_delta_p": 0.2456478563063376,
+        "delta_p_positive_fraction": 0.9662576687116564
+      },
+      "R_decile_matched_delta_p": {
+        "auc": 0.4852686308492201,
+        "cross_class_pairs": 2885,
+        "informative_deciles": 7
+      },
+      "R_decile_matched_p_definition": {
+        "auc": 0.4409012131715771,
+        "cross_class_pairs": 2885,
+        "informative_deciles": 7
+      }
+    },
+    {
+      "setting": "Synthetic / GPT6",
+      "corpus": "synthetic",
+      "n": 456,
+      "R_error_auroc": 0.8094576698213767,
+      "delta_p_error_auroc": 0.656222746212733,
+      "p_definition_error_auroc": 0.2952291740689299,
+      "spearman_R_delta_p": 0.8138881963366589,
+      "bare_error_items": {
+        "n": 83,
+        "mean_R": 0.6989158837668002,
+        "mean_p_definition": 0.7512899914439656,
+        "mean_delta_p": 0.4502058752107658,
+        "delta_p_positive_fraction": 0.9036144578313253
+      },
+      "bare_correct_items": {
+        "n": 373,
+        "mean_R": 0.36706640097266335,
+        "mean_p_definition": 0.9203579129639516,
+        "mean_delta_p": 0.2874243139366151,
+        "delta_p_positive_fraction": 0.9705093833780161
+      },
+      "R_decile_matched_delta_p": {
+        "auc": 0.43142742902838865,
+        "cross_class_pairs": 2501,
+        "informative_deciles": 8
+      },
+      "R_decile_matched_p_definition": {
+        "auc": 0.39584166333466614,
+        "cross_class_pairs": 2501,
+        "informative_deciles": 8
+      }
+    },
+    {
+      "setting": "Reddit / DeepSeek",
+      "corpus": "reddit",
+      "n": 1391,
+      "R_error_auroc": 0.8081386212518538,
+      "delta_p_error_auroc": 0.5196872820845242,
+      "p_definition_error_auroc": 0.2728891049628255,
+      "spearman_R_delta_p": 0.30082455862821583,
+      "bare_error_items": {
+        "n": 419,
+        "mean_R": 0.7231849904884619,
+        "mean_p_definition": 0.4403135647872294,
+        "mean_delta_p": 0.16349855527569113,
+        "delta_p_positive_fraction": 0.6754176610978521
+      },
+      "bare_correct_items": {
+        "n": 972,
+        "mean_R": 0.45514732750481623,
+        "mean_p_definition": 0.6754369892755041,
+        "mean_delta_p": 0.1305843167803203,
+        "delta_p_positive_fraction": 0.7181069958847737
+      },
+      "R_decile_matched_delta_p": {
+        "auc": 0.4091430444043913,
+        "cross_class_pairs": 30515,
+        "informative_deciles": 10
+      },
+      "R_decile_matched_p_definition": {
+        "auc": 0.40291659839423233,
+        "cross_class_pairs": 30515,
+        "informative_deciles": 10
+      }
+    },
+    {
+      "setting": "Reddit / GPT6",
+      "corpus": "reddit",
+      "n": 1391,
+      "R_error_auroc": 0.7197425818115474,
+      "delta_p_error_auroc": 0.4288119288119288,
+      "p_definition_error_auroc": 0.281024531024531,
+      "spearman_R_delta_p": 0.30082455862821583,
+      "bare_error_items": {
+        "n": 203,
+        "mean_R": 0.6994850925510929,
+        "mean_p_definition": 0.4051140867544318,
+        "mean_delta_p": 0.10459917930552481,
+        "delta_p_positive_fraction": 0.5763546798029556
+      },
+      "bare_correct_items": {
+        "n": 1188,
+        "mean_R": 0.5079311780820496,
+        "mean_p_definition": 0.6387020013556308,
+        "mean_delta_p": 0.14663317943768045,
+        "delta_p_positive_fraction": 0.7272727272727273
+      },
+      "R_decile_matched_delta_p": {
+        "auc": 0.3592399909522732,
+        "cross_class_pairs": 22105,
+        "informative_deciles": 10
+      },
+      "R_decile_matched_p_definition": {
+        "auc": 0.35756616150192266,
+        "cross_class_pairs": 22105,
+        "informative_deciles": 10
+      }
+    },
+    {
+      "setting": "DeFi / DeepSeek",
+      "corpus": "defi",
+      "n": 379,
+      "R_error_auroc": 0.809304562946674,
+      "delta_p_error_auroc": 0.45849367784496975,
+      "p_definition_error_auroc": 0.25597855964815835,
+      "spearman_R_delta_p": 0.11169304086954414,
+      "bare_error_items": {
+        "n": 107,
+        "mean_R": 0.7053829357297289,
+        "mean_p_definition": 0.41023019627723806,
+        "mean_delta_p": 0.11561313200696693,
+        "delta_p_positive_fraction": 0.5700934579439252
+      },
+      "bare_correct_items": {
+        "n": 272,
+        "mean_R": 0.45992423439670843,
+        "mean_p_definition": 0.669887056735422,
+        "mean_delta_p": 0.12981129113213047,
+        "delta_p_positive_fraction": 0.7352941176470589
+      },
+      "R_decile_matched_delta_p": {
+        "auc": 0.4105409153952843,
+        "cross_class_pairs": 2163,
+        "informative_deciles": 10
+      },
+      "R_decile_matched_p_definition": {
+        "auc": 0.3989828941285252,
+        "cross_class_pairs": 2163,
+        "informative_deciles": 10
+      }
+    },
+    {
+      "setting": "DeFi / GPT5.6",
+      "corpus": "defi",
+      "n": 379,
+      "R_error_auroc": 0.7923161706817824,
+      "delta_p_error_auroc": 0.3800582585419619,
+      "p_definition_error_auroc": 0.20418044402456306,
+      "spearman_R_delta_p": 0.11169304086954414,
+      "bare_error_items": {
+        "n": 87,
+        "mean_R": 0.707642854359143,
+        "mean_p_definition": 0.3559213353986394,
+        "mean_delta_p": 0.06356418975778241,
+        "delta_p_positive_fraction": 0.5287356321839081
+      },
+      "bare_correct_items": {
+        "n": 292,
+        "mean_R": 0.47606314229363095,
+        "mean_p_definition": 0.6682834049795124,
+        "mean_delta_p": 0.14434654727314342,
+        "delta_p_positive_fraction": 0.7363013698630136
+      },
+      "R_decile_matched_delta_p": {
+        "auc": 0.30735076467686234,
+        "cross_class_pairs": 2027,
+        "informative_deciles": 9
+      },
+      "R_decile_matched_p_definition": {
+        "auc": 0.2960039467192896,
+        "cross_class_pairs": 2027,
+        "informative_deciles": 9
+      }
+    },
+    {
+      "setting": "DeFi / GPT6",
+      "corpus": "defi",
+      "n": 379,
+      "R_error_auroc": 0.7638392857142857,
+      "delta_p_error_auroc": 0.34171626984126985,
+      "p_definition_error_auroc": 0.20555555555555555,
+      "spearman_R_delta_p": 0.11169304086954414,
+      "bare_error_items": {
+        "n": 64,
+        "mean_R": 0.7036431482381026,
+        "mean_p_definition": 0.33049701814181076,
+        "mean_delta_p": 0.034140166379913406,
+        "delta_p_positive_fraction": 0.484375
+      },
+      "bare_correct_items": {
+        "n": 315,
+        "mean_R": 0.4937847758468162,
+        "mean_p_definition": 0.6506415913416614,
+        "mean_delta_p": 0.14442636718847776,
+        "delta_p_positive_fraction": 0.7301587301587301
+      },
+      "R_decile_matched_delta_p": {
+        "auc": 0.272674078408426,
+        "cross_class_pairs": 1709,
+        "informative_deciles": 9
+      },
+      "R_decile_matched_p_definition": {
+        "auc": 0.2679929783499122,
+        "cross_class_pairs": 1709,
+        "informative_deciles": 9
+      }
+    },
+    {
+      "setting": "CUAD / GPT5.6",
+      "corpus": "cuad",
+      "n": 1500,
+      "R_error_auroc": 0.8148516949152542,
+      "delta_p_error_auroc": 0.4641313559322034,
+      "p_definition_error_auroc": 0.20936175847457628,
+      "spearman_R_delta_p": 0.20982821161024798,
+      "bare_error_items": {
+        "n": 320,
+        "mean_R": 0.7320865073172675,
+        "mean_p_definition": 0.4068454179988065,
+        "mean_delta_p": 0.13893192531607407,
+        "delta_p_positive_fraction": 0.71875
+      },
+      "bare_correct_items": {
+        "n": 1180,
+        "mean_R": 0.42740927683618113,
+        "mean_p_definition": 0.714074267269486,
+        "mean_delta_p": 0.14148354410566716,
+        "delta_p_positive_fraction": 0.8152542372881356
+      },
+      "R_decile_matched_delta_p": {
+        "auc": 0.3977395411605938,
+        "cross_class_pairs": 29640,
+        "informative_deciles": 10
+      },
+      "R_decile_matched_p_definition": {
+        "auc": 0.38989541160593794,
+        "cross_class_pairs": 29640,
+        "informative_deciles": 10
+      }
+    }
+  ],
+  "interpretation": [
+    "The two AUCs in the manuscript use the same items and target; a paired interval describes a predictive ranking contrast, not two independent signals.",
+    "A raw delta_p AUC below 0.5 means that, in this observed setting, low delta_p tends to accompany bare reader errors; it is not a sign error in the formula.",
+    "Within-R-decile AUC conditions approximately on proxy bare-answer risk. It remains a descriptive check because binning does not remove all difficulty or selection confounding.",
+    "The identity decomposes the mean delta_p contrast into mean R and post-definition support contrasts. No causal mechanism is established by this decomposition."
+  ]
+}

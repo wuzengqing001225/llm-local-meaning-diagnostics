@@ -1,0 +1,341 @@
+{
+  "recovered_readers": [
+    {
+      "file": "v1_deepseek_raw.jsonl",
+      "n_questions": 763,
+      "source_questions": 763,
+      "condition_counts": {
+        "bare": 763,
+        "glossC": 763,
+        "glossM": 763,
+        "glossG": 763,
+        "glossP": 763
+      },
+      "original_label_comparisons": 3815,
+      "aggregate_comparisons": 591,
+      "issues": [],
+      "request_model_recorded": [
+        "deepseek-v4-flash"
+      ]
+    },
+    {
+      "file": "v1_gpt6_raw.jsonl",
+      "n_questions": 457,
+      "source_questions": 457,
+      "condition_counts": {
+        "bare": 457,
+        "glossC": 457,
+        "glossM": 441
+      },
+      "original_label_comparisons": 1355,
+      "aggregate_comparisons": 353,
+      "issues": [],
+      "request_model_recorded": [
+        "gpt-6-astra"
+      ]
+    },
+    {
+      "file": "reddit_deepseek_raw.jsonl",
+      "n_questions": 1391,
+      "source_questions": 1391,
+      "condition_counts": {
+        "bare": 1391,
+        "glossC": 1391,
+        "glossM": 1391,
+        "glossG": 851,
+        "glossP": 1391
+      },
+      "original_label_comparisons": 6415,
+      "aggregate_comparisons": 1056,
+      "issues": [],
+      "request_model_recorded": [
+        "deepseek-v4-flash"
+      ]
+    },
+    {
+      "file": "reddit_gpt6_raw.jsonl",
+      "n_questions": 1391,
+      "source_questions": 1391,
+      "condition_counts": {
+        "bare": 1391,
+        "glossC": 1391,
+        "glossM": 1391
+      },
+      "original_label_comparisons": 4173,
+      "aggregate_comparisons": 1056,
+      "issues": [],
+      "request_model_recorded": [
+        "gpt-6-astra"
+      ]
+    },
+    {
+      "file": "defi_strict_deepseek_raw.jsonl",
+      "n_questions": 379,
+      "source_questions": 379,
+      "condition_counts": {
+        "bare": 379,
+        "glossC": 379,
+        "glossM": 379,
+        "glossG": 250,
+        "glossP": 379
+      },
+      "original_label_comparisons": 1766,
+      "aggregate_comparisons": 291,
+      "issues": [],
+      "request_model_recorded": [
+        "deepseek-v4-flash"
+      ]
+    },
+    {
+      "file": "defi_strict_gpt56_raw.jsonl",
+      "n_questions": 379,
+      "source_questions": 379,
+      "condition_counts": {
+        "bare": 379,
+        "glossC": 379,
+        "glossM": 379
+      },
+      "original_label_comparisons": 1137,
+      "aggregate_comparisons": 291,
+      "issues": [],
+      "request_model_recorded": [
+        "gpt-5.6-terra"
+      ]
+    },
+    {
+      "file": "defi_strict_gpt6_raw.jsonl",
+      "n_questions": 379,
+      "source_questions": 379,
+      "condition_counts": {
+        "bare": 379,
+        "glossC": 379,
+        "glossM": 379
+      },
+      "original_label_comparisons": 1137,
+      "aggregate_comparisons": 291,
+      "issues": [],
+      "request_model_recorded": [
+        "gpt-6-astra"
+      ]
+    },
+    {
+      "file": "cuad_usage_deepseek_raw.jsonl",
+      "n_questions": 733,
+      "source_questions": 733,
+      "condition_counts": {
+        "bare": 733,
+        "glossC": 733,
+        "glossM": 733
+      },
+      "original_label_comparisons": 2199,
+      "aggregate_comparisons": 501,
+      "issues": [],
+      "request_model_recorded": [
+        "deepseek-v4-flash"
+      ]
+    },
+    {
+      "file": "cuad_gold_deepseek_raw.jsonl",
+      "n_questions": 671,
+      "source_questions": 671,
+      "condition_counts": {
+        "bare": 671,
+        "glossC": 671,
+        "glossM": 671,
+        "glossG": 671,
+        "glossP": 671
+      },
+      "original_label_comparisons": 0,
+      "aggregate_comparisons": 561,
+      "issues": [],
+      "request_model_recorded": [
+        "deepseek-v4-flash"
+      ]
+    }
+  ],
+  "uncertainty": {
+    "raw_sample_letters": 7630,
+    "full": {
+      "n": 763,
+      "greedy_errors": 231,
+      "identical_among_errors": 154,
+      "identical_wrong_among_errors": 93,
+      "majority_wrong_among_errors": 143,
+      "aucs": {
+        "consistency": 0.5992904338769001,
+        "entropy": 0.5992782280376265,
+        "confidence": 0.6240479445366663
+      }
+    },
+    "shared": {
+      "n": 457,
+      "greedy_errors": 131,
+      "identical_among_errors": 83,
+      "identical_wrong_among_errors": 50,
+      "majority_wrong_among_errors": 81,
+      "aucs": {
+        "consistency": 0.6189294244368473,
+        "entropy": 0.6187889289561186,
+        "confidence": 0.6169273638364633,
+        "risk": 0.8479838898515432
+      }
+    },
+    "alignment_and_vote_checks_passed": true
+  },
+  "prediction_metrics": [
+    {
+      "setting": "Synthetic / DeepSeek",
+      "n": 457,
+      "stem_mismatches": [],
+      "risk_auc": 0.8479838898515432,
+      "pd_auc": 0.7392872195944363,
+      "bare_accuracy": 0.7133479212253829,
+      "definition_accuracy": 0.9693654266958425
+    },
+    {
+      "setting": "Synthetic / GPT6",
+      "n": 457,
+      "stem_mismatches": [],
+      "risk_auc": 0.8089040654596997,
+      "pd_auc": 0.6568842213774886,
+      "bare_accuracy": 0.8183807439824945,
+      "definition_accuracy": 0.9824945295404814
+    },
+    {
+      "setting": "Reddit / DeepSeek",
+      "n": 1391,
+      "stem_mismatches": [],
+      "risk_auc": 0.8081386212518538,
+      "pd_auc": 0.5196872820845242,
+      "bare_accuracy": 0.6987778576563624,
+      "definition_accuracy": 0.8152408339324227
+    },
+    {
+      "setting": "Reddit / GPT6",
+      "n": 1391,
+      "stem_mismatches": [],
+      "risk_auc": 0.7197425818115474,
+      "pd_auc": 0.4288119288119288,
+      "bare_accuracy": 0.8540618260244428,
+      "definition_accuracy": 0.8806613946800863
+    },
+    {
+      "setting": "DeFi / DeepSeek",
+      "n": 379,
+      "stem_mismatches": [],
+      "risk_auc": 0.809304562946674,
+      "pd_auc": 0.45849367784496975,
+      "bare_accuracy": 0.7176781002638523,
+      "definition_accuracy": 0.8073878627968337
+    },
+    {
+      "setting": "DeFi / GPT5.6",
+      "n": 379,
+      "stem_mismatches": [],
+      "risk_auc": 0.7923161706817824,
+      "pd_auc": 0.3800582585419619,
+      "bare_accuracy": 0.7704485488126649,
+      "definition_accuracy": 0.8522427440633246
+    },
+    {
+      "setting": "DeFi / GPT6",
+      "n": 379,
+      "stem_mismatches": [],
+      "risk_auc": 0.7638392857142857,
+      "pd_auc": 0.34171626984126985,
+      "bare_accuracy": 0.8311345646437994,
+      "definition_accuracy": 0.8654353562005277
+    },
+    {
+      "setting": "CUAD library / GPT5.6",
+      "n": 1500,
+      "stem_mismatches": [],
+      "risk_auc": 0.8148516949152542,
+      "pd_auc": 0.4641313559322034,
+      "bare_accuracy": 0.7866666666666666,
+      "definition_accuracy": 0.84
+    },
+    {
+      "setting": "CUAD gold / recovered DeepSeek",
+      "n": 671,
+      "stem_mismatches": [],
+      "risk_auc": 0.8580891816185934,
+      "pd_auc": 0.666464784111843,
+      "bare_accuracy": 0.7719821162444114,
+      "definition_accuracy": 0.9031296572280179
+    }
+  ],
+  "cuad_sampler": {
+    "exact_sample_match": true,
+    "frame_n": 6529,
+    "frame_counts": {
+      "0": 2529,
+      "1": 1430,
+      "2": 1085,
+      "3": 980,
+      "4": 505
+    },
+    "flat_labels_match": true,
+    "weighted_failure": 0.1320477867973656,
+    "weighted_risk_auc": 0.8456231929392303,
+    "weighted_pd_auc": 0.5004414687902105,
+    "transitions": {
+      "(1.0, 1.0)": 1097,
+      "(0.0, 1.0)": 163,
+      "(0.0, 0.0)": 157,
+      "(1.0, 0.0)": 83
+    }
+  },
+  "rag_hybrid": {
+    "raw_rows": 4800,
+    "raw_arms": {
+      "none": 1200,
+      "rag": 1200,
+      "rag_gated": 1200,
+      "rag_examples": 1200
+    },
+    "nonempty_raw_by_arm": {
+      "none": 1200,
+      "rag": 1200,
+      "rag_gated": 1200,
+      "rag_examples": 36
+    },
+    "comparable_rows": 2400,
+    "mismatches": [],
+    "stored": {
+      "n": 1200,
+      "clusters": 198,
+      "gated_accuracy": 0.8708333333333333,
+      "net_gain": 0.05,
+      "repairs": 93,
+      "harms": 33,
+      "net_gain_cluster_ci": [
+        0.03291416124677875,
+        0.06755683520118955
+      ]
+    },
+    "raw_response_sensitivity": {
+      "n": 1200,
+      "clusters": 198,
+      "gated_accuracy": 0.8708333333333333,
+      "net_gain": 0.05,
+      "repairs": 93,
+      "harms": 33,
+      "net_gain_cluster_ci": [
+        0.03291416124677875,
+        0.06755683520118955
+      ]
+    },
+    "note": "The published recovery view uses cache-order-corrected gated responses. Original raw experiment labels are unchanged. See provenance/resolution.json."
+  },
+  "tokenizer_checks": [],
+  "data_comparison": {
+    "identical_count": 115,
+    "different": [],
+    "new_to_workbench_by_name": []
+  },
+  "python_syntax": {
+    "files": 52,
+    "errors": []
+  }
+}

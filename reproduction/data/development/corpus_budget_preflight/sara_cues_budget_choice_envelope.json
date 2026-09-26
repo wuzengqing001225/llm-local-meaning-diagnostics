@@ -1,0 +1,39 @@
+{
+  "n_requests": 256,
+  "n_with_any_two_individually_affordable_overflow_interval": 172,
+  "maximum_competing_request_fraction_under_any_absolute_budget": 0.42578125,
+  "budget_at_maximum_fraction": 1007,
+  "scope": "Source-only structural upper envelope on this provisional catalog/matcher. It is NOT a proposal to select the best budget after seeing results; median-half remains the prespecified primary rule.",
+  "examples_without_choice_at_any_budget": [
+    {
+      "request_id": "sara:76159f0f1c990837f628ce56",
+      "second_smallest_individual_cost": 637,
+      "all_matched_cost": 637
+    },
+    {
+      "request_id": "sara:b490af6ad5d81c62842c989e",
+      "second_smallest_individual_cost": 1515,
+      "all_matched_cost": 1515
+    },
+    {
+      "request_id": "sara:d8c88e939eaae166fa6bec05",
+      "second_smallest_individual_cost": 1515,
+      "all_matched_cost": 1515
+    },
+    {
+      "request_id": "sara:2acfcf2cd665ee022f123a9e",
+      "second_smallest_individual_cost": 1515,
+      "all_matched_cost": 1515
+    },
+    {
+      "request_id": "sara:742cf8ed50ba429ea89cce87",
+      "second_smallest_individual_cost": 1515,
+      "all_matched_cost": 1515
+    },
+    {
+      "request_id": "sara:0d400561550dbccc37eaf414",
+      "second_smallest_individual_cost": 1007,
+      "all_matched_cost": 1007
+    }
+  ]
+}

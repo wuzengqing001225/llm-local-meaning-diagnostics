@@ -1,0 +1,19 @@
+{
+  "status": "bounded_source_only_sample_not_formal_B",
+  "n_requested": 30,
+  "n_fetched": 30,
+  "n_failures": 0,
+  "n_with_two_plus": 10,
+  "match_distribution": {
+    "0": 8,
+    "1": 12,
+    "2": 7,
+    "3": 2,
+    "5": 1
+  },
+  "limitations": [
+    "Search domains preselect subscription, billing, license; not general forum traffic.",
+    "Only first post body used; replies/accepted solutions are not gold labels.",
+    "Glossary definitions are provisional and current snapshot may not match older post date."
+  ]
+}

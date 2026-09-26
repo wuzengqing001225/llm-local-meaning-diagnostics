@@ -1,0 +1,10 @@
+{
+  "status": "development_B_frozen_before_bare_reader",
+  "source_validation": "model_checked_provisional_not_human_gold",
+  "sha256": {
+    "source_cards.jsonl": "d2009541d1c7084747ef9955cf2f278e362b587ef0944c35ca0d95a91405b7c2",
+    "B_candidates_private.jsonl": "16852a3ac5dd37b8d85a039d3529bc903c17036dda3dc012b5a8e24ab25e2cad",
+    "B_quality_audit.jsonl": "f4e4c8f6be0ec038ccbe4e411063bee36af671a461ab6cbb306f5b33346e8b22",
+    "B_source_checked_provisional.jsonl": "1d559cfee53612b72dadf691fedba1546d7dc75a22d4ee73c46f01f128888d97"
+  }
+}

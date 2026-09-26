@@ -1,0 +1,13 @@
+\section{Public tasks and error analysis}
+\label{app:boundaries}
+\input{appendix/tables_public.tex}
+The CUAD extraction comparison uses 1,661 matched questions and changes token F1 little. ContractNLI \citep{contractnli} uses 3,060 hypotheses with document clustering. Its gated effect is small and uncertain, while the all-note effect has a positive interval. The Reddit human-post comparison contains 178 post-term items from 176 posts. Source posts and responses are human-authored, while the evaluated multiple-choice questions are pipeline-produced. The TechQA check contains 105 drafted questions on 20 screened terms rather than the complete human-authored support task.
+
+\paragraph{Clause alignment.}
+The CUAD alignment analysis covers 5,659 scored occurrences, including 644 inside expert-labelled clause spans and 5,015 outside. The share with proxy probability response above 0.3 is 0.1134 inside and 0.1163 outside. Clause categories identify legal topics, not a scale of monetary or decision severity. Within-category comparisons are exploratory and categories may overlap.
+
+\paragraph{Unrepaired errors.}
+Of the 157 CUAD errors that remain wrong with a definition, automated annotations classify 53 as prior-winning interpretations, 39 as question defects, 35 as relation gaps, 15 as insufficient definitions, and one as a parameter issue. Fourteen are unclassified. These are model-generated descriptions, not established causal explanations. The present diagnostic and selection tests do not validate these causal labels.
+
+\input{appendix/definition_priority.tex}
+

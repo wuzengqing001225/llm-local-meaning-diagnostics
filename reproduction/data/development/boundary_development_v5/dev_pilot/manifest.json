@@ -1,0 +1,16 @@
+{
+  "status": "source_linked_development_pilot_unreviewed_no_model_calls",
+  "cards_path": "<local>/Documents/Codex/2026-09-22/llm-idf-1-ai-2-claim/outputs/双信号主实验准备_20260923/dev_rule_cards_source_checked.jsonl",
+  "cards_sha256": "54eaf1e46dc2845438d499a192ec02fd8eeddd5dc2ce88c9b3686023e0e57957",
+  "generator_sha256": "bd061a9106792d771e2eca216710b281c5fb259a40646ca025d594b3ddc2facd",
+  "n_rules": 5,
+  "n_A": 20,
+  "n_B": 30,
+  "seed": null,
+  "sampling": "fixed controlled hypothetical cases; no A or B reader outcomes used",
+  "limitations": [
+    "not independently authored natural requests",
+    "not a confirmatory test",
+    "rule cards and case facts require source/answer review before model calls"
+  ]
+}

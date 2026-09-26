@@ -1,0 +1,14 @@
+\begin{table}[t]\centering\footnotesize
+\caption{Predicting repair among the reader's bare failures. $R$ and $\Delta p$ use the same diagnostic item in the middle columns. The last column uses other scored questions of the same term record, with the available failed-question count in parentheses. CUAD uses the full proxy-scored frame for sibling estimates. Other rows use their available scored siblings. The CUAD 95\% interval is $[0.494,0.661]$.}
+\label{tab:conditional-repair}
+\begin{tabular}{@{}p{4.4cm}rccc@{}}\toprule
+Setting & Bare failures & $R$ & $\Delta p$ & Other-item $\Delta p$ ($n$)\\\midrule
+Synthetic / DeepSeek V4 Flash & 130 & 0.445 & 0.983 & 0.914 (130)\\
+Synthetic / GPT-6-astra & 83 & 0.421 & 0.962 & 0.976 (83)\\
+Reddit / DeepSeek V4.1 Flash & 419 & 0.453 & 0.858 & 0.824 (418)\\
+Reddit / GPT-6-astra & 203 & 0.554 & 0.812 & 0.864 (203)\\
+DeFi / DeepSeek V4.1 Flash & 107 & 0.501 & 0.863 & 0.850 (107)\\
+DeFi / GPT-5.6-terra & 87 & 0.568 & 0.794 & 0.799 (87)\\
+DeFi / GPT-6-astra & 64 & 0.476 & 0.846 & 0.874 (64)\\
+CUAD / GPT-5.6-terra & 320 & 0.462 & 0.712 & 0.581 (190)\\
+\bottomrule\end{tabular}\end{table}

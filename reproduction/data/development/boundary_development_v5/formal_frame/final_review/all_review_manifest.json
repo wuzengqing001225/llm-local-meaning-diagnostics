@@ -1,0 +1,58 @@
+{
+  "status": "source_only_automated_review_complete_before_formal_A_or_B_outcomes",
+  "n_source_candidates": 708,
+  "n_schema_valid_programs_with_judgements": 165,
+  "votes": {
+    "revise": 82,
+    "accept": 45,
+    "reject": 38
+  },
+  "cohort_votes": {
+    "challenge_topup_candidate|revise": 23,
+    "challenge_topup_candidate|accept": 12,
+    "source_sample_candidate|reject": 3,
+    "challenge_topup_candidate|reject": 14,
+    "challenge_candidate|reject": 12,
+    "challenge_candidate|revise": 28,
+    "challenge_candidate|accept": 20,
+    "source_sample_candidate|accept": 8,
+    "source_sample_candidate|revise": 10,
+    "challenge_topup2_candidate|accept": 5,
+    "challenge_topup2_candidate|revise": 21,
+    "challenge_topup2_candidate|reject": 9
+  },
+  "reviewable_challenge_contracts": 77,
+  "inputs": {
+    "base_programs": {
+      "path": "outputs/local_meaning_v5_development/formal_frame/review_selected_rule_programs.jsonl",
+      "sha256": "917980646c42141410b2a84d95ca0f01b364b7eb71b85abf4cf0f1b22ba17a4c"
+    },
+    "base_judgements": {
+      "path": "outputs/local_meaning_v5_development/formal_frame/review_selected_judgements.jsonl",
+      "sha256": "de3684a7e6de14d1acf336a6448fcdaa5b2c1876d2b667b9e324216f5c3951d1"
+    },
+    "reserve_programs": {
+      "path": "outputs/local_meaning_v5_development/formal_frame/topup2_rule_program_proposals_nonthinking.jsonl",
+      "sha256": "bb20f0bd2df24501f2de2d0f000e4e9c1b5bf20c82485b14d74a8ae8777bebea"
+    },
+    "reserve_judgements": {
+      "path": "outputs/local_meaning_v5_development/formal_frame/topup2_rule_program_judgements.jsonl",
+      "sha256": "cbf5f4e62acf24262469b6f6a7b83fcea9233d7dbe8c03be1cd55c90aa3591cd"
+    }
+  },
+  "source_inputs": [
+    {
+      "path": "outputs/local_meaning_v5_development/formal_frame/source_rule_proposals.jsonl",
+      "sha256": "1fbd28c443ea32902d65a2170b5c83f802c2849caf4ad43b7c68b1ed6cc439b2"
+    },
+    {
+      "path": "outputs/local_meaning_v5_development/formal_frame/topup_source_rule_proposals.jsonl",
+      "sha256": "0d34b0546732b900f291dd095a9f4dcbf67fc36fc42af9082a7108b40f1fef82"
+    },
+    {
+      "path": "outputs/local_meaning_v5_development/formal_frame/topup2_source_rule_proposals.jsonl",
+      "sha256": "038f64fd43394f0ab613dc6452f986a32e5625313d883ea92da2b5a880c46bc0"
+    }
+  ],
+  "caveat": "These are model-reviewed source programs, not human-approved rules or valid B gold."
+}

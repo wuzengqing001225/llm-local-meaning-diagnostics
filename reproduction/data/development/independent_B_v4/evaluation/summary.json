@@ -1,0 +1,2859 @@
+{
+  "annotation_review_modes": [
+    "automated_screen"
+  ],
+  "evidence_level": "automated_exploratory",
+  "budget_unit": "proxy_token",
+  "schema_version": 1,
+  "mode": "real",
+  "stage": "pilot",
+  "corpus": "cuad",
+  "budget_scope": "workload",
+  "snapshot_id": "d173a2df377e5b7c5d9f87a314e2a92d0dc7c8175684defbcc02982f6333d0dd",
+  "plan_id": "9485cfa3b97f965c2a51c8397e9912b48cd6fe261542687e5f80f3c47184887d",
+  "reader_requested": "gpt-5.6-terra",
+  "reader_returned": "gpt-5.6-terra",
+  "primary_contrast": {
+    "policy": "occurrence_risk",
+    "comparator": "matched",
+    "budget": 32,
+    "budget_scope": "workload",
+    "n_tasks": 57,
+    "difference": -0.017543859649122806,
+    "ci": [
+      -0.05663098693759071,
+      0.0
+    ]
+  },
+  "results": [
+    {
+      "subset": "all",
+      "policy": "all_matched",
+      "budget": null,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 82.64912280701755,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "all",
+      "policy": "full_glossary",
+      "budget": null,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 660.7368421052631,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "all",
+      "policy": "idf",
+      "budget": 16,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 0.9824561403508771,
+      "net_gain": -0.017543859649122806,
+      "gain_ci": [
+        -0.058823529411764705,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 15.947368421052632,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "all",
+      "policy": "idf",
+      "budget": 32,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 0.9649122807017544,
+      "net_gain": -0.03508771929824561,
+      "gain_ci": [
+        -0.08771929824561403,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 2.0,
+      "mean_definition_tokens": 31.92982456140351,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "all",
+      "policy": "idf",
+      "budget": 64,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 0.9824561403508771,
+      "net_gain": -0.017543859649122806,
+      "gain_ci": [
+        -0.05172413793103448,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 63.96491228070175,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "all",
+      "policy": "matched",
+      "budget": 16,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 15.982456140350877,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "all",
+      "policy": "matched",
+      "budget": 32,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 31.92982456140351,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "all",
+      "policy": "matched",
+      "budget": 64,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 63.98245614035088,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "all",
+      "policy": "none",
+      "budget": null,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 0.0,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "all",
+      "policy": "occurrence_risk",
+      "budget": 16,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 0.9824561403508771,
+      "net_gain": -0.017543859649122806,
+      "gain_ci": [
+        -0.05663098693759071,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 15.964912280701755,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "all",
+      "policy": "occurrence_risk",
+      "budget": 32,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 0.9824561403508771,
+      "net_gain": -0.017543859649122806,
+      "gain_ci": [
+        -0.05663098693759071,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 31.92982456140351,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "all",
+      "policy": "occurrence_risk",
+      "budget": 64,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 63.78947368421053,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "all",
+      "policy": "pd",
+      "budget": 16,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 0.9824561403508771,
+      "net_gain": -0.017543859649122806,
+      "gain_ci": [
+        -0.05663098693759071,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 15.842105263157896,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "all",
+      "policy": "pd",
+      "budget": 32,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 31.92982456140351,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "all",
+      "policy": "pd",
+      "budget": 64,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 63.771929824561404,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "all",
+      "policy": "random",
+      "budget": 16,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 0.9894736842105263,
+      "net_gain": -0.010526315789473684,
+      "gain_ci": [
+        -0.02962962962962963,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.6,
+      "mean_definition_tokens": 15.912280701754385,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "all",
+      "policy": "random",
+      "budget": 32,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 0.9824561403508771,
+      "net_gain": -0.017543859649122806,
+      "gain_ci": [
+        -0.03774072869225764,
+        -0.003278688524590163
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.9999999999999999,
+      "mean_definition_tokens": 31.849122807017544,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "all",
+      "policy": "random",
+      "budget": 64,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 0.9859649122807018,
+      "net_gain": -0.014035087719298244,
+      "gain_ci": [
+        -0.03448607427055703,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.7999999999999999,
+      "mean_definition_tokens": 63.88421052631579,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "all",
+      "policy": "repairability",
+      "budget": 16,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 0.9824561403508771,
+      "net_gain": -0.017543859649122806,
+      "gain_ci": [
+        -0.05172413793103448,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 15.947368421052632,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "all",
+      "policy": "repairability",
+      "budget": 32,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 0.9824561403508771,
+      "net_gain": -0.017543859649122806,
+      "gain_ci": [
+        -0.05172413793103448,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 31.80701754385965,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "all",
+      "policy": "repairability",
+      "budget": 64,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 0.9824561403508771,
+      "net_gain": -0.017543859649122806,
+      "gain_ci": [
+        -0.05172413793103448,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 63.96491228070175,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "all",
+      "policy": "term_max",
+      "budget": 16,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 0.9824561403508771,
+      "net_gain": -0.017543859649122806,
+      "gain_ci": [
+        -0.06252480158730159,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 15.859649122807017,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "all",
+      "policy": "term_max",
+      "budget": 32,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 0.9824561403508771,
+      "net_gain": -0.017543859649122806,
+      "gain_ci": [
+        -0.05663098693759071,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 31.82456140350877,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "all",
+      "policy": "term_max",
+      "budget": 64,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 64.0,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "all",
+      "policy": "term_mean",
+      "budget": 16,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 16.0,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "all",
+      "policy": "term_mean",
+      "budget": 32,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 0.9824561403508771,
+      "net_gain": -0.017543859649122806,
+      "gain_ci": [
+        -0.05663098693759071,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 31.912280701754387,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "all",
+      "policy": "term_mean",
+      "budget": 64,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 63.75438596491228,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "corpus:cuad",
+      "policy": "all_matched",
+      "budget": null,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 82.64912280701755,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "corpus:cuad",
+      "policy": "full_glossary",
+      "budget": null,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 660.7368421052631,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "corpus:cuad",
+      "policy": "idf",
+      "budget": 16,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 0.9824561403508771,
+      "net_gain": -0.017543859649122806,
+      "gain_ci": [
+        -0.058823529411764705,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 15.947368421052632,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "corpus:cuad",
+      "policy": "idf",
+      "budget": 32,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 0.9649122807017544,
+      "net_gain": -0.03508771929824561,
+      "gain_ci": [
+        -0.08771929824561403,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 2.0,
+      "mean_definition_tokens": 31.92982456140351,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "corpus:cuad",
+      "policy": "idf",
+      "budget": 64,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 0.9824561403508771,
+      "net_gain": -0.017543859649122806,
+      "gain_ci": [
+        -0.05172413793103448,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 63.96491228070175,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "corpus:cuad",
+      "policy": "matched",
+      "budget": 16,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 15.982456140350877,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "corpus:cuad",
+      "policy": "matched",
+      "budget": 32,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 31.92982456140351,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "corpus:cuad",
+      "policy": "matched",
+      "budget": 64,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 63.98245614035088,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "corpus:cuad",
+      "policy": "none",
+      "budget": null,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 0.0,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "corpus:cuad",
+      "policy": "occurrence_risk",
+      "budget": 16,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 0.9824561403508771,
+      "net_gain": -0.017543859649122806,
+      "gain_ci": [
+        -0.05663098693759071,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 15.964912280701755,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "corpus:cuad",
+      "policy": "occurrence_risk",
+      "budget": 32,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 0.9824561403508771,
+      "net_gain": -0.017543859649122806,
+      "gain_ci": [
+        -0.05663098693759071,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 31.92982456140351,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "corpus:cuad",
+      "policy": "occurrence_risk",
+      "budget": 64,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 63.78947368421053,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "corpus:cuad",
+      "policy": "pd",
+      "budget": 16,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 0.9824561403508771,
+      "net_gain": -0.017543859649122806,
+      "gain_ci": [
+        -0.05663098693759071,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 15.842105263157896,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "corpus:cuad",
+      "policy": "pd",
+      "budget": 32,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 31.92982456140351,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "corpus:cuad",
+      "policy": "pd",
+      "budget": 64,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 63.771929824561404,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "corpus:cuad",
+      "policy": "random",
+      "budget": 16,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 0.9894736842105263,
+      "net_gain": -0.010526315789473684,
+      "gain_ci": [
+        -0.02962962962962963,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.6,
+      "mean_definition_tokens": 15.912280701754385,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "corpus:cuad",
+      "policy": "random",
+      "budget": 32,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 0.9824561403508771,
+      "net_gain": -0.017543859649122806,
+      "gain_ci": [
+        -0.03774072869225764,
+        -0.003278688524590163
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.9999999999999999,
+      "mean_definition_tokens": 31.849122807017544,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "corpus:cuad",
+      "policy": "random",
+      "budget": 64,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 0.9859649122807018,
+      "net_gain": -0.014035087719298244,
+      "gain_ci": [
+        -0.03448607427055703,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.7999999999999999,
+      "mean_definition_tokens": 63.88421052631579,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "corpus:cuad",
+      "policy": "repairability",
+      "budget": 16,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 0.9824561403508771,
+      "net_gain": -0.017543859649122806,
+      "gain_ci": [
+        -0.05172413793103448,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 15.947368421052632,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "corpus:cuad",
+      "policy": "repairability",
+      "budget": 32,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 0.9824561403508771,
+      "net_gain": -0.017543859649122806,
+      "gain_ci": [
+        -0.05172413793103448,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 31.80701754385965,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "corpus:cuad",
+      "policy": "repairability",
+      "budget": 64,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 0.9824561403508771,
+      "net_gain": -0.017543859649122806,
+      "gain_ci": [
+        -0.05172413793103448,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 63.96491228070175,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "corpus:cuad",
+      "policy": "term_max",
+      "budget": 16,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 0.9824561403508771,
+      "net_gain": -0.017543859649122806,
+      "gain_ci": [
+        -0.06252480158730159,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 15.859649122807017,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "corpus:cuad",
+      "policy": "term_max",
+      "budget": 32,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 0.9824561403508771,
+      "net_gain": -0.017543859649122806,
+      "gain_ci": [
+        -0.05663098693759071,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 31.82456140350877,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "corpus:cuad",
+      "policy": "term_max",
+      "budget": 64,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 64.0,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "corpus:cuad",
+      "policy": "term_mean",
+      "budget": 16,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 16.0,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "corpus:cuad",
+      "policy": "term_mean",
+      "budget": 32,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 0.9824561403508771,
+      "net_gain": -0.017543859649122806,
+      "gain_ci": [
+        -0.05663098693759071,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 31.912280701754387,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "corpus:cuad",
+      "policy": "term_mean",
+      "budget": 64,
+      "n_tasks": 57,
+      "n_clusters": 38,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 63.75438596491228,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:required",
+      "policy": "all_matched",
+      "budget": null,
+      "n_tasks": 45,
+      "n_clusters": 32,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 81.64444444444445,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:required",
+      "policy": "full_glossary",
+      "budget": null,
+      "n_tasks": 45,
+      "n_clusters": 32,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 593.5777777777778,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:required",
+      "policy": "idf",
+      "budget": 16,
+      "n_tasks": 45,
+      "n_clusters": 32,
+      "accuracy": 0.9777777777777777,
+      "net_gain": -0.022222222222222223,
+      "gain_ci": [
+        -0.07501179245283018,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 17.6,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:required",
+      "policy": "idf",
+      "budget": 32,
+      "n_tasks": 45,
+      "n_clusters": 32,
+      "accuracy": 0.9555555555555556,
+      "net_gain": -0.044444444444444446,
+      "gain_ci": [
+        -0.1111111111111111,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 2.0,
+      "mean_definition_tokens": 31.133333333333333,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:required",
+      "policy": "idf",
+      "budget": 64,
+      "n_tasks": 45,
+      "n_clusters": 32,
+      "accuracy": 0.9777777777777777,
+      "net_gain": -0.022222222222222223,
+      "gain_ci": [
+        -0.06818181818181818,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 61.266666666666666,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:required",
+      "policy": "matched",
+      "budget": 16,
+      "n_tasks": 45,
+      "n_clusters": 32,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 13.133333333333333,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:required",
+      "policy": "matched",
+      "budget": 32,
+      "n_tasks": 45,
+      "n_clusters": 32,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 26.733333333333334,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:required",
+      "policy": "matched",
+      "budget": 64,
+      "n_tasks": 45,
+      "n_clusters": 32,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 59.333333333333336,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:required",
+      "policy": "none",
+      "budget": null,
+      "n_tasks": 45,
+      "n_clusters": 32,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 0.0,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:required",
+      "policy": "occurrence_risk",
+      "budget": 16,
+      "n_tasks": 45,
+      "n_clusters": 32,
+      "accuracy": 0.9777777777777777,
+      "net_gain": -0.022222222222222223,
+      "gain_ci": [
+        -0.06976744186046512,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 16.266666666666666,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:required",
+      "policy": "occurrence_risk",
+      "budget": 32,
+      "n_tasks": 45,
+      "n_clusters": 32,
+      "accuracy": 0.9777777777777777,
+      "net_gain": -0.022222222222222223,
+      "gain_ci": [
+        -0.06976744186046512,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 31.68888888888889,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:required",
+      "policy": "occurrence_risk",
+      "budget": 64,
+      "n_tasks": 45,
+      "n_clusters": 32,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 67.11111111111111,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:required",
+      "policy": "pd",
+      "budget": 16,
+      "n_tasks": 45,
+      "n_clusters": 32,
+      "accuracy": 0.9777777777777777,
+      "net_gain": -0.022222222222222223,
+      "gain_ci": [
+        -0.06976744186046512,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 16.57777777777778,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:required",
+      "policy": "pd",
+      "budget": 32,
+      "n_tasks": 45,
+      "n_clusters": 32,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 34.022222222222226,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:required",
+      "policy": "pd",
+      "budget": 64,
+      "n_tasks": 45,
+      "n_clusters": 32,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 67.08888888888889,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:required",
+      "policy": "random",
+      "budget": 16,
+      "n_tasks": 45,
+      "n_clusters": 32,
+      "accuracy": 0.9866666666666666,
+      "net_gain": -0.013333333333333332,
+      "gain_ci": [
+        -0.037209302325581395,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.6,
+      "mean_definition_tokens": 14.902222222222223,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:required",
+      "policy": "random",
+      "budget": 32,
+      "n_tasks": 45,
+      "n_clusters": 32,
+      "accuracy": 0.9777777777777777,
+      "net_gain": -0.02222222222222222,
+      "gain_ci": [
+        -0.047826086956521734,
+        -0.004166666666666666
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.9999999999999999,
+      "mean_definition_tokens": 30.977777777777778,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:required",
+      "policy": "random",
+      "budget": 64,
+      "n_tasks": 45,
+      "n_clusters": 32,
+      "accuracy": 0.9822222222222223,
+      "net_gain": -0.017777777777777778,
+      "gain_ci": [
+        -0.043243243243243246,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.7999999999999999,
+      "mean_definition_tokens": 62.68888888888889,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:required",
+      "policy": "repairability",
+      "budget": 16,
+      "n_tasks": 45,
+      "n_clusters": 32,
+      "accuracy": 0.9777777777777777,
+      "net_gain": -0.022222222222222223,
+      "gain_ci": [
+        -0.06818181818181818,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 15.333333333333334,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:required",
+      "policy": "repairability",
+      "budget": 32,
+      "n_tasks": 45,
+      "n_clusters": 32,
+      "accuracy": 0.9777777777777777,
+      "net_gain": -0.022222222222222223,
+      "gain_ci": [
+        -0.06818181818181818,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 28.8,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:required",
+      "policy": "repairability",
+      "budget": 64,
+      "n_tasks": 45,
+      "n_clusters": 32,
+      "accuracy": 0.9777777777777777,
+      "net_gain": -0.022222222222222223,
+      "gain_ci": [
+        -0.06818181818181818,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 62.355555555555554,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:required",
+      "policy": "term_max",
+      "budget": 16,
+      "n_tasks": 45,
+      "n_clusters": 32,
+      "accuracy": 0.9777777777777777,
+      "net_gain": -0.022222222222222223,
+      "gain_ci": [
+        -0.07894736842105263,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 15.577777777777778,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:required",
+      "policy": "term_max",
+      "budget": 32,
+      "n_tasks": 45,
+      "n_clusters": 32,
+      "accuracy": 0.9777777777777777,
+      "net_gain": -0.022222222222222223,
+      "gain_ci": [
+        -0.06976744186046512,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 33.977777777777774,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:required",
+      "policy": "term_max",
+      "budget": 64,
+      "n_tasks": 45,
+      "n_clusters": 32,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 67.37777777777778,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:required",
+      "policy": "term_mean",
+      "budget": 16,
+      "n_tasks": 45,
+      "n_clusters": 32,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 18.555555555555557,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:required",
+      "policy": "term_mean",
+      "budget": 32,
+      "n_tasks": 45,
+      "n_clusters": 32,
+      "accuracy": 0.9777777777777777,
+      "net_gain": -0.022222222222222223,
+      "gain_ci": [
+        -0.06976744186046512,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 31.666666666666668,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:required",
+      "policy": "term_mean",
+      "budget": 64,
+      "n_tasks": 45,
+      "n_clusters": 32,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 67.06666666666666,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:not_required",
+      "policy": "all_matched",
+      "budget": null,
+      "n_tasks": 12,
+      "n_clusters": 11,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 86.41666666666667,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:not_required",
+      "policy": "full_glossary",
+      "budget": null,
+      "n_tasks": 12,
+      "n_clusters": 11,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 912.5833333333334,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:not_required",
+      "policy": "idf",
+      "budget": 16,
+      "n_tasks": 12,
+      "n_clusters": 11,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 9.75,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:not_required",
+      "policy": "idf",
+      "budget": 32,
+      "n_tasks": 12,
+      "n_clusters": 11,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 34.916666666666664,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:not_required",
+      "policy": "idf",
+      "budget": 64,
+      "n_tasks": 12,
+      "n_clusters": 11,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 74.08333333333333,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:not_required",
+      "policy": "matched",
+      "budget": 16,
+      "n_tasks": 12,
+      "n_clusters": 11,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 26.666666666666668,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:not_required",
+      "policy": "matched",
+      "budget": 32,
+      "n_tasks": 12,
+      "n_clusters": 11,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 51.416666666666664,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:not_required",
+      "policy": "matched",
+      "budget": 64,
+      "n_tasks": 12,
+      "n_clusters": 11,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 81.41666666666667,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:not_required",
+      "policy": "none",
+      "budget": null,
+      "n_tasks": 12,
+      "n_clusters": 11,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 0.0,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:not_required",
+      "policy": "occurrence_risk",
+      "budget": 16,
+      "n_tasks": 12,
+      "n_clusters": 11,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 14.833333333333334,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:not_required",
+      "policy": "occurrence_risk",
+      "budget": 32,
+      "n_tasks": 12,
+      "n_clusters": 11,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 32.833333333333336,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:not_required",
+      "policy": "occurrence_risk",
+      "budget": 64,
+      "n_tasks": 12,
+      "n_clusters": 11,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 51.333333333333336,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:not_required",
+      "policy": "pd",
+      "budget": 16,
+      "n_tasks": 12,
+      "n_clusters": 11,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 13.083333333333334,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:not_required",
+      "policy": "pd",
+      "budget": 32,
+      "n_tasks": 12,
+      "n_clusters": 11,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 24.083333333333332,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:not_required",
+      "policy": "pd",
+      "budget": 64,
+      "n_tasks": 12,
+      "n_clusters": 11,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 51.333333333333336,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:not_required",
+      "policy": "random",
+      "budget": 16,
+      "n_tasks": 12,
+      "n_clusters": 11,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 19.7,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:not_required",
+      "policy": "random",
+      "budget": 32,
+      "n_tasks": 12,
+      "n_clusters": 11,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 35.11666666666667,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:not_required",
+      "policy": "random",
+      "budget": 64,
+      "n_tasks": 12,
+      "n_clusters": 11,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 68.36666666666666,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:not_required",
+      "policy": "repairability",
+      "budget": 16,
+      "n_tasks": 12,
+      "n_clusters": 11,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 18.25,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:not_required",
+      "policy": "repairability",
+      "budget": 32,
+      "n_tasks": 12,
+      "n_clusters": 11,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 43.083333333333336,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:not_required",
+      "policy": "repairability",
+      "budget": 64,
+      "n_tasks": 12,
+      "n_clusters": 11,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 70.0,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:not_required",
+      "policy": "term_max",
+      "budget": 16,
+      "n_tasks": 12,
+      "n_clusters": 11,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 16.916666666666668,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:not_required",
+      "policy": "term_max",
+      "budget": 32,
+      "n_tasks": 12,
+      "n_clusters": 11,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 23.75,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:not_required",
+      "policy": "term_max",
+      "budget": 64,
+      "n_tasks": 12,
+      "n_clusters": 11,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 51.333333333333336,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:not_required",
+      "policy": "term_mean",
+      "budget": 16,
+      "n_tasks": 12,
+      "n_clusters": 11,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 6.416666666666667,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:not_required",
+      "policy": "term_mean",
+      "budget": 32,
+      "n_tasks": 12,
+      "n_clusters": 11,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 32.833333333333336,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "dependence:not_required",
+      "policy": "term_mean",
+      "budget": 64,
+      "n_tasks": 12,
+      "n_clusters": 11,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 51.333333333333336,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:agrees",
+      "policy": "all_matched",
+      "budget": null,
+      "n_tasks": 48,
+      "n_clusters": 35,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 79.4375,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:agrees",
+      "policy": "full_glossary",
+      "budget": null,
+      "n_tasks": 48,
+      "n_clusters": 35,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 662.0416666666666,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:agrees",
+      "policy": "idf",
+      "budget": 16,
+      "n_tasks": 48,
+      "n_clusters": 35,
+      "accuracy": 0.9791666666666666,
+      "net_gain": -0.020833333333333332,
+      "gain_ci": [
+        -0.06822145877378435,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 17.229166666666668,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:agrees",
+      "policy": "idf",
+      "budget": 32,
+      "n_tasks": 48,
+      "n_clusters": 35,
+      "accuracy": 0.9791666666666666,
+      "net_gain": -0.020833333333333332,
+      "gain_ci": [
+        -0.06822145877378435,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 31.4375,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:agrees",
+      "policy": "idf",
+      "budget": 64,
+      "n_tasks": 48,
+      "n_clusters": 35,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 60.729166666666664,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:agrees",
+      "policy": "matched",
+      "budget": 16,
+      "n_tasks": 48,
+      "n_clusters": 35,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 14.5625,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:agrees",
+      "policy": "matched",
+      "budget": 32,
+      "n_tasks": 48,
+      "n_clusters": 35,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 29.6875,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:agrees",
+      "policy": "matched",
+      "budget": 64,
+      "n_tasks": 48,
+      "n_clusters": 35,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 64.6875,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:agrees",
+      "policy": "none",
+      "budget": null,
+      "n_tasks": 48,
+      "n_clusters": 35,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 0.0,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:agrees",
+      "policy": "occurrence_risk",
+      "budget": 16,
+      "n_tasks": 48,
+      "n_clusters": 35,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 13.604166666666666,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:agrees",
+      "policy": "occurrence_risk",
+      "budget": 32,
+      "n_tasks": 48,
+      "n_clusters": 35,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 30.625,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:agrees",
+      "policy": "occurrence_risk",
+      "budget": 64,
+      "n_tasks": 48,
+      "n_clusters": 35,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 60.854166666666664,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:agrees",
+      "policy": "pd",
+      "budget": 16,
+      "n_tasks": 48,
+      "n_clusters": 35,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 14.5625,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:agrees",
+      "policy": "pd",
+      "budget": 32,
+      "n_tasks": 48,
+      "n_clusters": 35,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 29.583333333333332,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:agrees",
+      "policy": "pd",
+      "budget": 64,
+      "n_tasks": 48,
+      "n_clusters": 35,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 58.791666666666664,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:agrees",
+      "policy": "random",
+      "budget": 16,
+      "n_tasks": 48,
+      "n_clusters": 35,
+      "accuracy": 0.9916666666666667,
+      "net_gain": -0.008333333333333333,
+      "gain_ci": [
+        -0.029286585365853664,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.4,
+      "mean_definition_tokens": 16.283333333333335,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:agrees",
+      "policy": "random",
+      "budget": 32,
+      "n_tasks": 48,
+      "n_clusters": 35,
+      "accuracy": 0.9874999999999999,
+      "net_gain": -0.012499999999999997,
+      "gain_ci": [
+        -0.029268292682926824,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.5999999999999999,
+      "mean_definition_tokens": 31.287499999999998,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:agrees",
+      "policy": "random",
+      "budget": 64,
+      "n_tasks": 48,
+      "n_clusters": 35,
+      "accuracy": 0.9874999999999999,
+      "net_gain": -0.012499999999999999,
+      "gain_ci": [
+        -0.03404255319148936,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.6,
+      "mean_definition_tokens": 61.2125,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:agrees",
+      "policy": "repairability",
+      "budget": 16,
+      "n_tasks": 48,
+      "n_clusters": 35,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 15.0625,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:agrees",
+      "policy": "repairability",
+      "budget": 32,
+      "n_tasks": 48,
+      "n_clusters": 35,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 30.4375,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:agrees",
+      "policy": "repairability",
+      "budget": 64,
+      "n_tasks": 48,
+      "n_clusters": 35,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 61.291666666666664,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:agrees",
+      "policy": "term_max",
+      "budget": 16,
+      "n_tasks": 48,
+      "n_clusters": 35,
+      "accuracy": 0.9791666666666666,
+      "net_gain": -0.020833333333333332,
+      "gain_ci": [
+        -0.06818181818181818,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 14.583333333333334,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:agrees",
+      "policy": "term_max",
+      "budget": 32,
+      "n_tasks": 48,
+      "n_clusters": 35,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 30.5,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:agrees",
+      "policy": "term_max",
+      "budget": 64,
+      "n_tasks": 48,
+      "n_clusters": 35,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 61.104166666666664,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:agrees",
+      "policy": "term_mean",
+      "budget": 16,
+      "n_tasks": 48,
+      "n_clusters": 35,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 13.895833333333334,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:agrees",
+      "policy": "term_mean",
+      "budget": 32,
+      "n_tasks": 48,
+      "n_clusters": 35,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 31.6875,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:agrees",
+      "policy": "term_mean",
+      "budget": 64,
+      "n_tasks": 48,
+      "n_clusters": 35,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 60.8125,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:disagrees",
+      "policy": "all_matched",
+      "budget": null,
+      "n_tasks": 9,
+      "n_clusters": 8,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 99.77777777777777,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:disagrees",
+      "policy": "full_glossary",
+      "budget": null,
+      "n_tasks": 9,
+      "n_clusters": 8,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 653.7777777777778,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:disagrees",
+      "policy": "idf",
+      "budget": 16,
+      "n_tasks": 9,
+      "n_clusters": 8,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 9.11111111111111,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:disagrees",
+      "policy": "idf",
+      "budget": 32,
+      "n_tasks": 9,
+      "n_clusters": 8,
+      "accuracy": 0.8888888888888888,
+      "net_gain": -0.1111111111111111,
+      "gain_ci": [
+        -0.375,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 34.55555555555556,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:disagrees",
+      "policy": "idf",
+      "budget": 64,
+      "n_tasks": 9,
+      "n_clusters": 8,
+      "accuracy": 0.8888888888888888,
+      "net_gain": -0.1111111111111111,
+      "gain_ci": [
+        -0.375,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 81.22222222222223,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:disagrees",
+      "policy": "matched",
+      "budget": 16,
+      "n_tasks": 9,
+      "n_clusters": 8,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 23.555555555555557,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:disagrees",
+      "policy": "matched",
+      "budget": 32,
+      "n_tasks": 9,
+      "n_clusters": 8,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 43.888888888888886,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:disagrees",
+      "policy": "matched",
+      "budget": 64,
+      "n_tasks": 9,
+      "n_clusters": 8,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 60.22222222222222,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:disagrees",
+      "policy": "none",
+      "budget": null,
+      "n_tasks": 9,
+      "n_clusters": 8,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 0.0,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:disagrees",
+      "policy": "occurrence_risk",
+      "budget": 16,
+      "n_tasks": 9,
+      "n_clusters": 8,
+      "accuracy": 0.8888888888888888,
+      "net_gain": -0.1111111111111111,
+      "gain_ci": [
+        -0.375,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 28.555555555555557,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:disagrees",
+      "policy": "occurrence_risk",
+      "budget": 32,
+      "n_tasks": 9,
+      "n_clusters": 8,
+      "accuracy": 0.8888888888888888,
+      "net_gain": -0.1111111111111111,
+      "gain_ci": [
+        -0.375,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 38.888888888888886,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:disagrees",
+      "policy": "occurrence_risk",
+      "budget": 64,
+      "n_tasks": 9,
+      "n_clusters": 8,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 79.44444444444444,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:disagrees",
+      "policy": "pd",
+      "budget": 16,
+      "n_tasks": 9,
+      "n_clusters": 8,
+      "accuracy": 0.8888888888888888,
+      "net_gain": -0.1111111111111111,
+      "gain_ci": [
+        -0.375,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 22.666666666666668,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:disagrees",
+      "policy": "pd",
+      "budget": 32,
+      "n_tasks": 9,
+      "n_clusters": 8,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 44.44444444444444,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:disagrees",
+      "policy": "pd",
+      "budget": 64,
+      "n_tasks": 9,
+      "n_clusters": 8,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 90.33333333333333,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:disagrees",
+      "policy": "random",
+      "budget": 16,
+      "n_tasks": 9,
+      "n_clusters": 8,
+      "accuracy": 0.9777777777777779,
+      "net_gain": -0.022222222222222216,
+      "gain_ci": [
+        -0.07499999999999998,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.19999999999999996,
+      "mean_definition_tokens": 13.933333333333334,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:disagrees",
+      "policy": "random",
+      "budget": 32,
+      "n_tasks": 9,
+      "n_clusters": 8,
+      "accuracy": 0.9555555555555555,
+      "net_gain": -0.044444444444444446,
+      "gain_ci": [
+        -0.15000000000000002,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.4,
+      "mean_definition_tokens": 34.84444444444445,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:disagrees",
+      "policy": "random",
+      "budget": 64,
+      "n_tasks": 9,
+      "n_clusters": 8,
+      "accuracy": 0.9777777777777779,
+      "net_gain": -0.022222222222222216,
+      "gain_ci": [
+        -0.07499999999999998,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.19999999999999996,
+      "mean_definition_tokens": 78.13333333333334,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:disagrees",
+      "policy": "repairability",
+      "budget": 16,
+      "n_tasks": 9,
+      "n_clusters": 8,
+      "accuracy": 0.8888888888888888,
+      "net_gain": -0.1111111111111111,
+      "gain_ci": [
+        -0.375,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 20.666666666666668,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:disagrees",
+      "policy": "repairability",
+      "budget": 32,
+      "n_tasks": 9,
+      "n_clusters": 8,
+      "accuracy": 0.8888888888888888,
+      "net_gain": -0.1111111111111111,
+      "gain_ci": [
+        -0.375,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 39.111111111111114,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:disagrees",
+      "policy": "repairability",
+      "budget": 64,
+      "n_tasks": 9,
+      "n_clusters": 8,
+      "accuracy": 0.8888888888888888,
+      "net_gain": -0.1111111111111111,
+      "gain_ci": [
+        -0.375,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 78.22222222222223,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:disagrees",
+      "policy": "term_max",
+      "budget": 16,
+      "n_tasks": 9,
+      "n_clusters": 8,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 22.666666666666668,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:disagrees",
+      "policy": "term_max",
+      "budget": 32,
+      "n_tasks": 9,
+      "n_clusters": 8,
+      "accuracy": 0.8888888888888888,
+      "net_gain": -0.1111111111111111,
+      "gain_ci": [
+        -0.375,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 38.888888888888886,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:disagrees",
+      "policy": "term_max",
+      "budget": 64,
+      "n_tasks": 9,
+      "n_clusters": 8,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 79.44444444444444,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:disagrees",
+      "policy": "term_mean",
+      "budget": 16,
+      "n_tasks": 9,
+      "n_clusters": 8,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 27.22222222222222,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:disagrees",
+      "policy": "term_mean",
+      "budget": 32,
+      "n_tasks": 9,
+      "n_clusters": 8,
+      "accuracy": 0.8888888888888888,
+      "net_gain": -0.1111111111111111,
+      "gain_ci": [
+        -0.375,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 1.0,
+      "mean_definition_tokens": 33.111111111111114,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    },
+    {
+      "subset": "reader_audit:disagrees",
+      "policy": "term_mean",
+      "budget": 64,
+      "n_tasks": 9,
+      "n_clusters": 8,
+      "accuracy": 1.0,
+      "net_gain": 0.0,
+      "gain_ci": [
+        0.0,
+        0.0
+      ],
+      "repair_count_expected_over_seeds": 0,
+      "harm_count_expected_over_seeds": 0.0,
+      "mean_definition_tokens": 79.44444444444444,
+      "randomization": "mean over policy seeds per task; paired cluster resampling over tasks"
+    }
+  ],
+  "independent_prediction": {
+    "aggregation": "maximum diagnostic A score among all candidate occurrences in fixed context; not target-aware",
+    "n": 57,
+    "missing": 0,
+    "R_auroc": null,
+    "PD_auroc": null,
+    "R_average_precision": null,
+    "PD_average_precision": null,
+    "error_prevalence": 0.0,
+    "R_full_matched_repair_auroc": null,
+    "PD_full_matched_repair_auroc": null
+  },
+  "invalid_outputs_by_arm": {
+    "('none', None)": 0,
+    "('matched', 16)": 0,
+    "('matched', 32)": 0,
+    "('matched', 64)": 0,
+    "('random', 16)": 0,
+    "('random', 32)": 0,
+    "('random', 64)": 0,
+    "('idf', 16)": 0,
+    "('idf', 32)": 0,
+    "('idf', 64)": 0,
+    "('term_mean', 16)": 0,
+    "('term_mean', 32)": 0,
+    "('term_mean', 64)": 0,
+    "('term_max', 16)": 0,
+    "('term_max', 32)": 0,
+    "('term_max', 64)": 0,
+    "('occurrence_risk', 16)": 0,
+    "('occurrence_risk', 32)": 0,
+    "('occurrence_risk', 64)": 0,
+    "('pd', 16)": 0,
+    "('pd', 32)": 0,
+    "('pd', 64)": 0,
+    "('repairability', 16)": 0,
+    "('repairability', 32)": 0,
+    "('repairability', 64)": 0,
+    "('all_matched', None)": 0,
+    "('full_glossary', None)": 0
+  },
+  "coverage": "Complete planned requests required; no outcome-dependent dropping.",
+  "limitations": [
+    "Source-selected fixed-context pilot; does not establish deployment prevalence or end-to-end retrieval gains.",
+    "Review fields record attestations; software cannot verify human independence.",
+    "Correlated random seeds averaged within task; no equivalence claim from a nonsignificant contrast.",
+    "Cluster intervals condition on the observed policy allocation; they do not reoptimize allocation in each resample.",
+    "Workload budgets assume the batch of questions/contexts is available; this is not an online optimal-allocation claim."
+  ],
+  "mechanism_summary_path": "mechanism/summary.json",
+  "mechanism_annotation_coverage": {
+    "eligible_tasks": 57,
+    "annotated_tasks": 28,
+    "pending_tasks": 29,
+    "unique_requests": 110,
+    "conditions": {
+      "bare": 28,
+      "local_note": 28,
+      "usual_note": 26,
+      "irrelevant_note": 28
+    },
+    "note": "This checks behavioral responses. It does not infer all error causes or prove neural causal mechanisms. Abstaining protocol differs from forced-choice budget protocol."
+  },
+  "runtime_versions": {
+    "torch": "2.10.0",
+    "transformers": "5.5.0",
+    "huggingface_hub": "1.15.0",
+    "tiktoken": "0.14.0"
+  },
+  "authoring_provenance": {
+    "evidence_level": "automated_exploratory",
+    "automatic": false,
+    "models": {},
+    "note": "Different calls and isolated inputs do not imply independent human authors or independent model-family errors."
+  }
+}

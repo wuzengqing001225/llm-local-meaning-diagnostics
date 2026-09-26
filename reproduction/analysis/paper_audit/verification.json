@@ -1,0 +1,18 @@
+{
+  "main_conclusion_page": 7,
+  "statements_and_references_start_page": 8,
+  "total_pages": 18,
+  "undefined_references": 0,
+  "overfull_boxes": 0,
+  "all_pages_rendered_and_visually_checked": true,
+  "main_appendix_semicolons": 0,
+  "main_appendix_em_dashes": 0,
+  "independent_experiment_results_available": false,
+  "model_names_and_historical_revisions_confirmed": true,
+  "rag_original_counts_confirmed": {
+    "repairs": 93,
+    "harms": 33,
+    "net_gain_percentage_points": 5.0
+  },
+  "new_B_review_status": "protocol_and_tool_ready_waiting_for_B"
+}

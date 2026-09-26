@@ -1,0 +1,620 @@
+[
+  {
+    "id": "v1:desk:interest",
+    "qi": 0,
+    "evaluated_question": {
+      "q": "Alert: Interest is +0.025% at 12:00. Who pays?",
+      "options": [
+        "Long position holders pay short position holders.",
+        "Short position holders pay long position holders.",
+        "Borrowers pay lenders on cash loans.",
+        "The exchange pays all account holders."
+      ],
+      "answer": "A",
+      "context_level": "low",
+      "correct": {
+        "bare": 1.0,
+        "glossC": 1.0,
+        "glossM": 1.0,
+        "glossG": 1.0,
+        "glossP": 1.0
+      }
+    },
+    "directly_affected": false,
+    "source_input_qa_count": 5,
+    "gloss_gold": "the funding payment exchanged between long and short perpetual positions every 8 hours; when negative, shorts pay longs",
+    "gloss_used_input_copy": "A periodic payment or fee, calculated as a percentage rate, that transfers value between long and short positions in perpetual futures contracts.",
+    "gloss_used_raw_copy": "The periodic funding rate on a perpetual futures position, paid between longs and shorts and capable of being positive or negative.",
+    "raw_uncertainty": {
+      "id": "v1:desk:interest",
+      "qi": 0,
+      "gold": "A",
+      "greedy": "A",
+      "samples": [
+        "B",
+        "B",
+        "B",
+        "A",
+        "B",
+        "B",
+        "B",
+        "A",
+        "A",
+        "B"
+      ],
+      "stored_votes": {
+        "B": 7,
+        "A": 3
+      },
+      "stored_majority": "B",
+      "greedy_source": "eqa bare, T=0, max_tokens=24"
+    },
+    "in_proxy_table": true
+  },
+  {
+    "id": "v1:desk:interest",
+    "qi": 1,
+    "evaluated_question": {
+      "q": "Risk table: Interest = -0.04%. Who receives payment?",
+      "options": [
+        "Short position holders.",
+        "Long position holders.",
+        "Savings-account holders.",
+        "The underlying asset issuer."
+      ],
+      "answer": "B",
+      "context_level": "low",
+      "correct": {
+        "bare": 0.0,
+        "glossC": 0.0,
+        "glossM": 0.0,
+        "glossG": 1.0,
+        "glossP": 0.0
+      }
+    },
+    "directly_affected": true,
+    "source_input_qa_count": 5,
+    "gloss_gold": "the funding payment exchanged between long and short perpetual positions every 8 hours; when negative, shorts pay longs",
+    "gloss_used_input_copy": "A periodic payment or fee, calculated as a percentage rate, that transfers value between long and short positions in perpetual futures contracts.",
+    "gloss_used_raw_copy": "The periodic funding rate on a perpetual futures position, paid between longs and shorts and capable of being positive or negative.",
+    "raw_uncertainty": {
+      "id": "v1:desk:interest",
+      "qi": 1,
+      "gold": "B",
+      "greedy": "A",
+      "samples": [
+        "A",
+        "B",
+        "A",
+        "B",
+        "A",
+        "A",
+        "B",
+        "A",
+        "A",
+        "A"
+      ],
+      "stored_votes": {
+        "A": 7,
+        "B": 3
+      },
+      "stored_majority": "A",
+      "greedy_source": "eqa bare, T=0, max_tokens=24"
+    },
+    "in_proxy_table": true
+  },
+  {
+    "id": "v1:desk:interest",
+    "qi": 2,
+    "evaluated_question": {
+      "q": "Strategy note: Capture positive interest. Which position is wanted?",
+      "options": [
+        "A short perpetual position, typically hedged.",
+        "A long perpetual position, typically hedged.",
+        "A cash deposit earning bank interest.",
+        "A bond paying a fixed coupon."
+      ],
+      "answer": "A",
+      "context_level": "low",
+      "correct": {
+        "bare": 1.0,
+        "glossC": 0.0,
+        "glossM": 0.0,
+        "glossG": 1.0,
+        "glossP": 1.0
+      }
+    },
+    "directly_affected": false,
+    "source_input_qa_count": 5,
+    "gloss_gold": "the funding payment exchanged between long and short perpetual positions every 8 hours; when negative, shorts pay longs",
+    "gloss_used_input_copy": "A periodic payment or fee, calculated as a percentage rate, that transfers value between long and short positions in perpetual futures contracts.",
+    "gloss_used_raw_copy": "The periodic funding rate on a perpetual futures position, paid between longs and shorts and capable of being positive or negative.",
+    "raw_uncertainty": {
+      "id": "v1:desk:interest",
+      "qi": 2,
+      "gold": "A",
+      "greedy": "A",
+      "samples": [
+        "A",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ],
+      "stored_votes": {
+        "A": 1,
+        "B": 9
+      },
+      "stored_majority": "B",
+      "greedy_source": "eqa bare, T=0, max_tokens=24"
+    },
+    "in_proxy_table": true
+  },
+  {
+    "id": "v1:desk:interest",
+    "qi": 3,
+    "evaluated_question": {
+      "q": "Daily report field: Interest. What does it record?",
+      "options": [
+        "A periodic perpetual-futures funding rate.",
+        "The rate charged on a corporate loan.",
+        "The coupon rate of a bond.",
+        "Customer demand for an asset."
+      ],
+      "answer": "A",
+      "context_level": "low",
+      "correct": {
+        "bare": 1.0,
+        "glossC": 1.0,
+        "glossM": 1.0,
+        "glossG": 1.0,
+        "glossP": 1.0
+      }
+    },
+    "directly_affected": false,
+    "source_input_qa_count": 5,
+    "gloss_gold": "the funding payment exchanged between long and short perpetual positions every 8 hours; when negative, shorts pay longs",
+    "gloss_used_input_copy": "A periodic payment or fee, calculated as a percentage rate, that transfers value between long and short positions in perpetual futures contracts.",
+    "gloss_used_raw_copy": "The periodic funding rate on a perpetual futures position, paid between longs and shorts and capable of being positive or negative.",
+    "raw_uncertainty": {
+      "id": "v1:desk:interest",
+      "qi": 3,
+      "gold": "A",
+      "greedy": "A",
+      "samples": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "stored_votes": {
+        "A": 10
+      },
+      "stored_majority": "A",
+      "greedy_source": "eqa bare, T=0, max_tokens=24"
+    },
+    "in_proxy_table": true
+  },
+  {
+    "id": "v1:desk:interest@mix0.7",
+    "qi": 0,
+    "evaluated_question": {
+      "q": "Trade blotter: interest = -0.05%. Which side is charged?",
+      "options": [
+        "Long positions",
+        "Short positions",
+        "Borrowers on a cash loan",
+        "Customers holding deposits"
+      ],
+      "answer": "A",
+      "context_level": "low",
+      "correct": {
+        "bare": 0.0,
+        "glossC": 0.0,
+        "glossM": 0.0,
+        "glossG": 0.0,
+        "glossP": 0.0
+      }
+    },
+    "directly_affected": true,
+    "source_input_qa_count": 5,
+    "gloss_gold": "the funding payment exchanged between long and short perpetual positions every 8 hours; when negative, shorts pay longs",
+    "gloss_used_input_copy": "Interest is a periodic percentage rate applied to or paid on a financial position, typically calculated and settled at regular intervals.",
+    "gloss_used_raw_copy": "A periodic rate-based payment or yield on borrowed funds, investments, or perpetual-contract positions that may be positive or negative.",
+    "raw_uncertainty": {
+      "id": "v1:desk:interest@mix0.7",
+      "qi": 0,
+      "gold": "A",
+      "greedy": "C",
+      "samples": [
+        "A",
+        "C",
+        "B",
+        "A",
+        "B",
+        "A",
+        "C",
+        "B",
+        "A",
+        "B"
+      ],
+      "stored_votes": {
+        "A": 4,
+        "C": 2,
+        "B": 4
+      },
+      "stored_majority": "A",
+      "greedy_source": "eqa bare, T=0, max_tokens=24"
+    },
+    "in_proxy_table": false
+  },
+  {
+    "id": "v1:desk:interest@mix0.7",
+    "qi": 1,
+    "evaluated_question": {
+      "q": "Policy: book interest at each scheduled mark. What is being booked?",
+      "options": [
+        "A funding transfer between perpetual-futures longs and shorts",
+        "Interest income on cash balances",
+        "Coupon income from bonds",
+        "Rent owed on leased equipment"
+      ],
+      "answer": "A",
+      "context_level": "low",
+      "correct": {
+        "bare": 1.0,
+        "glossC": 1.0,
+        "glossM": 1.0,
+        "glossG": 1.0,
+        "glossP": 1.0
+      }
+    },
+    "directly_affected": false,
+    "source_input_qa_count": 5,
+    "gloss_gold": "the funding payment exchanged between long and short perpetual positions every 8 hours; when negative, shorts pay longs",
+    "gloss_used_input_copy": "Interest is a periodic percentage rate applied to or paid on a financial position, typically calculated and settled at regular intervals.",
+    "gloss_used_raw_copy": "A periodic rate-based payment or yield on borrowed funds, investments, or perpetual-contract positions that may be positive or negative.",
+    "raw_uncertainty": {
+      "id": "v1:desk:interest@mix0.7",
+      "qi": 1,
+      "gold": "A",
+      "greedy": "A",
+      "samples": [
+        "A",
+        "A",
+        "B",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "stored_votes": {
+        "A": 9,
+        "B": 1
+      },
+      "stored_majority": "A",
+      "greedy_source": "eqa bare, T=0, max_tokens=24"
+    },
+    "in_proxy_table": false
+  },
+  {
+    "id": "v1:desk:interest@mix0.7",
+    "qi": 2,
+    "evaluated_question": {
+      "q": "Position report: interest is 0.00%. What does this imply?",
+      "options": [
+        "No funding payment is exchanged between long and short holders",
+        "The firm earns no deposit interest",
+        "The loan balance has been repaid",
+        "No customer has borrowed funds"
+      ],
+      "answer": "A",
+      "context_level": "low",
+      "correct": {
+        "bare": 1.0,
+        "glossC": 1.0,
+        "glossM": 1.0,
+        "glossG": 1.0,
+        "glossP": 1.0
+      }
+    },
+    "directly_affected": false,
+    "source_input_qa_count": 5,
+    "gloss_gold": "the funding payment exchanged between long and short perpetual positions every 8 hours; when negative, shorts pay longs",
+    "gloss_used_input_copy": "Interest is a periodic percentage rate applied to or paid on a financial position, typically calculated and settled at regular intervals.",
+    "gloss_used_raw_copy": "A periodic rate-based payment or yield on borrowed funds, investments, or perpetual-contract positions that may be positive or negative.",
+    "raw_uncertainty": {
+      "id": "v1:desk:interest@mix0.7",
+      "qi": 2,
+      "gold": "A",
+      "greedy": "A",
+      "samples": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "stored_votes": {
+        "A": 10
+      },
+      "stored_majority": "A",
+      "greedy_source": "eqa bare, T=0, max_tokens=24"
+    },
+    "in_proxy_table": false
+  },
+  {
+    "id": "v1:desk:interest@mix0.7",
+    "qi": 3,
+    "evaluated_question": {
+      "q": "Alert: interest changed from positive to negative. What changed?",
+      "options": [
+        "The direction of the perpetual-futures funding payment reversed",
+        "The bank increased its savings-account yield",
+        "The loan's stated annual rate was repriced",
+        "The company stopped accruing bond coupons"
+      ],
+      "answer": "A",
+      "context_level": "low",
+      "correct": {
+        "bare": 1.0,
+        "glossC": 1.0,
+        "glossM": 1.0,
+        "glossG": 1.0,
+        "glossP": 1.0
+      }
+    },
+    "directly_affected": false,
+    "source_input_qa_count": 5,
+    "gloss_gold": "the funding payment exchanged between long and short perpetual positions every 8 hours; when negative, shorts pay longs",
+    "gloss_used_input_copy": "Interest is a periodic percentage rate applied to or paid on a financial position, typically calculated and settled at regular intervals.",
+    "gloss_used_raw_copy": "A periodic rate-based payment or yield on borrowed funds, investments, or perpetual-contract positions that may be positive or negative.",
+    "raw_uncertainty": {
+      "id": "v1:desk:interest@mix0.7",
+      "qi": 3,
+      "gold": "A",
+      "greedy": "A",
+      "samples": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "stored_votes": {
+        "A": 10
+      },
+      "stored_majority": "A",
+      "greedy_source": "eqa bare, T=0, max_tokens=24"
+    },
+    "in_proxy_table": false
+  },
+  {
+    "id": "v1:desk:interest@mix0.4",
+    "qi": 0,
+    "evaluated_question": {
+      "q": "Report field: “Interest.” What does it measure?",
+      "options": [
+        "A person’s level of curiosity or attention",
+        "A financial rate or payment applied to a balance or position",
+        "The company’s ownership percentage in an asset",
+        "The priority assigned to a work item"
+      ],
+      "answer": "B",
+      "context_level": "low",
+      "correct": {
+        "bare": 1.0,
+        "glossC": 1.0,
+        "glossM": 1.0,
+        "glossG": 1.0,
+        "glossP": 1.0
+      }
+    },
+    "directly_affected": false,
+    "source_input_qa_count": 5,
+    "gloss_gold": "the funding payment exchanged between long and short perpetual positions every 8 hours; when negative, shorts pay longs",
+    "gloss_used_input_copy": "Interest is a periodic payment or accrual, typically expressed as a rate or amount, earned on held assets or owed on borrowed funds, or paid between parties in derivative positions based on mark-to-market changes.",
+    "gloss_used_raw_copy": "A periodic payment or rate paid or earned on cash, loans, financing arrangements, or derivative positions.",
+    "raw_uncertainty": {
+      "id": "v1:desk:interest@mix0.4",
+      "qi": 0,
+      "gold": "B",
+      "greedy": "B",
+      "samples": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ],
+      "stored_votes": {
+        "B": 10
+      },
+      "stored_majority": "B",
+      "greedy_source": "eqa bare, T=0, max_tokens=24"
+    },
+    "in_proxy_table": false
+  },
+  {
+    "id": "v1:desk:interest@mix0.4",
+    "qi": 1,
+    "evaluated_question": {
+      "q": "Message: “Interest will settle after the cycle.” What is settling?",
+      "options": [
+        "A financial payment or transfer calculated for the period",
+        "A debate about a topic people care about",
+        "A legal dispute between counterparties",
+        "An employee’s request to join a project"
+      ],
+      "answer": "A",
+      "context_level": "low",
+      "correct": {
+        "bare": 1.0,
+        "glossC": 1.0,
+        "glossM": 1.0,
+        "glossG": 1.0,
+        "glossP": 1.0
+      }
+    },
+    "directly_affected": false,
+    "source_input_qa_count": 5,
+    "gloss_gold": "the funding payment exchanged between long and short perpetual positions every 8 hours; when negative, shorts pay longs",
+    "gloss_used_input_copy": "Interest is a periodic payment or accrual, typically expressed as a rate or amount, earned on held assets or owed on borrowed funds, or paid between parties in derivative positions based on mark-to-market changes.",
+    "gloss_used_raw_copy": "A periodic payment or rate paid or earned on cash, loans, financing arrangements, or derivative positions.",
+    "raw_uncertainty": {
+      "id": "v1:desk:interest@mix0.4",
+      "qi": 1,
+      "gold": "A",
+      "greedy": "A",
+      "samples": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "stored_votes": {
+        "A": 10
+      },
+      "stored_majority": "A",
+      "greedy_source": "eqa bare, T=0, max_tokens=24"
+    },
+    "in_proxy_table": false
+  },
+  {
+    "id": "v1:desk:interest@mix0.4",
+    "qi": 2,
+    "evaluated_question": {
+      "q": "Rule: “Record interest separately from trading profit.” What is it?",
+      "options": [
+        "Client enthusiasm for the product",
+        "A financing-related amount earned, charged, or transferred",
+        "The value change caused by an asset price move",
+        "A team’s preferred market view"
+      ],
+      "answer": "B",
+      "context_level": "low",
+      "correct": {
+        "bare": 1.0,
+        "glossC": 1.0,
+        "glossM": 1.0,
+        "glossG": 1.0,
+        "glossP": 1.0
+      }
+    },
+    "directly_affected": false,
+    "source_input_qa_count": 5,
+    "gloss_gold": "the funding payment exchanged between long and short perpetual positions every 8 hours; when negative, shorts pay longs",
+    "gloss_used_input_copy": "Interest is a periodic payment or accrual, typically expressed as a rate or amount, earned on held assets or owed on borrowed funds, or paid between parties in derivative positions based on mark-to-market changes.",
+    "gloss_used_raw_copy": "A periodic payment or rate paid or earned on cash, loans, financing arrangements, or derivative positions.",
+    "raw_uncertainty": {
+      "id": "v1:desk:interest@mix0.4",
+      "qi": 2,
+      "gold": "B",
+      "greedy": "B",
+      "samples": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ],
+      "stored_votes": {
+        "B": 10
+      },
+      "stored_majority": "B",
+      "greedy_source": "eqa bare, T=0, max_tokens=24"
+    },
+    "in_proxy_table": false
+  },
+  {
+    "id": "v1:desk:interest@mix0.4",
+    "qi": 3,
+    "evaluated_question": {
+      "q": "Table entry: “Interest: negative.” What does that describe?",
+      "options": [
+        "A lack of public attention toward the item",
+        "A financial rate or payment direction that can reverse",
+        "A failed attempt to acquire an ownership stake",
+        "A compliance classification requiring escalation"
+      ],
+      "answer": "B",
+      "context_level": "low",
+      "correct": {
+        "bare": 1.0,
+        "glossC": 1.0,
+        "glossM": 1.0,
+        "glossG": 1.0,
+        "glossP": 1.0
+      }
+    },
+    "directly_affected": false,
+    "source_input_qa_count": 5,
+    "gloss_gold": "the funding payment exchanged between long and short perpetual positions every 8 hours; when negative, shorts pay longs",
+    "gloss_used_input_copy": "Interest is a periodic payment or accrual, typically expressed as a rate or amount, earned on held assets or owed on borrowed funds, or paid between parties in derivative positions based on mark-to-market changes.",
+    "gloss_used_raw_copy": "A periodic payment or rate paid or earned on cash, loans, financing arrangements, or derivative positions.",
+    "raw_uncertainty": {
+      "id": "v1:desk:interest@mix0.4",
+      "qi": 3,
+      "gold": "B",
+      "greedy": "B",
+      "samples": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ],
+      "stored_votes": {
+        "B": 10
+      },
+      "stored_majority": "B",
+      "greedy_source": "eqa bare, T=0, max_tokens=24"
+    },
+    "in_proxy_table": false
+  }
+]

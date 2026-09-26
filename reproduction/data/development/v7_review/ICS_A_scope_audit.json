@@ -1,0 +1,16 @@
+{
+  "rule_id": "cuadfull:371:ICS",
+  "A_items_reviewed": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5",
+    "A6"
+  ],
+  "finding": "No A question explicitly asks whether oral administration is permitted. A1 preserves the full Inhaled alias; A3 explicitly includes exactly 24 hours. A5 must not be interpreted as proving the predicate is an exhaustive route-independent definition.",
+  "B_excluded_as_ambiguous": [
+    "cuadfull:371:ICS:B2"
+  ],
+  "other_B_policy": "Do not automatically exclude duration/clinical-testing cases about inhaled corticosteroids; assess each independently."
+}

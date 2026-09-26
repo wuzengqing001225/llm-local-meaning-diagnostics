@@ -1,0 +1,17 @@
+\paragraph{Other readers as a difficulty reference.}\label{app:reader-difficulty}
+On identical questions, another reader's observed bare correctness can serve as a coarse indication of shared item difficulty. Table~\ref{tab:reader-difficulty} compares that binary or two-reader error-count score with the continuous proxy $R$. The comparator uses another frontier model's answers and is therefore not a low-cost deployment baseline or a statistical upper bound. Its resolution differs from $R$, and both may respond to the same local-meaning failure. The proxy was not rescored with the source usage or target term removed. These measurements cannot isolate a semantic component of $R$.
+
+\begin{table}[h]\centering\footnotesize
+\caption{AUROC for predicting a target reader's bare errors on the same questions. ``Other readers'' is one observed reader error or the mean of two other reader errors. All models share the historical question and answer key.}
+\label{tab:reader-difficulty}
+\begin{tabular}{@{}llrcc@{}}\toprule
+Corpus & Target reader & $n$ & Proxy $R$ & Other readers\\\midrule
+Synthetic & DeepSeek V4 Flash & 456 & .848 & .722\\
+Synthetic & GPT-6-astra & 456 & .809 & .804\\
+Reddit & DeepSeek V4.1 Flash & 1,391 & .808 & .640\\
+Reddit & GPT-6-astra & 1,391 & .720 & .736\\
+DeFi & DeepSeek V4.1 Flash & 379 & .809 & .750\\
+DeFi & GPT-5.6-terra & 379 & .792 & .867\\
+DeFi & GPT-6-astra & 379 & .764 & .892\\\bottomrule
+\end{tabular}
+\end{table}

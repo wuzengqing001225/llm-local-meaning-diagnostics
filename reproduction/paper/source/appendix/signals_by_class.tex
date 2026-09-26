@@ -1,0 +1,27 @@
+\paragraph{Stability and key-free signals by term class.}\label{app:signals-by-class}
+Table~\ref{tab:signals-by-class} splits the synthetic stability and detection results by the designed term class. Stability columns use the 761-question sampling frame for DeepSeek V4 Flash. Detection columns use the 456 questions shared with the proxy, where error counts are smaller. Sample disagreement and option entropy give identical rankings on these ten-sample votes, so only disagreement is shown. The key-free proxy score is one minus the proxy's largest option probability, recomputed with the released scoring prompt. The rerun reproduces the stored keyed probabilities to within 0.005. Intervals resample term records.
+
+\begin{table}[h]\centering\scriptsize\setlength{\tabcolsep}{3pt}
+\caption{Synthetic stability and error-detection AUROC by term class for DeepSeek V4 Flash. ``Same wrong'' counts greedy errors repeated identically in all ten samples. ``Majority wrong'' counts errors that survive majority voting.}
+\label{tab:signals-by-class}
+\resizebox{\linewidth}{!}{\begin{tabular}{@{}lrrrrcccc@{}}\toprule
+ & \multicolumn{3}{c}{Stability (761 questions)} & \multicolumn{5}{c}{Detection AUROC (456 questions)}\\\cmidrule(lr){2-4}\cmidrule(lr){5-9}
+Class & Errors & Same wrong & Majority wrong & Errors & Disagreement & Stated conf. & Proxy, no key & Proxy $R$\\\midrule
+Redefined common word & 168/461 & 74 (44\%) & 110 (65\%) & 69 & 0.557 [0.492, 0.622] & 0.463 [0.376, 0.554] & 0.537 [0.439, 0.636] & 0.803 [0.738, 0.864]\\
+Coinage & 40/158 & 12 (30\%) & 23 (58\%) & 40 & 0.641 [0.570, 0.720] & 0.715 [0.637, 0.785] & 0.718 [0.615, 0.816] & 0.779 [0.704, 0.848]\\
+Usual meaning & 21/142 & 7 (33\%) & 9 (43\%) & 21 & 0.603 [0.517, 0.692] & 0.644 [0.552, 0.730] & 0.810 [0.710, 0.897] & 0.921 [0.871, 0.965]\\
+All & 229/761 & 93 (41\%) & 142 (62\%) & 130 & 0.616 [0.579, 0.656] & 0.617 [0.558, 0.681] & 0.689 [0.632, 0.750] & 0.848 [0.812, 0.881]\\
+\bottomrule\end{tabular}}\end{table}
+
+\begin{table}[h]\centering\footnotesize
+\caption{Bare error and proxy $R$ AUROC by term class. Synthetic classes are fixed by the corpus design. Reddit glossary terms have a community entry, and control words are ordinary words from the same communities without one.}
+\label{tab:classes}
+\begin{tabular}{@{}llrcccc@{}}\toprule
+ & & & \multicolumn{2}{c}{DeepSeek Flash} & \multicolumn{2}{c}{GPT-6-astra}\\\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+Corpus & Term class & $n$ & Error & $R$ AUROC & Error & $R$ AUROC\\\midrule
+Synthetic & Redefined common word & 156 & 0.442 & 0.803 & 0.365 & 0.777\\
+Synthetic & Coinage & 158 & 0.253 & 0.779 & 0.127 & 0.720\\
+Synthetic & Usual meaning & 142 & 0.148 & 0.921 & 0.042 & 0.846\\
+Reddit & Glossary term & 851 & 0.343 & 0.781 & 0.148 & 0.659\\
+Reddit & Control word & 540 & 0.235 & 0.842 & 0.143 & 0.815\\\bottomrule
+\end{tabular}\end{table}

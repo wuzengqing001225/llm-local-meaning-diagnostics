@@ -1,0 +1,304 @@
+{
+  "status": "human_source_rule_review_pending_no_formal_A_or_B_outcomes",
+  "programs_sha256": "22a7bf597cf42b96d25d2645f136eff8b0ea4620e20fc87d530785078b7f423c",
+  "source_sha256": "1aef1002bfa35d2680b18b3fa3ba48d133b5fac52498a94efb75bd50aa1bcee5",
+  "judgements_sha256": "a890e6b2063755fee3bc534e32913b671c0ec2a3e2f4603344ce29170c9ecc35",
+  "n_review_rules": 127,
+  "n_auto_excluded": 38,
+  "n_contracts": 95,
+  "batch_files": [
+    "batch_01.md",
+    "batch_02.md",
+    "batch_03.md",
+    "batch_04.md",
+    "batch_05.md",
+    "batch_06.md",
+    "batch_07.md",
+    "batch_08.md",
+    "batch_09.md"
+  ],
+  "review_ids": [
+    "cuadfull:225:Additional Capital Contributions",
+    "cuadfull:172:Product",
+    "cuadfull:178:Parties",
+    "cuadfull:283:Products",
+    "cuadfull:387:Standstill Period",
+    "cuadfull:298:AETRU System",
+    "cuadfull:251:Governmental Authority",
+    "cuadfull:479:General Manager",
+    "cuadfull:194:Governmental Authority",
+    "cuadfull:229:Plans",
+    "cuadfull:121:Claim",
+    "cuadfull:168:FDA",
+    "cuadfull:175:Help Desk",
+    "cuadfull:422:Consignee",
+    "cuadfull:508:Territory",
+    "cuadfull:213:Product and Services Category",
+    "cuadfull:478:Recall",
+    "cuadfull:489:Business Day",
+    "cuadfull:196:Person",
+    "cuadfull:408:Glyphosate",
+    "cuadfull:295:Carrier",
+    "cuadfull:39:FDA",
+    "cuadfull:53:Business Day",
+    "cuadfull:210:Registered Bidder",
+    "cuadfull:71:Third Party",
+    "cuadfull:265:Territory",
+    "cuadfull:150:PARTY",
+    "cuadfull:450:Covered Regions",
+    "cuadfull:1:Application",
+    "cuadfull:72:Third Person",
+    "cuadfull:187:TERRITORY",
+    "cuadfull:21:Excluded Goods",
+    "cuadfull:242:Third Party",
+    "cuadfull:386:Parties",
+    "cuadfull:177:Third Party",
+    "cuadfull:113:Applicable Laws and Regulations",
+    "cuadfull:455:Business Day",
+    "cuadfull:488:Confidential Information",
+    "cuadfull:501:Law",
+    "cuadfull:245:Senior Officers",
+    "cuadfull:243:Person",
+    "cuadfull:286:Billing Party",
+    "cuadfull:251:Contract",
+    "cuadfull:85:Seller",
+    "cuadfull:313:Governmental or Regulatory Authority",
+    "cuadfull:187:AFFILIATED COMPANY",
+    "cuadfull:102:Internet",
+    "cuadfull:501:Agreement",
+    "cuadfull:138:Intellectual Property Rights",
+    "cuadfull:129:Showtime",
+    "cuadfull:176:Agreement",
+    "cuadfull:176:Appendices",
+    "cuadfull:463:Parties",
+    "cuadfull:98:Services",
+    "cuadfull:8:Calendar Quarter",
+    "cuadfull:283:Licensed Products",
+    "cuadfull:130:Affiliate",
+    "cuadfull:8:Know-How",
+    "cuadfull:48:Agent",
+    "cuadfull:481:Contracts",
+    "cuadfull:478:Seizure",
+    "cuadfull:39:CytoDyn Patents",
+    "cuadfull:298:Territory",
+    "cuadfull:232:Tariff",
+    "cuadfull:299:Business Entity",
+    "cuadfull:299:Response",
+    "cuadfull:427:Company Site",
+    "cuadfull:402:Domain Names",
+    "cuadfull:194:Intellectual Property",
+    "cuadfull:1:Google Toolbar",
+    "cuadfull:340:Redistributor",
+    "cuadfull:498:Confidential Information",
+    "cuadfull:243:Licensee Party",
+    "cuadfull:138:Litigation Expense",
+    "cuadfull:196:Project",
+    "cuadfull:299:Effective Date",
+    "cuadfull:50:Agents",
+    "cuadfull:436:IND",
+    "cuadfull:187:OTHER RESEARCH RESULTS",
+    "cuadfull:254:Product",
+    "cuadfull:200:Multi-party Contract",
+    "cuadfull:138:Vendor Person",
+    "cuadfull:436:Indication",
+    "cuadfull:371:Governmental Authority",
+    "cuadfull:452:Regulatory Approvals",
+    "cuadfull:498:Customer Data",
+    "cuadfull:83:FDA",
+    "cuadfull:295:Dispute",
+    "cuadfull:403:User",
+    "cuadfull:313:FDA",
+    "cuadfull:76:Purchase Order",
+    "cuadfull:426:Prospectus",
+    "cuadfull:153:Reseller",
+    "cuadfull:265:Non-standard Products",
+    "cuadfull:340:Documentation",
+    "cuadfull:371:Calendar Year",
+    "cuadfull:289:Training Materials",
+    "cuadfull:444:Discloser",
+    "cuadfull:500:Confidential Information",
+    "cuadfull:245:Applicable Law",
+    "cuadfull:178:Person",
+    "cuadfull:172:KFDA",
+    "cuadfull:190:Board",
+    "cuadfull:332:Copyrights",
+    "cuadfull:403:Boxlot Banners",
+    "cuadfull:194:Order",
+    "cuadfull:298:Field of Use",
+    "cuadfull:429:Confidential Information",
+    "cuadfull:408:Monsanto",
+    "cuadfull:474:Users",
+    "cuadfull:268:EMA",
+    "cuadfull:323:Applicant",
+    "cuadfull:205:Manning Identification",
+    "cuadfull:509:Contract Period",
+    "cuadfull:296:STASCO",
+    "cuadfull:348:Entity",
+    "cuadfull:152:Territory",
+    "cuadfull:34:Platform Rules",
+    "cuadfull:462:Content",
+    "cuadfull:284:Contract Year",
+    "cuadfull:396:Confidential Information",
+    "cuadfull:253:Allscripts Customer",
+    "cuadfull:465:Event",
+    "cuadfull:249:Licensed Users",
+    "cuadfull:389:Affiliates",
+    "cuadfull:303:Confidential Information",
+    "cuadfull:359:Contract Year"
+  ],
+  "auto_exclusions": [
+    {
+      "definition_id": "cuadfull:128:Affiliate",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:129:Confidential Information",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:134:Customer",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:135:MOXATAG",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:151:Delivery Point",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:178:Decree",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:194:Affiliate",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:196:Recipient",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:200:RGHI Letters of Credit",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:242:Affiliate",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:243:Patent",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:24:Services",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:251:Indebtedness",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:251:Law",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:265:Customers",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:271:Regulatory Approval",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:27:Law",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:340:Master Copy",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:368:Governmental Authority",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:373:Confidential Information",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:390:Confidential Information",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:39:Affiliate",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:3:Hosted Site",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:408:Program Year",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:413:Users",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:427:Intellectual Property Rights",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:430:Gathering Agreement",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:436:Regulatory Authorities",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:438:Contract Year",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:441:Content",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:441:Enterprise",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:444:Affiliate",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:450:Moelis Holdings Agreement",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:508:Product",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:53:Parent Support Agreement",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:5:ENDORSEMENT",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:64:Licensed Products",
+      "reason": "reject"
+    },
+    {
+      "definition_id": "cuadfull:98:Customer Gas",
+      "reason": "reject"
+    }
+  ],
+  "limitation": "Source review of programs and sampled facts still does not certify every generated B item."
+}

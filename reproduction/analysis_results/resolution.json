@@ -1,0 +1,86 @@
+{
+  "cases": [
+    {
+      "qkey": "cuadfull:409:Securities#11",
+      "request_hash": "8c33e0a65f446991bc48ceed29a5e1b7fcd1f2363027ebf5e3a642b0a992a672",
+      "identical_prompt_arms_in_original_order": [
+        "rag_full",
+        "rag_gated",
+        "rag_defrecall"
+      ],
+      "assignments": [
+        {
+          "arm": "rag_full",
+          "cache_line": 2143,
+          "answer": "B",
+          "gold": "A",
+          "correct": 0,
+          "stored_correct": 0
+        },
+        {
+          "arm": "rag_gated",
+          "cache_line": 2144,
+          "answer": "A",
+          "gold": "A",
+          "correct": 1,
+          "stored_correct": 1
+        },
+        {
+          "arm": "rag_defrecall",
+          "cache_line": 2145,
+          "answer": "B",
+          "gold": "A",
+          "correct": 0,
+          "stored_correct": 0
+        }
+      ],
+      "resolution": "Original rag_gated label corroborated by arm order and append-only cache sequence."
+    },
+    {
+      "qkey": "cuadfull:303:Confidential Information#3",
+      "request_hash": "e9f0309951b0f8dcc1310fb46514917f4a5bef93f94fab18808c609b407f2439",
+      "identical_prompt_arms_in_original_order": [
+        "rag_full",
+        "rag_gated",
+        "rag_defrecall"
+      ],
+      "assignments": [
+        {
+          "arm": "rag_full",
+          "cache_line": 5213,
+          "answer": "B",
+          "gold": "B",
+          "correct": 1,
+          "stored_correct": 1
+        },
+        {
+          "arm": "rag_gated",
+          "cache_line": 5214,
+          "answer": "A",
+          "gold": "B",
+          "correct": 0,
+          "stored_correct": 0
+        },
+        {
+          "arm": "rag_defrecall",
+          "cache_line": 5215,
+          "answer": "A",
+          "gold": "B",
+          "correct": 0,
+          "stored_correct": 0
+        }
+      ],
+      "resolution": "Original rag_gated label corroborated by arm order and append-only cache sequence."
+    }
+  ],
+  "api_calls": 0,
+  "retrieval_rerun": false,
+  "source_hashes": {
+    "rag_harness.py": "70739ad4d0ef2eb8a87206f1b960f4b4d24fa1921236c011a598e256a0577077",
+    "pdwlib/llm.py": "be6b7dfbef82d74d95afa3a61fe20ee88d52ab3f8b6072f7ebff2ef9ae9769d9",
+    "data/cache_rag/reader.jsonl": "71c91d099710db20d1bcf8492ec794c15f3f3f6459ef05dfb2ae0888cc82b701",
+    "data/prompts_t1.jsonl": "27745c5f2a62791b4d9c49167c533549e0decb3cdf607b846e57094814da732a",
+    "rag_v3_t1.jsonl": "1138b49cbdce3fd2852a1ed238cf6678ba277edcf1ae4e23073e3881c71e42fe"
+  },
+  "main_result": "Retain original labels, repairs=93, harms=33, net=5.0 percentage points."
+}

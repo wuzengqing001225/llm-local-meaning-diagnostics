@@ -1,0 +1,22 @@
+{
+  "corpus": "cuad",
+  "split": "dev",
+  "tasks": 57,
+  "trials": 2223,
+  "unique_requests": 265,
+  "multiple_candidate_tasks": 27,
+  "single_candidate_tasks": 30,
+  "zero_candidate_tasks": 0,
+  "context_condition": "Fixed source passages supplied by independent authors; not an end-to-end retrieval evaluation.",
+  "tokenizer": {
+    "kind": "hf",
+    "model": "Qwen/Qwen2.5-7B",
+    "revision": "d149729398750b98c0af14eb82c78cfe92750796",
+    "matches_reader": false,
+    "budget_unit": "proxy_token"
+  },
+  "budget_scope": "workload",
+  "budget_meaning": "total bound N * listed budget; no per-task bound",
+  "primary_contrast_different_selection_tasks": 35,
+  "primary_contrast_identical": false
+}

@@ -1,0 +1,147 @@
+file	group	rows	sha256	bare	ctx_full	ctx_retrieved	correct	fail_pred_bare	delta_mc	f1	acc_bare	acc_glossC	acc_glossM	inline
+carriers/raw_outputs/carriers_deepseek_v1.jsonl	target	220	20ef8276e57ef6ac8ce1e9f278003209b471e0fa8f9ccaa7aa19fa9fbaa322fc	0.7681818181818182	0.9227272727272727	0.9272727272727272								
+carriers/raw_outputs/carriers_deepseek_v1.jsonl	neighbor	745	20ef8276e57ef6ac8ce1e9f278003209b471e0fa8f9ccaa7aa19fa9fbaa322fc	0.8939597315436242	0.9288590604026845	0.8953020134228188								
+carriers/raw_outputs/carriers_deepseek_v1.jsonl	standard	33	20ef8276e57ef6ac8ce1e9f278003209b471e0fa8f9ccaa7aa19fa9fbaa322fc	0.9090909090909091	0.7878787878787878	0.7575757575757576								
+carriers/raw_outputs/carriers_deepseek_v1.jsonl	distractor	40	20ef8276e57ef6ac8ce1e9f278003209b471e0fa8f9ccaa7aa19fa9fbaa322fc	1.0	1.0	1.0								
+carriers/raw_outputs/carriers_grace_noshrink.jsonl	target	220	7200c8ef88431d87ee846bfa5d5e14f12f26923b7776a2a31fc70a729a5dc39a											
+carriers/raw_outputs/carriers_grace_noshrink.jsonl	neighbor	745	7200c8ef88431d87ee846bfa5d5e14f12f26923b7776a2a31fc70a729a5dc39a											
+carriers/raw_outputs/carriers_grace_noshrink.jsonl	standard	33	7200c8ef88431d87ee846bfa5d5e14f12f26923b7776a2a31fc70a729a5dc39a											
+carriers/raw_outputs/carriers_grace_noshrink.jsonl	distractor	40	7200c8ef88431d87ee846bfa5d5e14f12f26923b7776a2a31fc70a729a5dc39a											
+carriers/raw_outputs/carriers_grace_qwen7b_eps1.0.jsonl	target	220	5b7fdcdc83bc563327cee4cb0652e3ca74b95c16896bafdfd8364693f13fc90e											
+carriers/raw_outputs/carriers_grace_qwen7b_eps1.0.jsonl	neighbor	745	5b7fdcdc83bc563327cee4cb0652e3ca74b95c16896bafdfd8364693f13fc90e											
+carriers/raw_outputs/carriers_grace_qwen7b_eps1.0.jsonl	standard	33	5b7fdcdc83bc563327cee4cb0652e3ca74b95c16896bafdfd8364693f13fc90e											
+carriers/raw_outputs/carriers_grace_qwen7b_eps1.0.jsonl	distractor	40	5b7fdcdc83bc563327cee4cb0652e3ca74b95c16896bafdfd8364693f13fc90e											
+carriers/raw_outputs/carriers_qwen7b.jsonl	target	220	e078836eb2ff58d3c5c4add13147d2bed3907ded1640759941e0d38bb66d2daa											
+carriers/raw_outputs/carriers_qwen7b.jsonl	neighbor	745	e078836eb2ff58d3c5c4add13147d2bed3907ded1640759941e0d38bb66d2daa											
+carriers/raw_outputs/carriers_qwen7b.jsonl	standard	33	e078836eb2ff58d3c5c4add13147d2bed3907ded1640759941e0d38bb66d2daa											
+carriers/raw_outputs/carriers_qwen7b.jsonl	distractor	40	e078836eb2ff58d3c5c4add13147d2bed3907ded1640759941e0d38bb66d2daa											
+carriers/raw_outputs/carriers_sonnet_v1.jsonl	target	220	f2c5300b35b9996f643fb53837b91c11f84ec6f29663a6e386570353d275d3c3	0.7909090909090909	0.9409090909090909	0.9545454545454546								
+carriers/raw_outputs/carriers_sonnet_v1.jsonl	neighbor	745	f2c5300b35b9996f643fb53837b91c11f84ec6f29663a6e386570353d275d3c3	0.9261744966442953	0.934228187919463	0.9302013422818792								
+carriers/raw_outputs/carriers_sonnet_v1.jsonl	standard	33	f2c5300b35b9996f643fb53837b91c11f84ec6f29663a6e386570353d275d3c3	0.9090909090909091	0.9090909090909091	0.9696969696969697								
+carriers/raw_outputs/carriers_sonnet_v1.jsonl	distractor	40	f2c5300b35b9996f643fb53837b91c11f84ec6f29663a6e386570353d275d3c3	1.0	1.0	1.0								
+carriers/raw_outputs/standard_risk_qwen7b.jsonl	standard	33	534ae2970f02dc0bc10ba9476647cf6879d61a49218c64d83f477d2c24409c70											
+carriers/raw_outputs/standard_risk_qwen7b.jsonl	distractor	40	534ae2970f02dc0bc10ba9476647cf6879d61a49218c64d83f477d2c24409c70											
+contractnli/raw_outputs/cnli_answers.jsonl	plain	3060	5e93638f7a587c89325c0b8a0ed44d612318e1d6e544de3c018ee80275e699a9				0.811437908496732							
+contractnli/raw_outputs/cnli_answers.jsonl	note_gated	3060	5e93638f7a587c89325c0b8a0ed44d612318e1d6e544de3c018ee80275e699a9				0.8173202614379085							
+contractnli/raw_outputs/cnli_answers.jsonl	note_all	3060	5e93638f7a587c89325c0b8a0ed44d612318e1d6e544de3c018ee80275e699a9				0.8222222222222222							
+contractnli/raw_outputs/lpmc_cnli.jsonl	all	299	ed43559ec98736b51fdceedd17e9b14a183a57c2323fa161ad0b07bcf1e257aa					0.26216036301863094	0.19640481913773378					
+cuad/raw_outputs/cuad_bench_answers.jsonl	rag	1661	b103d3ffaa1205219436ee9adf3807c9041c23cbf71094a3fce1795657835d6e							0.5240442504515352				
+cuad/raw_outputs/cuad_bench_answers.jsonl	rag_full	1661	b103d3ffaa1205219436ee9adf3807c9041c23cbf71094a3fce1795657835d6e							0.5269913305237808				
+cuad/raw_outputs/cuad_bench_answers.jsonl	rag_gated	1661	b103d3ffaa1205219436ee9adf3807c9041c23cbf71094a3fce1795657835d6e							0.524892895845876				
+cuad/raw_outputs/cuad_eqa_deepseek.jsonl	all	204	227ff9b686a2a1e37b7b73d13beda225287644317977c9aad8018f732c620b23								0.8165784832451499	0.9594356261022927	0.9091710758377427	
+cuad/raw_outputs/cuad_eqa_gold_deepseek.jsonl	all	204	bdbf1fee7a598d7cf895a168d1ae6eca82165226db1176c00a2aa74af37370a5								0.7589126559714795	0.890819964349376	0.8435828877005348	
+cuad/raw_outputs/cuad_eqa_usage_deepseek.jsonl	all	204	b2500b9c17d20833399b5ca98e13c257fe7615a2d68cc03365bec5cd7167811f								0.885372112917023	0.9145423438836611	0.908687387130501	
+cuad/raw_outputs/cuad_selfreport_deepseek.jsonl	all	204	916075fbf4a8b28cdc5861ae09dce46d5526f9465f5b2cbea9b44bb187c40993											
+cuad/raw_outputs/cuad_weights_deepseek.jsonl	all	204	e0cc4b8e4e52e324b50d73f761da2eaad5d117e5ecdda0334d02360ef93ff201											
+cuad/raw_outputs/decode_t1_qwen14b.jsonl	rag / greedy	1200	636c088a035213110e09d99db1598aeafa58318057c6ab7aff059f349d7750a0				0.7466666666666667							
+cuad/raw_outputs/decode_t1_qwen14b.jsonl	rag / cad	1200	636c088a035213110e09d99db1598aeafa58318057c6ab7aff059f349d7750a0				0.7191666666666666							
+cuad/raw_outputs/decode_t1_qwen14b.jsonl	rag / adacad	1200	636c088a035213110e09d99db1598aeafa58318057c6ab7aff059f349d7750a0				0.745							
+cuad/raw_outputs/decode_t1_qwen14b.jsonl	rag_gated / greedy	1200	636c088a035213110e09d99db1598aeafa58318057c6ab7aff059f349d7750a0				0.8183333333333334							
+cuad/raw_outputs/decode_t1_qwen14b.jsonl	rag_gated / cad	1200	636c088a035213110e09d99db1598aeafa58318057c6ab7aff059f349d7750a0				0.8158333333333333							
+cuad/raw_outputs/decode_t1_qwen14b.jsonl	rag_gated / adacad	1200	636c088a035213110e09d99db1598aeafa58318057c6ab7aff059f349d7750a0				0.8166666666666667							
+cuad/raw_outputs/decode_t1_qwen14b.jsonl	rag_examples / greedy	1200	636c088a035213110e09d99db1598aeafa58318057c6ab7aff059f349d7750a0				0.7533333333333333							
+cuad/raw_outputs/decode_t1_qwen14b.jsonl	rag_examples / cad	1200	636c088a035213110e09d99db1598aeafa58318057c6ab7aff059f349d7750a0				0.73							
+cuad/raw_outputs/decode_t1_qwen14b.jsonl	rag_examples / adacad	1200	636c088a035213110e09d99db1598aeafa58318057c6ab7aff059f349d7750a0				0.75							
+cuad/raw_outputs/lpmc_cuad.jsonl	all	189	f7c7a2292f20620203497afff855d4caee3b4c7dab59b7c59491010b17de8124					0.33884912688283064	0.08866439645275344					
+cuad/raw_outputs/lpmc_cuad_usage.jsonl	all	167	89d2489f3684589d248e93313c6fd211134c9be63019efd1811ded23ab1b91ee					0.24157225367790736	0.014987462221375222					
+cuad/raw_outputs/lpmc_cuad_v2.jsonl	all	187	3d724f4f00d2bd521ec29f029c35b0d13fe6cc06f186c7c3cfd4dddfb2f49d44					0.4019977532436366	0.04308904371924753					
+cuad/raw_outputs/lpmc_full.jsonl	all	1907	650fdd6583369bb398f512e2e9442e7d036705496abba443f84cd4e5746f1157					0.36484846201021215	0.185129962630269					
+cuad/raw_outputs/occ_ab_cuad.jsonl	all	733	c0ec5351d222c0df48fe0eecaf51ae86ac3dea7c8fd73aeb1f1cf017ebb7b592	0.9113233287858117										0.9290586630286494
+cuad/raw_outputs/rag_v3_bm25.jsonl	rag	1200	ca68dad1dda1b5ba7265e144cab1ce1cfc08b65ce4316b8d68847bd02b17ebae				0.8208333333333333							
+cuad/raw_outputs/rag_v3_bm25.jsonl	rag_plus	1200	ca68dad1dda1b5ba7265e144cab1ce1cfc08b65ce4316b8d68847bd02b17ebae				0.8083333333333333							
+cuad/raw_outputs/rag_v3_bm25.jsonl	rag_full	1200	ca68dad1dda1b5ba7265e144cab1ce1cfc08b65ce4316b8d68847bd02b17ebae				0.8725							
+cuad/raw_outputs/rag_v3_bm25.jsonl	rag_gated	1200	ca68dad1dda1b5ba7265e144cab1ce1cfc08b65ce4316b8d68847bd02b17ebae				0.8625							
+cuad/raw_outputs/rag_v3_bm25.jsonl	rag_defrecall	1200	ca68dad1dda1b5ba7265e144cab1ce1cfc08b65ce4316b8d68847bd02b17ebae				0.8658333333333333							
+cuad/raw_outputs/rag_v3_t1.jsonl	rag	1200	1138b49cbdce3fd2852a1ed238cf6678ba277edcf1ae4e23073e3881c71e42fe				0.8208333333333333							
+cuad/raw_outputs/rag_v3_t1.jsonl	rag_plus	1200	1138b49cbdce3fd2852a1ed238cf6678ba277edcf1ae4e23073e3881c71e42fe				0.8291666666666667							
+cuad/raw_outputs/rag_v3_t1.jsonl	rag_full	1200	1138b49cbdce3fd2852a1ed238cf6678ba277edcf1ae4e23073e3881c71e42fe				0.8758333333333334							
+cuad/raw_outputs/rag_v3_t1.jsonl	rag_gated	1200	1138b49cbdce3fd2852a1ed238cf6678ba277edcf1ae4e23073e3881c71e42fe				0.8708333333333333							
+cuad/raw_outputs/rag_v3_t1.jsonl	rag_defrecall	1200	1138b49cbdce3fd2852a1ed238cf6678ba277edcf1ae4e23073e3881c71e42fe				0.8816666666666667							
+cuad/raw_outputs/rag_v3_t1_gated_deffilter.jsonl	rag_gated	1200	8c854427a311841cc7d273f49f4e9bc85d37571f998595a5ccfcda022b3f6e6b				0.8625							
+cuad/raw_outputs/rag_v3_t1_gated_th0.3.jsonl	rag_gated	1200	6245d33010fd697e6224a8bc57070e7892cb6c850124e44f856f849f0d21fe1c				0.8733333333333333							
+cuad/raw_outputs/rag_v3_t1_gated_th0.4.jsonl	rag_gated	1200	dac8677ffcaef06a6e7e36b42578c0c9b7ba62db6f3d743b5e8ac6db73e9fd5d				0.87							
+cuad/raw_outputs/rag_v3_t1_gated_th0.6.jsonl	rag_gated	1200	c15d661bed285dc6c026eccbefff11603e01e1cc4e7216615bae0838d330acf3				0.8616666666666667							
+cuad/raw_outputs/rag_v3_t2.jsonl	rag	1200	159b6a5a0e435d5b25d2307bea4173cbce11673cc18602f90fd9f4ae0ef3f3c3				0.81							
+cuad/raw_outputs/rag_v3_t2.jsonl	rag_plus	1200	159b6a5a0e435d5b25d2307bea4173cbce11673cc18602f90fd9f4ae0ef3f3c3				0.815							
+cuad/raw_outputs/rag_v3_t2.jsonl	rag_full	1200	159b6a5a0e435d5b25d2307bea4173cbce11673cc18602f90fd9f4ae0ef3f3c3				0.87							
+cuad/raw_outputs/rag_v3_t2.jsonl	rag_gated	1200	159b6a5a0e435d5b25d2307bea4173cbce11673cc18602f90fd9f4ae0ef3f3c3				0.8633333333333333							
+cuad/raw_outputs/rag_v3_t2.jsonl	rag_defrecall	1200	159b6a5a0e435d5b25d2307bea4173cbce11673cc18602f90fd9f4ae0ef3f3c3				0.8616666666666667							
+cuad/raw_outputs/t2_answers.jsonl	all	1012	46798556ed7f14846d5878e9427fa290eb7c332c295a60b254c6e9015493d6b9								0.7940217391304347	0.8460309617918315		
+cuad/raw_outputs/unc_cuad.jsonl	all	204	7faa0619ca64314dcce0b33461e2e42b2861770d334bd4e4eb8bf9ff95677a01											
+defi/raw_outputs/astra6_defi_strict_eqa.jsonl	all	98	381409bfe6a4003d9df4739470f281ba1b5f13aeb549558883ea7b66960750f0								0.8307560137457044	0.8642611683848799	0.8393470790378006	
+defi/raw_outputs/defi_strict_eqa.jsonl	all	98	55e9706e9f52193018f0a50171f8946acca30fba5a0877b058a7bd4834cdbae5								0.7190721649484536	0.8084192439862542	0.7817869415807561	
+defi/raw_outputs/defi_strict_eqa_gpt.jsonl	all	98	78712b8c56809455d46b289cce920a09d5af791b31dc78cb4a341383a2a49a18								0.770618556701031	0.8530927835051546	0.8178694158075602	
+defi/raw_outputs/defi_strict_lpmc.jsonl	all	97	579fedcbe0c06a8502637308362407982d29e4e521393136b36191fb8913e208					0.5272925090190669	-0.018752535869737786					
+defi/raw_outputs/defi_strict_selfreport.jsonl	all	98	ce8c0fc1a4dc97960109cfb359b7e73a36018f61e6c3d1bccd962b09b5cfe25d											
+defi/raw_outputs/defi_strict_weights.jsonl	all	98	659a0f83a611dfc8a0bc3ab85c8da17fa67e68962d7375774b5e7da8a1822eaa											
+defi/raw_outputs/redefine_astra6.jsonl	all	1244	fb433c4a375a5a169c3d0cfaf5c1760c0ffbdf0ac913a72738c3fe38f382ba3a	0.46141479099678456										
+defi/raw_outputs/redefine_ds41.jsonl	all	1244	9846443850fa67a857cc536bb7df2da3c890c6951574852bfc250e7a8a7a9bcd	0.4413183279742765										
+defi/raw_outputs/redefine_gpt56.jsonl	all	1244	77daa164a55a4ad17733bae5f6698a7b144d3596bf45e403b9cfec0cdb321fa1	0.4654340836012862										
+defi/raw_outputs/redefine_proxy_qwen7b.jsonl	given	1244	4b08c0f2de1d6b834ef0f4896bf6d9e731545dac86ba97a36deefb8b6629ea4c											
+defi/raw_outputs/redefine_proxy_qwen7b.jsonl	bare	1244	4b08c0f2de1d6b834ef0f4896bf6d9e731545dac86ba97a36deefb8b6629ea4c											
+jev/raw_outputs/jev_answers.jsonl	v1 /  /  / bare	763	e314a2fed4189bba313d07e25692ce039352794c99b75b7bc591dc8a030a743e				0.581913499344692							
+jev/raw_outputs/jev_answers.jsonl	v1 /  /  / glossC	763	e314a2fed4189bba313d07e25692ce039352794c99b75b7bc591dc8a030a743e				0.9528178243774574							
+jev/raw_outputs/jev_answers.jsonl	v1 /  /  / glossM	723	e314a2fed4189bba313d07e25692ce039352794c99b75b7bc591dc8a030a743e				0.6431535269709544							
+jev/raw_outputs/jev_answers.jsonl	cuad /  /  / bare	671	e314a2fed4189bba313d07e25692ce039352794c99b75b7bc591dc8a030a743e				0.676602086438152							
+jev/raw_outputs/jev_answers.jsonl	cuad /  /  / glossC	671	e314a2fed4189bba313d07e25692ce039352794c99b75b7bc591dc8a030a743e				0.886736214605067							
+jev/raw_outputs/jev_answers.jsonl	cuad /  /  / glossM	667	e314a2fed4189bba313d07e25692ce039352794c99b75b7bc591dc8a030a743e				0.8320839580209896							
+jev/raw_outputs/jev_answers.jsonl	reddit /  /  / bare	1391	e314a2fed4189bba313d07e25692ce039352794c99b75b7bc591dc8a030a743e				0.5765636232925953							
+jev/raw_outputs/jev_answers.jsonl	reddit /  /  / glossC	1391	e314a2fed4189bba313d07e25692ce039352794c99b75b7bc591dc8a030a743e				0.794392523364486							
+jev/raw_outputs/jev_answers.jsonl	reddit /  /  / glossM	1391	e314a2fed4189bba313d07e25692ce039352794c99b75b7bc591dc8a030a743e				0.5434938892882818							
+reddit/raw_outputs/astra6_reddit_eqa.jsonl	all	393	dc7e75bc961690e041ca8ae9eb4108058ffadad242cf443345f79f38c02b567b								0.8541666666666665	0.8816287878787878	0.7736742424242425	
+reddit/raw_outputs/lpmc_reddit.jsonl	all	352	c98aff9dfd7316203a27fd491cb8a46cd9e6f06b6703c6ab37270e7f3b1203ae					0.5377298586778969	0.3404329112286824					
+reddit/raw_outputs/lpmc_reddit_v2.jsonl	all	351	f81d872d02fb7ac0472cf18e69c8546f24674a7cd5f30749a89c749937d80bc9					0.5333001449247873	0.3369095733405232					
+reddit/raw_outputs/rag_reddit_bm25.jsonl	none	1391	d2afb0e743260ffbea97837fde25d0299a146492434cb7e97aa16a9c82e39ba8				0.792235801581596							
+reddit/raw_outputs/rag_reddit_bm25.jsonl	rag	1391	d2afb0e743260ffbea97837fde25d0299a146492434cb7e97aa16a9c82e39ba8				0.8590941768511862							
+reddit/raw_outputs/rag_reddit_bm25.jsonl	rag_plus	1391	d2afb0e743260ffbea97837fde25d0299a146492434cb7e97aa16a9c82e39ba8				0.8626887131560029							
+reddit/raw_outputs/rag_reddit_bm25.jsonl	rag_full	1391	d2afb0e743260ffbea97837fde25d0299a146492434cb7e97aa16a9c82e39ba8				0.9209202012940331							
+reddit/raw_outputs/rag_reddit_bm25.jsonl	rag_gated	1391	d2afb0e743260ffbea97837fde25d0299a146492434cb7e97aa16a9c82e39ba8				0.9259525521207764							
+reddit/raw_outputs/rag_reddit_t1.jsonl	none	1391	09f18fad7a7d4ccb198d485d8bb941c4864a7bf80e01e37b1d99df80224f2b1e				0.792235801581596							
+reddit/raw_outputs/rag_reddit_t1.jsonl	rag	1391	09f18fad7a7d4ccb198d485d8bb941c4864a7bf80e01e37b1d99df80224f2b1e				0.8655643421998562							
+reddit/raw_outputs/rag_reddit_t1.jsonl	rag_plus	1391	09f18fad7a7d4ccb198d485d8bb941c4864a7bf80e01e37b1d99df80224f2b1e				0.8734723220704529							
+reddit/raw_outputs/rag_reddit_t1.jsonl	rag_full	1391	09f18fad7a7d4ccb198d485d8bb941c4864a7bf80e01e37b1d99df80224f2b1e				0.9072609633357297							
+reddit/raw_outputs/rag_reddit_t1.jsonl	rag_gated	1391	09f18fad7a7d4ccb198d485d8bb941c4864a7bf80e01e37b1d99df80224f2b1e				0.9245147375988497							
+reddit/raw_outputs/reddit_eqa.jsonl	all	393	90bfb1a2b128fbb51479b783177bd17b79feedc71b49f24834536b68fbadce43								0.6967329545454546	0.8158143939393938	0.6583806818181818	
+reddit/raw_outputs/reddit_selfreport.jsonl	all	393	e4fa8e542d30909c72c86b9e41dc06bdbbcc9a002e4458fd93b4d7e15164b404											
+reddit/raw_outputs/reddit_v2_eqa.jsonl	all	393	a834619d069ab546ae9c2889b5f02e16b2fcad11ec16af8e5d2668ad0d1176c3								0.698005698005698	0.8152896486229818	0.6574074074074074	
+reddit/raw_outputs/reddit_v2_selfreport.jsonl	all	393	a642a79d7d42363ca99b498469b90c8221a99312f14b370d030da03b533f55e5											
+reddit/raw_outputs/reddit_v2_weights.jsonl	all	393	b0f001718a2ca192c9373c6f7f0887fa2c2b4b4631b67b015b081b43cec54ed8											
+reddit/raw_outputs/reddit_weights.jsonl	all	393	d389f4d7756ae68844321502b51d73416a505056d84f80aee70e6616ebae18ca											
+reddit/raw_outputs/rqa_answers_deepseek41.jsonl	plain	178	3bf63048e0ef5e7bafd3e1fdc45252bc1b8b7515016524b254e6990719cf5be0				0.6067415730337079							
+reddit/raw_outputs/rqa_answers_deepseek41.jsonl	note_gated	178	3bf63048e0ef5e7bafd3e1fdc45252bc1b8b7515016524b254e6990719cf5be0				0.6123595505617978							
+reddit/raw_outputs/rqa_answers_deepseek41.jsonl	note_all	178	3bf63048e0ef5e7bafd3e1fdc45252bc1b8b7515016524b254e6990719cf5be0				0.5955056179775281							
+reddit/raw_outputs/rqa_answers_gpt.jsonl	plain	178	863754cb027d276d8f50ae9bb1821b11650a681f8db6c520a085357ae37c0147				0.5							
+reddit/raw_outputs/rqa_answers_gpt.jsonl	note_gated	178	863754cb027d276d8f50ae9bb1821b11650a681f8db6c520a085357ae37c0147				0.5168539325842697							
+reddit/raw_outputs/rqa_answers_gpt.jsonl	note_all	178	863754cb027d276d8f50ae9bb1821b11650a681f8db6c520a085357ae37c0147				0.5280898876404494							
+structural_twin/raw_outputs/mirror_eqa_gold.jsonl	all	43	1992c0082b8ae2337f88c58c15084b8cc5b6c0248300401d14ca6fe9c8eb0b23								0.2972222222222222	0.8083333333333333	0.4805555555555555	
+structural_twin/raw_outputs/mirror_selfreport.jsonl	all	43	b93bacac7ab934ca8ac81251b74561860c31cdeda9825574b207f416067d9b15											
+structural_twin/raw_outputs/mirror_weights.jsonl	all	43	553b4bba3082a2608a34d55761e90f8df76c1c8403121028021930276ffc7d10											
+synthetic_v1/raw_outputs/astra6_v1_eqa.jsonl	all	120	9e1126d34db1aae97ab470ed69a893aeac1db4f64b7538e9f117e74344d1d846								0.8200280112044818	0.9831932773109243	0.7731884057971014	
+synthetic_v1/raw_outputs/emb_v1.jsonl	all	120	facde2a3c018b2da396275d0e16a20da812b63b411d7bf5dc382217d64b1bf40											
+synthetic_v1/raw_outputs/eqa_v1.jsonl	all	120	06cb160c1022360b52b5dcb9e7429d8f79b464dd1907d29c7eab2a9148afb10a								0.8411680911680912	0.9615384615384616	0.8736979166666666	
+synthetic_v1/raw_outputs/eqa_v1_deepseek_robust.jsonl	all	198	46e317f5d71f60bc5aa1ab15c4d05d9ff0f32f040348b819c04e9b0990e47100								0.6988155668358715	0.9467005076142132	0.7060067681895092	
+synthetic_v1/raw_outputs/eqa_v1_sonnet_samequestions.jsonl	all	120	3a5e287a4e9ea1944ab8fb252df42c04dd6b259eca1d84f69e666aadedc07aaf								0.7570028011204483	0.9726890756302521	0.7682072829131652	
+synthetic_v1/raw_outputs/eqa_v1_usage_deepseek.jsonl	all	198	3b38e9878edadc4a53228d604022c7252214e35c1abfb0ad0a52e15131e6ca82								0.8169744088111435	0.8813388991960419	0.7749427584886769	
+synthetic_v1/raw_outputs/haiku_proxy_v1.jsonl	all	197	6eaa2b75f48329138e2826bf2d62db7b5dc8700509249973ef84d3495dded4ee											
+synthetic_v1/raw_outputs/lpmc_v1.jsonl	all	119	cec27c03da072979bcb618c7a01fd1ab27d08b167e14f26915e941e54b3299bc					0.4267675537968681	0.5632591931022948					
+synthetic_v1/raw_outputs/lpmc_v1_gpt.jsonl	all	188	21439e384efe2f6f351ab061b531b2187c090e20994e4f5e87c8e2d0abf032e8					0.4071448953407925	0.542427472868794					
+synthetic_v1/raw_outputs/lpmc_v1_llama8b.jsonl	all	119	6aaf1098e9c6da070d5dc9e3aa8c8b93df8b50ee0fa52d45285217f0281ad422					0.5752563145479794	0.48979309739914656					
+synthetic_v1/raw_outputs/lpmc_v1_qwen14b.jsonl	all	119	27a642d7f2d03e3ae5739c565a5335a7e4138e57085d80947702e984f1f96a53					0.40182909553894447	0.57433973021776					
+synthetic_v1/raw_outputs/lpmc_v1_shuffled.jsonl	all	197	74a73349032b5271755aab628006caf3c764975b17272f6aabbc9a15939368c9					0.47846732377719264	0.6536998985857061					
+synthetic_v1/raw_outputs/lpmc_v1_usage.jsonl	all	196	96843a3ebde6bb3a82fcc202b76e12f0554983cb22c337a2ecfd4b814b945676					0.2712904910537605	0.24317711907624928					
+synthetic_v1/raw_outputs/occ_ab_v1.jsonl	all	965	c3bcfdc0d8facbedd268e6098f359d8eb64cd5001bebc2e7f4f9030733cd5d54	0.9025906735751296										0.9865284974093265
+synthetic_v1/raw_outputs/plain_failures.jsonl	all	1560	9bb0600e9c6edb1283295d4095fe63e523152198169863d4071ab9803f1d9b32				0.8006410256410257							
+synthetic_v1/raw_outputs/scaling_Qwen_Qwen2.5-0.5B.jsonl	all	197	676e4ec23ab687f4c2622a63742fd7b63d1d7cd9ab83d075693a382a61e527c4					0.6411049310637905	0.2840545671662524					
+synthetic_v1/raw_outputs/scaling_Qwen_Qwen2.5-1.5B.jsonl	all	197	46b7860efa5b3971dbf73a8fa6d733a3e1033f021fbe361b09d08397f35761c8					0.5391217158910598	0.4871087164894159					
+synthetic_v1/raw_outputs/scaling_Qwen_Qwen2.5-3B.jsonl	all	197	aeec5d2a4f5f4baaa3d27ef9775ca9f308e909fa9fdda73a2bb0dd48b86de906					0.49812691322357894	0.5260484445925708					
+synthetic_v1/raw_outputs/scoped_failures.jsonl	all	1560	d771a14b9318cdf5867643bc02cd9cd0057a4a44d93b0582ac3ec39a317c86ec				0.8102564102564103							
+synthetic_v1/raw_outputs/scopedneg_failures.jsonl	all	1560	642ee32a4b6bd19628d4249575b3f3aad74950572fe44f211149070fb8bfa2b5				0.8057692307692308							
+synthetic_v1/raw_outputs/sonnet2_selfreport.jsonl	all	120	3a2048e8df8a74a1ed1b32eb1de9f4b89368d51c09b273db0496d997646fb5f0											
+synthetic_v1/raw_outputs/sonnet2_weights.jsonl	all	120	a0c2607531193caa97ff4bdf096f4bc7d956d19996bc1b47070c0e0e4483a3bc											
+synthetic_v1/raw_outputs/unc_v1.jsonl	all	198	493e6b10cc4f273adf9bc3e00bae4d4a8ebdd8d22b6f3f05c217f341fe187421											
+synthetic_v1/raw_outputs/v1_eqa.jsonl	all	198	46e317f5d71f60bc5aa1ab15c4d05d9ff0f32f040348b819c04e9b0990e47100								0.6988155668358715	0.9467005076142132	0.7060067681895092	
+synthetic_v1/raw_outputs/v1_eqa_shuffled.jsonl	all	198	04f8ae9e6468bec047cc955d167de8f354bee1654a1cc7e46c829c163119067b								0.6988155668358715	0.9467005076142132	0.7060067681895092	
+synthetic_v1/raw_outputs/v1_failures.jsonl	all	1807	db2a2cc6ba6611193c2eaf2759a9a7736d96b4bfb117375a52f56bfe3fa14670				0.7946873270614278							
+synthetic_v1/raw_outputs/v1_weights.jsonl	all	198	1ef93962814bddf7c55327178aad71310b8b82337171620d35d20d0c3878ced8											
+techqa/raw_outputs/techqa_eqa_usage_top20.jsonl	all	20	1dab6a4f88a48c84ad54f666a7f2f8fb935e40477c4ad19cfd5deaa3ec68e875								0.8883495670995671	0.9670995670995671	0.8699567099567099	
+techqa/raw_outputs/techqa_weights.jsonl	all	150	aca3d51008012da251c355c698894a55f6f82019b633cd6897c613de2f689684											

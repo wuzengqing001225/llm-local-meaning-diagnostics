@@ -1,0 +1,5 @@
+# Local white-box proxy and tokenizer. Use the torch build appropriate for your hardware.
+torch
+transformers
+huggingface_hub
+tiktoken

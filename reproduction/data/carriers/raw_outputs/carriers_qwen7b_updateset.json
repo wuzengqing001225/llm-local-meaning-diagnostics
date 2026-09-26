@@ -1,0 +1,114 @@
+{
+ "v1:desk:interest": {
+  "term": "interest",
+  "gloss": "The periodic funding rate on a perpetual futures position, paid between longs and shorts and capable of being positive or negative."
+ },
+ "v1:desk:green": {
+  "term": "green",
+  "gloss": "A positive trading result or profit for a book or position."
+ },
+ "v1:desk:week": {
+  "term": "week",
+  "gloss": "A ten-trading-session risk cycle, excluding holidays and exchange closures, that ends and resets limits on its tenth session regardless of calendar duration."
+ },
+ "v1:desk:flat": {
+  "term": "flat",
+  "gloss": "A trading status that prohibits increasing exposure and permits only orders that reduce or unwind existing positions."
+ },
+ "v1:desk:parking": {
+  "term": "parking",
+  "gloss": "Temporarily segregating a position from live trading systems so it is excluded from hedging, risk, notional, P&L, and reporting calculations."
+ },
+ "v1:desk:quiet": {
+  "term": "quiet",
+  "gloss": "A period in which trading activity is curtailed because the system rejects or blocks problematic orders."
+ },
+ "v1:desk:senior": {
+  "term": "senior",
+  "gloss": "The designated minor leg of a paired spread trade, typically the smaller, lower-margin side relative to the larger offsetting hedge."
+ },
+ "v1:desk:holiday": {
+  "term": "holiday",
+  "gloss": "A temporary exchange-specific trading halt triggered by a technical or operational incident, during which quoting and orders are suspended or cancelled."
+ },
+ "v1:desk:fresh": {
+  "term": "fresh",
+  "gloss": "Marked as too newly updated or otherwise unverified for execution, so it must not be routed against or used in matching."
+ },
+ "v1:desk:cheap": {
+  "term": "cheap",
+  "gloss": "Incurring hedge execution costs or slippage materially above the permitted tolerance or budget."
+ },
+ "v1:desk:counterparty": {
+  "term": "counterparty",
+  "gloss": "The other party to a bilateral trading or derivatives agreement, whose creditworthiness, collateral, and performance obligations affect settlement and default risk."
+ },
+ "v1:desk:contango": {
+  "term": "contango",
+  "gloss": "A market condition in which futures or later-dated contracts trade above the current spot price or nearer-dated contracts, creating positive roll or carry opportunities."
+ },
+ "v1:desk:backwardation": {
+  "term": "backwardation",
+  "gloss": "A market condition in which futures contracts, including longer-dated maturities, trade below the current spot or underlying reference price, producing negative basis and potentially negative carry for hedges."
+ },
+ "v1:desk:cross-margining": {
+  "term": "cross-margining",
+  "gloss": "Automatically using excess collateral in one account or sub-account to cover a shortfall or maintenance requirement in another related account or book."
+ },
+ "v1:desk:RiskCap": {
+  "term": "RiskCap",
+  "gloss": "RiskCap is a trader-level loss threshold, reset each ten-session cycle, whose breach removes the trader from trading for the remainder of that cycle."
+ },
+ "v1:desk:FeeTier2": {
+  "term": "FeeTier2",
+  "gloss": "A trading-fee classification reached by meeting a rolling volume threshold that reduces taker-order costs relative to the base tier."
+ },
+ "v1:desk:varnok": {
+  "term": "varnok",
+  "gloss": "Final approval required to make a trading limit change effective."
+ },
+ "v1:rest:red": {
+  "term": "red",
+  "gloss": "Achieving or exceeding a sales target for a given period."
+ },
+ "v1:rest:cold": {
+  "term": "cold",
+  "gloss": "Fully staffed, with all required positions filled and no additional coverage needed."
+ },
+ "v1:rest:float": {
+  "term": "float",
+  "gloss": "An employee temporarily assigned from their home store to work at another location as needed."
+ },
+ "v1:rest:fresh": {
+  "term": "fresh",
+  "gloss": "Designated for disposal and not for use, sale, or further preparation."
+ },
+ "v1:rest:spoil": {
+  "term": "spoil",
+  "gloss": "To compensate a customer for an excessive wait or service issue by giving a free item or voucher."
+ },
+ "v1:rest:dead": {
+  "term": "dead",
+  "gloss": "Out of stock or depleted at a location."
+ },
+ "v1:rest:sugar": {
+  "term": "sugar",
+  "gloss": "A store-specific budget for complimentary meals, vouchers, and similar customer concessions."
+ },
+ "v1:rest:delivery": {
+  "term": "delivery",
+  "gloss": "The transport and handoff of goods or customer orders from a supplier or store to their intended destination."
+ },
+ "v1:rest:expediter": {
+  "term": "expediter",
+  "gloss": "A restaurant pass worker who coordinates and checks orders, communicates tickets and modifications to the line, and ensures correct plates are sent out."
+ },
+ "v1:rest:par level": {
+  "term": "par level",
+  "gloss": "the inventory threshold at which replenishment or ordering action should be taken to avoid running out"
+ },
+ "v1:rest:StockPing": {
+  "term": "StockPing",
+  "gloss": "An automated inventory alert indicating that an ingredient’s recorded stock has fallen to or below its reorder threshold."
+ }
+}

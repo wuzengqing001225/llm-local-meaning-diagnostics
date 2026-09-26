@@ -1,0 +1,48 @@
+{
+  "status": "COMPLETE_HISTORICAL_DEVELOPMENT_NOT_FORMAL_B",
+  "formal_B_reader_calls": 0,
+  "files": {
+    "A_gold_packet.jsonl": {
+      "sha256": "62a767cdcf41255a4171adbc56003070ef3009f60c86f3d1714b48257e18a1c6",
+      "rows": 215
+    },
+    "qwen_A_gold.jsonl": {
+      "sha256": "280816f5b44c9a6f9984035ea91c78af52ac81fc6a696ae6c3c4a23fba4a5dff",
+      "rows": 215
+    },
+    "gold_plan_development_only.json": {
+      "sha256": "2ecefe84e0338083badde3b0c2437057873951b64746e88067ef3bafcaa81b3c",
+      "rows": null
+    },
+    "B_disagreement_packet.jsonl": {
+      "sha256": "71d763922bb5c9a5d4d11ca894ac3245c9322bfa3991cf8401e730dc89052781",
+      "rows": 118
+    },
+    "gpt56_B_gold_bare.jsonl": {
+      "sha256": "318e006c3d75fb1a8bcdc129411f2c4a172aabbd0d05d46cff7a5d5d9fef4446",
+      "rows": 236
+    },
+    "source_checks.jsonl": {
+      "sha256": "a58267d22c0630d59e3095cf5c907f8d1245a4baf4fbed5bb8fcd17a51e682ef",
+      "rows": 60
+    },
+    "source_decisions.jsonl": {
+      "sha256": "9fde18a0d1c1e329ff0c4ebea0c1f3c14b66afe38e64e900303d8c7cb51eea82",
+      "rows": 118
+    },
+    "configured_reader_analysis.json": {
+      "sha256": "1437b36e4ee650ff4ffb65f981fcb77281338917d802e98137ad418ef616f87f",
+      "rows": null
+    },
+    "analysis.json": {
+      "sha256": "03edf5ae41f07afbba712e651ec4c8a948b414c873cb4714fef2094451b4c148",
+      "rows": null
+    }
+  },
+  "models": {
+    "proxy": "Qwen/Qwen2.5-7B@d149729398750b98c0af14eb82c78cfe92750796",
+    "target_reader": "gpt-5.6-terra",
+    "blind_source_checker": "deepseek-flash"
+  },
+  "requested_and_returned_model_usage_response_ids_recorded": true
+}

@@ -1,0 +1,25 @@
+\section{Definition selection and source-text sensitivity}
+\label{app:new}
+\paragraph{CUAD development allocation.}
+The 63-question batch is drafted separately from its A diagnostics but remains a small, constructed, forced-choice task. Full-definition provision yields 61 versus 51 correct answers for GPT-5.6-terra and 59 versus 51 for DeepSeek V4.1 Flash. At the 50\% fixed question budget, mean $\Delta p$, matched-first, mean $R$, and frequency yield 55, 56, 57, and 59 correct GPT-5.6-terra answers. The corresponding DeepSeek V4.1 Flash counts are 56, 55, 55, and 56. No single $\Delta p$ policy dominates these simple comparators across readers and budget points. This batch is not pooled with the Reddit library experiment.
+
+\paragraph{Shared-library split and definition versions.}
+The Reddit calculation uses 215 glossary terms in 35 communities. Questions of a term are split by odd and even index into diagnostic A and evaluation B, so B is a sibling question rather than an independent future request. Each half usually has one or two questions per term. Frequency comes from the historical corpus. The library-policy comparison uses the exact community entry for A scoring, word cost, and B reader intervention. A separate drafted-gloss arm uses a different text for both scoring and intervention. Every drafted gloss differs from the corresponding community entry.
+
+The proxy scores 429 A questions and the reader outcomes cover 422 B questions. The table below gives AUROC for predicting a wrong-to-correct transition \emph{conditional on a bare error}. The A direct row scores the same question. The A-to-B row uses the A-term mean to score the other half. Intervals resample communities.
+
+\begin{table}[htbp]\centering\small
+\caption{Reddit conditional repair with the version of the definition held fixed between proxy scoring and reader intervention. These historical questions were model drafted and are not independent future requests.}
+\label{tab:gold-source-repair}
+\begin{tabular}{@{}p{2.8cm}p{4.3cm}p{4.3cm}@{}}\toprule
+Definition text & A direct: bare failures / repairs, AUROC [95\% CI] & A to B: bare failures / repairs, AUROC [95\% CI]\\\midrule
+Model-drafted gloss & 144 / 85, 0.833 [0.773, 0.882] & 147 / 85, 0.811 [0.732, 0.893]\\
+Community source entry & 144 / 116, 0.665 [0.539, 0.788] & 147 / 126, 0.600 [0.475, 0.717]\\\bottomrule
+\end{tabular}\end{table}
+
+The community source entry repairs more bare failures and causes fewer correct-to-wrong changes: the latter are four on B, versus 25 for the drafted gloss. Its near-ceiling B repair rate leaves only 21 unrepaired bare errors. This small negative class increases the uncertainty of the ranking estimate, but cannot by itself explain the 0.600 point value. The two definition versions have different AUROCs because $\Delta p$ applies only to the text it scores. The B questions were drafted with the community entry and their keys have not all been independently adjudicated, so the comparison is not a randomized definition-quality experiment.
+
+\paragraph{Configured reader and answer quality.}
+The source-entry 25\% word-budget comparison selects 111 definitions by frequency per cost and 89 by frequency times $\Delta p$ per cost. Only 60 terms differ. GPT-5.6-terra supplies bare and source-entry responses for 118 B questions on these terms, producing 236 model responses with recorded usage and response IDs. The frequency-only terms and $\Delta p$-only terms replace 549 and 550 definition words, respectively. They yield 26 versus 11 wrong-to-correct changes, with one versus zero harms. Under the historical frequency weights, the $\Delta p$ policy has 4.53 fewer correct outcomes per 100 eligible occurrences. A community-cluster interval conditional on the fixed two libraries is $[-9.45,-0.28]$ points. It does not account for uncertainty in source-validity decisions or independent future use.
+
+An outcome-blind DeepSeek V4.1 Flash source review accepts 83 of the 118 B questions under a fixed rule requiring one supported answer and no answer leakage. Fifteen differing terms have no accepted question. Bounding each missing term's mean repair effect by $[-1,1]$ gives a total difference interval of $[-9.21,+6.14]$ points. Model acceptance is not expert gold, and a fixed-hash spot review finds some remaining underspecified questions. The available evidence does not establish which library is better for future requests.

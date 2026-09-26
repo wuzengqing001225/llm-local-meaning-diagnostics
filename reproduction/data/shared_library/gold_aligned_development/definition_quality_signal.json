@@ -1,0 +1,21 @@
+{
+  "status": "EXPLORATORY_OLD_B_DRAFTED_FROM_GOLD_GLOSS",
+  "n_terms": 215,
+  "n_communities": 35,
+  "B_gold_better_terms": 50,
+  "B_auto_better_terms": 4,
+  "B_tied_terms": 161,
+  "mean_A_delta_p_gold_minus_auto": 0.07605369031471851,
+  "mean_B_correct_gold_minus_auto": 0.14883720930232558,
+  "spearman_all_terms": 0.3266924807362764,
+  "community_cluster_bootstrap_95_for_spearman": [
+    0.21864904018537942,
+    0.4048406908284722
+  ],
+  "pearson_all_terms": 0.394978580452546,
+  "pearson_after_linear_residualization_of_length_bare_accuracy_log_frequency": 0.41006456200392016,
+  "non_tied_B_terms": 54,
+  "sign_agreement_non_tied": 43,
+  "AUROC_gold_better_vs_auto_better_among_non_ties": 0.89,
+  "limitation": "Question generation used the source gloss; 161/215 terms tie on 1-2 B questions. Association does not validate Δp as a causal or source-invariant quality metric."
+}

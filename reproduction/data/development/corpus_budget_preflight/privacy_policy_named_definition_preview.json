@@ -1,0 +1,1422 @@
+{
+  "PolicyQA": {
+    "source": "PolicyQA",
+    "n_policies": 115,
+    "n_unique_policy_segments": 3260,
+    "n_policy_question_instances": 15906,
+    "n_global_distinct_question_texts": 714,
+    "n_provisional_named_definitions": 18,
+    "n_questions_matching_1plus": 70,
+    "n_questions_matching_2plus": 0,
+    "fraction_matching_2plus": 0.0,
+    "match_count_distribution": {
+      "0": 15836,
+      "1": 70
+    },
+    "by_doc": [
+      {
+        "doc": "abcnews.com",
+        "questions": 150,
+        "named_definitions": 2,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "abita.com",
+        "questions": 67,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "acbj.com",
+        "questions": 169,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "adweek.com",
+        "questions": 107,
+        "named_definitions": 1,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "allstate.com",
+        "questions": 179,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "amazon.com",
+        "questions": 207,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "aol.com",
+        "questions": 148,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "archives.gov",
+        "questions": 187,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "austincc.edu",
+        "questions": 91,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "bankofamerica.com",
+        "questions": 199,
+        "named_definitions": 1,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "barnesandnoble.com",
+        "questions": 282,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "boardgamegeek.com",
+        "questions": 59,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "buffalowildwings.com",
+        "questions": 120,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "cariboucoffee.com",
+        "questions": 124,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "cbsinteractive.com",
+        "questions": 46,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "chasepaymentech.com",
+        "questions": 147,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "cincymuseum.org",
+        "questions": 97,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "citizen.org",
+        "questions": 92,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "coffeereview.com",
+        "questions": 89,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "communitycoffee.com",
+        "questions": 32,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "dailyillini.com",
+        "questions": 77,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "dailynews.com",
+        "questions": 180,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "dairyqueen.com",
+        "questions": 97,
+        "named_definitions": 1,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "dcccd.edu",
+        "questions": 91,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "disinfo.com",
+        "questions": 116,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "dogbreedinfo.com",
+        "questions": 29,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "earthkam.org",
+        "questions": 70,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "eatchicken.com",
+        "questions": 15,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "education.jlab.org",
+        "questions": 38,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "enthusiastnetwork.com",
+        "questions": 176,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "esquire.com",
+        "questions": 235,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "everydayhealth.com",
+        "questions": 154,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "foodallergy.org",
+        "questions": 104,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "fool.com",
+        "questions": 235,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "fortune.com",
+        "questions": 177,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "foxsports.com",
+        "questions": 201,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "fredericknewspost.com",
+        "questions": 89,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "freep.com",
+        "questions": 132,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "gamestop.com",
+        "questions": 197,
+        "named_definitions": 2,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "gawker.com",
+        "questions": 125,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "geocaching.com",
+        "questions": 162,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "google.com",
+        "questions": 196,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "gwdocs.com",
+        "questions": 24,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "highgearmedia.com",
+        "questions": 150,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "honda.com",
+        "questions": 243,
+        "named_definitions": 1,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "ifsa-butler.org",
+        "questions": 81,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "imdb.com",
+        "questions": 144,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "instagram.com",
+        "questions": 182,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "internetbrands.com",
+        "questions": 256,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "ironhorsevineyards.com",
+        "questions": 37,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "jibjab.com",
+        "questions": 239,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "kaleidahealth.org",
+        "questions": 161,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "kraftrecipes.com",
+        "questions": 182,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "latinpost.com",
+        "questions": 290,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "lids.com",
+        "questions": 128,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "liquor.com",
+        "questions": 88,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "lodgemfg.com",
+        "questions": 74,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "lynda.com",
+        "questions": 278,
+        "named_definitions": 1,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "meredith.com",
+        "questions": 260,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "miaminewtimes.com",
+        "questions": 156,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "military.com",
+        "questions": 192,
+        "named_definitions": 1,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "minecraft.gamepedia.com",
+        "questions": 122,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "mlb.mlb.com",
+        "questions": 161,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "mohegansun.com",
+        "questions": 37,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "msn.com",
+        "questions": 151,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "naturalnews.com",
+        "questions": 16,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "nbcuniversal.com",
+        "questions": 199,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "neworleansonline.com",
+        "questions": 163,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "newsbusters.org",
+        "questions": 145,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "nytimes.com",
+        "questions": 236,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "ocregister.com",
+        "questions": 103,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "opensecrets.org",
+        "questions": 67,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "pbs.org",
+        "questions": 167,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "playstation.com",
+        "questions": 173,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "post-gazette.com",
+        "questions": 153,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "randomhouse.com",
+        "questions": 215,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "reddit.com",
+        "questions": 199,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "redorbit.com",
+        "questions": 149,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "reference.com",
+        "questions": 154,
+        "named_definitions": 1,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "restaurantnews.com",
+        "questions": 33,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "rockstargames.com",
+        "questions": 207,
+        "named_definitions": 1,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "sci-news.com",
+        "questions": 56,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "sciencemag.org",
+        "questions": 152,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "sheknows.com",
+        "questions": 174,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "si.edu",
+        "questions": 106,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "sidearmsports.com",
+        "questions": 245,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "sltrib.com",
+        "questions": 216,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "solarviews.com",
+        "questions": 12,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "sports-reference.com",
+        "questions": 127,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "steampowered.com",
+        "questions": 101,
+        "named_definitions": 1,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "stlouisfed.org",
+        "questions": 150,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "style.com",
+        "questions": 134,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "tangeroutlet.com",
+        "questions": 17,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "taylorswift.com",
+        "questions": 139,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "ted.com",
+        "questions": 132,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "tgifridays.com",
+        "questions": 113,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "theatlantic.com",
+        "questions": 146,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "thefreedictionary.com",
+        "questions": 101,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "thehill.com",
+        "questions": 88,
+        "named_definitions": 1,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "ticketmaster.com",
+        "questions": 119,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "timeinc.com",
+        "questions": 161,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "tulsaworld.com",
+        "questions": 205,
+        "named_definitions": 1,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "uh.edu",
+        "questions": 56,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "uptodate.com",
+        "questions": 67,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "usa.gov",
+        "questions": 91,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "vikings.com",
+        "questions": 199,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "voxmedia.com",
+        "questions": 177,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "walmart.com",
+        "questions": 206,
+        "named_definitions": 2,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "washingtonian.com",
+        "questions": 108,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "washingtonpost.com",
+        "questions": 164,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "wnep.com",
+        "questions": 132,
+        "named_definitions": 1,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "wsmv.com",
+        "questions": 168,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "www.loc.gov",
+        "questions": 121,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "yahoo.com",
+        "questions": 96,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "zacks.com",
+        "questions": 124,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      }
+    ],
+    "named_definition_examples": [
+      {
+        "doc": "abcnews.com",
+        "term": "Parents Parents",
+        "example": "Parents Parents means a parent or legal guardian."
+      },
+      {
+        "doc": "abcnews.com",
+        "term": "Children",
+        "example": "Children. Children means individuals who we have identified are not of legal age to consent to the collection and processing of their personal information. In the United States and Latin America, the term children refers to individuals under 13 years of age."
+      },
+      {
+        "doc": "adweek.com",
+        "term": "Privacy Policy",
+        "example": "6. Changes To The Privacy Policy This Privacy Policy is effective as of June 2012. We reserve the right to change this Privacy Policy at any time. We do not undertake to provide you with personal notice of any changes. In the event of material changes, we will provide notice by means that are reasonable under the circumstances, such as by posting a notice on the Websites. Your continued use of the Websites following the posting of changes to this Privacy Policy means you accept those changes."
+      },
+      {
+        "doc": "bankofamerica.com",
+        "term": "We Collect Online Personal Information",
+        "example": "Collecting and Using Information Personal Information We Collect Online Personal Information means personally identifiable information such as information you provide via forms, surveys, applications or other online fields including name, postal or email addresses, telephone, fax or mobile numbers, or account numbers."
+      },
+      {
+        "doc": "dairyqueen.com",
+        "term": "Personal information",
+        "example": "Information You Submit. You give us personal information when you join one of our loyalty clubs, enter one of our surveys, contests or sweepstakes, if you submit a question, comment or complaint, if you request or submit information about becoming a franchisee, if you submit an employment application, or for an online cake order. \"Personal information\" means any information about an identifiable individual, such as name, address, phone number, email, birth date, gender or zip code/postal code. E"
+      },
+      {
+        "doc": "gamestop.com",
+        "term": "Website",
+        "example": "We work with business partners to provide you access to their products and services. For example, our Website includes a link to www.alienware.com. Any information you supply upon entering the www.alienware.com site is collected by Alienware."
+      },
+      {
+        "doc": "gamestop.com",
+        "term": "Websites",
+        "example": "The information we receive or can determine from your interaction with our Websites includes your Internet (IP) address; login and password information; email address; web browser type and version; operating system and computer platform; purchase history, which we may aggregate with similar information from other customers; the full Uniform Resource Locator (URL) clickstream to, through, and from our Websites, including date and time; one or more unique identifiers; products you viewed or search"
+      },
+      {
+        "doc": "honda.com",
+        "term": "Personally identifiable information or personal information",
+        "example": "\"Personally identifiable information or personal information\" refers to any information that identifies or can be used to contact or locate you such as name, mailing address, phone number, email address, social security number, and account number. Use of certain features and tools on this Site requires that you provide us with personally identifiable information. However, you always have the option not to provide personal information by choosing not to use a particular feature."
+      },
+      {
+        "doc": "lynda.com",
+        "term": "Personally Identifiable Information",
+        "example": "(a) Personally Identifiable Information. Personally Identifiable Information refers to information by which you may be personally identified, such as your name, email address, or school. We will collect and process such data about you when you register for a Service/create an account, subscribe to a newsletter, submit feedback, enter a contest, fill out a survey, or send us a communication. When ordering products or services on the Websites or App, you may also be asked to provide a credit card "
+      },
+      {
+        "doc": "military.com",
+        "term": "Affiliated companies",
+        "example": "The information we gather on the Military sites may be shared within our affiliated companies on a worldwide basis in order to deliver the products and services we offer or in order to undertake analysis of our database. \"Affiliated companies\" means entities that control, are controlled by or are under common control with Military."
+      },
+      {
+        "doc": "reference.com",
+        "term": "DNT",
+        "example": "Do Not Track Disclosure Do Not Track (\"DNT\") is a privacy preference that users can set in certain web browsers. DNT is a way for users to inform websites and services that they do not want certain information about their webpage visits collected over time and across websites or online services. We are committed to providing you with meaningful choices about the information collected on our website for third party purposes, and that is why we provide the NAI \"Consumer Opt-out\" link and the DAA o"
+      },
+      {
+        "doc": "rockstargames.com",
+        "term": "Company",
+        "example": "Analytic Metrics Tools and Other Technologies: Other information that may be passively collected by the Company includes log files that record information about your hardware, product use, service use, or website use, including website navigation and game telemetry activity. We also use these log file entries for our internal marketing, service design, technical support, and demographic studies, so we can constantly improve the Online Services we provide you."
+      },
+      {
+        "doc": "steampowered.com",
+        "term": "personally identifiable information",
+        "example": "Personally Identifiable Information \"Personally identifiable information\" is information that can be used to uniquely identify a user such as name, address or credit card number. If you are an EU user, \"personally identifiable information\" means \"personal data\" within the meaning of article 2 a) of the Directive 95/46 of 24 October 1995. You may be asked to provide personally identifiable information during the sign in process, and then in connection with the use of Valves products, services and"
+      },
+      {
+        "doc": "thehill.com",
+        "term": "Privacy Policy",
+        "example": "Changes To The Privacy Policy This Privacy Policy is effective as of February 26th, 2014. We reserve the right to change this Privacy Policy at any time by notifying users. We may notify you by posting a notice on the Site or by contacting you through electronic mail or other means. Your continued use of the Site following the posting of changes to this Privacy Policy means you accept those changes."
+      },
+      {
+        "doc": "tulsaworld.com",
+        "term": "Site",
+        "example": "Associated Press We participate in the News Registry, a service operated by the NewsRight, LLC (NewsRight). The News Registry collects content usage information and may use cookies in conjunction with this activity. Your continued readership of the Site means you accept the privacy policy of the NewsRight News Registry. Please refer to the NewsRight News Registry privacy policy at http://www.newsregistry.com/privacycenter/servicepolicy.aspx for further information."
+      },
+      {
+        "doc": "walmart.com",
+        "term": "Opt-in",
+        "example": "Marketing Preferences When we are sending marketing communications to you, we use the following standards: We use an opt-in standard for phone and text messages. We use an opt-in standard for sharing personal information with companies outside our corporate family of companies for their use in direct marketing, such as sending you promotions. Opt-in means we will only conduct the activity with your affirmative consent. We use an opt-out standard for email or for other communications, such as pos"
+      },
+      {
+        "doc": "walmart.com",
+        "term": "Opt-out",
+        "example": "Marketing Preferences When we are sending marketing communications to you, we use the following standards: We use an opt-in standard for phone and text messages. We use an opt-in standard for sharing personal information with companies outside our corporate family of companies for their use in direct marketing, such as sending you promotions. Opt-in means we will only conduct the activity with your affirmative consent. We use an opt-out standard for email or for other communications, such as pos"
+      },
+      {
+        "doc": "wnep.com",
+        "term": "Affiliates",
+        "example": "Privacy Policy/Your Privacy Rights Last updated on August 19, 2013. Tribune Company is a diverse multimedia company and, together with its Affiliates, operates daily newspapers, television stations, a digital broadcast program network, and news, entertainment, and information websites. In this Privacy Policy, Affiliates refers to our subsidiaries and entities that Tribune or its subsidiaries operate or have an ownership interest in."
+      }
+    ],
+    "matched_question_examples": [
+      {
+        "doc": "abcnews.com",
+        "question": "How do you deal with children's data?",
+        "terms": [
+          "Children"
+        ]
+      },
+      {
+        "doc": "abcnews.com",
+        "question": "Does the company collect or protect information from children?",
+        "terms": [
+          "Children"
+        ]
+      },
+      {
+        "doc": "abcnews.com",
+        "question": "Does the privacy policy mention anything about children?",
+        "terms": [
+          "Children"
+        ]
+      },
+      {
+        "doc": "adweek.com",
+        "question": "Can I participate when you change the privacy policy?",
+        "terms": [
+          "Privacy Policy"
+        ]
+      },
+      {
+        "doc": "adweek.com",
+        "question": "Does the website take users' consent in privacy policy change?",
+        "terms": [
+          "Privacy Policy"
+        ]
+      },
+      {
+        "doc": "adweek.com",
+        "question": "What changes in your privacy policy are being informed to the users?",
+        "terms": [
+          "Privacy Policy"
+        ]
+      },
+      {
+        "doc": "gamestop.com",
+        "question": "Does the website mention the name of third parities, who gets my data?",
+        "terms": [
+          "Website"
+        ]
+      },
+      {
+        "doc": "gamestop.com",
+        "question": "Do you allow others to track my information on your websites?",
+        "terms": [
+          "Websites"
+        ]
+      },
+      {
+        "doc": "gamestop.com",
+        "question": "What types of my online activities is collected by the website?",
+        "terms": [
+          "Website"
+        ]
+      },
+      {
+        "doc": "gamestop.com",
+        "question": "Does the website collect any information that I do not provide explicitly?",
+        "terms": [
+          "Website"
+        ]
+      },
+      {
+        "doc": "gamestop.com",
+        "question": "Who receives my information from this website?",
+        "terms": [
+          "Website"
+        ]
+      },
+      {
+        "doc": "gamestop.com",
+        "question": "How does the website collect information about me?",
+        "terms": [
+          "Website"
+        ]
+      },
+      {
+        "doc": "gamestop.com",
+        "question": "How can I unsubscribe from the website's service or feature?",
+        "terms": [
+          "Website"
+        ]
+      },
+      {
+        "doc": "gamestop.com",
+        "question": "Does the company use users' information for website/app operation?",
+        "terms": [
+          "Website"
+        ]
+      },
+      {
+        "doc": "gamestop.com",
+        "question": "Does the company collect user's information directly on their website?",
+        "terms": [
+          "Website"
+        ]
+      },
+      {
+        "doc": "gamestop.com",
+        "question": "What category of information is collected by the website?",
+        "terms": [
+          "Website"
+        ]
+      },
+      {
+        "doc": "gamestop.com",
+        "question": "Does the website use cookies or web beacons to collect the user's information?",
+        "terms": [
+          "Website"
+        ]
+      },
+      {
+        "doc": "gamestop.com",
+        "question": "Do we need to consent before data can be collected by the website?",
+        "terms": [
+          "Website"
+        ]
+      },
+      {
+        "doc": "gamestop.com",
+        "question": "Does the website collect user's information to provide basic services?",
+        "terms": [
+          "Website"
+        ]
+      },
+      {
+        "doc": "gamestop.com",
+        "question": "How does the website provide opt-out link?",
+        "terms": [
+          "Website"
+        ]
+      },
+      {
+        "doc": "gamestop.com",
+        "question": "The website share information with others for what type of users?",
+        "terms": [
+          "Website"
+        ]
+      },
+      {
+        "doc": "gamestop.com",
+        "question": "Does this website use information collected from the user's?",
+        "terms": [
+          "Website"
+        ]
+      },
+      {
+        "doc": "gamestop.com",
+        "question": "What type of information about me does the website collect?",
+        "terms": [
+          "Website"
+        ]
+      },
+      {
+        "doc": "gamestop.com",
+        "question": "Is my data being used by the website for analytics?",
+        "terms": [
+          "Website"
+        ]
+      },
+      {
+        "doc": "gamestop.com",
+        "question": "Does the website offer privacy control options to the users?",
+        "terms": [
+          "Website"
+        ]
+      },
+      {
+        "doc": "gamestop.com",
+        "question": "Does the website share my data with third parties? If yes, who are they?",
+        "terms": [
+          "Website"
+        ]
+      },
+      {
+        "doc": "gamestop.com",
+        "question": "Does any third party track user's information on the company's website?",
+        "terms": [
+          "Website"
+        ]
+      },
+      {
+        "doc": "gamestop.com",
+        "question": "Does the website provide any choices to users for data collection?",
+        "terms": [
+          "Website"
+        ]
+      },
+      {
+        "doc": "gamestop.com",
+        "question": "Does the website allow the registered users to edit or delete their data?",
+        "terms": [
+          "Website"
+        ]
+      },
+      {
+        "doc": "gamestop.com",
+        "question": "Does this website collect my information?",
+        "terms": [
+          "Website"
+        ]
+      }
+    ],
+    "limitations": "Strong-form named definitions and exact question mentions only; not an upper bound on all possible semantic matches. No answer, label, relevant segment, or gold definition IDs were read."
+  },
+  "PrivacyQA": {
+    "source": "PrivacyQA",
+    "n_policies": 35,
+    "n_unique_policy_segments": 4639,
+    "n_policy_question_instances": 1748,
+    "n_global_distinct_question_texts": 1533,
+    "n_provisional_named_definitions": 17,
+    "n_questions_matching_1plus": 13,
+    "n_questions_matching_2plus": 0,
+    "fraction_matching_2plus": 0.0,
+    "match_count_distribution": {
+      "0": 1735,
+      "1": 13
+    },
+    "by_doc": [
+      {
+        "doc": "23andMe _7",
+        "questions": 50,
+        "named_definitions": 3,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "Brilliant _26",
+        "questions": 50,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "Cake Web Browser _1",
+        "questions": 50,
+        "named_definitions": 1,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "Clean Master_2",
+        "questions": 50,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "Dictionary _22",
+        "questions": 50,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "Doodle Jump _4",
+        "questions": 50,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "Evernote _4",
+        "questions": 50,
+        "named_definitions": 9,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "Evie Launcher _24",
+        "questions": 50,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "Farm Frenzy Free: Time management game _7",
+        "questions": 50,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "Fiverr _1",
+        "questions": 50,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "Goodreads _6",
+        "questions": 50,
+        "named_definitions": 1,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "Groupon _3",
+        "questions": 50,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "Habit Tracker _11",
+        "questions": 50,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "IMDb Movies & TV _8",
+        "questions": 50,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "Keep _2",
+        "questions": 50,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "Khan Academy _27",
+        "questions": 50,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "MyChart _23",
+        "questions": 50,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "Poweramp Music Player (Trial) _10",
+        "questions": 50,
+        "named_definitions": 1,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "QuickBooks Accounting: Invoicing & Expenses _9",
+        "questions": 50,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "Recipe, Menu & Cooking Planner _12",
+        "questions": 50,
+        "named_definitions": 1,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "Reddit: Top News, Trending Memes & Crypto Updates _13",
+        "questions": 50,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "Runkeeper _5",
+        "questions": 50,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "Shutterfly: Free Prints, Photo Books, Cards, Gifts _14",
+        "questions": 50,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "Starbucks _15",
+        "questions": 50,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "Tastemade _16",
+        "questions": 50,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "The Washington Post Classic _21",
+        "questions": 50,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "TickTick: To Do List with Reminder, Day Planner _6",
+        "questions": 50,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "TouchNote: Cards & Gifts _17",
+        "questions": 50,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "TouchPal Keyboard _3",
+        "questions": 50,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "TripAdvisor Hotels Flights Restaurants Attractions _18",
+        "questions": 50,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "USPS MOBILE _20",
+        "questions": 50,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "Viber Messenger _8",
+        "questions": 48,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "White Noise Generator _25",
+        "questions": 50,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "Wordscapes _5",
+        "questions": 50,
+        "named_definitions": 1,
+        "questions_matching_2plus": 0
+      },
+      {
+        "doc": "World Travel Guide by Triposo _19",
+        "questions": 50,
+        "named_definitions": 0,
+        "questions_matching_2plus": 0
+      }
+    ],
+    "named_definition_examples": [
+      {
+        "doc": "23andMe _7",
+        "term": "23andMe Research",
+        "example": "\"23andMe Research\" refers to research aimed at publication in peer-reviewed journals and other research funded by the federal government (such as the National Institutes of Health - NIH) conducted by 23andMe."
+      },
+      {
+        "doc": "23andMe _7",
+        "term": "Genetic Information",
+        "example": "Genetic Information includes the 23andMe results reported to you as part of our Services, and may be used for other purposes, as outlined in Section 3 below."
+      },
+      {
+        "doc": "23andMe _7",
+        "term": "User Content",
+        "example": "For example, User Content includes any discussions, posts, or messages you send on 23andMe's Forums."
+      },
+      {
+        "doc": "Cake Web Browser _1",
+        "term": "Personal Information",
+        "example": "Personal Information means individually identifiable information that would allow us to determine the actual identity of and contact, a specific living person."
+      },
+      {
+        "doc": "Evernote _4",
+        "term": "Evernote Service",
+        "example": "Evernote Service means the Evernote Software (as defined below) and other products, services and websites hosted or made available by Evernote, including our downloadable applications, App Center, User Forum, and Help & Learning pages."
+      },
+      {
+        "doc": "Evernote _4",
+        "term": "Content",
+        "example": "Content means the text, images, and other data you choose to input, upload, and store in Evernote."
+      },
+      {
+        "doc": "Evernote _4",
+        "term": "Paid Service",
+        "example": "Paid Service means Evernote Plus, Evernote Premium, Evernote Business, and any other Evernote offering for which we collect payment (in the form of currency, Evernote points, coupon codes)."
+      },
+      {
+        "doc": "Evernote _4",
+        "term": "The Service",
+        "example": "This Privacy Policy explains more specifically what information Evernote Corporation and its Group Companies (together, Evernote, we or us) collect from Account Holders and End Users (you) through Evernotes websites and applications, which we refer to collectively as the Service. The Service includes the Evernote Software."
+      },
+      {
+        "doc": "Evernote _4",
+        "term": "End User",
+        "example": "End User means the individual who uses an account on the Evernote service."
+      },
+      {
+        "doc": "Evernote _4",
+        "term": "Evernote Software",
+        "example": "Evernote Software means the software hosted on Evernotes servers and the software we make available to be deployed by you or a third party to enable capturing of Content originating outside the Service, such as Evernote Scannable or Evernote Web Clipper or any of the Evernote software applications for compatible computing devices that enable access and use of the Service through such device"
+      },
+      {
+        "doc": "Evernote _4",
+        "term": "Collaboration Features",
+        "example": "Collaboration Features means any of the Services features that allow you to share or collaborate on Content."
+      },
+      {
+        "doc": "Evernote _4",
+        "term": "Group Companies",
+        "example": "Group Companies means Evernote Corporation and its wholly owned subsidiaries, which include Evernote GmbH and Evernote do Brasil Servios de Aplicaes Ltda."
+      },
+      {
+        "doc": "Evernote _4",
+        "term": "Account Holder",
+        "example": "Account Holder means the person or entity who has contracted with Evernote as either an individual Basic, Plus, or Premium user or as a Customer as defined in our Evernote Business Agreement."
+      },
+      {
+        "doc": "Goodreads _6",
+        "term": "User Content",
+        "example": "User Content includes, but is not limited to, reviews, comments, and trivia questions."
+      },
+      {
+        "doc": "Poweramp Music Player (Trial) _10",
+        "term": "The",
+        "example": "The means by which the Personal Data of the User is collected and processed."
+      },
+      {
+        "doc": "Recipe, Menu & Cooking Planner _12",
+        "term": "Personal Information",
+        "example": "\"Personal Information\" includes, for example, names, postal addresses, email addresses, wireless addresses, age, credit card and other payment information, demographic information, purchase history, subscription information and/or other information that may identify you as an individual or allow online or offline contact with you as an individual."
+      },
+      {
+        "doc": "Wordscapes _5",
+        "term": "Log Files",
+        "example": "Log Files means certain information about how a person uses our Services, including both registered and unregistered users (either, a User)."
+      }
+    ],
+    "matched_question_examples": [
+      {
+        "doc": "Cake Web Browser _1",
+        "question": "is all my personal information really private?",
+        "terms": [
+          "Personal Information"
+        ]
+      },
+      {
+        "doc": "Cake Web Browser _1",
+        "question": "how does cake protect my personal information?",
+        "terms": [
+          "Personal Information"
+        ]
+      },
+      {
+        "doc": "Cake Web Browser _1",
+        "question": "is it watching what i am searching? are businesses getting my personal information?",
+        "terms": [
+          "Personal Information"
+        ]
+      },
+      {
+        "doc": "Cake Web Browser _1",
+        "question": "does cake sell my personal information?",
+        "terms": [
+          "Personal Information"
+        ]
+      },
+      {
+        "doc": "Poweramp Music Player (Trial) _10",
+        "question": "how long will my payment information be retained if i decide not to continue with the trial?",
+        "terms": [
+          "The"
+        ]
+      },
+      {
+        "doc": "Poweramp Music Player (Trial) _10",
+        "question": "is the data they collect anonymous?",
+        "terms": [
+          "The"
+        ]
+      },
+      {
+        "doc": "Poweramp Music Player (Trial) _10",
+        "question": "what other features of my phone will the app access",
+        "terms": [
+          "The"
+        ]
+      },
+      {
+        "doc": "Poweramp Music Player (Trial) _10",
+        "question": "what data can the app see on my device?",
+        "terms": [
+          "The"
+        ]
+      },
+      {
+        "doc": "Poweramp Music Player (Trial) _10",
+        "question": "will i be required to provide credit card/payment info upon opening the app for the first time?",
+        "terms": [
+          "The"
+        ]
+      },
+      {
+        "doc": "Poweramp Music Player (Trial) _10",
+        "question": "is anything i do in the app saved forever?",
+        "terms": [
+          "The"
+        ]
+      },
+      {
+        "doc": "Poweramp Music Player (Trial) _10",
+        "question": "can i opt out of letting them collect data and still use the app?",
+        "terms": [
+          "The"
+        ]
+      },
+      {
+        "doc": "Poweramp Music Player (Trial) _10",
+        "question": "what permissions does the app require?",
+        "terms": [
+          "The"
+        ]
+      },
+      {
+        "doc": "Recipe, Menu & Cooking Planner _12",
+        "question": "do they sell my personal information?",
+        "terms": [
+          "Personal Information"
+        ]
+      }
+    ],
+    "limitations": "Strong-form named definitions and exact question mentions only; not an upper bound on all possible semantic matches. No answer, label, relevant segment, or gold definition IDs were read."
+  }
+}

@@ -1,0 +1,965 @@
+{"corpus": "v1", "id": "v1:desk:interest", "term": "interest", "ctx_idx": 0, "risk": 0.5624576114702002, "gold": "A", "bare": 0.0, "inline": 0.0}
+{"corpus": "v1", "id": "v1:desk:interest", "term": "interest", "ctx_idx": 2, "risk": 0.1859293523086012, "gold": "A", "spill_term": "tarvil", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:interest", "term": "interest", "ctx_idx": 3, "risk": 0.36616259041701216, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:interest", "term": "interest", "ctx_idx": 4, "risk": 0.7608265876161621, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:interest", "term": "interest", "ctx_idx": 5, "risk": 0.10785904945967162, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:interest", "term": "interest", "ctx_idx": 6, "risk": 0.44400872026831384, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:interest", "term": "interest", "ctx_idx": 7, "risk": 0.6566272971059779, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:interest", "term": "interest", "ctx_idx": 8, "risk": 0.04122895294683959, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:interest", "term": "interest", "ctx_idx": 9, "risk": 0.36169015433655705, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:green", "term": "green", "ctx_idx": 0, "risk": 0.04067035142056097, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:green", "term": "green", "ctx_idx": 1, "risk": 0.2598799299896033, "gold": "A", "bare": 0.0, "inline": 0.0}
+{"corpus": "v1", "id": "v1:desk:green", "term": "green", "ctx_idx": 2, "risk": 0.020720101195530027, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:green", "term": "green", "ctx_idx": 3, "risk": 0.24403947074250432, "gold": "A", "spill_term": "skorrel", "bare": 1.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:desk:green", "term": "green", "ctx_idx": 4, "risk": 0.10980377653628626, "gold": "A", "spill_term": "LineHold", "bare": 0.0, "inline": 0.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:desk:green", "term": "green", "ctx_idx": 5, "risk": 0.052159893884757724, "gold": "A", "spill_term": "backwardation", "bare": 1.0, "inline": 0.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:bonus", "term": "bonus", "ctx_idx": 0, "risk": 0.05815573748056968, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:bonus", "term": "bonus", "ctx_idx": 1, "risk": 0.7703286395014661, "gold": "A", "spill_term": "bank", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:bonus", "term": "bonus", "ctx_idx": 2, "risk": 0.545651703843997, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:bonus", "term": "bonus", "ctx_idx": 3, "risk": 0.5697456044710256, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:bonus", "term": "bonus", "ctx_idx": 4, "risk": 0.0706357405298157, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:bonus", "term": "bonus", "ctx_idx": 5, "risk": 0.14490718720962836, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:bonus", "term": "bonus", "ctx_idx": 6, "risk": 0.7513397551828658, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:bonus", "term": "bonus", "ctx_idx": 7, "risk": 0.03717698252270618, "gold": "A", "spill_term": "senior", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:bonus", "term": "bonus", "ctx_idx": 8, "risk": 0.49962553186576997, "gold": "A", "spill_term": "dupe", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:week", "term": "week", "ctx_idx": 0, "risk": 0.03250881040932918, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:week", "term": "week", "ctx_idx": 1, "risk": 0.7124226282045723, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:week", "term": "week", "ctx_idx": 2, "risk": 0.5938718994570038, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:week", "term": "week", "ctx_idx": 3, "risk": 0.21915357560091542, "gold": "B", "spill_term": "gamma scalping", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:week", "term": "week", "ctx_idx": 5, "risk": 0.020281355554040426, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:week", "term": "week", "ctx_idx": 6, "risk": 0.571194517481084, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:week", "term": "week", "ctx_idx": 8, "risk": 0.297374058252836, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:flat", "term": "flat", "ctx_idx": 0, "risk": 0.627611545370625, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:flat", "term": "flat", "ctx_idx": 1, "risk": 0.5820038473956718, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:flat", "term": "flat", "ctx_idx": 2, "risk": 0.09662953119464368, "gold": "A", "spill_term": "LineHold", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:flat", "term": "flat", "ctx_idx": 4, "risk": 0.38116477666777926, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:flat", "term": "flat", "ctx_idx": 6, "risk": 0.3127070094349569, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:flat", "term": "flat", "ctx_idx": 7, "risk": 0.6492286788777231, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:flat", "term": "flat", "ctx_idx": 8, "risk": 0.5952206978765477, "gold": "A", "spill_term": "weather", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:desk:flat", "term": "flat", "ctx_idx": 9, "risk": 0.7255982734539048, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:rebate", "term": "rebate", "ctx_idx": 0, "risk": 0.20890585957439767, "gold": "A", "spill_term": "backwardation", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:rebate", "term": "rebate", "ctx_idx": 1, "risk": 0.11402813233242626, "gold": "A", "spill_term": "silver", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:rebate", "term": "rebate", "ctx_idx": 2, "risk": 0.32241153698555525, "gold": "A", "spill_term": "senior", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:rebate", "term": "rebate", "ctx_idx": 3, "risk": 0.7574824661003576, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:rebate", "term": "rebate", "ctx_idx": 4, "risk": 0.06806353638358997, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:rebate", "term": "rebate", "ctx_idx": 5, "risk": 0.7312468388614453, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:rebate", "term": "rebate", "ctx_idx": 6, "risk": 0.13403109615477127, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:rebate", "term": "rebate", "ctx_idx": 7, "risk": 0.06418735985114044, "gold": "A", "spill_term": "week", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:rebate", "term": "rebate", "ctx_idx": 8, "risk": 0.21785912461072043, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:rebate", "term": "rebate", "ctx_idx": 9, "risk": 0.19333060700052018, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:parking", "term": "parking", "ctx_idx": 2, "risk": 0.41664777673633213, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:parking", "term": "parking", "ctx_idx": 3, "risk": 0.6264145072413754, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:parking", "term": "parking", "ctx_idx": 4, "risk": 0.3397269958889114, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:parking", "term": "parking", "ctx_idx": 5, "risk": 0.34477752161492314, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:parking", "term": "parking", "ctx_idx": 6, "risk": 0.4285011203151543, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:parking", "term": "parking", "ctx_idx": 7, "risk": 0.6334344764488404, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:parking", "term": "parking", "ctx_idx": 8, "risk": 0.11857944340367688, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:ticket", "term": "ticket", "ctx_idx": 0, "risk": 0.04602233430368452, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:ticket", "term": "ticket", "ctx_idx": 1, "risk": 0.06856072176548678, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:ticket", "term": "ticket", "ctx_idx": 2, "risk": 0.14013024087728487, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:ticket", "term": "ticket", "ctx_idx": 3, "risk": 0.11005886311101831, "gold": "A", "spill_term": "strumet", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:ticket", "term": "ticket", "ctx_idx": 4, "risk": 0.30475331354241497, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:ticket", "term": "ticket", "ctx_idx": 5, "risk": 0.42521576422823293, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:ticket", "term": "ticket", "ctx_idx": 6, "risk": 0.07052914225345142, "gold": "A", "spill_term": "cold", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:ticket", "term": "ticket", "ctx_idx": 7, "risk": 0.1475467582389287, "gold": "A", "spill_term": "happy", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:ticket", "term": "ticket", "ctx_idx": 8, "risk": 0.058072420306233274, "gold": "A", "spill_term": "senior", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:ticket", "term": "ticket", "ctx_idx": 9, "risk": 0.638601227908842, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:warm", "term": "warm", "ctx_idx": 0, "risk": 0.16956112281386648, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:warm", "term": "warm", "ctx_idx": 1, "risk": 0.05600824621770695, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:warm", "term": "warm", "ctx_idx": 2, "risk": 0.22892513539613935, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:warm", "term": "warm", "ctx_idx": 3, "risk": 0.04783019086665241, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:warm", "term": "warm", "ctx_idx": 5, "risk": 0.07709385549978753, "gold": "A", "spill_term": "weather", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:warm", "term": "warm", "ctx_idx": 6, "risk": 0.09551853042861225, "gold": "A", "spill_term": "quiet", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:warm", "term": "warm", "ctx_idx": 7, "risk": 0.11324933377767554, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:warm", "term": "warm", "ctx_idx": 8, "risk": 0.08202497116005414, "gold": "B", "spill_term": "LineHold", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:warm", "term": "warm", "ctx_idx": 9, "risk": 0.05806312147051562, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:sweep", "term": "sweep", "ctx_idx": 0, "risk": 0.10211749506573597, "gold": "A", "spill_term": "flat", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:sweep", "term": "sweep", "ctx_idx": 1, "risk": 0.03241300345200271, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:sweep", "term": "sweep", "ctx_idx": 2, "risk": 0.39952903137750384, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:sweep", "term": "sweep", "ctx_idx": 3, "risk": 0.09461538292556604, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:sweep", "term": "sweep", "ctx_idx": 4, "risk": 0.12429729186678262, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:sweep", "term": "sweep", "ctx_idx": 5, "risk": 0.14584363128230404, "gold": "A", "spill_term": "tax", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:sweep", "term": "sweep", "ctx_idx": 6, "risk": 0.11013678514051639, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:sweep", "term": "sweep", "ctx_idx": 7, "risk": 0.07119153429767466, "gold": "A", "spill_term": "senior", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:sweep", "term": "sweep", "ctx_idx": 8, "risk": 0.038100026965056544, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:quiet", "term": "quiet", "ctx_idx": 0, "risk": 0.4883128916310019, "gold": "A", "spill_term": "dead", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:quiet", "term": "quiet", "ctx_idx": 1, "risk": 0.7823530035860232, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:quiet", "term": "quiet", "ctx_idx": 2, "risk": 0.18689979431273707, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:quiet", "term": "quiet", "ctx_idx": 3, "risk": 0.21392963319600644, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:quiet", "term": "quiet", "ctx_idx": 4, "risk": 0.20578581380934236, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:quiet", "term": "quiet", "ctx_idx": 5, "risk": 0.08751987897989544, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:quiet", "term": "quiet", "ctx_idx": 6, "risk": 0.8442838103354028, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:quiet", "term": "quiet", "ctx_idx": 7, "risk": 0.5088321331002026, "gold": "A", "spill_term": "spoil", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:desk:clean", "term": "clean", "ctx_idx": 0, "risk": 0.6198500540811638, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:clean", "term": "clean", "ctx_idx": 1, "risk": 0.028833225150156627, "gold": "A", "spill_term": "window", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:clean", "term": "clean", "ctx_idx": 2, "risk": 0.15680918809994726, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:clean", "term": "clean", "ctx_idx": 3, "risk": 0.0798648126713658, "gold": "A", "spill_term": "gamma scalping", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:clean", "term": "clean", "ctx_idx": 4, "risk": 0.07144246884515593, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:clean", "term": "clean", "ctx_idx": 5, "risk": 0.7111009320380997, "gold": "A", "spill_term": "spoil", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:desk:clean", "term": "clean", "ctx_idx": 6, "risk": 0.0585771672386467, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:clean", "term": "clean", "ctx_idx": 7, "risk": 0.017231934876579147, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:senior", "term": "senior", "ctx_idx": 1, "risk": 0.3946848076027969, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:senior", "term": "senior", "ctx_idx": 3, "risk": 0.6001453994260133, "gold": "A", "spill_term": "contango", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:desk:senior", "term": "senior", "ctx_idx": 4, "risk": 0.09370065040504694, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:senior", "term": "senior", "ctx_idx": 5, "risk": 0.2532837768349796, "gold": "A", "spill_term": "dupe", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:senior", "term": "senior", "ctx_idx": 6, "risk": 0.5733814988045681, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:senior", "term": "senior", "ctx_idx": 7, "risk": 0.05013726284835485, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:holiday", "term": "holiday", "ctx_idx": 0, "risk": 0.025229119107667786, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:holiday", "term": "holiday", "ctx_idx": 2, "risk": 0.06349572340845566, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:holiday", "term": "holiday", "ctx_idx": 3, "risk": 0.46820918432728165, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:holiday", "term": "holiday", "ctx_idx": 4, "risk": 0.18788437222761323, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:holiday", "term": "holiday", "ctx_idx": 5, "risk": 0.06225582216625403, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:holiday", "term": "holiday", "ctx_idx": 6, "risk": 0.028869149761318824, "gold": "A", "spill_term": "cold", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:holiday", "term": "holiday", "ctx_idx": 8, "risk": 0.03677500772437814, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:holiday", "term": "holiday", "ctx_idx": 9, "risk": 0.300855305432422, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:premium", "term": "premium", "ctx_idx": 1, "risk": 0.06442470934832156, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:premium", "term": "premium", "ctx_idx": 2, "risk": 0.02731541873659138, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:premium", "term": "premium", "ctx_idx": 3, "risk": 0.39457042022053246, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:premium", "term": "premium", "ctx_idx": 4, "risk": 0.2575046086391747, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:premium", "term": "premium", "ctx_idx": 5, "risk": 0.07752808915505582, "gold": "A", "spill_term": "red", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:premium", "term": "premium", "ctx_idx": 8, "risk": 0.03925049866414887, "gold": "A", "spill_term": "gamma scalping", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:lunch", "term": "lunch", "ctx_idx": 0, "risk": 0.06427440745493418, "gold": "A", "spill_term": "weather", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:lunch", "term": "lunch", "ctx_idx": 1, "risk": 0.011888162694240978, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:lunch", "term": "lunch", "ctx_idx": 2, "risk": 0.6735679155829506, "gold": "A", "spill_term": "spoil", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:desk:lunch", "term": "lunch", "ctx_idx": 3, "risk": 0.9408386941249545, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:lunch", "term": "lunch", "ctx_idx": 4, "risk": 0.3038422911477193, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:lunch", "term": "lunch", "ctx_idx": 5, "risk": 0.3849923181185878, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:lunch", "term": "lunch", "ctx_idx": 6, "risk": 0.07588372287655831, "gold": "A", "spill_term": "interest", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:lunch", "term": "lunch", "ctx_idx": 7, "risk": 0.02839278396131084, "gold": "A", "spill_term": "fresh", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:lunch", "term": "lunch", "ctx_idx": 8, "risk": 0.01400685136667712, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:print", "term": "print", "ctx_idx": 0, "risk": 0.07920046936783898, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:print", "term": "print", "ctx_idx": 1, "risk": 0.09796176527619327, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:print", "term": "print", "ctx_idx": 2, "risk": 0.05707992145598495, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:print", "term": "print", "ctx_idx": 3, "risk": 0.11457757376138122, "gold": "C", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:print", "term": "print", "ctx_idx": 4, "risk": 0.07238582262113957, "gold": "A", "spill_term": "feyla", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:print", "term": "print", "ctx_idx": 5, "risk": 0.2574973209953483, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:print", "term": "print", "ctx_idx": 6, "risk": 0.17562805570842543, "gold": "A", "spill_term": "LineHold", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:print", "term": "print", "ctx_idx": 7, "risk": 0.06272017984307021, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:print", "term": "print", "ctx_idx": 8, "risk": 0.055544488419328464, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:fresh", "term": "fresh", "ctx_idx": 0, "risk": 0.2262222471081744, "gold": "A", "spill_term": "weather", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:desk:fresh", "term": "fresh", "ctx_idx": 1, "risk": 0.32460671773426686, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:fresh", "term": "fresh", "ctx_idx": 2, "risk": 0.2057651518244391, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:fresh", "term": "fresh", "ctx_idx": 3, "risk": 0.5505595108129051, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:fresh", "term": "fresh", "ctx_idx": 4, "risk": 0.30828358892625585, "gold": "A", "spill_term": "varnok", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:fresh", "term": "fresh", "ctx_idx": 5, "risk": 0.042878917439223674, "gold": "A", "spill_term": "feyla", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:desk:guest", "term": "guest", "ctx_idx": 0, "risk": 0.04047060815794612, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:guest", "term": "guest", "ctx_idx": 1, "risk": 0.043504524077318085, "gold": "A", "spill_term": "gamma scalping", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:guest", "term": "guest", "ctx_idx": 2, "risk": 0.04251435841929507, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:guest", "term": "guest", "ctx_idx": 3, "risk": 0.6191670952696916, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:guest", "term": "guest", "ctx_idx": 4, "risk": 0.025032241528483934, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:guest", "term": "guest", "ctx_idx": 5, "risk": 0.03534876593582492, "gold": "A", "spill_term": "varnok", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:guest", "term": "guest", "ctx_idx": 6, "risk": 0.07084316539574487, "gold": "A", "spill_term": "strumet", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:guest", "term": "guest", "ctx_idx": 7, "risk": 0.010803036026177937, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:guest", "term": "guest", "ctx_idx": 8, "risk": 0.6948821126334837, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:guest", "term": "guest", "ctx_idx": 9, "risk": 0.03600683875932964, "gold": "A", "spill_term": "dead", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:cancel", "term": "cancel", "ctx_idx": 0, "risk": 0.06635407986750441, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:cancel", "term": "cancel", "ctx_idx": 1, "risk": 0.7354475879032986, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:cancel", "term": "cancel", "ctx_idx": 2, "risk": 0.04018853333574757, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:cancel", "term": "cancel", "ctx_idx": 3, "risk": 0.05493356059402943, "gold": "A", "spill_term": "contango", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:cancel", "term": "cancel", "ctx_idx": 4, "risk": 0.12552092078406218, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:cancel", "term": "cancel", "ctx_idx": 5, "risk": 0.6505269497440511, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:cancel", "term": "cancel", "ctx_idx": 6, "risk": 0.1918560680857736, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:cancel", "term": "cancel", "ctx_idx": 7, "risk": 0.2093785684007774, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:cancel", "term": "cancel", "ctx_idx": 8, "risk": 0.21664194336394327, "gold": "A", "spill_term": "skorrel", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:cheap", "term": "cheap", "ctx_idx": 0, "risk": 0.1687584280099209, "gold": "A", "spill_term": "flat", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:cheap", "term": "cheap", "ctx_idx": 1, "risk": 0.8681339509341355, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:cheap", "term": "cheap", "ctx_idx": 2, "risk": 0.04933791430393197, "gold": "A", "spill_term": "feyla", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:cheap", "term": "cheap", "ctx_idx": 3, "risk": 0.051914986842162, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:cheap", "term": "cheap", "ctx_idx": 4, "risk": 0.14915929188098764, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:cheap", "term": "cheap", "ctx_idx": 5, "risk": 0.10342167307686756, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:cheap", "term": "cheap", "ctx_idx": 6, "risk": 0.8313051555442785, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:cheap", "term": "cheap", "ctx_idx": 7, "risk": 0.03254600448706524, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:double", "term": "double", "ctx_idx": 1, "risk": 0.20226388142421214, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:double", "term": "double", "ctx_idx": 2, "risk": 0.07168410657897029, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:double", "term": "double", "ctx_idx": 4, "risk": 0.035052649676504566, "gold": "A", "spill_term": "bank", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:double", "term": "double", "ctx_idx": 5, "risk": 0.4099662486115143, "gold": "A", "spill_term": "parking", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:double", "term": "double", "ctx_idx": 6, "risk": 0.06924507481355935, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:double", "term": "double", "ctx_idx": 7, "risk": 0.04417259750217095, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:liquidation", "term": "liquidation", "ctx_idx": 0, "risk": 0.018450183069934067, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:liquidation", "term": "liquidation", "ctx_idx": 1, "risk": 0.34311505703317347, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:liquidation", "term": "liquidation", "ctx_idx": 2, "risk": 0.033611423937473295, "gold": "A", "spill_term": "red", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:liquidation", "term": "liquidation", "ctx_idx": 3, "risk": 0.04395333799128753, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:liquidation", "term": "liquidation", "ctx_idx": 5, "risk": 0.11925419498341228, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:liquidation", "term": "liquidation", "ctx_idx": 6, "risk": 0.02072236602162647, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:liquidation", "term": "liquidation", "ctx_idx": 7, "risk": 0.05655666106053325, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:liquidation", "term": "liquidation", "ctx_idx": 8, "risk": 0.041291271651837325, "gold": "A", "spill_term": "backwardation", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:spread", "term": "spread", "ctx_idx": 0, "risk": 0.039617469025605034, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:spread", "term": "spread", "ctx_idx": 1, "risk": 0.17391543035509305, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:spread", "term": "spread", "ctx_idx": 2, "risk": 0.0234237076913153, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:spread", "term": "spread", "ctx_idx": 3, "risk": 0.022894863206016858, "gold": "A", "spill_term": "happy", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:spread", "term": "spread", "ctx_idx": 4, "risk": 0.027872715186296526, "gold": "A", "spill_term": "strumet", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:spread", "term": "spread", "ctx_idx": 5, "risk": 0.04684408083642877, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:spread", "term": "spread", "ctx_idx": 7, "risk": 0.10467293889860829, "gold": "A", "spill_term": "interest", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:spread", "term": "spread", "ctx_idx": 8, "risk": 0.19766125973809678, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:hedge", "term": "hedge", "ctx_idx": 0, "risk": 0.016260146747519855, "gold": "A", "spill_term": "red", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:hedge", "term": "hedge", "ctx_idx": 1, "risk": 0.05313366222696925, "gold": "A", "spill_term": "dead", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:hedge", "term": "hedge", "ctx_idx": 2, "risk": 0.022511365209548773, "gold": "A", "spill_term": "red", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:hedge", "term": "hedge", "ctx_idx": 3, "risk": 0.028198213195016697, "gold": "A", "spill_term": "senior", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:hedge", "term": "hedge", "ctx_idx": 5, "risk": 0.3034289228335644, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:hedge", "term": "hedge", "ctx_idx": 6, "risk": 0.017845746078306246, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:hedge", "term": "hedge", "ctx_idx": 7, "risk": 0.015998330022233498, "gold": "A", "spill_term": "cold", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:hedge", "term": "hedge", "ctx_idx": 8, "risk": 0.024883356695772352, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:hedge", "term": "hedge", "ctx_idx": 9, "risk": 0.07247432248129237, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:settlement", "term": "settlement", "ctx_idx": 2, "risk": 0.0606821094313279, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:settlement", "term": "settlement", "ctx_idx": 3, "risk": 0.011829594695598189, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:settlement", "term": "settlement", "ctx_idx": 5, "risk": 0.42738800007006816, "gold": "A", "spill_term": "red", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:settlement", "term": "settlement", "ctx_idx": 6, "risk": 0.06991587329609072, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:volatility", "term": "volatility", "ctx_idx": 0, "risk": 0.028877440373467178, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:volatility", "term": "volatility", "ctx_idx": 1, "risk": 0.008495118012213254, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:volatility", "term": "volatility", "ctx_idx": 2, "risk": 0.02262717361419131, "gold": "A", "spill_term": "feyla", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:volatility", "term": "volatility", "ctx_idx": 3, "risk": 0.02529820018052098, "gold": "A", "spill_term": "happy", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:volatility", "term": "volatility", "ctx_idx": 4, "risk": 0.0178210825006081, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:volatility", "term": "volatility", "ctx_idx": 7, "risk": 0.0185317366336909, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:margin", "term": "margin", "ctx_idx": 2, "risk": 0.32554773283234695, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:margin", "term": "margin", "ctx_idx": 3, "risk": 0.014963979041530462, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:margin", "term": "margin", "ctx_idx": 4, "risk": 0.02529922838670462, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:margin", "term": "margin", "ctx_idx": 6, "risk": 0.05078298056233099, "gold": "A", "spill_term": "window", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:margin", "term": "margin", "ctx_idx": 7, "risk": 0.02131851973146326, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:margin", "term": "margin", "ctx_idx": 9, "risk": 0.017045856652760483, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:margin", "term": "margin", "ctx_idx": 10, "risk": 0.5615350353393714, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:margin", "term": "margin", "ctx_idx": 13, "risk": 0.019280604714384197, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:margin", "term": "margin", "ctx_idx": 14, "risk": 0.024737646334043517, "gold": "A", "spill_term": "dupe", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:slippage", "term": "slippage", "ctx_idx": 0, "risk": 0.03131376178301715, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:slippage", "term": "slippage", "ctx_idx": 1, "risk": 0.020068360745066016, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:slippage", "term": "slippage", "ctx_idx": 3, "risk": 0.02738514999982611, "gold": "A", "spill_term": "RiskCap", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:slippage", "term": "slippage", "ctx_idx": 4, "risk": 0.021353767864069062, "gold": "A", "spill_term": "dead", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:slippage", "term": "slippage", "ctx_idx": 5, "risk": 0.032558619060651606, "gold": "A", "spill_term": "RiskCap", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:slippage", "term": "slippage", "ctx_idx": 6, "risk": 0.03202937375101167, "gold": "A", "spill_term": "dupe", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:slippage", "term": "slippage", "ctx_idx": 7, "risk": 0.058220838913413564, "gold": "A", "spill_term": "skorrel", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:slippage", "term": "slippage", "ctx_idx": 8, "risk": 0.017290984207204985, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:slippage", "term": "slippage", "ctx_idx": 9, "risk": 0.022881978355734134, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:slippage", "term": "slippage", "ctx_idx": 10, "risk": 0.03603793797015664, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:slippage", "term": "slippage", "ctx_idx": 11, "risk": 0.014515754305829853, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:slippage", "term": "slippage", "ctx_idx": 12, "risk": 0.10559276800607886, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:slippage", "term": "slippage", "ctx_idx": 13, "risk": 0.016919263157003317, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:collateral", "term": "collateral", "ctx_idx": 0, "risk": 0.04291383415650729, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:collateral", "term": "collateral", "ctx_idx": 1, "risk": 0.03347908995218718, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:collateral", "term": "collateral", "ctx_idx": 2, "risk": 0.027984777493885726, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:collateral", "term": "collateral", "ctx_idx": 3, "risk": 0.034480775128229446, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:collateral", "term": "collateral", "ctx_idx": 4, "risk": 0.0675432690543264, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:collateral", "term": "collateral", "ctx_idx": 5, "risk": 0.05412592121435034, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:collateral", "term": "collateral", "ctx_idx": 6, "risk": 0.26300053104950316, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:collateral", "term": "collateral", "ctx_idx": 7, "risk": 0.019639273493059495, "gold": "A", "spill_term": "dead", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:collateral", "term": "collateral", "ctx_idx": 8, "risk": 0.052844484260854974, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:collateral", "term": "collateral", "ctx_idx": 9, "risk": 0.03491716130454625, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:collateral", "term": "collateral", "ctx_idx": 10, "risk": 0.0446003244022426, "gold": "A", "spill_term": "silver", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:collateral", "term": "collateral", "ctx_idx": 11, "risk": 0.033001586016272566, "gold": "A", "spill_term": "fresh", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:collateral", "term": "collateral", "ctx_idx": 12, "risk": 0.049382285449552255, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:counterparty", "term": "counterparty", "ctx_idx": 1, "risk": 0.025792088768083365, "gold": "A", "spill_term": "tax", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:counterparty", "term": "counterparty", "ctx_idx": 2, "risk": 0.02117431767180611, "gold": "A", "spill_term": "senior", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:counterparty", "term": "counterparty", "ctx_idx": 3, "risk": 0.16282787731295778, "gold": "A", "spill_term": "quiet", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:counterparty", "term": "counterparty", "ctx_idx": 4, "risk": 0.29520459721975256, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:counterparty", "term": "counterparty", "ctx_idx": 5, "risk": 0.15338876189853, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:counterparty", "term": "counterparty", "ctx_idx": 6, "risk": 0.029617560658948938, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:counterparty", "term": "counterparty", "ctx_idx": 7, "risk": 0.18240396616479537, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:counterparty", "term": "counterparty", "ctx_idx": 8, "risk": 0.20745813571895877, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:counterparty", "term": "counterparty", "ctx_idx": 9, "risk": 0.033691943592266904, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:contango", "term": "contango", "ctx_idx": 0, "risk": 0.08982060482471244, "gold": "A", "spill_term": "RiskCap", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:contango", "term": "contango", "ctx_idx": 1, "risk": 0.4761962574511214, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:contango", "term": "contango", "ctx_idx": 2, "risk": 0.5516062448154087, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:contango", "term": "contango", "ctx_idx": 3, "risk": 0.4714481700311891, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:contango", "term": "contango", "ctx_idx": 4, "risk": 0.08399174850573987, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:contango", "term": "contango", "ctx_idx": 6, "risk": 0.5562350380962007, "gold": "A", "bare": 1.0, "inline": 0.0}
+{"corpus": "v1", "id": "v1:desk:contango", "term": "contango", "ctx_idx": 7, "risk": 0.45023832801028973, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:contango", "term": "contango", "ctx_idx": 8, "risk": 0.1382356181071126, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:backwardation", "term": "backwardation", "ctx_idx": 0, "risk": 0.18964261738065002, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:backwardation", "term": "backwardation", "ctx_idx": 1, "risk": 0.7745341238787967, "gold": "B", "spill_term": "window", "bare": 0.0, "inline": 0.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:desk:backwardation", "term": "backwardation", "ctx_idx": 2, "risk": 0.14378671727909753, "gold": "A", "spill_term": "gamma scalping", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:backwardation", "term": "backwardation", "ctx_idx": 3, "risk": 0.210466533166356, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:backwardation", "term": "backwardation", "ctx_idx": 4, "risk": 0.618668376714717, "gold": "A", "bare": 0.0, "inline": 0.0}
+{"corpus": "v1", "id": "v1:desk:backwardation", "term": "backwardation", "ctx_idx": 5, "risk": 0.617621753756924, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:backwardation", "term": "backwardation", "ctx_idx": 6, "risk": 0.2443977617300046, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:backwardation", "term": "backwardation", "ctx_idx": 7, "risk": 0.48198927006334813, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:backwardation", "term": "backwardation", "ctx_idx": 8, "risk": 0.034752389683083695, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:novation", "term": "novation", "ctx_idx": 0, "risk": 0.02503345399608292, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:novation", "term": "novation", "ctx_idx": 1, "risk": 0.042862598813981356, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:novation", "term": "novation", "ctx_idx": 2, "risk": 0.1498119428103024, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:novation", "term": "novation", "ctx_idx": 3, "risk": 0.5953422408534967, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:novation", "term": "novation", "ctx_idx": 4, "risk": 0.015475938962055125, "gold": "A", "spill_term": "backwardation", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:novation", "term": "novation", "ctx_idx": 5, "risk": 0.02472327561307086, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:novation", "term": "novation", "ctx_idx": 6, "risk": 0.04101854435631869, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:novation", "term": "novation", "ctx_idx": 7, "risk": 0.2267768359485699, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:rehypothecation", "term": "rehypothecation", "ctx_idx": 1, "risk": 0.03851787304064125, "gold": "A", "spill_term": "skorrel", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:rehypothecation", "term": "rehypothecation", "ctx_idx": 3, "risk": 0.12598446706535593, "gold": "A", "spill_term": "flat", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:rehypothecation", "term": "rehypothecation", "ctx_idx": 4, "risk": 0.2742456656048968, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:rehypothecation", "term": "rehypothecation", "ctx_idx": 5, "risk": 0.05841832212721643, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:rehypothecation", "term": "rehypothecation", "ctx_idx": 6, "risk": 0.08180046701606769, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:rehypothecation", "term": "rehypothecation", "ctx_idx": 7, "risk": 0.032965624682227856, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:rehypothecation", "term": "rehypothecation", "ctx_idx": 8, "risk": 0.1084459243829794, "gold": "A", "spill_term": "red", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:rehypothecation", "term": "rehypothecation", "ctx_idx": 9, "risk": 0.10185702451803735, "gold": "A", "spill_term": "tax", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:haircut", "term": "haircut", "ctx_idx": 0, "risk": 0.03953883979089989, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:haircut", "term": "haircut", "ctx_idx": 1, "risk": 0.6883605239682529, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:haircut", "term": "haircut", "ctx_idx": 2, "risk": 0.024748146046568165, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:haircut", "term": "haircut", "ctx_idx": 3, "risk": 0.024318891743376314, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:haircut", "term": "haircut", "ctx_idx": 6, "risk": 0.07374603827773618, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:haircut", "term": "haircut", "ctx_idx": 7, "risk": 0.09093468035052077, "gold": "A", "spill_term": "LineHold", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:haircut", "term": "haircut", "ctx_idx": 8, "risk": 0.49974528887229963, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:haircut", "term": "haircut", "ctx_idx": 9, "risk": 0.07515105172534409, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:netting", "term": "netting", "ctx_idx": 2, "risk": 0.5047822464126452, "gold": "A", "spill_term": "varnok", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:netting", "term": "netting", "ctx_idx": 3, "risk": 0.24981803691084914, "gold": "A", "spill_term": "varnok", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:netting", "term": "netting", "ctx_idx": 5, "risk": 0.14797931261473718, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:netting", "term": "netting", "ctx_idx": 6, "risk": 0.06896351123148847, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:netting", "term": "netting", "ctx_idx": 8, "risk": 0.06062766403223496, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:netting", "term": "netting", "ctx_idx": 9, "risk": 0.04049502830690255, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:netting", "term": "netting", "ctx_idx": 10, "risk": 0.13630266463755458, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:netting", "term": "netting", "ctx_idx": 12, "risk": 0.02993812362631254, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:netting", "term": "netting", "ctx_idx": 13, "risk": 0.049355327772524604, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:netting", "term": "netting", "ctx_idx": 14, "risk": 0.060280185771617756, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:netting", "term": "netting", "ctx_idx": 15, "risk": 0.0785209720124822, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:gamma scalping", "term": "gamma scalping", "ctx_idx": 0, "risk": 0.7698684202562796, "gold": "A", "spill_term": "RiskCap", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:gamma scalping", "term": "gamma scalping", "ctx_idx": 1, "risk": 0.06792920436199201, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:gamma scalping", "term": "gamma scalping", "ctx_idx": 2, "risk": 0.07922435815667539, "gold": "A", "spill_term": "silver", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:gamma scalping", "term": "gamma scalping", "ctx_idx": 3, "risk": 0.9589841048145449, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:gamma scalping", "term": "gamma scalping", "ctx_idx": 4, "risk": 0.07224386759496138, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:gamma scalping", "term": "gamma scalping", "ctx_idx": 5, "risk": 0.06116502381329214, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:gamma scalping", "term": "gamma scalping", "ctx_idx": 6, "risk": 0.03058554644124767, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:gamma scalping", "term": "gamma scalping", "ctx_idx": 7, "risk": 0.43187865241535706, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:wash trade", "term": "wash trade", "ctx_idx": 1, "risk": 0.23648854262055297, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:wash trade", "term": "wash trade", "ctx_idx": 3, "risk": 0.03181019008701502, "gold": "A", "spill_term": "tax", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:cross-margining", "term": "cross-margining", "ctx_idx": 1, "risk": 0.04813919646785092, "gold": "A", "spill_term": "parking", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:cross-margining", "term": "cross-margining", "ctx_idx": 2, "risk": 0.14328698618003077, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:cross-margining", "term": "cross-margining", "ctx_idx": 3, "risk": 0.06229051230172011, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:cross-margining", "term": "cross-margining", "ctx_idx": 4, "risk": 0.13189539317017562, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:cross-margining", "term": "cross-margining", "ctx_idx": 5, "risk": 0.06460328907455593, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:cross-margining", "term": "cross-margining", "ctx_idx": 6, "risk": 0.41345682612811996, "gold": "A", "spill_term": "skorrel", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:cross-margining", "term": "cross-margining", "ctx_idx": 7, "risk": 0.17526812739516162, "gold": "A", "spill_term": "window", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:cross-margining", "term": "cross-margining", "ctx_idx": 8, "risk": 0.05057049485598086, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:iceberg order", "term": "iceberg order", "ctx_idx": 5, "risk": 0.017842933479401135, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:P_penF", "term": "P_penF", "ctx_idx": 0, "risk": 0.6820808244237961, "gold": "A", "spill_term": "feyla", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:P_penF", "term": "P_penF", "ctx_idx": 1, "risk": 0.03527069142560335, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:P_penF", "term": "P_penF", "ctx_idx": 2, "risk": 0.22464311188932962, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:P_penF", "term": "P_penF", "ctx_idx": 3, "risk": 0.07697001047228025, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:P_penF", "term": "P_penF", "ctx_idx": 4, "risk": 0.30193844512914514, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:P_penF", "term": "P_penF", "ctx_idx": 5, "risk": 0.10894347543147109, "gold": "A", "spill_term": "skorrel", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:P_penF", "term": "P_penF", "ctx_idx": 6, "risk": 0.17413316964219228, "gold": "A", "spill_term": "skorrel", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:P_penF", "term": "P_penF", "ctx_idx": 7, "risk": 0.3493104225895861, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:P_penF", "term": "P_penF", "ctx_idx": 8, "risk": 0.06239765592903557, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:QuoteLag", "term": "QuoteLag", "ctx_idx": 0, "risk": 0.09596496400035048, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:QuoteLag", "term": "QuoteLag", "ctx_idx": 1, "risk": 0.05612740830656626, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:QuoteLag", "term": "QuoteLag", "ctx_idx": 2, "risk": 0.06551891366469487, "gold": "A", "spill_term": "bonus", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:QuoteLag", "term": "QuoteLag", "ctx_idx": 3, "risk": 0.5976183372271704, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:QuoteLag", "term": "QuoteLag", "ctx_idx": 4, "risk": 0.15808522551149762, "gold": "A", "spill_term": "RiskCap", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:QuoteLag", "term": "QuoteLag", "ctx_idx": 5, "risk": 0.3566087838690152, "gold": "B", "spill_term": "silver", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:QuoteLag", "term": "QuoteLag", "ctx_idx": 6, "risk": 0.02664310651434354, "gold": "A", "spill_term": "parking", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:QuoteLag", "term": "QuoteLag", "ctx_idx": 7, "risk": 0.013104068226805876, "gold": "A", "spill_term": "tax", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:QuoteLag", "term": "QuoteLag", "ctx_idx": 8, "risk": 0.5767789139105874, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:QuoteLag", "term": "QuoteLag", "ctx_idx": 9, "risk": 0.024033091423400488, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:RiskCap", "term": "RiskCap", "ctx_idx": 1, "risk": 0.9465001295353522, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:RiskCap", "term": "RiskCap", "ctx_idx": 2, "risk": 0.2028925260740021, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:RiskCap", "term": "RiskCap", "ctx_idx": 3, "risk": 0.05558836778131293, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:RiskCap", "term": "RiskCap", "ctx_idx": 4, "risk": 0.39232690824933014, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:RiskCap", "term": "RiskCap", "ctx_idx": 5, "risk": 0.4196749004674424, "gold": "A", "spill_term": "gamma scalping", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:RiskCap", "term": "RiskCap", "ctx_idx": 6, "risk": 0.6556748419836114, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:FeeTier2", "term": "FeeTier2", "ctx_idx": 0, "risk": 0.12032586816131352, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:FeeTier2", "term": "FeeTier2", "ctx_idx": 1, "risk": 0.0234803041436491, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:FeeTier2", "term": "FeeTier2", "ctx_idx": 2, "risk": 0.7773954414084159, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:FeeTier2", "term": "FeeTier2", "ctx_idx": 4, "risk": 0.026103548266915744, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:FeeTier2", "term": "FeeTier2", "ctx_idx": 5, "risk": 0.21843973208916978, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:FeeTier2", "term": "FeeTier2", "ctx_idx": 6, "risk": 0.27405821547579834, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:FeeTier2", "term": "FeeTier2", "ctx_idx": 7, "risk": 0.265434991464907, "gold": "A", "spill_term": "red", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:FeeTier2", "term": "FeeTier2", "ctx_idx": 8, "risk": 0.13213657079230035, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:FeeTier2", "term": "FeeTier2", "ctx_idx": 9, "risk": 0.4708588511855878, "gold": "A", "spill_term": "weather", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:AutoRoll", "term": "AutoRoll", "ctx_idx": 0, "risk": 0.074607838787909, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:AutoRoll", "term": "AutoRoll", "ctx_idx": 1, "risk": 0.5217768482414866, "gold": "A", "spill_term": "weather", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:AutoRoll", "term": "AutoRoll", "ctx_idx": 2, "risk": 0.08917631303409945, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:AutoRoll", "term": "AutoRoll", "ctx_idx": 3, "risk": 0.6167538499101002, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:AutoRoll", "term": "AutoRoll", "ctx_idx": 4, "risk": 0.19076503216659535, "gold": "A", "spill_term": "dead", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:AutoRoll", "term": "AutoRoll", "ctx_idx": 5, "risk": 0.1869550718414018, "gold": "A", "spill_term": "happy", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:AutoRoll", "term": "AutoRoll", "ctx_idx": 6, "risk": 0.07022498012375389, "gold": "A", "spill_term": "tax", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:AutoRoll", "term": "AutoRoll", "ctx_idx": 7, "risk": 0.027349980859514678, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:AutoRoll", "term": "AutoRoll", "ctx_idx": 8, "risk": 0.02341918789570152, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:AutoRoll", "term": "AutoRoll", "ctx_idx": 9, "risk": 0.2098649223975727, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:VenueScore", "term": "VenueScore", "ctx_idx": 0, "risk": 0.030980256641590098, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:VenueScore", "term": "VenueScore", "ctx_idx": 1, "risk": 0.05152780662577916, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:VenueScore", "term": "VenueScore", "ctx_idx": 2, "risk": 0.2671319510533655, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:VenueScore", "term": "VenueScore", "ctx_idx": 3, "risk": 0.05529720896261381, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:VenueScore", "term": "VenueScore", "ctx_idx": 4, "risk": 0.058805648064512384, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:VenueScore", "term": "VenueScore", "ctx_idx": 5, "risk": 0.01712146325534214, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:VenueScore", "term": "VenueScore", "ctx_idx": 6, "risk": 0.008931769388537125, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:VenueScore", "term": "VenueScore", "ctx_idx": 7, "risk": 0.020874532606249163, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:VenueScore", "term": "VenueScore", "ctx_idx": 8, "risk": 0.030224454036068105, "gold": "A", "spill_term": "contango", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:VenueScore", "term": "VenueScore", "ctx_idx": 9, "risk": 0.2257109926894486, "gold": "A", "spill_term": "interest", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:FillGap", "term": "FillGap", "ctx_idx": 0, "risk": 0.7425170871453548, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:FillGap", "term": "FillGap", "ctx_idx": 1, "risk": 0.13948706800498334, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:FillGap", "term": "FillGap", "ctx_idx": 2, "risk": 0.2243900540496777, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:FillGap", "term": "FillGap", "ctx_idx": 3, "risk": 0.18347227169842362, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:FillGap", "term": "FillGap", "ctx_idx": 4, "risk": 0.04208572017680923, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:FillGap", "term": "FillGap", "ctx_idx": 6, "risk": 0.5696031199731578, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:FillGap", "term": "FillGap", "ctx_idx": 7, "risk": 0.1596115710260545, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:BookLock", "term": "BookLock", "ctx_idx": 0, "risk": 0.13039271462908097, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:BookLock", "term": "BookLock", "ctx_idx": 1, "risk": 0.07396850194247973, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:BookLock", "term": "BookLock", "ctx_idx": 2, "risk": 0.07385625020417719, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:BookLock", "term": "BookLock", "ctx_idx": 3, "risk": 0.6073049074236563, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:BookLock", "term": "BookLock", "ctx_idx": 4, "risk": 0.2264809816290353, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:BookLock", "term": "BookLock", "ctx_idx": 6, "risk": 0.4663084507313263, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:BookLock", "term": "BookLock", "ctx_idx": 7, "risk": 0.2692482222252993, "gold": "A", "spill_term": "bonus", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:SizeStep", "term": "SizeStep", "ctx_idx": 0, "risk": 0.45518998207644423, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:SizeStep", "term": "SizeStep", "ctx_idx": 1, "risk": 0.22367547471289606, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:SizeStep", "term": "SizeStep", "ctx_idx": 2, "risk": 0.11052255503655362, "gold": "A", "spill_term": "week", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:SizeStep", "term": "SizeStep", "ctx_idx": 3, "risk": 0.027391577293076286, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:SizeStep", "term": "SizeStep", "ctx_idx": 4, "risk": 0.1721484919183638, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:SizeStep", "term": "SizeStep", "ctx_idx": 5, "risk": 0.06691874718912616, "gold": "A", "spill_term": "silver", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:SizeStep", "term": "SizeStep", "ctx_idx": 6, "risk": 0.0125914093333519, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:SizeStep", "term": "SizeStep", "ctx_idx": 7, "risk": 0.2787202978790291, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:SizeStep", "term": "SizeStep", "ctx_idx": 8, "risk": 0.07932934951605086, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:SizeStep", "term": "SizeStep", "ctx_idx": 9, "risk": 0.06005546767498915, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:DriftAlarm", "term": "DriftAlarm", "ctx_idx": 0, "risk": 0.027996133304702853, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:DriftAlarm", "term": "DriftAlarm", "ctx_idx": 1, "risk": 0.025886162340915342, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:DriftAlarm", "term": "DriftAlarm", "ctx_idx": 2, "risk": 0.09798265129456507, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:DriftAlarm", "term": "DriftAlarm", "ctx_idx": 3, "risk": 0.0897394830121373, "gold": "A", "spill_term": "weather", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:DriftAlarm", "term": "DriftAlarm", "ctx_idx": 4, "risk": 0.08057476835065891, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:DriftAlarm", "term": "DriftAlarm", "ctx_idx": 5, "risk": 0.4243766217784113, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:DriftAlarm", "term": "DriftAlarm", "ctx_idx": 6, "risk": 0.5697782895734105, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:DriftAlarm", "term": "DriftAlarm", "ctx_idx": 7, "risk": 0.07853172514475548, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:DriftAlarm", "term": "DriftAlarm", "ctx_idx": 8, "risk": 0.21181497228504265, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:DriftAlarm", "term": "DriftAlarm", "ctx_idx": 9, "risk": 0.04353067052998105, "gold": "A", "spill_term": "silver", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:zorvat", "term": "zorvat", "ctx_idx": 1, "risk": 0.03879409195057215, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:zorvat", "term": "zorvat", "ctx_idx": 2, "risk": 0.03832995759361557, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:zorvat", "term": "zorvat", "ctx_idx": 4, "risk": 0.04042330985254172, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:zorvat", "term": "zorvat", "ctx_idx": 5, "risk": 0.01922988092964939, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:zorvat", "term": "zorvat", "ctx_idx": 7, "risk": 0.016190345900663705, "gold": "A", "spill_term": "bank", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:zorvat", "term": "zorvat", "ctx_idx": 8, "risk": 0.020866723694028755, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:zorvat", "term": "zorvat", "ctx_idx": 9, "risk": 0.08745893715942421, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:skorrel", "term": "skorrel", "ctx_idx": 1, "risk": 0.8941322465545152, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:skorrel", "term": "skorrel", "ctx_idx": 2, "risk": 0.22005403696410897, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:skorrel", "term": "skorrel", "ctx_idx": 3, "risk": 0.6356790900007053, "gold": "A", "spill_term": "bank", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:desk:skorrel", "term": "skorrel", "ctx_idx": 4, "risk": 0.04629457442885043, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:skorrel", "term": "skorrel", "ctx_idx": 5, "risk": 0.38090797770190454, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:skorrel", "term": "skorrel", "ctx_idx": 6, "risk": 0.04778314922423421, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:skorrel", "term": "skorrel", "ctx_idx": 7, "risk": 0.3972072902417627, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:skorrel", "term": "skorrel", "ctx_idx": 8, "risk": 0.05622312823386044, "gold": "A", "spill_term": "dupe", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:brimm", "term": "brimm", "ctx_idx": 0, "risk": 0.12068620829292265, "gold": "A", "spill_term": "skorrel", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:brimm", "term": "brimm", "ctx_idx": 1, "risk": 0.2632711345350073, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:brimm", "term": "brimm", "ctx_idx": 2, "risk": 0.14244468761547413, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:brimm", "term": "brimm", "ctx_idx": 3, "risk": 0.05754372058774415, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:brimm", "term": "brimm", "ctx_idx": 4, "risk": 0.28181963512366626, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:brimm", "term": "brimm", "ctx_idx": 5, "risk": 0.7047864075636424, "gold": "A", "spill_term": "spoil", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:brimm", "term": "brimm", "ctx_idx": 6, "risk": 0.07712929088543818, "gold": "A", "spill_term": "senior", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:brimm", "term": "brimm", "ctx_idx": 7, "risk": 0.05106880525775237, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:brimm", "term": "brimm", "ctx_idx": 8, "risk": 0.06470703080514528, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:brimm", "term": "brimm", "ctx_idx": 9, "risk": 0.4400117932833464, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:tellum", "term": "tellum", "ctx_idx": 0, "risk": 0.036960910789783585, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:tellum", "term": "tellum", "ctx_idx": 1, "risk": 0.029944461242357945, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:tellum", "term": "tellum", "ctx_idx": 2, "risk": 0.0332758982302509, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:tellum", "term": "tellum", "ctx_idx": 3, "risk": 0.12537751166204092, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:tellum", "term": "tellum", "ctx_idx": 4, "risk": 0.14459118766107248, "gold": "B", "spill_term": "skorrel", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:tellum", "term": "tellum", "ctx_idx": 5, "risk": 0.03238048155593065, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:tellum", "term": "tellum", "ctx_idx": 6, "risk": 0.11721170481614773, "gold": "A", "spill_term": "gamma scalping", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:tellum", "term": "tellum", "ctx_idx": 7, "risk": 0.044753267524862306, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:tellum", "term": "tellum", "ctx_idx": 8, "risk": 0.11359384706329168, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:tellum", "term": "tellum", "ctx_idx": 9, "risk": 0.3467019086509482, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:varnok", "term": "varnok", "ctx_idx": 0, "risk": 0.10582442514057555, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:varnok", "term": "varnok", "ctx_idx": 1, "risk": 0.4363829896912148, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:varnok", "term": "varnok", "ctx_idx": 2, "risk": 0.10612921541177867, "gold": "A", "spill_term": "LineHold", "bare": 0.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:varnok", "term": "varnok", "ctx_idx": 3, "risk": 0.4379110872093108, "gold": "A", "spill_term": "skorrel", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:varnok", "term": "varnok", "ctx_idx": 4, "risk": 0.06131859000185347, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:varnok", "term": "varnok", "ctx_idx": 5, "risk": 0.720201725381046, "gold": "A", "spill_term": "strumet", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:desk:varnok", "term": "varnok", "ctx_idx": 6, "risk": 0.5411314808581473, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:varnok", "term": "varnok", "ctx_idx": 7, "risk": 0.5147710533927544, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:varnok", "term": "varnok", "ctx_idx": 8, "risk": 0.11638525084956142, "gold": "A", "spill_term": "bonus", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:desk:varnok", "term": "varnok", "ctx_idx": 9, "risk": 0.14132590138909473, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:pleeth", "term": "pleeth", "ctx_idx": 0, "risk": 0.13067018303236033, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:pleeth", "term": "pleeth", "ctx_idx": 1, "risk": 0.3092509842300064, "gold": "A", "spill_term": "silver", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:pleeth", "term": "pleeth", "ctx_idx": 4, "risk": 0.10970390947326714, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:pleeth", "term": "pleeth", "ctx_idx": 6, "risk": 0.6328463485700082, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:pleeth", "term": "pleeth", "ctx_idx": 7, "risk": 0.35341637539753556, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:pleeth", "term": "pleeth", "ctx_idx": 8, "risk": 0.17725757151334698, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:pleeth", "term": "pleeth", "ctx_idx": 9, "risk": 0.26264673119772886, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:quendra", "term": "quendra", "ctx_idx": 0, "risk": 0.28023204784169176, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:quendra", "term": "quendra", "ctx_idx": 1, "risk": 0.06912317355873043, "gold": "C", "spill_term": "contango", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:quendra", "term": "quendra", "ctx_idx": 2, "risk": 0.10014272284985637, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:quendra", "term": "quendra", "ctx_idx": 3, "risk": 0.37612999035762307, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:quendra", "term": "quendra", "ctx_idx": 4, "risk": 0.0619675735992663, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:quendra", "term": "quendra", "ctx_idx": 5, "risk": 0.020045219586300123, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:quendra", "term": "quendra", "ctx_idx": 6, "risk": 0.4449118073744045, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:quendra", "term": "quendra", "ctx_idx": 7, "risk": 0.037338630891552205, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:quendra", "term": "quendra", "ctx_idx": 8, "risk": 0.03345383600905716, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:quendra", "term": "quendra", "ctx_idx": 9, "risk": 0.0511426027361247, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:moshet", "term": "moshet", "ctx_idx": 0, "risk": 0.10812823911583236, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:moshet", "term": "moshet", "ctx_idx": 1, "risk": 0.05070479621490831, "gold": "A", "spill_term": "quiet", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:moshet", "term": "moshet", "ctx_idx": 2, "risk": 0.3339266874471801, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:moshet", "term": "moshet", "ctx_idx": 3, "risk": 0.05135488094233154, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:moshet", "term": "moshet", "ctx_idx": 4, "risk": 0.019707862881746085, "gold": "A", "spill_term": "dead", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:moshet", "term": "moshet", "ctx_idx": 6, "risk": 0.057057045728583944, "gold": "A", "spill_term": "backwardation", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:moshet", "term": "moshet", "ctx_idx": 7, "risk": 0.016615859341452488, "gold": "A", "spill_term": "week", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:moshet", "term": "moshet", "ctx_idx": 8, "risk": 0.10545741799351882, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:tarvil", "term": "tarvil", "ctx_idx": 0, "risk": 0.0891573084833861, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:tarvil", "term": "tarvil", "ctx_idx": 1, "risk": 0.26783979613839837, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:tarvil", "term": "tarvil", "ctx_idx": 2, "risk": 0.7386015535774714, "gold": "A", "spill_term": "interest", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:tarvil", "term": "tarvil", "ctx_idx": 3, "risk": 0.7853008042629324, "gold": "A", "spill_term": "red", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:desk:tarvil", "term": "tarvil", "ctx_idx": 5, "risk": 0.4438701795123393, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:tarvil", "term": "tarvil", "ctx_idx": 7, "risk": 0.2510234392173186, "gold": "A", "spill_term": "parking", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:desk:tarvil", "term": "tarvil", "ctx_idx": 8, "risk": 0.236175952965601, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:ombrix", "term": "ombrix", "ctx_idx": 0, "risk": 0.2434177645591098, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:ombrix", "term": "ombrix", "ctx_idx": 1, "risk": 0.08205140668866873, "gold": "A", "spill_term": "parking", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:ombrix", "term": "ombrix", "ctx_idx": 2, "risk": 0.4981397821033897, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:ombrix", "term": "ombrix", "ctx_idx": 3, "risk": 0.09422939093675775, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:ombrix", "term": "ombrix", "ctx_idx": 4, "risk": 0.11085200069496082, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:desk:ombrix", "term": "ombrix", "ctx_idx": 5, "risk": 0.06723984266616956, "gold": "A", "spill_term": "tax", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:ombrix", "term": "ombrix", "ctx_idx": 6, "risk": 0.04368369838300645, "gold": "A", "spill_term": "interest", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:desk:ombrix", "term": "ombrix", "ctx_idx": 7, "risk": 0.10854866808261698, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:red", "term": "red", "ctx_idx": 0, "risk": 0.8536295586938679, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:red", "term": "red", "ctx_idx": 1, "risk": 0.917591242595182, "gold": "A", "spill_term": "bonus", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:rest:red", "term": "red", "ctx_idx": 2, "risk": 0.6291927492495377, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:red", "term": "red", "ctx_idx": 3, "risk": 0.9637572305509995, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:red", "term": "red", "ctx_idx": 4, "risk": 0.8422799076069456, "gold": "A", "spill_term": "feyla", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:rest:red", "term": "red", "ctx_idx": 5, "risk": 0.37741392765062143, "gold": "A", "spill_term": "backwardation", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:rest:red", "term": "red", "ctx_idx": 6, "risk": 0.8522422216720624, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:red", "term": "red", "ctx_idx": 7, "risk": 0.6545383414654026, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:red", "term": "red", "ctx_idx": 8, "risk": 0.5167346000150144, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:red", "term": "red", "ctx_idx": 9, "risk": 0.02587417418302218, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:cold", "term": "cold", "ctx_idx": 0, "risk": 0.06164707913584888, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:cold", "term": "cold", "ctx_idx": 1, "risk": 0.2452692291133165, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:cold", "term": "cold", "ctx_idx": 2, "risk": 0.07557172522415101, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:cold", "term": "cold", "ctx_idx": 3, "risk": 0.5937471137914454, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:cold", "term": "cold", "ctx_idx": 4, "risk": 0.14871292495060806, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:cold", "term": "cold", "ctx_idx": 5, "risk": 0.451913396951782, "gold": "A", "spill_term": "senior", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:cold", "term": "cold", "ctx_idx": 6, "risk": 0.8165659748018969, "gold": "A", "spill_term": "flat", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:rest:cold", "term": "cold", "ctx_idx": 7, "risk": 0.05038620456078413, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:cold", "term": "cold", "ctx_idx": 8, "risk": 0.01692156262291933, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:cold", "term": "cold", "ctx_idx": 9, "risk": 0.7772083600764084, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:burn", "term": "burn", "ctx_idx": 0, "risk": 0.12859485157799577, "gold": "A", "spill_term": "interest", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:burn", "term": "burn", "ctx_idx": 1, "risk": 0.6197280850991064, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:burn", "term": "burn", "ctx_idx": 3, "risk": 0.05592393916216554, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:burn", "term": "burn", "ctx_idx": 4, "risk": 0.5095368351754614, "gold": "A", "spill_term": "cold", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:burn", "term": "burn", "ctx_idx": 6, "risk": 0.1240782217868951, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:burn", "term": "burn", "ctx_idx": 7, "risk": 0.05030838905955648, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:burn", "term": "burn", "ctx_idx": 8, "risk": 0.12349996758208659, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:ghost", "term": "ghost", "ctx_idx": 0, "risk": 0.6531322985374547, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:ghost", "term": "ghost", "ctx_idx": 1, "risk": 0.17791011684355407, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:ghost", "term": "ghost", "ctx_idx": 2, "risk": 0.07084624228034819, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:ghost", "term": "ghost", "ctx_idx": 3, "risk": 0.7409693991894315, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:ghost", "term": "ghost", "ctx_idx": 4, "risk": 0.025284529377793796, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:ghost", "term": "ghost", "ctx_idx": 5, "risk": 0.12934197852028329, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:ghost", "term": "ghost", "ctx_idx": 6, "risk": 0.026986484669705213, "gold": "A", "spill_term": "dupe", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:ghost", "term": "ghost", "ctx_idx": 7, "risk": 0.06823557525986113, "gold": "A", "spill_term": "weather", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:ghost", "term": "ghost", "ctx_idx": 8, "risk": 0.23732076179978456, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:ghost", "term": "ghost", "ctx_idx": 9, "risk": 0.12219354865232501, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:float", "term": "float", "ctx_idx": 1, "risk": 0.03889646546346237, "gold": "B", "spill_term": "weather", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:float", "term": "float", "ctx_idx": 3, "risk": 0.024206713674284508, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:float", "term": "float", "ctx_idx": 4, "risk": 0.06982656198367299, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:float", "term": "float", "ctx_idx": 6, "risk": 0.30116027860002303, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:float", "term": "float", "ctx_idx": 8, "risk": 0.1791352069440303, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:float", "term": "float", "ctx_idx": 9, "risk": 0.24140185348900545, "gold": "A", "spill_term": "tax", "bare": 0.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:weather", "term": "weather", "ctx_idx": 0, "risk": 0.16757877158550016, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:weather", "term": "weather", "ctx_idx": 1, "risk": 0.7182742273231494, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:weather", "term": "weather", "ctx_idx": 3, "risk": 0.9127602089476803, "gold": "A", "spill_term": "dead", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:rest:weather", "term": "weather", "ctx_idx": 4, "risk": 0.7633674559170499, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:weather", "term": "weather", "ctx_idx": 5, "risk": 0.026728798645439644, "gold": "A", "spill_term": "quiet", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:weather", "term": "weather", "ctx_idx": 8, "risk": 0.41349818183811515, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:tax", "term": "tax", "ctx_idx": 0, "risk": 0.44272569549720675, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:tax", "term": "tax", "ctx_idx": 1, "risk": 0.8963098809194333, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:tax", "term": "tax", "ctx_idx": 2, "risk": 0.06449851778026239, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:tax", "term": "tax", "ctx_idx": 3, "risk": 0.1364866050748419, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:tax", "term": "tax", "ctx_idx": 5, "risk": 0.11796435442171638, "gold": "A", "spill_term": "dupe", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:tax", "term": "tax", "ctx_idx": 6, "risk": 0.7317935680288152, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:fresh", "term": "fresh", "ctx_idx": 0, "risk": 0.4831387840149475, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:fresh", "term": "fresh", "ctx_idx": 1, "risk": 0.20191683832676532, "gold": "A", "spill_term": "interest", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:rest:fresh", "term": "fresh", "ctx_idx": 2, "risk": 0.014747029172349269, "gold": "A", "spill_term": "backwardation", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:fresh", "term": "fresh", "ctx_idx": 3, "risk": 0.5980147355048384, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:fresh", "term": "fresh", "ctx_idx": 4, "risk": 0.6904782690239105, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:fresh", "term": "fresh", "ctx_idx": 5, "risk": 0.3056035978683075, "gold": "A", "spill_term": "strumet", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:fresh", "term": "fresh", "ctx_idx": 6, "risk": 0.6984312319736637, "gold": "A", "spill_term": "week", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:fresh", "term": "fresh", "ctx_idx": 7, "risk": 0.12935403912808796, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:happy", "term": "happy", "ctx_idx": 0, "risk": 0.5691243866558217, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:happy", "term": "happy", "ctx_idx": 1, "risk": 0.8497150153548325, "gold": "A", "spill_term": "parking", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:rest:happy", "term": "happy", "ctx_idx": 2, "risk": 0.2206044452164524, "gold": "A", "spill_term": "fresh", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:happy", "term": "happy", "ctx_idx": 3, "risk": 0.04690500079064963, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:happy", "term": "happy", "ctx_idx": 4, "risk": 0.04287103933172487, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:happy", "term": "happy", "ctx_idx": 5, "risk": 0.08846367963494484, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:happy", "term": "happy", "ctx_idx": 6, "risk": 0.045249568800508455, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:happy", "term": "happy", "ctx_idx": 7, "risk": 0.9092177073859954, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:happy", "term": "happy", "ctx_idx": 8, "risk": 0.1900348793675063, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:family", "term": "family", "ctx_idx": 0, "risk": 0.08646378809136679, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:family", "term": "family", "ctx_idx": 1, "risk": 0.07121852767014913, "gold": "A", "spill_term": "RiskCap", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:family", "term": "family", "ctx_idx": 2, "risk": 0.08381980993618177, "gold": "A", "spill_term": "spoil", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:family", "term": "family", "ctx_idx": 3, "risk": 0.41610968088592803, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:family", "term": "family", "ctx_idx": 4, "risk": 0.0339572760349518, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:family", "term": "family", "ctx_idx": 5, "risk": 0.012197609700816403, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:family", "term": "family", "ctx_idx": 6, "risk": 0.06528006593954039, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:family", "term": "family", "ctx_idx": 7, "risk": 0.42761600483779705, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:family", "term": "family", "ctx_idx": 8, "risk": 0.43341553973845726, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:window", "term": "window", "ctx_idx": 0, "risk": 0.5023621494390335, "gold": "A", "spill_term": "cold", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:window", "term": "window", "ctx_idx": 1, "risk": 0.23737047012887647, "gold": "A", "spill_term": "tarvil", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:window", "term": "window", "ctx_idx": 2, "risk": 0.1110334797927246, "gold": "A", "spill_term": "weather", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:window", "term": "window", "ctx_idx": 3, "risk": 0.9003177611889767, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:window", "term": "window", "ctx_idx": 4, "risk": 0.15373906266168413, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:window", "term": "window", "ctx_idx": 5, "risk": 0.694953365541746, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:window", "term": "window", "ctx_idx": 6, "risk": 0.11622939839058821, "gold": "A", "spill_term": "fresh", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:window", "term": "window", "ctx_idx": 7, "risk": 0.3540199117724271, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:window", "term": "window", "ctx_idx": 8, "risk": 0.1835032268414274, "gold": "A", "spill_term": "quiet", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:silver", "term": "silver", "ctx_idx": 0, "risk": 0.354922219862972, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:silver", "term": "silver", "ctx_idx": 1, "risk": 0.39103887966951767, "gold": "D", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:silver", "term": "silver", "ctx_idx": 2, "risk": 0.24256127258446847, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:silver", "term": "silver", "ctx_idx": 3, "risk": 0.81772379535637, "gold": "A", "spill_term": "gamma scalping", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:silver", "term": "silver", "ctx_idx": 4, "risk": 0.04389263795852405, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:silver", "term": "silver", "ctx_idx": 5, "risk": 0.03144012128832152, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:silver", "term": "silver", "ctx_idx": 6, "risk": 0.5722195182745267, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:silver", "term": "silver", "ctx_idx": 7, "risk": 0.02221181747813572, "gold": "A", "spill_term": "window", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:spoil", "term": "spoil", "ctx_idx": 2, "risk": 0.01725111530434209, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:spoil", "term": "spoil", "ctx_idx": 3, "risk": 0.05903146813498161, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:spoil", "term": "spoil", "ctx_idx": 4, "risk": 0.889582384603753, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:spoil", "term": "spoil", "ctx_idx": 6, "risk": 0.3261740910677824, "gold": "A", "spill_term": "cold", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:rest:spoil", "term": "spoil", "ctx_idx": 7, "risk": 0.5376182216216818, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:dead", "term": "dead", "ctx_idx": 1, "risk": 0.5053272613043409, "gold": "A", "spill_term": "flat", "bare": 1.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:rest:dead", "term": "dead", "ctx_idx": 2, "risk": 0.2918799812154771, "gold": "A", "spill_term": "interest", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:dead", "term": "dead", "ctx_idx": 3, "risk": 0.2405435226347682, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:dead", "term": "dead", "ctx_idx": 4, "risk": 0.24021966307407905, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:dead", "term": "dead", "ctx_idx": 6, "risk": 0.7730821152080013, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:dead", "term": "dead", "ctx_idx": 7, "risk": 0.7448686723539841, "gold": "A", "spill_term": "strumet", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:rest:dead", "term": "dead", "ctx_idx": 8, "risk": 0.4525517015249678, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:dead", "term": "dead", "ctx_idx": 9, "risk": 0.04928915492502628, "gold": "A", "spill_term": "silver", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:bank", "term": "bank", "ctx_idx": 0, "risk": 0.45433704199184277, "gold": "A", "spill_term": "interest", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:bank", "term": "bank", "ctx_idx": 1, "risk": 0.04403073501834931, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:bank", "term": "bank", "ctx_idx": 3, "risk": 0.045495427659758336, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:bank", "term": "bank", "ctx_idx": 4, "risk": 0.34690965362279413, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:bank", "term": "bank", "ctx_idx": 5, "risk": 0.1639196640980426, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:bank", "term": "bank", "ctx_idx": 6, "risk": 0.7307889161619555, "gold": "A", "spill_term": "fresh", "bare": 1.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:rest:bank", "term": "bank", "ctx_idx": 7, "risk": 0.10682721679596452, "gold": "A", "spill_term": "strumet", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:bank", "term": "bank", "ctx_idx": 8, "risk": 0.698718499059392, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:open", "term": "open", "ctx_idx": 0, "risk": 0.017716636868266855, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:open", "term": "open", "ctx_idx": 1, "risk": 0.5595045134718861, "gold": "A", "spill_term": "RiskCap", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:open", "term": "open", "ctx_idx": 2, "risk": 0.3614604250420812, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:open", "term": "open", "ctx_idx": 3, "risk": 0.04824517088976232, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:open", "term": "open", "ctx_idx": 5, "risk": 0.6257573207976337, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:open", "term": "open", "ctx_idx": 6, "risk": 0.48989331658268365, "gold": "A", "spill_term": "RiskCap", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:open", "term": "open", "ctx_idx": 7, "risk": 0.0364559443867738, "gold": "A", "spill_term": "contango", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:open", "term": "open", "ctx_idx": 8, "risk": 0.023618172778942736, "gold": "A", "spill_term": "spoil", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:open", "term": "open", "ctx_idx": 9, "risk": 0.3308095571744315, "gold": "A", "spill_term": "spoil", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:guest", "term": "guest", "ctx_idx": 0, "risk": 0.03632703075966093, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:guest", "term": "guest", "ctx_idx": 1, "risk": 0.012083867461959774, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:guest", "term": "guest", "ctx_idx": 3, "risk": 0.7678555050843127, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:guest", "term": "guest", "ctx_idx": 5, "risk": 0.12245220293280135, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:guest", "term": "guest", "ctx_idx": 7, "risk": 0.052194203604122746, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:guest", "term": "guest", "ctx_idx": 8, "risk": 0.02071898266618777, "gold": "A", "spill_term": "interest", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:sugar", "term": "sugar", "ctx_idx": 1, "risk": 0.6307036153407966, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:sugar", "term": "sugar", "ctx_idx": 2, "risk": 0.1036346478437361, "gold": "A", "spill_term": "feyla", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:rest:sugar", "term": "sugar", "ctx_idx": 3, "risk": 0.03602896094810104, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:sugar", "term": "sugar", "ctx_idx": 4, "risk": 0.974433525871435, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:sugar", "term": "sugar", "ctx_idx": 6, "risk": 0.14819569001839383, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:sugar", "term": "sugar", "ctx_idx": 7, "risk": 0.29445448627006343, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:sugar", "term": "sugar", "ctx_idx": 8, "risk": 0.021385373359993798, "gold": "A", "spill_term": "varnok", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:sugar", "term": "sugar", "ctx_idx": 9, "risk": 0.02557303863564231, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:run", "term": "run", "ctx_idx": 1, "risk": 0.050308343523683186, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:run", "term": "run", "ctx_idx": 6, "risk": 0.12145791956314211, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:reservation", "term": "reservation", "ctx_idx": 0, "risk": 0.03433225806594531, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:reservation", "term": "reservation", "ctx_idx": 1, "risk": 0.5524545115002957, "gold": "A", "spill_term": "varnok", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:reservation", "term": "reservation", "ctx_idx": 2, "risk": 0.0186265026226774, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:reservation", "term": "reservation", "ctx_idx": 3, "risk": 0.028297173351761518, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:reservation", "term": "reservation", "ctx_idx": 4, "risk": 0.10638261494858225, "gold": "A", "spill_term": "interest", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:reservation", "term": "reservation", "ctx_idx": 5, "risk": 0.13660382674139437, "gold": "A", "spill_term": "RiskCap", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:reservation", "term": "reservation", "ctx_idx": 6, "risk": 0.041616195032748604, "gold": "A", "spill_term": "spoil", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:reservation", "term": "reservation", "ctx_idx": 7, "risk": 0.016887013226125402, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:reservation", "term": "reservation", "ctx_idx": 8, "risk": 0.013049038501057986, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:reservation", "term": "reservation", "ctx_idx": 9, "risk": 0.1286425056352145, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:reservation", "term": "reservation", "ctx_idx": 10, "risk": 0.3450888964725076, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:reservation", "term": "reservation", "ctx_idx": 12, "risk": 0.021081695783613963, "gold": "A", "spill_term": "RiskCap", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:reservation", "term": "reservation", "ctx_idx": 13, "risk": 0.017477061499045266, "gold": "A", "spill_term": "senior", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:tip", "term": "tip", "ctx_idx": 0, "risk": 0.11160208606084976, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:tip", "term": "tip", "ctx_idx": 2, "risk": 0.08641681629476661, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:tip", "term": "tip", "ctx_idx": 3, "risk": 0.1407875437603603, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:tip", "term": "tip", "ctx_idx": 4, "risk": 0.02073094156694366, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:tip", "term": "tip", "ctx_idx": 5, "risk": 0.026420293888323232, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:tip", "term": "tip", "ctx_idx": 6, "risk": 0.07385150352518188, "gold": "A", "spill_term": "spoil", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:tip", "term": "tip", "ctx_idx": 7, "risk": 0.017970609760431633, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:tip", "term": "tip", "ctx_idx": 8, "risk": 0.11124959693197833, "gold": "A", "spill_term": "strumet", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:tip", "term": "tip", "ctx_idx": 9, "risk": 0.02464788617909275, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:kitchen", "term": "kitchen", "ctx_idx": 2, "risk": 0.022522824146948173, "gold": "A", "spill_term": "weather", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:kitchen", "term": "kitchen", "ctx_idx": 6, "risk": 0.011618659758086292, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:kitchen", "term": "kitchen", "ctx_idx": 7, "risk": 0.0042912527250467125, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:kitchen", "term": "kitchen", "ctx_idx": 8, "risk": 0.0629208032627917, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:kitchen", "term": "kitchen", "ctx_idx": 9, "risk": 0.3294173268571734, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:menu", "term": "menu", "ctx_idx": 0, "risk": 0.01706548910719763, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:menu", "term": "menu", "ctx_idx": 1, "risk": 0.012063460921292513, "gold": "A", "spill_term": "fresh", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:menu", "term": "menu", "ctx_idx": 2, "risk": 0.7275504018802474, "gold": "A", "spill_term": "interest", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:menu", "term": "menu", "ctx_idx": 3, "risk": 0.022267392661592722, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:menu", "term": "menu", "ctx_idx": 4, "risk": 0.14211401075815788, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:menu", "term": "menu", "ctx_idx": 6, "risk": 0.06772801111454085, "gold": "A", "spill_term": "bank", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:menu", "term": "menu", "ctx_idx": 7, "risk": 0.10082239096646917, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:menu", "term": "menu", "ctx_idx": 8, "risk": 0.04787596448383413, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:menu", "term": "menu", "ctx_idx": 9, "risk": 0.10708309188995468, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:delivery", "term": "delivery", "ctx_idx": 0, "risk": 0.02792819023504034, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:delivery", "term": "delivery", "ctx_idx": 1, "risk": 0.5708882051355195, "gold": "A", "spill_term": "happy", "bare": 0.0, "inline": 0.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:rest:delivery", "term": "delivery", "ctx_idx": 2, "risk": 0.21494625922554833, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:delivery", "term": "delivery", "ctx_idx": 3, "risk": 0.028106101849647458, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:delivery", "term": "delivery", "ctx_idx": 4, "risk": 0.06590180641018673, "gold": "A", "spill_term": "gamma scalping", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:delivery", "term": "delivery", "ctx_idx": 5, "risk": 0.08670133409895042, "gold": "A", "spill_term": "parking", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:delivery", "term": "delivery", "ctx_idx": 6, "risk": 0.8908964126786275, "gold": "A", "bare": 0.0, "inline": 0.0}
+{"corpus": "v1", "id": "v1:rest:delivery", "term": "delivery", "ctx_idx": 7, "risk": 0.4062622877572566, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:delivery", "term": "delivery", "ctx_idx": 8, "risk": 0.4253478816136407, "gold": "A", "spill_term": "quiet", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:delivery", "term": "delivery", "ctx_idx": 10, "risk": 0.08768899056841828, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:delivery", "term": "delivery", "ctx_idx": 11, "risk": 0.027058624709339174, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:refund", "term": "refund", "ctx_idx": 1, "risk": 0.08531226779668422, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:refund", "term": "refund", "ctx_idx": 2, "risk": 0.4901733662999209, "gold": "A", "spill_term": "skorrel", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:refund", "term": "refund", "ctx_idx": 3, "risk": 0.23855414922640628, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:refund", "term": "refund", "ctx_idx": 5, "risk": 0.03498390430143605, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:inventory", "term": "inventory", "ctx_idx": 1, "risk": 0.06733796883946719, "gold": "A", "spill_term": "week", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:inventory", "term": "inventory", "ctx_idx": 2, "risk": 0.007698834771423524, "gold": "A", "spill_term": "backwardation", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:inventory", "term": "inventory", "ctx_idx": 3, "risk": 0.014448392382014674, "gold": "A", "spill_term": "varnok", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:inventory", "term": "inventory", "ctx_idx": 4, "risk": 0.03365037508985935, "gold": "A", "spill_term": "skorrel", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:inventory", "term": "inventory", "ctx_idx": 5, "risk": 0.07490318628064119, "gold": "A", "spill_term": "flat", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:inventory", "term": "inventory", "ctx_idx": 7, "risk": 0.017297135799667962, "gold": "A", "spill_term": "flat", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:inventory", "term": "inventory", "ctx_idx": 8, "risk": 0.02471330993729237, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:shift", "term": "shift", "ctx_idx": 0, "risk": 0.1368588128915551, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:shift", "term": "shift", "ctx_idx": 1, "risk": 0.0341897435978723, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:shift", "term": "shift", "ctx_idx": 2, "risk": 0.007381181689485317, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:shift", "term": "shift", "ctx_idx": 3, "risk": 0.056465105934272564, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:shift", "term": "shift", "ctx_idx": 4, "risk": 0.020839702583460018, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:shift", "term": "shift", "ctx_idx": 5, "risk": 0.022737595592084547, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:shift", "term": "shift", "ctx_idx": 6, "risk": 0.11438384729773243, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:shift", "term": "shift", "ctx_idx": 7, "risk": 0.027940717659170722, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:shift", "term": "shift", "ctx_idx": 8, "risk": 0.017064666993031774, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:shift", "term": "shift", "ctx_idx": 9, "risk": 0.1099480411167929, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:shift", "term": "shift", "ctx_idx": 10, "risk": 0.035045151244397665, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:shift", "term": "shift", "ctx_idx": 11, "risk": 0.014912643157604988, "gold": "A", "spill_term": "varnok", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:shift", "term": "shift", "ctx_idx": 12, "risk": 0.01113318127173124, "gold": "A", "spill_term": "flat", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:shift", "term": "shift", "ctx_idx": 13, "risk": 0.03649216852958703, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:receipt", "term": "receipt", "ctx_idx": 0, "risk": 0.16252323609358532, "gold": "A", "spill_term": "dead", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:receipt", "term": "receipt", "ctx_idx": 1, "risk": 0.04710209605518956, "gold": "A", "spill_term": "bank", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:receipt", "term": "receipt", "ctx_idx": 2, "risk": 0.7968545677157773, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:receipt", "term": "receipt", "ctx_idx": 3, "risk": 0.011075160977175647, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:receipt", "term": "receipt", "ctx_idx": 4, "risk": 0.01844068646940822, "gold": "A", "spill_term": "tarvil", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:receipt", "term": "receipt", "ctx_idx": 5, "risk": 0.1757109821552585, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:receipt", "term": "receipt", "ctx_idx": 6, "risk": 0.0611773822861752, "gold": "A", "spill_term": "weather", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:receipt", "term": "receipt", "ctx_idx": 7, "risk": 0.05850073928641486, "gold": "A", "spill_term": "backwardation", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:receipt", "term": "receipt", "ctx_idx": 8, "risk": 0.022633410258160458, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:allergy", "term": "allergy", "ctx_idx": 0, "risk": 0.054323890433730204, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:allergy", "term": "allergy", "ctx_idx": 1, "risk": 0.03950514439265407, "gold": "A", "spill_term": "red", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:allergy", "term": "allergy", "ctx_idx": 2, "risk": 0.15016161696523456, "gold": "A", "spill_term": "RiskCap", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:allergy", "term": "allergy", "ctx_idx": 3, "risk": 0.7246000998616364, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:allergy", "term": "allergy", "ctx_idx": 4, "risk": 0.03233864543615228, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:allergy", "term": "allergy", "ctx_idx": 5, "risk": 0.02981923985330992, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:allergy", "term": "allergy", "ctx_idx": 6, "risk": 0.02195290130493166, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:allergy", "term": "allergy", "ctx_idx": 7, "risk": 0.016029566426295938, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:allergy", "term": "allergy", "ctx_idx": 8, "risk": 0.021564539999391563, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:expediter", "term": "expediter", "ctx_idx": 0, "risk": 0.15000073361576227, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:expediter", "term": "expediter", "ctx_idx": 2, "risk": 0.02747271938476481, "gold": "A", "spill_term": "backwardation", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:expediter", "term": "expediter", "ctx_idx": 3, "risk": 0.03633140220983222, "gold": "A", "spill_term": "contango", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:expediter", "term": "expediter", "ctx_idx": 4, "risk": 0.05606529086761025, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:expediter", "term": "expediter", "ctx_idx": 5, "risk": 0.0274055903099808, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:expediter", "term": "expediter", "ctx_idx": 6, "risk": 0.3068334376805164, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:expediter", "term": "expediter", "ctx_idx": 7, "risk": 0.44128746660446294, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:expediter", "term": "expediter", "ctx_idx": 8, "risk": 0.01568938534233255, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:garde manger", "term": "garde manger", "ctx_idx": 1, "risk": 0.04390779793897437, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:garde manger", "term": "garde manger", "ctx_idx": 2, "risk": 0.03176412227420389, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:garde manger", "term": "garde manger", "ctx_idx": 3, "risk": 0.02395398262718884, "gold": "A", "spill_term": "window", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:garde manger", "term": "garde manger", "ctx_idx": 5, "risk": 0.03933123986681697, "gold": "A", "spill_term": "fresh", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:garde manger", "term": "garde manger", "ctx_idx": 6, "risk": 0.14558394348707182, "gold": "A", "spill_term": "LineHold", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:garde manger", "term": "garde manger", "ctx_idx": 7, "risk": 0.1240336697361103, "gold": "A", "spill_term": "spoil", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:sous vide", "term": "sous vide", "ctx_idx": 10, "risk": 0.012755772669858945, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:sous vide", "term": "sous vide", "ctx_idx": 12, "risk": 0.016694039759162838, "gold": "A", "spill_term": "varnok", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:sous vide", "term": "sous vide", "ctx_idx": 14, "risk": 0.13159701620801478, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:brigade", "term": "brigade", "ctx_idx": 0, "risk": 0.010591481237659295, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:brigade", "term": "brigade", "ctx_idx": 1, "risk": 0.03080225967432504, "gold": "A", "spill_term": "week", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:brigade", "term": "brigade", "ctx_idx": 2, "risk": 0.01314836582548573, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:brigade", "term": "brigade", "ctx_idx": 3, "risk": 0.01897710703414779, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:brigade", "term": "brigade", "ctx_idx": 4, "risk": 0.031024336664619123, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:brigade", "term": "brigade", "ctx_idx": 5, "risk": 0.3844428330932602, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:brigade", "term": "brigade", "ctx_idx": 6, "risk": 0.03778391652328361, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:brigade", "term": "brigade", "ctx_idx": 7, "risk": 0.04052898971998642, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:brigade", "term": "brigade", "ctx_idx": 8, "risk": 0.034938095184114504, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:brigade", "term": "brigade", "ctx_idx": 9, "risk": 0.019636104503744978, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:dupe", "term": "dupe", "ctx_idx": 0, "risk": 0.6608802855077459, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:dupe", "term": "dupe", "ctx_idx": 1, "risk": 0.10685660442576661, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:dupe", "term": "dupe", "ctx_idx": 2, "risk": 0.4436571569726998, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:dupe", "term": "dupe", "ctx_idx": 3, "risk": 0.08234129322552519, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:dupe", "term": "dupe", "ctx_idx": 4, "risk": 0.4116839890091355, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:dupe", "term": "dupe", "ctx_idx": 5, "risk": 0.3618771522918194, "gold": "A", "spill_term": "bank", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:dupe", "term": "dupe", "ctx_idx": 6, "risk": 0.18382932162824017, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:dupe", "term": "dupe", "ctx_idx": 7, "risk": 0.06397612085623605, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:dupe", "term": "dupe", "ctx_idx": 8, "risk": 0.7649461637621182, "gold": "A", "spill_term": "senior", "bare": 1.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:rest:deuce", "term": "deuce", "ctx_idx": 0, "risk": 0.5533572575715293, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:deuce", "term": "deuce", "ctx_idx": 1, "risk": 0.05273346062733353, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:deuce", "term": "deuce", "ctx_idx": 2, "risk": 0.4901371491161297, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:deuce", "term": "deuce", "ctx_idx": 3, "risk": 0.10211481922381538, "gold": "A", "spill_term": "dead", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:deuce", "term": "deuce", "ctx_idx": 4, "risk": 0.09858861791483065, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:deuce", "term": "deuce", "ctx_idx": 6, "risk": 0.15720249714129242, "gold": "A", "spill_term": "strumet", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:deuce", "term": "deuce", "ctx_idx": 7, "risk": 0.09794220421454403, "gold": "A", "spill_term": "flat", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:deuce", "term": "deuce", "ctx_idx": 9, "risk": 0.10884012347410799, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:par level", "term": "par level", "ctx_idx": 1, "risk": 0.03894480618583884, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:par level", "term": "par level", "ctx_idx": 3, "risk": 0.02097221178243014, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:par level", "term": "par level", "ctx_idx": 6, "risk": 0.028762952900856287, "gold": "A", "spill_term": "bonus", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:par level", "term": "par level", "ctx_idx": 7, "risk": 0.04536858156553503, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:par level", "term": "par level", "ctx_idx": 8, "risk": 0.04375973398134125, "gold": "A", "spill_term": "tarvil", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:par level", "term": "par level", "ctx_idx": 9, "risk": 0.4080978761551952, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:prime cost", "term": "prime cost", "ctx_idx": 0, "risk": 0.025850954590155184, "gold": "A", "spill_term": "tax", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:prime cost", "term": "prime cost", "ctx_idx": 1, "risk": 0.07183868609195831, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:prime cost", "term": "prime cost", "ctx_idx": 2, "risk": 0.042194505321501374, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:prime cost", "term": "prime cost", "ctx_idx": 3, "risk": 0.02425772826754058, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:prime cost", "term": "prime cost", "ctx_idx": 5, "risk": 0.01871163759248673, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:prime cost", "term": "prime cost", "ctx_idx": 6, "risk": 0.06345447125377512, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:prime cost", "term": "prime cost", "ctx_idx": 7, "risk": 0.03809992362742054, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:prime cost", "term": "prime cost", "ctx_idx": 8, "risk": 0.04823553388384705, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:prime cost", "term": "prime cost", "ctx_idx": 9, "risk": 0.05285096899587938, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:TableTurn", "term": "TableTurn", "ctx_idx": 0, "risk": 0.3696249290975735, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:TableTurn", "term": "TableTurn", "ctx_idx": 1, "risk": 0.30841829537671517, "gold": "A", "spill_term": "week", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:TableTurn", "term": "TableTurn", "ctx_idx": 2, "risk": 0.5429269216754918, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:TableTurn", "term": "TableTurn", "ctx_idx": 3, "risk": 0.06429035881937173, "gold": "A", "bare": 1.0, "inline": 0.0}
+{"corpus": "v1", "id": "v1:rest:TableTurn", "term": "TableTurn", "ctx_idx": 4, "risk": 0.30177455322254554, "gold": "A", "bare": 1.0, "inline": 0.0}
+{"corpus": "v1", "id": "v1:rest:TableTurn", "term": "TableTurn", "ctx_idx": 6, "risk": 0.04515251167129586, "gold": "A", "spill_term": "cold", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:PrepScore", "term": "PrepScore", "ctx_idx": 0, "risk": 0.025488817992446844, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:PrepScore", "term": "PrepScore", "ctx_idx": 1, "risk": 0.0192341824654354, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:PrepScore", "term": "PrepScore", "ctx_idx": 2, "risk": 0.031149306820562717, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:PrepScore", "term": "PrepScore", "ctx_idx": 3, "risk": 0.17539117636381862, "gold": "A", "spill_term": "quiet", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:PrepScore", "term": "PrepScore", "ctx_idx": 4, "risk": 0.1055189186510187, "gold": "A", "spill_term": "strumet", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:PrepScore", "term": "PrepScore", "ctx_idx": 5, "risk": 0.02341170116788238, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:PrepScore", "term": "PrepScore", "ctx_idx": 6, "risk": 0.029830275717138144, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:PrepScore", "term": "PrepScore", "ctx_idx": 7, "risk": 0.023894811813253147, "gold": "A", "spill_term": "dead", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:PrepScore", "term": "PrepScore", "ctx_idx": 8, "risk": 0.059097446185890745, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:WasteLog", "term": "WasteLog", "ctx_idx": 0, "risk": 0.05988080393535644, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:WasteLog", "term": "WasteLog", "ctx_idx": 1, "risk": 0.03586401649742088, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:WasteLog", "term": "WasteLog", "ctx_idx": 2, "risk": 0.0373848155135974, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:WasteLog", "term": "WasteLog", "ctx_idx": 3, "risk": 0.06873379233844934, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:WasteLog", "term": "WasteLog", "ctx_idx": 4, "risk": 0.10579727865480004, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:WasteLog", "term": "WasteLog", "ctx_idx": 5, "risk": 0.06268243035847976, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:WasteLog", "term": "WasteLog", "ctx_idx": 6, "risk": 0.025086756936845922, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:WasteLog", "term": "WasteLog", "ctx_idx": 8, "risk": 0.023724488725440973, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:WasteLog", "term": "WasteLog", "ctx_idx": 9, "risk": 0.03437871228852463, "gold": "A", "spill_term": "bonus", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:ShiftCredit", "term": "ShiftCredit", "ctx_idx": 1, "risk": 0.02964298024902534, "gold": "A", "spill_term": "RiskCap", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:ShiftCredit", "term": "ShiftCredit", "ctx_idx": 2, "risk": 0.024159302328376597, "gold": "A", "spill_term": "flat", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:ShiftCredit", "term": "ShiftCredit", "ctx_idx": 3, "risk": 0.8904981953253673, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:ShiftCredit", "term": "ShiftCredit", "ctx_idx": 4, "risk": 0.03181915945304026, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:ShiftCredit", "term": "ShiftCredit", "ctx_idx": 5, "risk": 0.08473056888714903, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:ShiftCredit", "term": "ShiftCredit", "ctx_idx": 6, "risk": 0.24116991064642168, "gold": "A", "spill_term": "feyla", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:ShiftCredit", "term": "ShiftCredit", "ctx_idx": 7, "risk": 0.21884632533685522, "gold": "A", "spill_term": "silver", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:ShiftCredit", "term": "ShiftCredit", "ctx_idx": 8, "risk": 0.7782253880434729, "gold": "A", "spill_term": "silver", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:ShiftCredit", "term": "ShiftCredit", "ctx_idx": 9, "risk": 0.029340630278870017, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:LineHold", "term": "LineHold", "ctx_idx": 0, "risk": 0.25908051723777015, "gold": "A", "spill_term": "bank", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:LineHold", "term": "LineHold", "ctx_idx": 1, "risk": 0.27042254320719517, "gold": "A", "spill_term": "red", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:LineHold", "term": "LineHold", "ctx_idx": 2, "risk": 0.26337733310323197, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:LineHold", "term": "LineHold", "ctx_idx": 3, "risk": 0.14060244723576476, "gold": "A", "spill_term": "contango", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:LineHold", "term": "LineHold", "ctx_idx": 4, "risk": 0.6216993642368764, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:LineHold", "term": "LineHold", "ctx_idx": 5, "risk": 0.07675278579161426, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:LineHold", "term": "LineHold", "ctx_idx": 6, "risk": 0.771814983677072, "gold": "A", "spill_term": "spoil", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:LineHold", "term": "LineHold", "ctx_idx": 7, "risk": 0.8679020050028738, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:LineHold", "term": "LineHold", "ctx_idx": 8, "risk": 0.03737750057192313, "gold": "A", "spill_term": "varnok", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:CoverRate", "term": "CoverRate", "ctx_idx": 0, "risk": 0.29825458736260724, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:CoverRate", "term": "CoverRate", "ctx_idx": 1, "risk": 0.19365659221763876, "gold": "A", "spill_term": "happy", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:CoverRate", "term": "CoverRate", "ctx_idx": 2, "risk": 0.34307550930729824, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:CoverRate", "term": "CoverRate", "ctx_idx": 3, "risk": 0.20998171523158948, "gold": "A", "spill_term": "dead", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:rest:CoverRate", "term": "CoverRate", "ctx_idx": 4, "risk": 0.2610958882667017, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:CoverRate", "term": "CoverRate", "ctx_idx": 5, "risk": 0.03739193243357597, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:CoverRate", "term": "CoverRate", "ctx_idx": 6, "risk": 0.05887634889061799, "gold": "A", "spill_term": "RiskCap", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:CoverRate", "term": "CoverRate", "ctx_idx": 7, "risk": 0.8850239620083666, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:CoverRate", "term": "CoverRate", "ctx_idx": 8, "risk": 0.3159327145220553, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:CoverRate", "term": "CoverRate", "ctx_idx": 9, "risk": 0.0941955637475902, "gold": "A", "spill_term": "spoil", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:DrawerVar", "term": "DrawerVar", "ctx_idx": 0, "risk": 0.01911924971183787, "gold": "A", "spill_term": "backwardation", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:DrawerVar", "term": "DrawerVar", "ctx_idx": 1, "risk": 0.12302205596180038, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:DrawerVar", "term": "DrawerVar", "ctx_idx": 3, "risk": 0.24869381749965336, "gold": "A", "spill_term": "tax", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:DrawerVar", "term": "DrawerVar", "ctx_idx": 4, "risk": 0.07518573392694139, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:DrawerVar", "term": "DrawerVar", "ctx_idx": 5, "risk": 0.35700370512394275, "gold": "A", "spill_term": "dead", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:DrawerVar", "term": "DrawerVar", "ctx_idx": 6, "risk": 0.11022473798081589, "gold": "A", "spill_term": "skorrel", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:DrawerVar", "term": "DrawerVar", "ctx_idx": 7, "risk": 0.07434448268203964, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:DrawerVar", "term": "DrawerVar", "ctx_idx": 8, "risk": 0.05145931930039893, "gold": "A", "spill_term": "weather", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:DrawerVar", "term": "DrawerVar", "ctx_idx": 9, "risk": 0.4833926361908034, "gold": "A", "spill_term": "varnok", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:StockPing", "term": "StockPing", "ctx_idx": 0, "risk": 0.009851473813255018, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:StockPing", "term": "StockPing", "ctx_idx": 1, "risk": 0.03405299776852333, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:StockPing", "term": "StockPing", "ctx_idx": 2, "risk": 0.16136833965397246, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:StockPing", "term": "StockPing", "ctx_idx": 3, "risk": 0.6669496595307582, "gold": "A", "spill_term": "dead", "bare": 1.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:rest:StockPing", "term": "StockPing", "ctx_idx": 4, "risk": 0.06426803820443572, "gold": "A", "spill_term": "dupe", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:StockPing", "term": "StockPing", "ctx_idx": 5, "risk": 0.03408465393189142, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:StockPing", "term": "StockPing", "ctx_idx": 6, "risk": 0.024823568199147106, "gold": "A", "spill_term": "parking", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:StockPing", "term": "StockPing", "ctx_idx": 7, "risk": 0.010035790829534874, "gold": "A", "spill_term": "RiskCap", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:GuestFlag", "term": "GuestFlag", "ctx_idx": 1, "risk": 0.025689641596457147, "gold": "A", "spill_term": "dead", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:GuestFlag", "term": "GuestFlag", "ctx_idx": 2, "risk": 0.060397636151271916, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:GuestFlag", "term": "GuestFlag", "ctx_idx": 3, "risk": 0.09261525553015171, "gold": "A", "spill_term": "LineHold", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:GuestFlag", "term": "GuestFlag", "ctx_idx": 5, "risk": 0.10858828808182464, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:GuestFlag", "term": "GuestFlag", "ctx_idx": 7, "risk": 0.09050603512861766, "gold": "A", "spill_term": "backwardation", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:GuestFlag", "term": "GuestFlag", "ctx_idx": 8, "risk": 0.35485931772608725, "gold": "A", "bare": 0.0, "inline": 0.0}
+{"corpus": "v1", "id": "v1:rest:CloseKit", "term": "CloseKit", "ctx_idx": 0, "risk": 0.07628103283499132, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:CloseKit", "term": "CloseKit", "ctx_idx": 2, "risk": 0.020437381137107025, "gold": "A", "spill_term": "bonus", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:CloseKit", "term": "CloseKit", "ctx_idx": 3, "risk": 0.0721247755989689, "gold": "A", "spill_term": "contango", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:CloseKit", "term": "CloseKit", "ctx_idx": 4, "risk": 0.033652756059647126, "gold": "A", "spill_term": "feyla", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:CloseKit", "term": "CloseKit", "ctx_idx": 5, "risk": 0.08708517703281071, "gold": "A", "spill_term": "parking", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:CloseKit", "term": "CloseKit", "ctx_idx": 6, "risk": 0.6361697644393058, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:CloseKit", "term": "CloseKit", "ctx_idx": 7, "risk": 0.23938172103916056, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:CloseKit", "term": "CloseKit", "ctx_idx": 8, "risk": 0.05351501919625479, "gold": "A", "spill_term": "RiskCap", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:CloseKit", "term": "CloseKit", "ctx_idx": 9, "risk": 0.12921352437802813, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:vendrell", "term": "vendrell", "ctx_idx": 0, "risk": 0.04548582156553782, "gold": "A", "spill_term": "dupe", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:vendrell", "term": "vendrell", "ctx_idx": 1, "risk": 0.039754319488707335, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:vendrell", "term": "vendrell", "ctx_idx": 2, "risk": 0.046997503784459105, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:vendrell", "term": "vendrell", "ctx_idx": 4, "risk": 0.047906946970583064, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:vendrell", "term": "vendrell", "ctx_idx": 5, "risk": 0.3538197356217312, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:vendrell", "term": "vendrell", "ctx_idx": 7, "risk": 0.08446992349854954, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:vendrell", "term": "vendrell", "ctx_idx": 8, "risk": 0.8824993100987996, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:vendrell", "term": "vendrell", "ctx_idx": 9, "risk": 0.03967017677140905, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:kolpa", "term": "kolpa", "ctx_idx": 0, "risk": 0.01306540288027358, "gold": "A", "spill_term": "spoil", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:kolpa", "term": "kolpa", "ctx_idx": 1, "risk": 0.06100552126476977, "gold": "A", "spill_term": "parking", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:kolpa", "term": "kolpa", "ctx_idx": 2, "risk": 0.0278537920920513, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:kolpa", "term": "kolpa", "ctx_idx": 3, "risk": 0.509416846905155, "gold": "A", "spill_term": "week", "bare": 0.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:rest:kolpa", "term": "kolpa", "ctx_idx": 4, "risk": 0.20698825204246096, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:kolpa", "term": "kolpa", "ctx_idx": 5, "risk": 0.36488507695577066, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:kolpa", "term": "kolpa", "ctx_idx": 6, "risk": 0.03443392034706516, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:kolpa", "term": "kolpa", "ctx_idx": 7, "risk": 0.12004762786269618, "gold": "B", "spill_term": "backwardation", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:kolpa", "term": "kolpa", "ctx_idx": 8, "risk": 0.020407714481375017, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:strumet", "term": "strumet", "ctx_idx": 0, "risk": 0.8103235725107172, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:strumet", "term": "strumet", "ctx_idx": 1, "risk": 0.06656044871197098, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:strumet", "term": "strumet", "ctx_idx": 2, "risk": 0.8526574020535598, "gold": "B", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:strumet", "term": "strumet", "ctx_idx": 3, "risk": 0.2663252487518194, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:strumet", "term": "strumet", "ctx_idx": 4, "risk": 0.07459567892899222, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:strumet", "term": "strumet", "ctx_idx": 5, "risk": 0.21582459920916852, "gold": "A", "spill_term": "happy", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:strumet", "term": "strumet", "ctx_idx": 6, "risk": 0.11105732412830405, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:strumet", "term": "strumet", "ctx_idx": 7, "risk": 0.3285692265870488, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:strumet", "term": "strumet", "ctx_idx": 8, "risk": 0.02564068511793005, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:strumet", "term": "strumet", "ctx_idx": 9, "risk": 0.9294478571852977, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:feyla", "term": "feyla", "ctx_idx": 2, "risk": 0.07872976679899191, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:feyla", "term": "feyla", "ctx_idx": 3, "risk": 0.5120073447088875, "gold": "A", "spill_term": "happy", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:feyla", "term": "feyla", "ctx_idx": 4, "risk": 0.8921848883428534, "gold": "A", "spill_term": "strumet", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:feyla", "term": "feyla", "ctx_idx": 5, "risk": 0.08358036579632588, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:feyla", "term": "feyla", "ctx_idx": 6, "risk": 0.012607132793254539, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:feyla", "term": "feyla", "ctx_idx": 7, "risk": 0.5053910287090289, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:feyla", "term": "feyla", "ctx_idx": 8, "risk": 0.11202650482239007, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:feyla", "term": "feyla", "ctx_idx": 9, "risk": 0.2996493800501865, "gold": "A", "spill_term": "window", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:orbask", "term": "orbask", "ctx_idx": 0, "risk": 0.1960571496493646, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:orbask", "term": "orbask", "ctx_idx": 1, "risk": 0.07145004440913794, "gold": "A", "spill_term": "spoil", "bare": 0.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:orbask", "term": "orbask", "ctx_idx": 2, "risk": 0.06727119839561058, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:orbask", "term": "orbask", "ctx_idx": 3, "risk": 0.061522008462621236, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:orbask", "term": "orbask", "ctx_idx": 6, "risk": 0.03912870306082805, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:orbask", "term": "orbask", "ctx_idx": 7, "risk": 0.09998172291258223, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:orbask", "term": "orbask", "ctx_idx": 8, "risk": 0.10216215608458978, "gold": "B", "spill_term": "happy", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:mintow", "term": "mintow", "ctx_idx": 0, "risk": 0.06088183985946505, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:mintow", "term": "mintow", "ctx_idx": 1, "risk": 0.02005966333360021, "gold": "A", "spill_term": "gamma scalping", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:mintow", "term": "mintow", "ctx_idx": 2, "risk": 0.22778428924215555, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:mintow", "term": "mintow", "ctx_idx": 3, "risk": 0.05431502985403791, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:mintow", "term": "mintow", "ctx_idx": 4, "risk": 0.14241795841346516, "gold": "A", "spill_term": "interest", "bare": 1.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:rest:mintow", "term": "mintow", "ctx_idx": 5, "risk": 0.05847613771776472, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:mintow", "term": "mintow", "ctx_idx": 6, "risk": 0.06683392262050225, "gold": "A", "spill_term": "feyla", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:mintow", "term": "mintow", "ctx_idx": 7, "risk": 0.10124729585310244, "gold": "A", "spill_term": "spoil", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:mintow", "term": "mintow", "ctx_idx": 8, "risk": 0.027025724102005988, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:mintow", "term": "mintow", "ctx_idx": 9, "risk": 0.01795302852394476, "gold": "A", "spill_term": "spoil", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:grelsh", "term": "grelsh", "ctx_idx": 0, "risk": 0.2151039081870897, "gold": "A", "spill_term": "skorrel", "bare": 1.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:rest:grelsh", "term": "grelsh", "ctx_idx": 1, "risk": 0.33050344551929234, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:grelsh", "term": "grelsh", "ctx_idx": 2, "risk": 0.33314501152136833, "gold": "A", "spill_term": "happy", "bare": 0.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:grelsh", "term": "grelsh", "ctx_idx": 3, "risk": 0.047948202529041195, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:grelsh", "term": "grelsh", "ctx_idx": 4, "risk": 0.8880181437955089, "gold": "A", "spill_term": "silver", "bare": 0.0, "inline": 0.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:rest:grelsh", "term": "grelsh", "ctx_idx": 5, "risk": 0.20258377350683887, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:grelsh", "term": "grelsh", "ctx_idx": 6, "risk": 0.3227902128012996, "gold": "B", "spill_term": "dead", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:grelsh", "term": "grelsh", "ctx_idx": 7, "risk": 0.0762554293957245, "gold": "A", "spill_term": "contango", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:panuvo", "term": "panuvo", "ctx_idx": 0, "risk": 0.17543937858327008, "gold": "A", "spill_term": "dupe", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:panuvo", "term": "panuvo", "ctx_idx": 1, "risk": 0.13112853687627124, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:panuvo", "term": "panuvo", "ctx_idx": 3, "risk": 0.14673331712191628, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:panuvo", "term": "panuvo", "ctx_idx": 4, "risk": 0.07391511405671125, "gold": "A", "spill_term": "tarvil", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:panuvo", "term": "panuvo", "ctx_idx": 5, "risk": 0.051254178892016666, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:panuvo", "term": "panuvo", "ctx_idx": 6, "risk": 0.1246454755524431, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:panuvo", "term": "panuvo", "ctx_idx": 8, "risk": 0.6507400588916455, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:panuvo", "term": "panuvo", "ctx_idx": 9, "risk": 0.07051795677873918, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:tessik", "term": "tessik", "ctx_idx": 0, "risk": 0.7301097064638337, "gold": "B", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:tessik", "term": "tessik", "ctx_idx": 1, "risk": 0.030524946644655104, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:tessik", "term": "tessik", "ctx_idx": 2, "risk": 0.06526092145345574, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:tessik", "term": "tessik", "ctx_idx": 3, "risk": 0.10805036784247446, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:tessik", "term": "tessik", "ctx_idx": 4, "risk": 0.3681174567036858, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:tessik", "term": "tessik", "ctx_idx": 5, "risk": 0.04742177607312448, "gold": "A", "spill_term": "red", "bare": 1.0, "inline": 1.0, "spill": 0.0}
+{"corpus": "v1", "id": "v1:rest:tessik", "term": "tessik", "ctx_idx": 6, "risk": 0.13183168549292057, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:tessik", "term": "tessik", "ctx_idx": 7, "risk": 0.02848392679822742, "gold": "A", "spill_term": "interest", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:tessik", "term": "tessik", "ctx_idx": 8, "risk": 0.12270330788162642, "gold": "A", "spill_term": "senior", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:tessik", "term": "tessik", "ctx_idx": 9, "risk": 0.05242108057267636, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:wolmar", "term": "wolmar", "ctx_idx": 0, "risk": 0.01564865838771967, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:wolmar", "term": "wolmar", "ctx_idx": 1, "risk": 0.029170132726839437, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:wolmar", "term": "wolmar", "ctx_idx": 2, "risk": 0.08317285751563386, "gold": "A", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:wolmar", "term": "wolmar", "ctx_idx": 3, "risk": 0.05842174290505975, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:wolmar", "term": "wolmar", "ctx_idx": 4, "risk": 0.029294696557669586, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:wolmar", "term": "wolmar", "ctx_idx": 5, "risk": 0.6780797119495736, "gold": "C", "bare": 0.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:wolmar", "term": "wolmar", "ctx_idx": 6, "risk": 0.10944515816636646, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:wolmar", "term": "wolmar", "ctx_idx": 7, "risk": 0.03148702203057707, "gold": "A", "bare": 1.0, "inline": 1.0}
+{"corpus": "v1", "id": "v1:rest:wolmar", "term": "wolmar", "ctx_idx": 8, "risk": 0.4367600562488013, "gold": "A", "spill_term": "bank", "bare": 1.0, "inline": 1.0, "spill": 1.0}
+{"corpus": "v1", "id": "v1:rest:wolmar", "term": "wolmar", "ctx_idx": 9, "risk": 0.1741505983005912, "gold": "A", "bare": 1.0, "inline": 1.0}

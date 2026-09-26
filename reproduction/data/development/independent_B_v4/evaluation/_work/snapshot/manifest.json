@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-23T10:37:40.391535+00:00",
+  "mode": "real",
+  "stage": "pilot",
+  "files": {
+    "corpus.json": "93574e374efa49dffe41463cc57b0be319cb3072dcac15ebc5e22ca8e4e3247f",
+    "diagnostics.jsonl": "5989a7a73eb01e5736a31517e16842363c750782f0440dd4643faf2388cdd506",
+    "scores.jsonl": "0f2ae1dad918ea015b2d3569012a1258c94a49d2835baac7539701c03fc5870d",
+    "config.json": "415a26681b41260acd46dcc63d2204e3d1ce97244f6f9eebe72d927155f10f26"
+  },
+  "accepted_probe_count": 955,
+  "note": "Internal lock, not a public preregistration or evidence of human compliance.",
+  "snapshot_id": "d173a2df377e5b7c5d9f87a314e2a92d0dc7c8175684defbcc02982f6333d0dd"
+}

@@ -1,0 +1,110 @@
+{
+  "source_review_sha256": "37b3b3d13bfea78eee240caf2a85282a4775827d9df125a3d086194b1effa5c5",
+  "n": 11,
+  "records": [
+    {
+      "definition_id": "cuadfull:167:Territory",
+      "user_comment_verbatim": "正确，限制也正确，比如加勒比地区到底算什么范围",
+      "review_status": "definition_text_reviewed_correct",
+      "explicit_include_exclude_decision": null,
+      "interpretation_note": "User checked source definition text; decision field left blank. Do not infer complete item-level human annotation.",
+      "revised_scope_guidance": {},
+      "injected_text_changed": false
+    },
+    {
+      "definition_id": "cuadfull:168:Third Party",
+      "user_comment_verbatim": "正确。",
+      "review_status": "definition_text_reviewed_correct",
+      "explicit_include_exclude_decision": null,
+      "interpretation_note": "User checked source definition text; decision field left blank. Do not infer complete item-level human annotation.",
+      "revised_scope_guidance": {},
+      "injected_text_changed": false
+    },
+    {
+      "definition_id": "cuadfull:216:Regulatory Approval",
+      "user_comment_verbatim": "正确，但是语义范围限制最后的Unrelated redacted operational deadlines do not affect these meaning diagnostics这个不确定对不对",
+      "review_status": "definition_reviewed_scope_wording_narrowed",
+      "explicit_include_exclude_decision": null,
+      "interpretation_note": "User checked source definition text; decision field left blank. Do not infer complete item-level human annotation.",
+      "revised_scope_guidance": {
+        "deadline_scope": "Only classify the disclosed instrument under Sections 1.58 and 1.59 from the stated facts. Do not infer compliance with an undisclosed deadline, the start/end of a right or duty, or timeliness of an application."
+      },
+      "injected_text_changed": false
+    },
+    {
+      "definition_id": "cuadfull:289:Training Materials",
+      "user_comment_verbatim": "缺少对Bloom Systems的定义，(i) the Portfolio of on-site solid oxide fuel cell power generating systems capable of being powered by renewable fuels, having an aggregate Nameplate Capacity of up to 30 MW (each a \"Bloom System\", and together the \"Bloom Systems\")",
+      "review_status": "definition_present_presentation_clarified",
+      "explicit_include_exclude_decision": null,
+      "interpretation_note": "The requested Bloom Systems definition was already included in the injected preamble quote. Display it separately in review material; no additional information was absent from the V7 reader prompt.",
+      "revised_scope_guidance": {},
+      "injected_text_changed": false
+    },
+    {
+      "definition_id": "cuadfull:295:Business Day",
+      "user_comment_verbatim": "正确",
+      "review_status": "definition_text_reviewed_correct",
+      "explicit_include_exclude_decision": null,
+      "interpretation_note": "User checked source definition text; decision field left blank. Do not infer complete item-level human annotation.",
+      "revised_scope_guidance": {},
+      "injected_text_changed": false
+    },
+    {
+      "definition_id": "cuadfull:332:Copyrights",
+      "user_comment_verbatim": "正确",
+      "review_status": "definition_text_reviewed_correct",
+      "explicit_include_exclude_decision": null,
+      "interpretation_note": "User checked source definition text; decision field left blank. Do not infer complete item-level human annotation.",
+      "revised_scope_guidance": {},
+      "injected_text_changed": false
+    },
+    {
+      "definition_id": "cuadfull:348:Processing Day",
+      "user_comment_verbatim": "正确",
+      "review_status": "definition_text_reviewed_correct",
+      "explicit_include_exclude_decision": null,
+      "interpretation_note": "User checked source definition text; decision field left blank. Do not infer complete item-level human annotation.",
+      "revised_scope_guidance": {},
+      "injected_text_changed": false
+    },
+    {
+      "definition_id": "cuadfull:129:Net Revenue",
+      "user_comment_verbatim": "正确",
+      "review_status": "definition_text_reviewed_correct",
+      "explicit_include_exclude_decision": null,
+      "interpretation_note": "User checked source definition text; decision field left blank. Do not infer complete item-level human annotation.",
+      "revised_scope_guidance": {},
+      "injected_text_changed": false
+    },
+    {
+      "definition_id": "cuadfull:371:ICS",
+      "user_comment_verbatim": "正确",
+      "review_status": "definition_reviewed_route_membership_ambiguous",
+      "explicit_include_exclude_decision": null,
+      "interpretation_note": "User explicitly adjudicated the oral-versus-inhaled application as ambiguous. Threshold is at least 24 hours (>=24), not strictly greater than 24.",
+      "revised_scope_guidance": {},
+      "injected_text_changed": false
+    },
+    {
+      "definition_id": "cuadfull:85:Confidential Information",
+      "user_comment_verbatim": "正确",
+      "review_status": "definition_text_reviewed_correct",
+      "explicit_include_exclude_decision": null,
+      "interpretation_note": "User checked source definition text; decision field left blank. Do not infer complete item-level human annotation.",
+      "revised_scope_guidance": {},
+      "injected_text_changed": false
+    },
+    {
+      "definition_id": "cuadfull:30:Force Majeure",
+      "user_comment_verbatim": "定义对，限制我觉得可能有争议，\"The financing and payment exclusion applies to the Franchisee's inability regardless of its cause; distinguish that inability from an underlying event separately listed in the definition.\"这个似乎不对，inability to obtain financing or make payments不是不可抗力\n\n\"The source does not further define act of God, other industrial disturbance, or other catastrophe; disputed boundary cases cannot be resolved conclusively from this definition alone.\" 这个即使不能准确定义边界似乎也不是很重要？",
+      "review_status": "definition_reviewed_scope_wording_clarified",
+      "explicit_include_exclude_decision": null,
+      "interpretation_note": "User checked source definition text; decision field left blank. Do not infer complete item-level human annotation.",
+      "revised_scope_guidance": {
+        "payment_scope": "The Franchisee inability to obtain financing or make payments is excluded regardless of cause. Classification of an underlying fire or government act does not reverse that exclusion or establish payment relief.",
+        "boundary_scope": "Do not add abstract boundary caveats to clear listed events. Review only actual test items requiring an undefined borderline classification."
+      },
+      "injected_text_changed": false
+    }
+  ]
+}

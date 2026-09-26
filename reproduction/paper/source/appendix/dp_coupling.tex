@@ -1,0 +1,20 @@
+\paragraph{Algebraic coupling of error risk and definition response.}\label{app:coupling}
+Let $p_0$ and $p_d$ be the proxy probabilities assigned to the keyed option without and with the supplied definition. By construction, $R=1-p_0$ and $\Delta p=p_d-p_0=R+p_d-1$. Because $0\leq p_d\leq1$, the two scores satisfy $R-1\leq\Delta p\leq R$. They are therefore neither algebraically nor statistically independent. The paired bootstrap interval in Table~\ref{tab:repair} compares their rankings on the same bare-error target. Pairing handles shared sampling variation but does not remove this structural dependence. It is not evidence that $\Delta p$ isolates a distinct cause of error.
+
+\begin{table}[h]\centering\footnotesize
+\caption{Why $\Delta p$ can rank bare-reader errors below chance. Means are listed as bare-error / bare-correct items. The final column compares only error--correct pairs inside the same proxy-$R$ decile, a descriptive approximate control for the common $p_0$ term. It is not a causal decomposition.}
+\label{tab:dp-coupling}
+\begin{tabular}{@{}lcccc@{}}\toprule
+Setting & $\Delta p$ error AUC & Mean $p_d$ & Mean $\Delta p$ & Within-$R$-decile AUC\\\midrule
+Synthetic / DeepSeek V4 Flash & 0.745 & .804 / .924 & .496 / .246 & .485\\
+Synthetic / GPT-6-astra & 0.656 & .751 / .920 & .450 / .287 & .431\\
+Reddit / DeepSeek V4.1 Flash & 0.520 & .440 / .675 & .163 / .131 & .409\\
+Reddit / GPT-6-astra & 0.429 & .405 / .639 & .105 / .147 & .359\\
+DeFi / DeepSeek V4.1 Flash & 0.458 & .410 / .670 & .116 / .130 & .411\\
+DeFi / GPT-5.6-terra & 0.380 & .356 / .668 & .064 / .144 & .307\\
+DeFi / GPT-6-astra & 0.342 & .330 / .651 & .034 / .144 & .273\\
+CUAD / GPT-5.6-terra & 0.464 & .407 / .714 & .139 / .141 & .398\\\bottomrule
+\end{tabular}
+\end{table}
+
+For the bare-error target, a $\Delta p$ AUROC below 0.5 means that low definition response tends to accompany observed errors. In DeFi / GPT-6-astra, for example, mean $R$ is 0.704 for bare errors and 0.494 for bare-correct items, but mean post-definition support $p_d$ is 0.330 versus 0.651. The post-definition difference more than offsets the risk difference, leaving mean $\Delta p$ at 0.034 versus 0.144. The CUAD means nearly cancel, while pairwise ranks still give AUROC 0.464. A weak or negative association with \emph{bare error} does not contradict a positive association with \emph{repair conditional on bare error}, because those are different prediction targets. The within-decile values remain descriptive: they do not control item difficulty beyond $R$, question construction, or source-key quality.

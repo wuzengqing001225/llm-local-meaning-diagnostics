@@ -1,0 +1,6 @@
+# Offline preparation, planning with smoke tokenization, and unit tests use Python >=3.10 standard library only.
+# Optional real proxy / HF tokenizer:
+# torch
+# transformers
+# Optional closed-model tokenizer:
+# tiktoken

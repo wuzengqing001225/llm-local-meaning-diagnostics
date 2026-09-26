@@ -1,0 +1,28 @@
+audit_id,selection_group,corpus,author_answer,stored_key,model_screen_category,posthoc_source_status,posthoc_source_reason
+AUD-073,targeted_17,cuad,undetermined,C,one_supported_other_not,invalid_or_insufficient,The manufacturer-responsibility provision in Exhibit D.7 is redacted; the NPI definition alone does not establish the full duty.
+AUD-052,targeted_17,defi,undetermined,B,one_supported_other_not,invalid_or_insufficient,“Swapping: blocked” does not distinguish legal prohibition from a temporary lack of liquidity.
+AUD-077,targeted_17,cuad,C,B,different_supported_answers,borderline,"Seller Party excludes Acquired Companies, ruling out author option C; stored B omits the employee-creation condition."
+AUD-071,targeted_17,cuad,undetermined,C,one_supported_other_not,invalid_or_insufficient,The contract says the provider may remove objectionable material; every option says it must remove the video.
+AUD-039,targeted_17,reddit,undetermined,A,one_supported_other_not,supported_stored_key,Burst means high damage in a short interval; A paraphrases this function. Repeated option letters are a minor format flaw.
+AUD-024,targeted_17,reddit,undetermined,B,one_supported_other_not,supported_stored_key,"Fill means allowing specialists to pick first and covering the remaining role, supporting B."
+AUD-067,targeted_17,cuad,D,A,one_supported_other_not,invalid_or_insufficient,"Fines are Losses, and allocation depends on specific reimbursement and breach clauses; the generic scenario is not uniquely resolved by the overhead-cost sentence."
+AUD-064,targeted_17,cuad,undetermined,A,one_supported_other_not,invalid_or_insufficient,"Stored A is contradicted by the express grant of rights to Documentation, including user and technical manuals; no safe replacement key is established."
+AUD-059,targeted_17,defi,undetermined,A,one_supported_other_not,invalid_or_insufficient,The source-specific post-fix reindex rule is not linked to the question’s generic data-source approval.
+AUD-056,targeted_17,defi,C,A,one_supported_other_not,borderline,All listed testnets are API-accessible but only two are web-accessible; the source does not impose the stated SDK test checklist.
+AUD-016,targeted_17,synthetic,A,B,one_supported_other_not,supported_stored_key,"Varnok is the second sign-off for a limit increase, supporting stored option B rather than model maintenance."
+AUD-051,targeted_17,defi,undetermined,A,one_supported_other_not,invalid_or_insufficient,The source mentions native interoperability but no required chain-to-chain protocol endpoint.
+AUD-057,targeted_17,defi,undetermined,A,one_supported_other_not,supported_stored_key,"The source describes onchain AMM liquidity and protocol-router execution, supporting A."
+AUD-050,targeted_17,defi,undetermined,B,one_supported_other_not,invalid_or_insufficient,“Handled” does not specify a payment confirmation versus completion of an execution order.
+AUD-076,targeted_17,cuad,A,A,both_dispute_stored_key,invalid_or_insufficient,"Options A and D both describe rules of the SEC, which the contract calls the Commission."
+AUD-027,targeted_17,reddit,undetermined,A,one_supported_other_not,supported_stored_key,Standard is a restricted deck format; a no-longer-legal card may require replacement in that queue.
+AUD-041,targeted_17,defi,C,C,one_supported_other_not,supported_stored_key,"The source identifies a self-custodial cryptocurrency wallet, supporting a separately controlled demo account."
+AUD-022,stratified_control_10,reddit,undetermined,A,both_insufficient_or_ambiguous,invalid_or_insufficient,The retained source does not state the fleet workflow following “Detail completed.”
+AUD-069,stratified_control_10,cuad,undetermined,A,both_insufficient_or_ambiguous,invalid_or_insufficient,"The options contain only the literal letters A, B, C, and D."
+AUD-017,stratified_control_10,synthetic,A,A,both_support_stored_key,supported_stored_key,Moshet is a scheduled venue-maintenance window.
+AUD-013,stratified_control_10,synthetic,B,B,both_support_stored_key,supported_stored_key,The glossary identifies an external counterparty trading under approved credit.
+AUD-026,stratified_control_10,reddit,undetermined,A,both_support_stored_key,borderline,"Farm means repeating a game activity, supporting the core of A; its extra trade-item endpoint is not directly sourced."
+AUD-068,stratified_control_10,cuad,B,A,both_support_stored_key,supported_stored_key,The Multi-party Contract definition requires both named business groups to benefit from the third party; number of signatories is not the test.
+AUD-047,stratified_control_10,defi,undetermined,A,both_insufficient_or_ambiguous,invalid_or_insufficient,The supplied documents do not describe the stated smart-vault patch or authorized upgrade.
+AUD-078,stratified_control_10,cuad,A,A,both_support_stored_key,supported_stored_key,"The complete notice clause applies to facsimile notices on the next Business Day, absent earlier oral or written confirmation."
+AUD-054,stratified_control_10,defi,undetermined,C,both_support_stored_key,invalid_or_insufficient,“Swapping unavailable” does not distinguish unsupported-token prohibition from temporary unavailability.
+AUD-010,stratified_control_10,synthetic,B,B,both_insufficient_or_ambiguous,invalid_or_insufficient,The source defines collateral but not clearance or an account-decommissioning test.

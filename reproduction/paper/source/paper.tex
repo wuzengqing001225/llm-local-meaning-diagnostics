@@ -1,0 +1,29 @@
+\documentclass{article}
+\usepackage{iclr2027_conference,times}
+\input{math_commands.tex}
+\usepackage{hyperref,url,graphicx,booktabs,amsmath,array,longtable}
+\hypersetup{colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black}
+\title{When Local Definitions Matter: Diagnosing Source-Linked Language Model Errors}
+\author{Anonymous authors\\Paper under double-blind review}
+\begin{document}
+\maketitle
+\begin{abstract}
+An answer can agree with a retrieved passage yet be wrong under a definition elsewhere in the document. Such errors are hard to catch from the passage or the reader's confidence alone. We study source-linked diagnostic questions about locally defined terms and ask what a corpus owner can learn \emph{before} calling a deployed reader. On matched synthetic and contract questions, a 7B model's low support for the source-implied answer ranks stronger readers' errors with AUROC 0.809--0.848. In a scored CUAD frame, the highest-risk 23\% of questions contain 66\% of estimated reader errors, providing a practical order for source review. The score also predicts errors where local and usual meanings agree, so it is an error-risk index rather than a detector of meaning conflict. On synthetic questions, supplying the source definition raises accuracy from 0.699 to 0.966; a gloss elicited from the reader's prior reaches 0.708. Confidence and sample-agreement signals discriminate poorly on redefined common words. A selected 27-question source review finds substantial item-validity problems, and definition selection on new questions has not been shown to beat frequency. The resulting contribution is an offline diagnostic: document owners can test where answers depend on local definitions, preserve those definitions with their scope, and prioritise review without claiming a validated policy for arbitrary future requests.
+\end{abstract}
+
+\input{section/01_introduction.tex}%
+\input{section/02_setting.tex}%
+\input{section/03_measuring_risk_offline.tex}%
+\input{section/04_errors_under_missing_definitions.tex}%
+\input{section/05_confidence_signals.tex}%
+\input{section/06_cross_reader_prediction.tex}%
+\input{section/07_definition_interventions.tex}%
+\input{section/08_related_work.tex}%
+\input{section/09_limitations_and_conclusion.tex}%
+\input{section/10_ai_use_statement.tex}%
+\input{section/11_reproducibility_statement.tex}%
+\bibliography{references}
+\bibliographystyle{iclr2027_conference}
+\clearpage\appendix
+\input{appendix/appendix.tex}
+\end{document}

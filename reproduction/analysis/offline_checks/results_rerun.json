@@ -1,0 +1,582 @@
+{
+ "table2_duplicate_rows": {
+  "Synthetic/GPT6": {
+   "n": 456,
+   "fails": 83.0,
+   "R_auroc": 0.8094576698213767,
+   "ci_term_cluster": [
+    0.7602770330652369,
+    0.8536231884057971
+   ]
+  },
+  "DeFi/DeepSeek": {
+   "n": 379,
+   "fails": 107.0,
+   "R_auroc": 0.809304562946674,
+   "ci_term_cluster": [
+    0.762230756386709,
+    0.8545186377044784
+   ]
+  }
+ },
+ "reader_to_reader": [
+  {
+   "corpus": "Synthetic",
+   "target": "DeepSeek",
+   "others": "GPT6",
+   "n": 456,
+   "proxy_R": 0.8479235488437943,
+   "other_readers": 0.7223926380368099,
+   "R_plus_others": 0.8840254837187352
+  },
+  {
+   "corpus": "Synthetic",
+   "target": "GPT6",
+   "others": "DeepSeek",
+   "n": 456,
+   "proxy_R": 0.8094576698213767,
+   "other_readers": 0.8044348977680158,
+   "R_plus_others": 0.8670176685293453
+  },
+  {
+   "corpus": "Reddit",
+   "target": "DeepSeek",
+   "others": "GPT6",
+   "n": 1391,
+   "proxy_R": 0.8081386212518538,
+   "other_readers": 0.6397801938772504,
+   "R_plus_others": 0.8318650127188977
+  },
+  {
+   "corpus": "Reddit",
+   "target": "GPT6",
+   "others": "DeepSeek",
+   "n": 1391,
+   "proxy_R": 0.7197425818115474,
+   "other_readers": 0.7360551326068567,
+   "R_plus_others": 0.7845739828498449
+  },
+  {
+   "corpus": "DeFi",
+   "target": "DeepSeek",
+   "others": "GPT5.6+GPT6",
+   "n": 379,
+   "proxy_R": 0.809304562946674,
+   "other_readers": 0.7496048653106102,
+   "R_plus_others": 0.8506390874106652
+  },
+  {
+   "corpus": "DeFi",
+   "target": "GPT5.6",
+   "others": "DeepSeek+GPT6",
+   "n": 379,
+   "proxy_R": 0.7923161706817824,
+   "other_readers": 0.8674224531569832,
+   "R_plus_others": 0.9034010392064242
+  },
+  {
+   "corpus": "DeFi",
+   "target": "GPT6",
+   "others": "DeepSeek+GPT5.6",
+   "n": 379,
+   "proxy_R": 0.7638392857142857,
+   "other_readers": 0.8924851190476191,
+   "R_plus_others": 0.9029265873015873
+  }
+ ],
+ "r_by_category": [
+  {
+   "setting": "Synthetic/DeepSeek",
+   "category": "no_prior",
+   "n": 158,
+   "bare_error": 0.25316455696202533,
+   "R_auroc": 0.7794491525423729
+  },
+  {
+   "setting": "Synthetic/DeepSeek",
+   "category": "prior_conflict",
+   "n": 156,
+   "bare_error": 0.4423076923076923,
+   "R_auroc": 0.803431617524571
+  },
+  {
+   "setting": "Synthetic/DeepSeek",
+   "category": "prior_consistent",
+   "n": 142,
+   "bare_error": 0.14788732394366197,
+   "R_auroc": 0.9208972845336482
+  },
+  {
+   "setting": "Synthetic/GPT6",
+   "category": "no_prior",
+   "n": 158,
+   "bare_error": 0.12658227848101267,
+   "R_auroc": 0.7199275362318841
+  },
+  {
+   "setting": "Synthetic/GPT6",
+   "category": "prior_conflict",
+   "n": 156,
+   "bare_error": 0.36538461538461536,
+   "R_auroc": 0.7770689349636718
+  },
+  {
+   "setting": "Synthetic/GPT6",
+   "category": "prior_consistent",
+   "n": 142,
+   "bare_error": 0.04225352112676056,
+   "R_auroc": 0.8455882352941176
+  },
+  {
+   "setting": "Reddit/DeepSeek",
+   "category": "control",
+   "n": 540,
+   "bare_error": 0.2351851851851852,
+   "R_auroc": 0.8416808068482965
+  },
+  {
+   "setting": "Reddit/DeepSeek",
+   "category": "glossary",
+   "n": 851,
+   "bare_error": 0.34312573443008226,
+   "R_auroc": 0.781361040997868
+  },
+  {
+   "setting": "Reddit/GPT6",
+   "category": "control",
+   "n": 540,
+   "bare_error": 0.1425925925925926,
+   "R_auroc": 0.8152646489579535
+  },
+  {
+   "setting": "Reddit/GPT6",
+   "category": "glossary",
+   "n": 851,
+   "bare_error": 0.14806110458284372,
+   "R_auroc": 0.6591023535851122
+  }
+ ],
+ "control_arms": {
+  "Synthetic": {
+   "n": 761,
+   "note": "synthetic excludes the two source-conflict items",
+   "bare": {
+    "acc": 0.6990801576872536,
+    "repairs": null,
+    "harms": null
+   },
+   "glossG": {
+    "acc": 0.9658344283837057,
+    "repairs": 209,
+    "harms": 6
+   },
+   "glossC": {
+    "acc": 0.9487516425755584,
+    "repairs": 196,
+    "harms": 6
+   },
+   "glossP": {
+    "acc": 0.8935611038107752,
+    "repairs": 167,
+    "harms": 19
+   },
+   "glossM": {
+    "acc": 0.7082785808147175,
+    "repairs": 86,
+    "harms": 79
+   }
+  },
+  "Reddit": {
+   "n": 851,
+   "note": "synthetic excludes the two source-conflict items",
+   "bare": {
+    "acc": 0.6568742655699178,
+    "repairs": null,
+    "harms": null
+   },
+   "glossG": {
+    "acc": 0.9318448883666275,
+    "repairs": 243,
+    "harms": 9
+   },
+   "glossC": {
+    "acc": 0.7896592244418331,
+    "repairs": 171,
+    "harms": 58
+   },
+   "glossP": {
+    "acc": 0.7602820211515864,
+    "repairs": 155,
+    "harms": 67
+   },
+   "glossM": {
+    "acc": 0.6157461809635723,
+    "repairs": 82,
+    "harms": 117
+   }
+  },
+  "DeFi": {
+   "n": 250,
+   "note": "synthetic excludes the two source-conflict items",
+   "bare": {
+    "acc": 0.672,
+    "repairs": null,
+    "harms": null
+   },
+   "glossG": {
+    "acc": 0.94,
+    "repairs": 70,
+    "harms": 3
+   },
+   "glossC": {
+    "acc": 0.76,
+    "repairs": 42,
+    "harms": 20
+   },
+   "glossP": {
+    "acc": 0.712,
+    "repairs": 36,
+    "harms": 26
+   },
+   "glossM": {
+    "acc": 0.74,
+    "repairs": 40,
+    "harms": 23
+   }
+  },
+  "legend": {
+   "glossG": "source definition",
+   "glossC": "model-drafted gloss",
+   "glossP": "drafted gloss truncated to its first 2/3 of words (run_eqa.py)",
+   "glossM": "the model's own gloss under a domain prompt (prior_guess) or a word-form guess; not a context-free dictionary sense"
+  }
+ },
+ "leakage": {
+  "Synthetic": {
+   "n": 456,
+   "drafted_gloss_picks_key": 0.6864035087719298,
+   "shuffled_gloss_baseline": 0.06666666666666667,
+   "leak_free_n": 143,
+   "error_bare_all": 0.2850877192982456,
+   "error_def_all": 0.02850877192982456,
+   "error_bare_leakfree": 0.3076923076923077,
+   "error_def_leakfree": 0.09090909090909091,
+   "R_auroc_all": 0.8479235488437943,
+   "R_auroc_leakfree": 0.8785583103764922,
+   "dp_repair_auroc_all": 0.9831932773109243,
+   "dp_repair_auroc_leakfree": 0.9504132231404959
+  },
+  "Reddit": {
+   "n": 1391,
+   "drafted_gloss_picks_key": 0.1854780733285406,
+   "shuffled_gloss_baseline": 0.032063263838964774,
+   "leak_free_n": 1133,
+   "error_bare_all": 0.30122214234363764,
+   "error_def_all": 0.18475916606757728,
+   "error_bare_leakfree": 0.29567519858781993,
+   "error_def_leakfree": 0.21006178287731686,
+   "R_auroc_all": 0.8081386212518538,
+   "R_auroc_leakfree": 0.8100288033516627,
+   "dp_repair_auroc_all": 0.8583523050654525,
+   "dp_repair_auroc_leakfree": 0.8435100810791418
+  },
+  "DeFi": {
+   "n": 379,
+   "drafted_gloss_picks_key": 0.27440633245382584,
+   "shuffled_gloss_baseline": 0.08601583113456464,
+   "leak_free_n": 275,
+   "error_bare_all": 0.28232189973614774,
+   "error_def_all": 0.19261213720316622,
+   "error_bare_leakfree": 0.28363636363636363,
+   "error_def_leakfree": 0.23636363636363636,
+   "R_auroc_all": 0.809304562946674,
+   "R_auroc_leakfree": 0.8034621892489913,
+   "dp_repair_auroc_all": 0.8631205673758865,
+   "dp_repair_auroc_leakfree": 0.7910349373764007
+  },
+  "note": "Leak = the option with the unique highest content-word overlap with the drafted gloss is the keyed answer."
+ },
+ "rag_leave_one_out": {
+  "CUAD_hybrid": {
+   "n": 1200,
+   "identified": 1007,
+   "counts": {
+    "unchanged": 990,
+    "gated set becomes empty (rag answer)": 17,
+    "no matching arm": 193
+   },
+   "rag": 0.8208333333333333,
+   "gated_in_sample": 0.8708333333333333,
+   "gated_loo_partial_identification": [
+    0.7325,
+    0.8933333333333333
+   ],
+   "all_matched": 0.8816666666666667,
+   "full_glossary": 0.8758333333333334,
+   "bounds_rule": "unidentified items may be 0 or 1; interval = [all wrong, all right]. Scenario fills (retrieval answer / in-sample gated answer) are not bounds."
+  },
+  "Reddit_hybrid_glossary": {
+   "n": 851,
+   "identified": 788,
+   "rag": 0.8390129259694477,
+   "gated_in_sample": 0.9412455934195064,
+   "gated_loo_partial_identification": [
+    0.8589894242068156,
+    0.9330199764982373
+   ],
+   "full_glossary": 0.9071680376028202
+  },
+  "Reddit_hybrid_all": {
+   "n": 1391,
+   "identified": 1328,
+   "rag": 0.8655643421998562,
+   "gated_in_sample": 0.9245147375988497,
+   "gated_loo_partial_identification": [
+    0.8741912293314162,
+    0.9194823867721064
+   ],
+   "full_glossary": 0.9072609633357297
+  },
+  "Reddit_counts": {
+   "unchanged": 1295,
+   "no matching arm (drops)": 30,
+   "gated set becomes empty (rag answer)": 33,
+   "no matching arm (enters)": 33
+  },
+  "Reddit_note": "No all-matched arm exists for Reddit."
+ },
+ "jev_self_error": [
+  {
+   "set": "cuad",
+   "condition": "bare",
+   "n": 671,
+   "own_error": 0.323397913561848,
+   "auroc_confidence_to_own_error": 0.6358381209525162
+  },
+  {
+   "set": "cuad",
+   "condition": "glossC",
+   "n": 671,
+   "own_error": 0.11326378539493294,
+   "auroc_confidence_to_own_error": 0.8683325961963733
+  },
+  {
+   "set": "cuad",
+   "condition": "glossM",
+   "n": 667,
+   "own_error": 0.1679160419790105,
+   "auroc_confidence_to_own_error": 0.8023648648648649
+  },
+  {
+   "set": "reddit",
+   "condition": "bare",
+   "n": 1391,
+   "own_error": 0.42343637670740475,
+   "auroc_confidence_to_own_error": 0.6603599236204903
+  },
+  {
+   "set": "reddit",
+   "condition": "glossC",
+   "n": 1391,
+   "own_error": 0.205607476635514,
+   "auroc_confidence_to_own_error": 0.7895057431256526
+  },
+  {
+   "set": "reddit",
+   "condition": "glossM",
+   "n": 1391,
+   "own_error": 0.4565061107117182,
+   "auroc_confidence_to_own_error": 0.6595071449402158
+  },
+  {
+   "set": "v1",
+   "condition": "bare",
+   "n": 761,
+   "own_error": 0.4178712220762155,
+   "auroc_confidence_to_own_error": 0.6431066059031475
+  },
+  {
+   "set": "v1",
+   "condition": "glossC",
+   "n": 761,
+   "own_error": 0.045992115637319315,
+   "auroc_confidence_to_own_error": 0.8147776465958284
+  },
+  {
+   "set": "v1",
+   "condition": "glossM",
+   "n": 721,
+   "own_error": 0.3578363384188627,
+   "auroc_confidence_to_own_error": 0.6655993101947193
+  }
+ ],
+ "term_distance_glossG": {
+  "v1": {
+   "spearman_with_source_definition_repair": {
+    "dist_zero": {
+     "rho": 0.4502599030194065,
+     "n": 66
+    },
+    "dist_guess": {
+     "rho": 0.299625414159094,
+     "n": 187
+    },
+    "self_report": {
+     "rho": 0.46480392534938475,
+     "n": 119
+    },
+    "contrast": {
+     "rho": 0.4977523974387351,
+     "n": 119
+    },
+    "dp": {
+     "rho": 0.621109462622437,
+     "n": 119
+    },
+    "R": {
+     "rho": 0.7068166516228591,
+     "n": 119
+    }
+   },
+   "tier_divergent_repair": 0.31405895691609975,
+   "tier_none_repair": 0.15666666666666665,
+   "tier_auroc": 0.6468027210884354,
+   "n_div": 147,
+   "n_none": 50
+  },
+  "reddit": {
+   "spearman_with_source_definition_repair": {
+    "dist_zero": {
+     "rho": 0.18119399253929208,
+     "n": 211
+    },
+    "dist_guess": {
+     "rho": 0.09514181823071982,
+     "n": 217
+    },
+    "self_report": {
+     "rho": 0.16613389030465772,
+     "n": 217
+    },
+    "contrast": {
+     "rho": 0.06083411458371665,
+     "n": 217
+    },
+    "dp": {
+     "rho": 0.04998167771578708,
+     "n": 217
+    },
+    "R": {
+     "rho": 0.45025617301331855,
+     "n": 217
+    }
+   },
+   "tier_divergent_repair": 0.2916666666666667,
+   "tier_none_repair": 0.2661290322580645,
+   "tier_auroc": 0.5310440513354145,
+   "n_div": 186,
+   "n_none": 31
+  },
+  "defi": {
+   "spearman_with_source_definition_repair": {
+    "dist_zero": {
+     "rho": -0.08730738562889073,
+     "n": 57
+    },
+    "dist_guess": {
+     "rho": 0.10066479194629809,
+     "n": 64
+    },
+    "self_report": {
+     "rho": -0.2367376684823908,
+     "n": 64
+    },
+    "contrast": {
+     "rho": -0.30216219044799736,
+     "n": 64
+    },
+    "dp": {
+     "rho": -0.2861958290676129,
+     "n": 64
+    },
+    "R": {
+     "rho": 0.5778336461732847,
+     "n": 64
+    }
+   },
+   "tier_divergent_repair": 0.2265625,
+   "tier_none_repair": 0.3333333333333333,
+   "tier_auroc": 0.41064453125,
+   "n_div": 32,
+   "n_none": 32
+  },
+  "note": "Reader = DeepSeek; repair = bare wrong and correct with the source definition (glossG). dp and contrast use the drafted gloss, to show version dependence."
+ },
+ "shared_budget_sim": {
+  "Synthetic/DeepSeek|B arm=glossC|orig": {
+   "terms": 118,
+   "freq_dp_cost_share_of_oracle": 0.7344632768361582,
+   "freq_cost_share_of_oracle": 0.5612052730696798,
+   "diff_share_of_total_tf": 0.04136690647482014
+  },
+  "Synthetic/DeepSeek|B arm=glossC|swap": {
+   "terms": 118,
+   "freq_dp_cost_share_of_oracle": 0.7186813186813187,
+   "freq_cost_share_of_oracle": 0.4351648351648352,
+   "diff_share_of_total_tf": 0.05800359712230216
+  },
+  "Synthetic/DeepSeek|B arm=glossG|orig": {
+   "terms": 118,
+   "freq_dp_cost_share_of_oracle": 0.7398523985239852,
+   "freq_cost_share_of_oracle": 0.522140221402214,
+   "diff_share_of_total_tf": 0.053057553956834536
+  },
+  "Synthetic/DeepSeek|B arm=glossG|swap": {
+   "terms": 118,
+   "freq_dp_cost_share_of_oracle": 0.6876355748373102,
+   "freq_cost_share_of_oracle": 0.42950108459869846,
+   "diff_share_of_total_tf": 0.05350719424460432
+  },
+  "Reddit/DeepSeek|B arm=glossC|orig": {
+   "terms": 215,
+   "freq_dp_cost_share_of_oracle": 0.6014198782961461,
+   "freq_cost_share_of_oracle": 0.545841784989858,
+   "diff_share_of_total_tf": 0.01133730552797087
+  },
+  "Reddit/DeepSeek|B arm=glossC|swap": {
+   "terms": 215,
+   "freq_dp_cost_share_of_oracle": 0.5865153829369408,
+   "freq_cost_share_of_oracle": 0.5262928212960942,
+   "diff_share_of_total_tf": 0.011420059582919563
+  },
+  "Reddit/DeepSeek|B arm=glossG|orig": {
+   "terms": 215,
+   "freq_dp_cost_share_of_oracle": 0.5087028908733162,
+   "freq_cost_share_of_oracle": 0.6986529438474346,
+   "diff_share_of_total_tf": -0.051928169480304535
+  },
+  "Reddit/DeepSeek|B arm=glossG|swap": {
+   "terms": 215,
+   "freq_dp_cost_share_of_oracle": 0.49054982817869414,
+   "freq_cost_share_of_oracle": 0.7163230240549828,
+   "diff_share_of_total_tf": -0.054369414101290967
+  },
+  "note": "A-side dp is the drafted-gloss proxy score. Only glossG rows use the source entry for B; glossC rows mix versions (cost priced on the source entry) and document the correction."
+ },
+ "stable_errors": {
+  "archived": {
+   "questions": 763,
+   "greedy_errors": 231,
+   "ten_identical": 154,
+   "ten_identical_wrong": 93,
+   "share": 0.4025974025974026
+  },
+  "excluding_two_conflict_items": {
+   "questions": 761,
+   "greedy_errors": 229,
+   "ten_identical": 154,
+   "ten_identical_wrong": 93,
+   "share": 0.40611353711790393
+  }
+ }
+}

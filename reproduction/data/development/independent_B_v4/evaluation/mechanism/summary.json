@@ -1,0 +1,666 @@
+{
+  "independent_prediction": {
+    "wrong_substantive": {
+      "n": 28,
+      "positives": 0,
+      "R_auroc": null,
+      "delta_p_auroc": null,
+      "aggregation": "max A score among all context candidates, not focal-definition-aware"
+    },
+    "accuracy_error": {
+      "n": 28,
+      "positives": 5,
+      "R_auroc": 0.6260869565217392,
+      "delta_p_auroc": 0.7043478260869566,
+      "aggregation": "max A score among all context candidates, not focal-definition-aware"
+    },
+    "usual_error": {
+      "n": 2,
+      "positives": 0,
+      "R_auroc": null,
+      "delta_p_auroc": null,
+      "aggregation": "max A score among all context candidates, not focal-definition-aware"
+    }
+  },
+  "mode": "real",
+  "stage": "pilot",
+  "plan_id": "65c5dddd4744ff146453e50ee537c28d7c5a350d5f8e2f256590f764d777023e",
+  "reader_versions": [
+    "gpt-5.6-terra"
+  ],
+  "coverage": [
+    {
+      "category": "control",
+      "extra_rule_evidence_available": false,
+      "irrelevance_human_verified": false,
+      "irrelevant_definition_id": "cuadfull:128:Harpoon Patents",
+      "irrelevant_length_relative_difference": 0.0,
+      "length_comparable": true,
+      "review_mode": "automated_screen",
+      "task_id": "B:0690344776c40478",
+      "usual_answer_available": false
+    },
+    {
+      "category": "local_binding",
+      "extra_rule_evidence_available": false,
+      "irrelevance_human_verified": false,
+      "irrelevant_definition_id": "cuadfull:121:Emergency",
+      "irrelevant_length_relative_difference": 0.0,
+      "length_comparable": true,
+      "review_mode": "automated_screen",
+      "task_id": "B:d8a74a833b199db6",
+      "usual_answer_available": true
+    },
+    {
+      "category": "local_binding",
+      "extra_rule_evidence_available": false,
+      "irrelevance_human_verified": false,
+      "irrelevant_definition_id": "cuadfull:109:Third Party Software",
+      "irrelevant_length_relative_difference": 0.0,
+      "length_comparable": true,
+      "review_mode": "automated_screen",
+      "task_id": "B:a8bab3c4d17eb8b6",
+      "usual_answer_available": false
+    },
+    {
+      "category": "control",
+      "extra_rule_evidence_available": false,
+      "irrelevance_human_verified": false,
+      "irrelevant_definition_id": "cuadfull:115:Designated Countries",
+      "irrelevant_length_relative_difference": 0.0,
+      "length_comparable": true,
+      "review_mode": "automated_screen",
+      "task_id": "B:bec2b2bd4e7df300",
+      "usual_answer_available": true
+    },
+    {
+      "category": "control",
+      "extra_rule_evidence_available": false,
+      "irrelevance_human_verified": false,
+      "irrelevant_definition_id": "cuadfull:245:Applicable Law",
+      "irrelevant_length_relative_difference": 0.0,
+      "length_comparable": true,
+      "review_mode": "automated_screen",
+      "task_id": "B:1eef0076af1a9f08",
+      "usual_answer_available": true
+    },
+    {
+      "category": "control",
+      "extra_rule_evidence_available": false,
+      "irrelevance_human_verified": false,
+      "irrelevant_definition_id": "cuadfull:108:Aimmune Agreement Entities",
+      "irrelevant_length_relative_difference": 0.0,
+      "length_comparable": true,
+      "review_mode": "automated_screen",
+      "task_id": "B:aacfd9c61a996f4a",
+      "usual_answer_available": true
+    },
+    {
+      "category": "local_binding",
+      "extra_rule_evidence_available": false,
+      "irrelevance_human_verified": false,
+      "irrelevant_definition_id": "cuadfull:108:Regulatory Authority",
+      "irrelevant_length_relative_difference": 0.0,
+      "length_comparable": true,
+      "review_mode": "automated_screen",
+      "task_id": "B:d28125fcb66a99cb",
+      "usual_answer_available": true
+    },
+    {
+      "category": "control",
+      "extra_rule_evidence_available": false,
+      "irrelevance_human_verified": false,
+      "irrelevant_definition_id": "cuadfull:129:Digitized Theatres",
+      "irrelevant_length_relative_difference": 0.0,
+      "length_comparable": true,
+      "review_mode": "automated_screen",
+      "task_id": "B:ecb32f3f3ed732ae",
+      "usual_answer_available": true
+    },
+    {
+      "category": "control",
+      "extra_rule_evidence_available": false,
+      "irrelevance_human_verified": false,
+      "irrelevant_definition_id": "cuadfull:108:Xencor Invention",
+      "irrelevant_length_relative_difference": 0.0,
+      "length_comparable": true,
+      "review_mode": "automated_screen",
+      "task_id": "B:3981714952e709bd",
+      "usual_answer_available": true
+    },
+    {
+      "category": "local_binding",
+      "extra_rule_evidence_available": false,
+      "irrelevance_human_verified": false,
+      "irrelevant_definition_id": "cuadfull:108:Calendar Quarter",
+      "irrelevant_length_relative_difference": 0.0,
+      "length_comparable": true,
+      "review_mode": "automated_screen",
+      "task_id": "B:e43724237beb47a1",
+      "usual_answer_available": false
+    },
+    {
+      "category": "control",
+      "extra_rule_evidence_available": false,
+      "irrelevance_human_verified": false,
+      "irrelevant_definition_id": "cuadfull:130:Maintenance and Support Services",
+      "irrelevant_length_relative_difference": 0.0,
+      "length_comparable": true,
+      "review_mode": "automated_screen",
+      "task_id": "B:bcc58b65bca44d21",
+      "usual_answer_available": true
+    },
+    {
+      "category": "local_binding",
+      "extra_rule_evidence_available": false,
+      "irrelevance_human_verified": false,
+      "irrelevant_definition_id": "cuadfull:113:Intellectual Property",
+      "irrelevant_length_relative_difference": 0.0,
+      "length_comparable": true,
+      "review_mode": "automated_screen",
+      "task_id": "B:32ac7b1b1580bccb",
+      "usual_answer_available": false
+    },
+    {
+      "category": "control",
+      "extra_rule_evidence_available": false,
+      "irrelevance_human_verified": false,
+      "irrelevant_definition_id": "cuadfull:115:Agreement",
+      "irrelevant_length_relative_difference": 0.0,
+      "length_comparable": true,
+      "review_mode": "automated_screen",
+      "task_id": "B:33829186ffb8b50a",
+      "usual_answer_available": true
+    },
+    {
+      "category": "control",
+      "extra_rule_evidence_available": false,
+      "irrelevance_human_verified": false,
+      "irrelevant_definition_id": "cuadfull:129:Traditional Content Program",
+      "irrelevant_length_relative_difference": 0.0,
+      "length_comparable": true,
+      "review_mode": "automated_screen",
+      "task_id": "B:962efec93aa6a4d9",
+      "usual_answer_available": true
+    },
+    {
+      "category": "local_binding",
+      "extra_rule_evidence_available": false,
+      "irrelevance_human_verified": false,
+      "irrelevant_definition_id": "cuadfull:115:Miltenyi Products",
+      "irrelevant_length_relative_difference": 0.0,
+      "length_comparable": true,
+      "review_mode": "automated_screen",
+      "task_id": "B:62627361859b8002",
+      "usual_answer_available": true
+    },
+    {
+      "category": "control",
+      "extra_rule_evidence_available": false,
+      "irrelevance_human_verified": false,
+      "irrelevant_definition_id": "cuadfull:115:Calendar Quarter",
+      "irrelevant_length_relative_difference": 0.0,
+      "length_comparable": true,
+      "review_mode": "automated_screen",
+      "task_id": "B:7e356f997d3b2f99",
+      "usual_answer_available": true
+    },
+    {
+      "category": "local_binding",
+      "extra_rule_evidence_available": false,
+      "irrelevance_human_verified": false,
+      "irrelevant_definition_id": "cuadfull:135:Gross Margin Per Tablet",
+      "irrelevant_length_relative_difference": 0.0,
+      "length_comparable": true,
+      "review_mode": "automated_screen",
+      "task_id": "B:3d176e68b4bba34d",
+      "usual_answer_available": true
+    },
+    {
+      "category": "local_binding",
+      "extra_rule_evidence_available": false,
+      "irrelevance_human_verified": false,
+      "irrelevant_definition_id": "cuadfull:168:Confidential Information",
+      "irrelevant_length_relative_difference": 0.0,
+      "length_comparable": true,
+      "review_mode": "automated_screen",
+      "task_id": "B:b9571b61cc5d222a",
+      "usual_answer_available": true
+    },
+    {
+      "category": "local_binding",
+      "extra_rule_evidence_available": false,
+      "irrelevance_human_verified": false,
+      "irrelevant_definition_id": "cuadfull:129:Traditional Content Program",
+      "irrelevant_length_relative_difference": 0.0,
+      "length_comparable": true,
+      "review_mode": "automated_screen",
+      "task_id": "B:bce22713c7991fc6",
+      "usual_answer_available": true
+    },
+    {
+      "category": "control",
+      "extra_rule_evidence_available": false,
+      "irrelevance_human_verified": false,
+      "irrelevant_definition_id": "cuadfull:113:Intellectual Property",
+      "irrelevant_length_relative_difference": 0.0,
+      "length_comparable": true,
+      "review_mode": "automated_screen",
+      "task_id": "B:eb283b96b42a4900",
+      "usual_answer_available": false
+    },
+    {
+      "category": "local_binding",
+      "extra_rule_evidence_available": false,
+      "irrelevance_human_verified": false,
+      "irrelevant_definition_id": "cuadfull:108:Calendar Quarter",
+      "irrelevant_length_relative_difference": 0.0,
+      "length_comparable": true,
+      "review_mode": "automated_screen",
+      "task_id": "B:1f3ef7bb9f4bfe23",
+      "usual_answer_available": false
+    },
+    {
+      "category": "local_binding",
+      "extra_rule_evidence_available": false,
+      "irrelevance_human_verified": false,
+      "irrelevant_definition_id": "cuadfull:258:Calendar Year",
+      "irrelevant_length_relative_difference": 0.0,
+      "length_comparable": true,
+      "review_mode": "automated_screen",
+      "task_id": "B:5956caceea45ba75",
+      "usual_answer_available": false
+    },
+    {
+      "category": "control",
+      "extra_rule_evidence_available": false,
+      "irrelevance_human_verified": false,
+      "irrelevant_definition_id": "cuadfull:10:Remarketing",
+      "irrelevant_length_relative_difference": 0.0,
+      "length_comparable": true,
+      "review_mode": "automated_screen",
+      "task_id": "B:80b3e9217e2a5581",
+      "usual_answer_available": true
+    },
+    {
+      "category": "control",
+      "extra_rule_evidence_available": false,
+      "irrelevance_human_verified": false,
+      "irrelevant_definition_id": "cuadfull:108:Xencor Invention",
+      "irrelevant_length_relative_difference": 0.0,
+      "length_comparable": true,
+      "review_mode": "automated_screen",
+      "task_id": "B:9135a056c097cba9",
+      "usual_answer_available": true
+    },
+    {
+      "category": "control",
+      "extra_rule_evidence_available": false,
+      "irrelevance_human_verified": false,
+      "irrelevant_definition_id": "cuadfull:108:Aimmune Agreement Entities",
+      "irrelevant_length_relative_difference": 0.0,
+      "length_comparable": true,
+      "review_mode": "automated_screen",
+      "task_id": "B:b03c49cd4d092afc",
+      "usual_answer_available": true
+    },
+    {
+      "category": "local_binding",
+      "extra_rule_evidence_available": false,
+      "irrelevance_human_verified": false,
+      "irrelevant_definition_id": "cuadfull:129:Service",
+      "irrelevant_length_relative_difference": 0.0,
+      "length_comparable": true,
+      "review_mode": "automated_screen",
+      "task_id": "B:593c20986fab23c6",
+      "usual_answer_available": true
+    },
+    {
+      "category": "control",
+      "extra_rule_evidence_available": false,
+      "irrelevance_human_verified": false,
+      "irrelevant_definition_id": "cuadfull:108:Aimmune Agreement Entities",
+      "irrelevant_length_relative_difference": 0.0,
+      "length_comparable": true,
+      "review_mode": "automated_screen",
+      "task_id": "B:3b6dfaa2602400e6",
+      "usual_answer_available": true
+    },
+    {
+      "category": "control",
+      "extra_rule_evidence_available": false,
+      "irrelevance_human_verified": false,
+      "irrelevant_definition_id": "cuadfull:129:Traditional Content Program",
+      "irrelevant_length_relative_difference": 0.0,
+      "length_comparable": true,
+      "review_mode": "automated_screen",
+      "task_id": "B:8471d045891f7ad8",
+      "usual_answer_available": true
+    }
+  ],
+  "by_category": [
+    {
+      "category": "all",
+      "arm": "bare",
+      "n": 28,
+      "accuracy_all": 0.8214285714285714,
+      "abstention_rate": 0.17857142857142858,
+      "substantive_wrong_rate": 0.0,
+      "invalid_format_rate": 0.0,
+      "answer_coverage": 0.8214285714285714,
+      "accuracy_given_answer": 1.0,
+      "usual_direction_n": 2,
+      "usual_answer_rate": 0.0,
+      "confidence_available_n": 28,
+      "high_confidence_wrong_rate": 0.0,
+      "high_confidence_usual_error_count": 0,
+      "usual_direction_confidence_available_n": 2
+    },
+    {
+      "category": "all",
+      "arm": "local_note",
+      "n": 28,
+      "accuracy_all": 1.0,
+      "abstention_rate": 0.0,
+      "substantive_wrong_rate": 0.0,
+      "invalid_format_rate": 0.0,
+      "answer_coverage": 1.0,
+      "accuracy_given_answer": 1.0,
+      "usual_direction_n": 2,
+      "usual_answer_rate": 0.0,
+      "confidence_available_n": 28,
+      "high_confidence_wrong_rate": 0.0,
+      "high_confidence_usual_error_count": 0,
+      "usual_direction_confidence_available_n": 2
+    },
+    {
+      "category": "all",
+      "arm": "usual_note",
+      "n": 26,
+      "accuracy_all": 0.8461538461538461,
+      "abstention_rate": 0.15384615384615385,
+      "substantive_wrong_rate": 0.0,
+      "invalid_format_rate": 0.0,
+      "answer_coverage": 0.8461538461538461,
+      "accuracy_given_answer": 1.0,
+      "usual_direction_n": 2,
+      "usual_answer_rate": 0.0,
+      "confidence_available_n": 26,
+      "high_confidence_wrong_rate": 0.0,
+      "high_confidence_usual_error_count": 0,
+      "usual_direction_confidence_available_n": 2
+    },
+    {
+      "category": "all",
+      "arm": "irrelevant_note",
+      "n": 28,
+      "accuracy_all": 0.8214285714285714,
+      "abstention_rate": 0.17857142857142858,
+      "substantive_wrong_rate": 0.0,
+      "invalid_format_rate": 0.0,
+      "answer_coverage": 0.8214285714285714,
+      "accuracy_given_answer": 1.0,
+      "usual_direction_n": 2,
+      "usual_answer_rate": 0.0,
+      "confidence_available_n": 28,
+      "high_confidence_wrong_rate": 0.0,
+      "high_confidence_usual_error_count": 0,
+      "usual_direction_confidence_available_n": 2
+    },
+    {
+      "category": "control",
+      "arm": "bare",
+      "n": 16,
+      "accuracy_all": 0.9375,
+      "abstention_rate": 0.0625,
+      "substantive_wrong_rate": 0.0,
+      "invalid_format_rate": 0.0,
+      "answer_coverage": 0.9375,
+      "accuracy_given_answer": 1.0,
+      "usual_direction_n": 0,
+      "usual_answer_rate": null,
+      "confidence_available_n": 16,
+      "high_confidence_wrong_rate": 0.0,
+      "high_confidence_usual_error_count": 0,
+      "usual_direction_confidence_available_n": 0
+    },
+    {
+      "category": "control",
+      "arm": "local_note",
+      "n": 16,
+      "accuracy_all": 1.0,
+      "abstention_rate": 0.0,
+      "substantive_wrong_rate": 0.0,
+      "invalid_format_rate": 0.0,
+      "answer_coverage": 1.0,
+      "accuracy_given_answer": 1.0,
+      "usual_direction_n": 0,
+      "usual_answer_rate": null,
+      "confidence_available_n": 16,
+      "high_confidence_wrong_rate": 0.0,
+      "high_confidence_usual_error_count": 0,
+      "usual_direction_confidence_available_n": 0
+    },
+    {
+      "category": "control",
+      "arm": "usual_note",
+      "n": 14,
+      "accuracy_all": 0.9285714285714286,
+      "abstention_rate": 0.07142857142857142,
+      "substantive_wrong_rate": 0.0,
+      "invalid_format_rate": 0.0,
+      "answer_coverage": 0.9285714285714286,
+      "accuracy_given_answer": 1.0,
+      "usual_direction_n": 0,
+      "usual_answer_rate": null,
+      "confidence_available_n": 14,
+      "high_confidence_wrong_rate": 0.0,
+      "high_confidence_usual_error_count": 0,
+      "usual_direction_confidence_available_n": 0
+    },
+    {
+      "category": "control",
+      "arm": "irrelevant_note",
+      "n": 16,
+      "accuracy_all": 0.9375,
+      "abstention_rate": 0.0625,
+      "substantive_wrong_rate": 0.0,
+      "invalid_format_rate": 0.0,
+      "answer_coverage": 0.9375,
+      "accuracy_given_answer": 1.0,
+      "usual_direction_n": 0,
+      "usual_answer_rate": null,
+      "confidence_available_n": 16,
+      "high_confidence_wrong_rate": 0.0,
+      "high_confidence_usual_error_count": 0,
+      "usual_direction_confidence_available_n": 0
+    },
+    {
+      "category": "local_binding",
+      "arm": "bare",
+      "n": 12,
+      "accuracy_all": 0.6666666666666666,
+      "abstention_rate": 0.3333333333333333,
+      "substantive_wrong_rate": 0.0,
+      "invalid_format_rate": 0.0,
+      "answer_coverage": 0.6666666666666666,
+      "accuracy_given_answer": 1.0,
+      "usual_direction_n": 2,
+      "usual_answer_rate": 0.0,
+      "confidence_available_n": 12,
+      "high_confidence_wrong_rate": 0.0,
+      "high_confidence_usual_error_count": 0,
+      "usual_direction_confidence_available_n": 2
+    },
+    {
+      "category": "local_binding",
+      "arm": "local_note",
+      "n": 12,
+      "accuracy_all": 1.0,
+      "abstention_rate": 0.0,
+      "substantive_wrong_rate": 0.0,
+      "invalid_format_rate": 0.0,
+      "answer_coverage": 1.0,
+      "accuracy_given_answer": 1.0,
+      "usual_direction_n": 2,
+      "usual_answer_rate": 0.0,
+      "confidence_available_n": 12,
+      "high_confidence_wrong_rate": 0.0,
+      "high_confidence_usual_error_count": 0,
+      "usual_direction_confidence_available_n": 2
+    },
+    {
+      "category": "local_binding",
+      "arm": "usual_note",
+      "n": 12,
+      "accuracy_all": 0.75,
+      "abstention_rate": 0.25,
+      "substantive_wrong_rate": 0.0,
+      "invalid_format_rate": 0.0,
+      "answer_coverage": 0.75,
+      "accuracy_given_answer": 1.0,
+      "usual_direction_n": 2,
+      "usual_answer_rate": 0.0,
+      "confidence_available_n": 12,
+      "high_confidence_wrong_rate": 0.0,
+      "high_confidence_usual_error_count": 0,
+      "usual_direction_confidence_available_n": 2
+    },
+    {
+      "category": "local_binding",
+      "arm": "irrelevant_note",
+      "n": 12,
+      "accuracy_all": 0.6666666666666666,
+      "abstention_rate": 0.3333333333333333,
+      "substantive_wrong_rate": 0.0,
+      "invalid_format_rate": 0.0,
+      "answer_coverage": 0.6666666666666666,
+      "accuracy_given_answer": 1.0,
+      "usual_direction_n": 2,
+      "usual_answer_rate": 0.0,
+      "confidence_available_n": 12,
+      "high_confidence_wrong_rate": 0.0,
+      "high_confidence_usual_error_count": 0,
+      "usual_direction_confidence_available_n": 2
+    }
+  ],
+  "paired_contrasts": [
+    {
+      "local_note_minus": "bare",
+      "subset": "all",
+      "n": 28,
+      "net_accuracy_difference": 0.17857142857142858,
+      "cluster_ci": [
+        0.038461538461538464,
+        0.3076923076923077
+      ],
+      "usual_direction_reduction": 0.0,
+      "direction_n": 2
+    },
+    {
+      "local_note_minus": "bare",
+      "subset": "local_binding",
+      "n": 12,
+      "net_accuracy_difference": 0.3333333333333333,
+      "cluster_ci": [
+        0.09090909090909091,
+        0.5833333333333334
+      ],
+      "usual_direction_reduction": 0.0,
+      "direction_n": 2
+    },
+    {
+      "local_note_minus": "bare",
+      "subset": "control",
+      "n": 16,
+      "net_accuracy_difference": 0.0625,
+      "cluster_ci": [
+        0.0,
+        0.17647058823529413
+      ],
+      "usual_direction_reduction": null,
+      "direction_n": 0
+    },
+    {
+      "local_note_minus": "usual_note",
+      "subset": "all",
+      "n": 26,
+      "net_accuracy_difference": 0.15384615384615385,
+      "cluster_ci": [
+        0.037037037037037035,
+        0.29638888888888837
+      ],
+      "usual_direction_reduction": 0.0,
+      "direction_n": 2
+    },
+    {
+      "local_note_minus": "usual_note",
+      "subset": "local_binding",
+      "n": 12,
+      "net_accuracy_difference": 0.25,
+      "cluster_ci": [
+        0.0,
+        0.5454545454545454
+      ],
+      "usual_direction_reduction": 0.0,
+      "direction_n": 2
+    },
+    {
+      "local_note_minus": "usual_note",
+      "subset": "control",
+      "n": 14,
+      "net_accuracy_difference": 0.07142857142857142,
+      "cluster_ci": [
+        0.0,
+        0.2
+      ],
+      "usual_direction_reduction": null,
+      "direction_n": 0
+    },
+    {
+      "local_note_minus": "irrelevant_note",
+      "subset": "all",
+      "n": 28,
+      "net_accuracy_difference": 0.17857142857142858,
+      "cluster_ci": [
+        0.04,
+        0.2962962962962963
+      ],
+      "usual_direction_reduction": 0.0,
+      "direction_n": 2
+    },
+    {
+      "local_note_minus": "irrelevant_note",
+      "subset": "local_binding",
+      "n": 12,
+      "net_accuracy_difference": 0.3333333333333333,
+      "cluster_ci": [
+        0.09090909090909091,
+        0.562723214285713
+      ],
+      "usual_direction_reduction": 0.0,
+      "direction_n": 2
+    },
+    {
+      "local_note_minus": "irrelevant_note",
+      "subset": "control",
+      "n": 16,
+      "net_accuracy_difference": 0.0625,
+      "cluster_ci": [
+        0.0,
+        0.17647058823529413
+      ],
+      "usual_direction_reduction": null,
+      "direction_n": 0
+    }
+  ],
+  "confidence_threshold": 0.8,
+  "budget_unit": "proxy_token",
+  "limits": [
+    "Labels were assigned before reader outcomes but automated labels remain provisional.",
+    "Unrelated controls are only length-comparable when recorded as such. Stronger semantic-specificity analysis uses independently verified irrelevant controls.",
+    "No-repair alone does not diagnose a relation gap. Other-gap evidence needs independently supplied rule evidence.",
+    "Abstention is separate from a wrong substantive answer. Confidence is self-reported, not calibrated.",
+    "These results are conditional on the fixed corpus and supplied task context."
+  ]
+}

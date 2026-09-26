@@ -1,0 +1,70 @@
+{
+  "status": "DESIGNED_CLASS_CONTROL_NOT_HUMAN_MECHANISM_LABELS",
+  "readers": {
+    "Synthetic / DeepSeek": {
+      "prior_conflict": {
+        "n": 156,
+        "term_records": 41,
+        "reader_bare_errors": 69,
+        "R_error_auroc": 0.803431617524571,
+        "term_bootstrap_95": [
+          0.7389117512574302,
+          0.8636281751035849
+        ]
+      },
+      "prior_consistent": {
+        "n": 142,
+        "term_records": 38,
+        "reader_bare_errors": 21,
+        "R_error_auroc": 0.9208972845336482,
+        "term_bootstrap_95": [
+          0.8695491500369549,
+          0.965840220385675
+        ]
+      },
+      "no_prior": {
+        "n": 158,
+        "term_records": 40,
+        "reader_bare_errors": 40,
+        "R_error_auroc": 0.7794491525423729,
+        "term_bootstrap_95": [
+          0.703853046594982,
+          0.8485763589301122
+        ]
+      }
+    },
+    "Synthetic / GPT6": {
+      "prior_conflict": {
+        "n": 156,
+        "term_records": 41,
+        "reader_bare_errors": 57,
+        "R_error_auroc": 0.7770689349636718,
+        "term_bootstrap_95": [
+          0.6968907417057495,
+          0.8536783854166666
+        ]
+      },
+      "prior_consistent": {
+        "n": 142,
+        "term_records": 38,
+        "reader_bare_errors": 6,
+        "R_error_auroc": 0.8455882352941176,
+        "term_bootstrap_95": [
+          0.7101851851851851,
+          0.9925373134328358
+        ]
+      },
+      "no_prior": {
+        "n": 158,
+        "term_records": 40,
+        "reader_bare_errors": 20,
+        "R_error_auroc": 0.7199275362318841,
+        "term_bootstrap_95": [
+          0.6290726817042607,
+          0.8186480186480186
+        ]
+      }
+    }
+  },
+  "interpretation": "R ranks errors even when the source meaning is designed to be prior-consistent. This is evidence against calling R a meaning-conflict-specific detector. It does not estimate the mixture of error mechanisms in real corpora."
+}

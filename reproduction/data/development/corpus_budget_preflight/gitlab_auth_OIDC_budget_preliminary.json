@@ -1,0 +1,922 @@
+{
+  "unit": "matched_local_definition",
+  "n_catalog_definitions": 45,
+  "n_requests": 100,
+  "budget_rule": "floor(0.5 * median(all_matched_definition_tokens))",
+  "median_all_matched_definition_tokens": 118.0,
+  "budget_tokens": 59,
+  "budget_origin": "locked_median_half_primary_rule_provisional_source_only",
+  "tokenizer": "Qwen/Qwen2.5-7B",
+  "revision": "d149729398750b98c0af14eb82c78cfe92750796",
+  "median_matched_definitions": 3.0,
+  "median_definition_tokens": 118.0,
+  "over_budget_fraction": 0.85,
+  "multiple_affordable_choices_fraction": 0.85,
+  "source_review_complete": false,
+  "primary_gate_passed": false,
+  "definitions_sha256": "cd93a7dee4818ac578d74300d8178ebe93393fb3495c63489ec495b504eae3b1",
+  "requests_sha256": "f1c1229b7d8282ca95851b849c974bf3d1f877db293448218924899b07d1421c",
+  "scope_limit": "Schema and token checks do not prove source definitions are complete or all matches are relevant. Validate those separately. No A/B outcomes are read.",
+  "requests": [
+    {
+      "request_id": "204221250",
+      "n_matched_definitions": 4,
+      "n_with_dependencies": 4,
+      "all_matched_definition_tokens": 155,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 4,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "204167048",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "204114656",
+      "n_matched_definitions": 4,
+      "n_with_dependencies": 4,
+      "all_matched_definition_tokens": 131,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 4,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "204094917",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 102,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 3,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "203893868",
+      "n_matched_definitions": 7,
+      "n_with_dependencies": 7,
+      "all_matched_definition_tokens": 258,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 7,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "203858847",
+      "n_matched_definitions": 7,
+      "n_with_dependencies": 7,
+      "all_matched_definition_tokens": 240,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 7,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "203640896",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 80,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "203288845",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 85,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "202727578",
+      "n_matched_definitions": 4,
+      "n_with_dependencies": 4,
+      "all_matched_definition_tokens": 132,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 4,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "201309465",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 72,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "201201586",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 63,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "200968768",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 80,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "199604099",
+      "n_matched_definitions": 5,
+      "n_with_dependencies": 5,
+      "all_matched_definition_tokens": 185,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 5,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "199445144",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 80,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "197718463",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 41,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "197177241",
+      "n_matched_definitions": 4,
+      "n_with_dependencies": 4,
+      "all_matched_definition_tokens": 137,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 4,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "196926970",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "196900483",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "196821572",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 117,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 3,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "196627980",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 111,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 3,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "196266005",
+      "n_matched_definitions": 4,
+      "n_with_dependencies": 4,
+      "all_matched_definition_tokens": 130,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 4,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "196248354",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 119,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 3,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "196180341",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 41,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "195989968",
+      "n_matched_definitions": 6,
+      "n_with_dependencies": 6,
+      "all_matched_definition_tokens": 222,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 6,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "195974465",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 116,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 3,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "195939598",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 80,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "195923813",
+      "n_matched_definitions": 4,
+      "n_with_dependencies": 4,
+      "all_matched_definition_tokens": 141,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 4,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "195330773",
+      "n_matched_definitions": 4,
+      "n_with_dependencies": 4,
+      "all_matched_definition_tokens": 144,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 4,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "195330625",
+      "n_matched_definitions": 5,
+      "n_with_dependencies": 5,
+      "all_matched_definition_tokens": 187,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 5,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "194412044",
+      "n_matched_definitions": 7,
+      "n_with_dependencies": 7,
+      "all_matched_definition_tokens": 256,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 7,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "194262853",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 41,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "194258486",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 75,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "194168503",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 80,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "193883012",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 95,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 3,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "193882622",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 71,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "193744927",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 73,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "193579756",
+      "n_matched_definitions": 6,
+      "n_with_dependencies": 6,
+      "all_matched_definition_tokens": 209,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 6,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "193463493",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 110,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 3,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "193138111",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 41,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "193021410",
+      "n_matched_definitions": 5,
+      "n_with_dependencies": 5,
+      "all_matched_definition_tokens": 182,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 5,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "192883371",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 41,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "192576138",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 77,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "192213257",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 112,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 3,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "192014611",
+      "n_matched_definitions": 4,
+      "n_with_dependencies": 4,
+      "all_matched_definition_tokens": 132,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 4,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "191813713",
+      "n_matched_definitions": 11,
+      "n_with_dependencies": 11,
+      "all_matched_definition_tokens": 384,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 11,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "191738707",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 124,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 3,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "191663077",
+      "n_matched_definitions": 7,
+      "n_with_dependencies": 7,
+      "all_matched_definition_tokens": 245,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 7,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "191617146",
+      "n_matched_definitions": 4,
+      "n_with_dependencies": 4,
+      "all_matched_definition_tokens": 146,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 4,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "191283002",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 80,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "191243380",
+      "n_matched_definitions": 6,
+      "n_with_dependencies": 6,
+      "all_matched_definition_tokens": 213,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 6,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "190807311",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 63,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "190686691",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "190616384",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "190598546",
+      "n_matched_definitions": 4,
+      "n_with_dependencies": 4,
+      "all_matched_definition_tokens": 141,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 4,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "189754079",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 76,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "189599869",
+      "n_matched_definitions": 8,
+      "n_with_dependencies": 8,
+      "all_matched_definition_tokens": 275,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 8,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "189510897",
+      "n_matched_definitions": 0,
+      "n_with_dependencies": 0,
+      "all_matched_definition_tokens": 0,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "189422981",
+      "n_matched_definitions": 4,
+      "n_with_dependencies": 4,
+      "all_matched_definition_tokens": 137,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 4,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "189326108",
+      "n_matched_definitions": 9,
+      "n_with_dependencies": 9,
+      "all_matched_definition_tokens": 340,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 9,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "189141622",
+      "n_matched_definitions": 8,
+      "n_with_dependencies": 8,
+      "all_matched_definition_tokens": 287,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 8,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "188981917",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 41,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "188966151",
+      "n_matched_definitions": 8,
+      "n_with_dependencies": 8,
+      "all_matched_definition_tokens": 306,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 7,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "188899824",
+      "n_matched_definitions": 5,
+      "n_with_dependencies": 5,
+      "all_matched_definition_tokens": 185,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 5,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "188829713",
+      "n_matched_definitions": 4,
+      "n_with_dependencies": 4,
+      "all_matched_definition_tokens": 151,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 4,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "188634409",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 73,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "188541098",
+      "n_matched_definitions": 7,
+      "n_with_dependencies": 7,
+      "all_matched_definition_tokens": 275,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 7,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "188398558",
+      "n_matched_definitions": 11,
+      "n_with_dependencies": 11,
+      "all_matched_definition_tokens": 387,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 11,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "188319496",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 117,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 3,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "188302309",
+      "n_matched_definitions": 10,
+      "n_with_dependencies": 10,
+      "all_matched_definition_tokens": 362,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 10,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "188246586",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 112,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 3,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "188244006",
+      "n_matched_definitions": 6,
+      "n_with_dependencies": 6,
+      "all_matched_definition_tokens": 224,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 6,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "187957379",
+      "n_matched_definitions": 4,
+      "n_with_dependencies": 4,
+      "all_matched_definition_tokens": 133,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 4,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "187618260",
+      "n_matched_definitions": 5,
+      "n_with_dependencies": 5,
+      "all_matched_definition_tokens": 189,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 5,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "187244326",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 41,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "186859472",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 72,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "186515923",
+      "n_matched_definitions": 15,
+      "n_with_dependencies": 15,
+      "all_matched_definition_tokens": 529,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 15,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "186497710",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 76,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "186475512",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 41,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "186420348",
+      "n_matched_definitions": 9,
+      "n_with_dependencies": 9,
+      "all_matched_definition_tokens": 339,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 9,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "186393820",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 77,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "186359931",
+      "n_matched_definitions": 11,
+      "n_with_dependencies": 11,
+      "all_matched_definition_tokens": 381,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 11,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "186288065",
+      "n_matched_definitions": 13,
+      "n_with_dependencies": 13,
+      "all_matched_definition_tokens": 458,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 13,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "186051283",
+      "n_matched_definitions": 4,
+      "n_with_dependencies": 4,
+      "all_matched_definition_tokens": 151,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 4,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "186019947",
+      "n_matched_definitions": 5,
+      "n_with_dependencies": 5,
+      "all_matched_definition_tokens": 191,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 5,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "186016433",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 119,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 3,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "185888059",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 41,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "185859317",
+      "n_matched_definitions": 6,
+      "n_with_dependencies": 6,
+      "all_matched_definition_tokens": 207,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 6,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "185648373",
+      "n_matched_definitions": 5,
+      "n_with_dependencies": 5,
+      "all_matched_definition_tokens": 178,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 5,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "185595500",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 107,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 3,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "185595497",
+      "n_matched_definitions": 5,
+      "n_with_dependencies": 5,
+      "all_matched_definition_tokens": 165,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 5,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "185595494",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 72,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "185595207",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 108,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 3,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "185595145",
+      "n_matched_definitions": 6,
+      "n_with_dependencies": 6,
+      "all_matched_definition_tokens": 226,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 6,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "185595144",
+      "n_matched_definitions": 5,
+      "n_with_dependencies": 5,
+      "all_matched_definition_tokens": 182,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 5,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "185595055",
+      "n_matched_definitions": 10,
+      "n_with_dependencies": 10,
+      "all_matched_definition_tokens": 332,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 10,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "185431238",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 72,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "185431224",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 72,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "185431186",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 76,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "185153544",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 77,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "185062309",
+      "n_matched_definitions": 7,
+      "n_with_dependencies": 7,
+      "all_matched_definition_tokens": 269,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 6,
+      "genuine_choice_under_this_budget": true
+    }
+  ]
+}

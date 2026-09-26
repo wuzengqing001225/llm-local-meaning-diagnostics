@@ -1,0 +1,143 @@
+{
+  "status": "CANDIDATE_SOURCE_PREFLIGHT_NOT_ADMITTED_NO_FORMAL_CALLS",
+  "corpus_candidate": "none_admitted_after_SARA_Reddit_GitLab_DeonticBench_PolicyQA_PrivacyQA_screens",
+  "definition_catalog_source_validated": false,
+  "matched_definitions_frozen": false,
+  "primary_budget_locked": false,
+  "development_discordance_observed": false,
+  "sample_size_locked": false,
+  "formal_reader_calls": 0,
+  "literal_screen": {
+    "n": 256,
+    "n_with_two_or_more": 52,
+    "fraction": 0.203125,
+    "semantic_aliases_and_dependencies_not_yet_validated": true
+  },
+  "protocol_sha256": "87b07b020e4f14f27399de1d210a2043fd9c2027a047c52abc759aecea1fccd7",
+  "latest_definition_level_source_screen": {
+    "sara_literal": {
+      "n": 256,
+      "budget": 527,
+      "overflow_fraction": 0.7734375,
+      "choice_fraction": 0.02734375,
+      "source_review_complete": false
+    },
+    "sara_section_cues": {
+      "n": 256,
+      "budget": 527,
+      "overflow_fraction": 0.796875,
+      "choice_fraction": 0.05078125,
+      "source_review_complete": false
+    },
+    "reddit_historical_posts": {
+      "n": 361,
+      "budget": 23,
+      "overflow_fraction": 0.7700831024930748,
+      "choice_fraction": 0.08587257617728532,
+      "source_review_complete": false
+    },
+    "gitlab_forum_body_sample": {
+      "n": 30,
+      "budget": 15,
+      "overflow_fraction": 0.7333333333333333,
+      "choice_fraction": 0.0,
+      "source_review_complete": false
+    }
+  },
+  "earlier_literal_screen_note": "The 20.3% preliminary figure used an incomplete term list and section mapping; latest per-definition counts supersede it.",
+  "deontic_housing_source_only_screen": 666,
+  "privacy_qa_source_only_screen": {
+    "PolicyQA": {
+      "n_policy_question_instances": 15906,
+      "global_distinct_question_texts": 714,
+      "explicit_named_definition_question_matches_2plus": 0,
+      "source_review_complete": false
+    },
+    "PrivacyQA": {
+      "n_policy_question_instances": 1748,
+      "global_distinct_question_texts": 1533,
+      "explicit_named_definition_question_matches_2plus": 0,
+      "source_review_complete": false
+    }
+  },
+  "gitlab_auth_glossary_source_only_screen": {
+    "latest": {
+      "n": 100,
+      "budget": 0,
+      "overflow_fraction": 0.46,
+      "mechanical_choice_fraction": 0.0,
+      "source_review_complete": false,
+      "independent_answer_key_available": false
+    },
+    "SAML": {
+      "n": 100,
+      "budget": 79,
+      "overflow_fraction": 0.96,
+      "mechanical_choice_fraction": 0.88,
+      "source_review_complete": false,
+      "independent_answer_key_available": false
+    },
+    "OIDC": {
+      "n": 100,
+      "budget": 59,
+      "overflow_fraction": 0.85,
+      "mechanical_choice_fraction": 0.85,
+      "source_review_complete": false,
+      "independent_answer_key_available": false
+    },
+    "SCIM": {
+      "n": 100,
+      "budget": 73,
+      "overflow_fraction": 0.79,
+      "mechanical_choice_fraction": 0.78,
+      "source_review_complete": false,
+      "independent_answer_key_available": false
+    },
+    "2FA": {
+      "n": 100,
+      "budget": 38,
+      "overflow_fraction": 0.93,
+      "mechanical_choice_fraction": 0.4,
+      "source_review_complete": false,
+      "independent_answer_key_available": false
+    },
+    "caveat": "Term searches are enriched; SAML mostly auto-generated test issues; literal body matches can be incidental. Mechanical gate is not semantic admission."
+  },
+  "budget_gate_implementation": "genuine choice requires an individually affordable PAIR whose union exceeds B; fixed and all screens recomputed 2026-09-25",
+  "gitlab_definition_choice_development_pilot": {
+    "status": "STOP_SOURCE_NOT_ADMITTED",
+    "calls": {
+      "B_drafts.jsonl": 3,
+      "B_checks.jsonl": 3,
+      "bare_reader.jsonl": 12
+    },
+    "n_b_candidates": 12,
+    "n_model_check_accepted": 6,
+    "bare_reader": {
+      "reader": {
+        "n": 6,
+        "correct": 5,
+        "abstain": 0,
+        "substantive_wrong": 1
+      },
+      "second_judge": {
+        "n": 6,
+        "correct": 4,
+        "abstain": 1,
+        "substantive_wrong": 1
+      }
+    },
+    "manual_adjudication": "At least two putative errors are source-ambiguous; remaining items mostly lexical/name cues. See outputs/gitlab_definition_choice_pilot_20260925/开发批次裁决.md",
+    "full_definition_reader_calls": 0,
+    "formal_reader_calls": 0
+  },
+  "gitlab_membership_decision_development_pilot": {
+    "status": "DRAFTS_REJECTED_PRE_READER",
+    "n_drafts": 12,
+    "draft_calls": 2,
+    "source_checker_calls": 0,
+    "reader_calls": 0,
+    "reason": "Twelve drafts reuse one explicit membership-counting template; source-only gate blocks checker and reader.",
+    "report": "outputs/gitlab_membership_decision_pilot_20260925/起草批次审查.md"
+  }
+}

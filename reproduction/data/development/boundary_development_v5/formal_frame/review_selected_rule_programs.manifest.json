@@ -1,0 +1,808 @@
+{
+  "status": "source_only_version_selection_before_new_A_or_B_outcomes",
+  "n_programs": 130,
+  "by_vote": {
+    "revise": 61,
+    "accept": 40,
+    "reject": 29
+  },
+  "by_cohort_vote": {
+    "challenge_topup_candidate|revise": 23,
+    "challenge_topup_candidate|accept": 12,
+    "source_sample_candidate|reject": 3,
+    "challenge_topup_candidate|reject": 14,
+    "challenge_candidate|reject": 12,
+    "challenge_candidate|revise": 28,
+    "challenge_candidate|accept": 20,
+    "source_sample_candidate|accept": 8,
+    "source_sample_candidate|revise": 10
+  },
+  "provenance": [
+    {
+      "definition_id": "cuadfull:102:Internet",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:113:Applicable Laws and Regulations",
+      "chosen": "first",
+      "vote": "accept",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:121:Claim",
+      "chosen": "first",
+      "vote": "accept",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:128:Affiliate",
+      "chosen": "first",
+      "vote": "reject",
+      "other_vote": "reject"
+    },
+    {
+      "definition_id": "cuadfull:129:Showtime",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": "revise"
+    },
+    {
+      "definition_id": "cuadfull:130:Affiliate",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": "reject"
+    },
+    {
+      "definition_id": "cuadfull:134:Customer",
+      "chosen": "first",
+      "vote": "reject",
+      "other_vote": "reject"
+    },
+    {
+      "definition_id": "cuadfull:135:MOXATAG",
+      "chosen": "first",
+      "vote": "reject",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:138:Intellectual Property Rights",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": "revise"
+    },
+    {
+      "definition_id": "cuadfull:138:Vendor Person",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": "revise"
+    },
+    {
+      "definition_id": "cuadfull:150:PARTY",
+      "chosen": "alternate",
+      "vote": "accept",
+      "other_vote": "revise"
+    },
+    {
+      "definition_id": "cuadfull:151:Delivery Point",
+      "chosen": "first",
+      "vote": "reject",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:152:Territory",
+      "chosen": "first",
+      "vote": "accept",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:153:Reseller",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": "reject"
+    },
+    {
+      "definition_id": "cuadfull:168:FDA",
+      "chosen": "first",
+      "vote": "accept",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:172:KFDA",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": "revise"
+    },
+    {
+      "definition_id": "cuadfull:175:Help Desk",
+      "chosen": "alternate",
+      "vote": "accept",
+      "other_vote": "reject"
+    },
+    {
+      "definition_id": "cuadfull:176:Appendices",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:177:Third Party",
+      "chosen": "first",
+      "vote": "accept",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:178:Parties",
+      "chosen": "alternate",
+      "vote": "accept",
+      "other_vote": "reject"
+    },
+    {
+      "definition_id": "cuadfull:178:Person",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:187:AFFILIATED COMPANY",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": "reject"
+    },
+    {
+      "definition_id": "cuadfull:190:Board",
+      "chosen": "alternate",
+      "vote": "revise",
+      "other_vote": "reject"
+    },
+    {
+      "definition_id": "cuadfull:194:Affiliate",
+      "chosen": "first",
+      "vote": "reject",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:194:Governmental Authority",
+      "chosen": "alternate",
+      "vote": "accept",
+      "other_vote": "revise"
+    },
+    {
+      "definition_id": "cuadfull:196:Person",
+      "chosen": "first",
+      "vote": "accept",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:196:Project",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": "revise"
+    },
+    {
+      "definition_id": "cuadfull:1:Application",
+      "chosen": "first",
+      "vote": "accept",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:1:Google Toolbar",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": "reject"
+    },
+    {
+      "definition_id": "cuadfull:200:Multi-party Contract",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": "revise"
+    },
+    {
+      "definition_id": "cuadfull:205:Manning Identification",
+      "chosen": "first",
+      "vote": "accept",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:210:Registered Bidder",
+      "chosen": "first",
+      "vote": "accept",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:213:Product and Services Category",
+      "chosen": "first",
+      "vote": "accept",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:21:Excluded Goods",
+      "chosen": "first",
+      "vote": "accept",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:225:Additional Capital Contributions",
+      "chosen": "first",
+      "vote": "accept",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:229:Plans",
+      "chosen": "first",
+      "vote": "accept",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:232:Tariff",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": "revise"
+    },
+    {
+      "definition_id": "cuadfull:242:Affiliate",
+      "chosen": "first",
+      "vote": "reject",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:242:Third Party",
+      "chosen": "first",
+      "vote": "accept",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:243:Patent",
+      "chosen": "first",
+      "vote": "reject",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:243:Person",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:245:Applicable Law",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:249:Licensed Users",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:24:Services",
+      "chosen": "first",
+      "vote": "reject",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:251:Contract",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:251:Governmental Authority",
+      "chosen": "first",
+      "vote": "accept",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:251:Law",
+      "chosen": "first",
+      "vote": "reject",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:253:Allscripts Customer",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": "revise"
+    },
+    {
+      "definition_id": "cuadfull:254:Product",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": "revise"
+    },
+    {
+      "definition_id": "cuadfull:265:Customers",
+      "chosen": "first",
+      "vote": "reject",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:265:Non-standard Products",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": "revise"
+    },
+    {
+      "definition_id": "cuadfull:265:Territory",
+      "chosen": "first",
+      "vote": "accept",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:268:EMA",
+      "chosen": "first",
+      "vote": "accept",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:271:Regulatory Approval",
+      "chosen": "first",
+      "vote": "reject",
+      "other_vote": "reject"
+    },
+    {
+      "definition_id": "cuadfull:27:Law",
+      "chosen": "first",
+      "vote": "reject",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:283:Products",
+      "chosen": "first",
+      "vote": "accept",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:284:Contract Year",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:286:Billing Party",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:289:Training Materials",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": "reject"
+    },
+    {
+      "definition_id": "cuadfull:295:Carrier",
+      "chosen": "first",
+      "vote": "accept",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:295:Dispute",
+      "chosen": "alternate",
+      "vote": "revise",
+      "other_vote": "reject"
+    },
+    {
+      "definition_id": "cuadfull:296:STASCO",
+      "chosen": "first",
+      "vote": "accept",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:298:Field of Use",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:298:Territory",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:299:Business Entity",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": "reject"
+    },
+    {
+      "definition_id": "cuadfull:299:Effective Date",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:303:Confidential Information",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": "revise"
+    },
+    {
+      "definition_id": "cuadfull:313:Governmental or Regulatory Authority",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:323:Applicant",
+      "chosen": "first",
+      "vote": "accept",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:332:Copyrights",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:340:Documentation",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": "revise"
+    },
+    {
+      "definition_id": "cuadfull:340:Redistributor",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:348:Entity",
+      "chosen": "first",
+      "vote": "accept",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:34:Platform Rules",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": "revise"
+    },
+    {
+      "definition_id": "cuadfull:359:Contract Year",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:368:Governmental Authority",
+      "chosen": "first",
+      "vote": "reject",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:371:Governmental Authority",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:373:Confidential Information",
+      "chosen": "first",
+      "vote": "reject",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:386:Parties",
+      "chosen": "first",
+      "vote": "accept",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:387:Standstill Period",
+      "chosen": "alternate",
+      "vote": "accept",
+      "other_vote": "reject"
+    },
+    {
+      "definition_id": "cuadfull:389:Affiliates",
+      "chosen": "alternate",
+      "vote": "revise",
+      "other_vote": "reject"
+    },
+    {
+      "definition_id": "cuadfull:396:Confidential Information",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": "reject"
+    },
+    {
+      "definition_id": "cuadfull:39:Affiliate",
+      "chosen": "first",
+      "vote": "reject",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:39:FDA",
+      "chosen": "first",
+      "vote": "accept",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:3:Hosted Site",
+      "chosen": "first",
+      "vote": "reject",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:408:Glyphosate",
+      "chosen": "first",
+      "vote": "accept",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:408:Program Year",
+      "chosen": "first",
+      "vote": "reject",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:413:Users",
+      "chosen": "first",
+      "vote": "reject",
+      "other_vote": "reject"
+    },
+    {
+      "definition_id": "cuadfull:426:Prospectus",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": "revise"
+    },
+    {
+      "definition_id": "cuadfull:427:Company Site",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:427:Intellectual Property Rights",
+      "chosen": "first",
+      "vote": "reject",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:429:Confidential Information",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": "reject"
+    },
+    {
+      "definition_id": "cuadfull:430:Gathering Agreement",
+      "chosen": "first",
+      "vote": "reject",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:436:Indication",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": "reject"
+    },
+    {
+      "definition_id": "cuadfull:436:Regulatory Authorities",
+      "chosen": "first",
+      "vote": "reject",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:438:Contract Year",
+      "chosen": "first",
+      "vote": "reject",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:441:Enterprise",
+      "chosen": "first",
+      "vote": "reject",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:444:Affiliate",
+      "chosen": "first",
+      "vote": "reject",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:444:Discloser",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:450:Moelis Holdings Agreement",
+      "chosen": "first",
+      "vote": "reject",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:452:Regulatory Approvals",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:455:Business Day",
+      "chosen": "first",
+      "vote": "accept",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:462:Content",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": "reject"
+    },
+    {
+      "definition_id": "cuadfull:463:Parties",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:465:Event",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": "revise"
+    },
+    {
+      "definition_id": "cuadfull:474:Users",
+      "chosen": "alternate",
+      "vote": "accept",
+      "other_vote": "revise"
+    },
+    {
+      "definition_id": "cuadfull:478:Recall",
+      "chosen": "first",
+      "vote": "accept",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:478:Seizure",
+      "chosen": "alternate",
+      "vote": "revise",
+      "other_vote": "reject"
+    },
+    {
+      "definition_id": "cuadfull:479:General Manager",
+      "chosen": "alternate",
+      "vote": "accept",
+      "other_vote": "revise"
+    },
+    {
+      "definition_id": "cuadfull:481:Contracts",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": "revise"
+    },
+    {
+      "definition_id": "cuadfull:488:Confidential Information",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:489:Business Day",
+      "chosen": "alternate",
+      "vote": "accept",
+      "other_vote": "revise"
+    },
+    {
+      "definition_id": "cuadfull:48:Agent",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:498:Confidential Information",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": "revise"
+    },
+    {
+      "definition_id": "cuadfull:500:Confidential Information",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:501:Agreement",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:501:Law",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:508:Product",
+      "chosen": "first",
+      "vote": "reject",
+      "other_vote": "reject"
+    },
+    {
+      "definition_id": "cuadfull:508:Territory",
+      "chosen": "first",
+      "vote": "accept",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:509:Contract Period",
+      "chosen": "alternate",
+      "vote": "accept",
+      "other_vote": "revise"
+    },
+    {
+      "definition_id": "cuadfull:50:Agents",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": "reject"
+    },
+    {
+      "definition_id": "cuadfull:53:Business Day",
+      "chosen": "first",
+      "vote": "accept",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:5:ENDORSEMENT",
+      "chosen": "first",
+      "vote": "reject",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:64:Licensed Products",
+      "chosen": "first",
+      "vote": "reject",
+      "other_vote": "reject"
+    },
+    {
+      "definition_id": "cuadfull:71:Third Party",
+      "chosen": "first",
+      "vote": "accept",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:72:Third Person",
+      "chosen": "alternate",
+      "vote": "accept",
+      "other_vote": "reject"
+    },
+    {
+      "definition_id": "cuadfull:76:Purchase Order",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:85:Seller",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:8:Know-How",
+      "chosen": "first",
+      "vote": "revise",
+      "other_vote": null
+    },
+    {
+      "definition_id": "cuadfull:98:Customer Gas",
+      "chosen": "first",
+      "vote": "reject",
+      "other_vote": null
+    }
+  ],
+  "input_hashes": {
+    "first-programs": "d71a70f0e13cd2dca9aabd1e5f07584b16325304c3f5e9bfc14350b61f30d902",
+    "first-judgements": "d1bfc55ceacfb6961b640a9abc502b8655f5a6bfc81eb8f3bfd42020a36afe3e",
+    "alternate-programs": "0e7f145b28c7b54092a6380f80ce8f3516f76b75808032b649cef5fa5abd8a1a",
+    "alternate-judgements": "423579a4aa6fb01b57a456081bc0e1e5e4312fd5076289d7313e7b72898f8b51"
+  }
+}

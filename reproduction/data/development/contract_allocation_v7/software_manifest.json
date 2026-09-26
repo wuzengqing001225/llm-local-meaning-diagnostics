@@ -1,0 +1,24 @@
+{
+  "python": "3.12.12",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "code_sha256": {
+    "run_main.py": "df37d02269b4c42431afd1d33767d7a9db717a7843a529649af4aba599de670c",
+    "plan_budget.py": "6a44c3b7ccb4efc6b83f4b4e20ac8c7670d761c110deb00db2976e501f1ff756",
+    "make_review_packet.py": "6b2c974fb34b5f4a9deca32d383e7b6f4e7484aa87be752401696559a812cd86",
+    "audit_old_controls.py": "1812e5d0afa5f10a38c50499687ff6439ef5fb55575403ab77f3534f9bd78199",
+    "make_B.py": "99d92b8c7cb6160b5d628bc7036411e96f61278bbccbea4bbe286cbc24ab4c6f",
+    "api.py": "ab8616088785da29fa25ddf8a497819f81ea0298f7196ee4db4f131bc22b9182",
+    "reader.py": "c1b59ca8f5e6f0e124b2d1450618bd67ba1925b032ad7c2733f6cdf8b11bb05f",
+    "common.py": "8d61abd47a1c69324922e913a684d4b0fa441bf7a93a5fd9294e60127aa66537",
+    "make_A.py": "d017c1b4eff800d240c0741dd95673a330c38b0584fce31f0f69b0f9668c296d",
+    "verify.py": "c4e44a08c82727654845ac77d81f5eba8f1c78e7ee4c77a7864131288f04abd7",
+    "prepare.py": "9a9990eb735c00aeb918c90afb3f0cfef3c7452935425a63817a90c46387c107",
+    "analyze.py": "9a5cf5a1ad37ee07084bdaa77ee68aec34011426eae5252c5b5893980712d297",
+    "score_A.py": "03ed6f58f23e0a2c8e0ab9a1423ba22bcfb4e26742a859ba81caf546ef4f3dfe"
+  },
+  "packages": {
+    "torch": "2.10.0",
+    "transformers": "5.5.0",
+    "tokenizers": "0.22.1"
+  }
+}

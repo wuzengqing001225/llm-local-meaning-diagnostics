@@ -1,0 +1,86 @@
+{
+  "n_contracts": 510,
+  "matching": "case-insensitive exact term with word boundaries",
+  "terms": {
+    "cuadfull:39:Force Majeure": {
+      "frequency": 7,
+      "document_frequency": 216,
+      "idf": 1.856472236663245
+    },
+    "cuadfull:130:Support Request": {
+      "frequency": 10,
+      "document_frequency": 3,
+      "idf": 5.850075229083814
+    },
+    "cuadfull:167:Territory": {
+      "frequency": 12,
+      "document_frequency": 160,
+      "idf": 2.1549652252192413
+    },
+    "cuadfull:168:Third Party": {
+      "frequency": 11,
+      "document_frequency": 375,
+      "idf": 1.30678044681381
+    },
+    "cuadfull:216:Regulatory Approval": {
+      "frequency": 35,
+      "document_frequency": 38,
+      "idf": 3.572807944074058
+    },
+    "cuadfull:268:Regulatory Approval": {
+      "frequency": 10,
+      "document_frequency": 38,
+      "idf": 3.572807944074058
+    },
+    "cuadfull:289:Training Materials": {
+      "frequency": 7,
+      "document_frequency": 23,
+      "idf": 4.058315759855759
+    },
+    "cuadfull:295:Business Day": {
+      "frequency": 8,
+      "document_frequency": 178,
+      "idf": 2.0489837843629495
+    },
+    "cuadfull:329:Third Party Agreements": {
+      "frequency": 9,
+      "document_frequency": 12,
+      "idf": 4.671420232742168
+    },
+    "cuadfull:332:Copyrights": {
+      "frequency": 23,
+      "document_frequency": 158,
+      "idf": 2.167465387983473
+    },
+    "cuadfull:348:Processing Day": {
+      "frequency": 12,
+      "document_frequency": 1,
+      "idf": 6.543222409643759
+    },
+    "cuadfull:129:Net Revenue": {
+      "frequency": 6,
+      "document_frequency": 21,
+      "idf": 4.145327136845388
+    },
+    "cuadfull:71:Personnel": {
+      "frequency": 21,
+      "document_frequency": 186,
+      "idf": 2.0052609733491176
+    },
+    "cuadfull:371:ICS": {
+      "frequency": 26,
+      "document_frequency": 4,
+      "idf": 5.626931677769604
+    },
+    "cuadfull:85:Confidential Information": {
+      "frequency": 15,
+      "document_frequency": 294,
+      "idf": 1.5493942338638846
+    },
+    "cuadfull:30:Force Majeure": {
+      "frequency": 7,
+      "document_frequency": 216,
+      "idf": 1.856472236663245
+    }
+  }
+}

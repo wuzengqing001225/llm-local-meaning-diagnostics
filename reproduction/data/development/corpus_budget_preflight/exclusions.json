@@ -1,0 +1,15 @@
+{
+  "selection_basis": "source inconsistency, not model outcome",
+  "primary": [
+    {
+      "id": "v1:desk:interest",
+      "qi_zero_based": 1
+    },
+    {
+      "id": "v1:desk:interest@mix0.7",
+      "qi_zero_based": 0
+    }
+  ],
+  "family_sensitivity_prefix": "v1:desk:interest",
+  "source_data_unchanged": true
+}

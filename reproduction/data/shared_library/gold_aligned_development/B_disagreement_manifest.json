@@ -1,0 +1,9 @@
+{
+  "status": "DEVELOPMENT_ONLY",
+  "n_disagreement_terms": 60,
+  "n_B_questions": 118,
+  "plan_sha256": "2ecefe84e0338083badde3b0c2437057873951b64746e88067ef3bafcaa81b3c",
+  "packet_sha256": "71d763922bb5c9a5d4d11ca894ac3245c9322bfa3991cf8401e730dc89052781",
+  "eqa_source_sha256": "a834619d069ab546ae9c2889b5f02e16b2fcad11ec16af8e5d2668ad0d1176c3",
+  "reader_outcomes_in_packet": false
+}

@@ -1,0 +1,155 @@
+{
+  "status": "DEVELOPMENT_SAME_TERM_QUESTIONS_NOT_INDEPENDENT_REQUESTS",
+  "n_terms": 215,
+  "n_questions": 849,
+  "bare_probabilities_identical_to_original": true,
+  "definition_rule": "A Δp is valid only for the exact definition text scored; gold-gloss A versus glossG reader is aligned",
+  "source_hashes": {
+    "<local>/Documents/Codex/2026-09-22/llm-idf-1-ai-2-claim/outputs/shared_budget_transition_20260925/gold_aligned_development/qwen_A_gold.jsonl": "280816f5b44c9a6f9984035ea91c78af52ac81fc6a696ae6c3c4a23fba4a5dff",
+    "<local>/Documents/Codex/2026-09-22/llm-idf-1-ai-2-claim/outputs/release_20260923/llm-idf-reproduce/data/reddit/raw_outputs/lpmc_reddit_v2.jsonl": "f81d872d02fb7ac0472cf18e69c8546f24674a7cd5f30749a89c749937d80bc9",
+    "<local>/Documents/Codex/2026-09-22/llm-idf-1-ai-2-claim/outputs/release_20260923/llm-idf-reproduce/data/reddit/raw_outputs/reddit_v2_eqa.jsonl": "a834619d069ab546ae9c2889b5f02e16b2fcad11ec16af8e5d2668ad0d1176c3",
+    "<local>/Documents/Codex/2026-09-22/llm-idf-1-ai-2-claim/outputs/release_20260923/llm-idf-reproduce/data/reddit/raw_outputs/reddit_v2_weights.jsonl": "b0f001718a2ca192c9373c6f7f0887fa2c2b4b4631b67b015b081b43cec54ed8"
+  },
+  "settings": [
+    {
+      "split": "A_direct",
+      "comparison": "same_gold_definition",
+      "n_all": 429,
+      "n_bare_failures": 144,
+      "n_repairs": 116,
+      "n_harms": 5,
+      "n_communities": 32,
+      "conditional_repair_auroc": 0.6653325123152709,
+      "community_cluster_95_interval": [
+        0.5392592592592592,
+        0.7879481311975591
+      ]
+    },
+    {
+      "split": "A_direct",
+      "comparison": "original_auto_definition",
+      "n_all": 429,
+      "n_bare_failures": 144,
+      "n_repairs": 85,
+      "n_harms": 33,
+      "n_communities": 32,
+      "conditional_repair_auroc": 0.8325024925224327,
+      "community_cluster_95_interval": [
+        0.7732060566161949,
+        0.8824489795918368
+      ]
+    },
+    {
+      "split": "A_direct",
+      "comparison": "auto_score_gold_reader_mismatch",
+      "n_all": 429,
+      "n_bare_failures": 144,
+      "n_repairs": 116,
+      "n_harms": 5,
+      "n_communities": 32,
+      "conditional_repair_auroc": 0.625307881773399,
+      "community_cluster_95_interval": [
+        0.4875,
+        0.7577050734945472
+      ]
+    },
+    {
+      "split": "A_direct",
+      "comparison": "gold_score_auto_reader_mismatch",
+      "n_all": 429,
+      "n_bare_failures": 144,
+      "n_repairs": 85,
+      "n_harms": 33,
+      "n_communities": 32,
+      "conditional_repair_auroc": 0.6003988035892323,
+      "community_cluster_95_interval": [
+        0.4997863247863248,
+        0.6849180327868852
+      ]
+    },
+    {
+      "split": "A_direct",
+      "comparison": "risk_R_gold_reader_secondary",
+      "n_all": 429,
+      "n_bare_failures": 144,
+      "n_repairs": 116,
+      "n_harms": 5,
+      "n_communities": 32,
+      "conditional_repair_auroc": 0.34698275862068967,
+      "community_cluster_95_interval": [
+        0.23798076923076922,
+        0.49177489177489175
+      ]
+    },
+    {
+      "split": "B_sibling",
+      "comparison": "same_gold_definition",
+      "n_all": 420,
+      "n_bare_failures": 147,
+      "n_repairs": 126,
+      "n_harms": 4,
+      "n_communities": 34,
+      "conditional_repair_auroc": 0.5997732426303855,
+      "community_cluster_95_interval": [
+        0.47514204545454547,
+        0.7172131147540983
+      ]
+    },
+    {
+      "split": "B_sibling",
+      "comparison": "original_auto_definition",
+      "n_all": 420,
+      "n_bare_failures": 147,
+      "n_repairs": 85,
+      "n_harms": 25,
+      "n_communities": 34,
+      "conditional_repair_auroc": 0.8105313092979127,
+      "community_cluster_95_interval": [
+        0.7321710007880221,
+        0.8927174975562072
+      ]
+    },
+    {
+      "split": "B_sibling",
+      "comparison": "auto_score_gold_reader_mismatch",
+      "n_all": 420,
+      "n_bare_failures": 147,
+      "n_repairs": 126,
+      "n_harms": 4,
+      "n_communities": 34,
+      "conditional_repair_auroc": 0.7021919879062736,
+      "community_cluster_95_interval": [
+        0.6278966131907309,
+        0.7946127946127947
+      ]
+    },
+    {
+      "split": "B_sibling",
+      "comparison": "gold_score_auto_reader_mismatch",
+      "n_all": 420,
+      "n_bare_failures": 147,
+      "n_repairs": 85,
+      "n_harms": 25,
+      "n_communities": 34,
+      "conditional_repair_auroc": 0.5224857685009487,
+      "community_cluster_95_interval": [
+        0.40849358974358974,
+        0.6431428571428571
+      ]
+    },
+    {
+      "split": "B_sibling",
+      "comparison": "risk_R_gold_reader_secondary",
+      "n_all": 420,
+      "n_bare_failures": 147,
+      "n_repairs": 126,
+      "n_harms": 4,
+      "n_communities": 34,
+      "conditional_repair_auroc": 0.46938775510204084,
+      "community_cluster_95_interval": [
+        0.3672463768115942,
+        0.6043388429752066
+      ]
+    }
+  ]
+}

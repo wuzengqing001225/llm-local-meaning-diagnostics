@@ -1,0 +1,30 @@
+\section{Definition interventions}
+\label{app:interventions}
+\input{appendix/table_definition_arms.tex}
+\input{appendix/lexical_cues.tex}
+\paragraph{Retrieval configurations.}
+CUAD compares BM25, a dense BGE retriever with reranking, and hybrid BGE-M3 retrieval \citep{bm25,bge,bge-m3}. The configurations use eight retrieved passages. Reddit uses six passages. The CUAD full-glossary reference is capped at 30 entries. Risk selection uses a term maximum within each contract and a term mean within each Reddit community.
+
+\input{appendix/table_selection.tex}
+
+\paragraph{Overlap between scoring and evaluation questions.}
+In both hybrid workloads, the term aggregate can include the evaluated question's own diagnostic score. For CUAD, the selected set remains unchanged after omitting that score on 990 of 1,200 questions. 17 changed sets become empty and have an observed retrieval-only response. The remaining 193 changed sets have no matching reader arm. Their unobserved binary outcomes yield a partial-identification interval $[0.733,0.893]$ for leave-one-question-out accuracy, compared with 0.821 for retrieval. For Reddit, 1,295 of 1,391 gated decisions are unchanged, 33 reduce to retrieval-only, and 63 lack the necessary reader response. The corresponding interval is $[0.874,0.919]$ over all questions, versus 0.866 for retrieval. On the 851 glossary questions it is $[0.859,0.933]$, versus 0.839 for retrieval. These intervals put 0 and 1 on unobserved outcomes. Substituting archived retrieval or in-sample gated answers for them gives narrower scenarios, not valid bounds. They are finite-workload identification intervals, without clustered sampling uncertainty. A question-level exclusion is not a held-out term or document split. Random and frequency policies at the same budget, and a Reddit all-matched arm, are not observed in this workload.
+
+The additional-passage arm is approximately cost-matched because it adds whole passages. The all-matched arm adds definitions for detected terms without risk gating. Definition lengths in Table~\ref{tab:supp-rag} exclude retrieval-only context and use the same regex counter within each workload.
+\input{appendix/tables_supp_rag.tex}
+
+\paragraph{Inline selection.}
+The 965 synthetic probes have 85 repairs and four harms. The 733 CUAD probes have 29 repairs and 16 harms. Full-injection net gains are 8.39 points with interval $[5.73,11.46]$ and 1.77 points with interval $[-0.44,3.91]$. An offline selection curve sums paired effects on selected probes and divides by the entire workload size. The random-allocation expectation is the selected fraction times the full-injection effect.
+
+\paragraph{Other diagnostic comparisons.}
+Self-report separates designed synthetic term classes more strongly than it predicts errors on real corpora. Frequency, word-list rarity, and contextual embedding shift have weaker reported associations with reader failures. Masked-span and span-likelihood estimators combine completion difficulty with local-meaning dependence. Sentence surprisal has little reported association with this risk target.
+
+A sampled Haiku proxy has lower reported discrimination than the local model on its covered subset. Jev, released by TypeSafe AI \citep{jev}, provides native decision probabilities and confidence. Using negative native confidence to rank Jev's own bare errors gives AUROC 0.643 on 761 synthetic questions (the same two source-conflict items are excluded as elsewhere), 0.660 on 1,391 Reddit questions, and 0.636 on 671 CUAD questions. When a model-drafted local gloss is prepended, the same confidence ranks Jev's errors with AUROC 0.815, 0.790, and 0.868 on the three sets, and Jev's own error falls from 0.418 to 0.046 on the synthetic set, 0.423 to 0.206, and 0.323 to 0.113. These are own-error measurements for a different decision model, not direct cross-reader comparisons with $R$. Model-size, option-order, and repeated-question-set experiments are listed in the supplementary inventory. Limited overlap between readers' errors does not establish strict nesting or an asymptotic error floor.
+
+Explicit Inverse Scaling redefinition items supply the local meaning in the prompt. Their compliance results concern following an available definition \citep{inverse-scaling,redefine-pitfalls}.
+
+\paragraph{Decoding, scope, and carriers.}
+The white-box decoding experiment uses Qwen2.5-14B-Instruct as reader on 1,200 CUAD questions under hybrid retrieval and compares greedy decoding, CAD, and AdaCAD \citep{cad,adacad}. With retrieved passages only, CAD accuracy is 0.719 against 0.747 for greedy decoding, a change of $-2.8$ points with contract-cluster interval $[-4.4,-1.0]$. With two same-contract usage examples added, the change is $-2.3$ points $[-4.0,-0.7]$. With risk-selected definitions added, greedy and CAD accuracies are 0.818 and 0.816, a change of $-0.2$ points $[-1.7,+1.3]$. This outcome is expected from the construction of contrastive decoding, which reweights information already in the input. It confirms, for one white-box reader, that faithfulness-oriented decoding does not supply a missing definition. These results concern the tested configurations.
+
+Plain, scoped, and negatively framed glossaries produce different rates of abstention on ordinary unlisted terms and over-application to usual-meaning questions. Scope wording reduces some of these effects. The carrier study compares full-context text, retrieval-scoped text, LoRA, and a GRACE-style editor \citep{lora,grace}. Outcomes of individual configurations do not establish a general limitation of either method family.
+

@@ -1,0 +1,14 @@
+{
+  "catalog": "gold_catalog.jsonl",
+  "a_scores": "gold_a_scores.jsonl",
+  "frequency": "historical_frequency.jsonl",
+  "budget_fraction": 0.25,
+  "frequency_frame": {
+    "type": "overlapping_historical_development",
+    "sha256": "b0f001718a2ca192c9373c6f7f0887fa2c2b4b4631b67b015b081b43cec54ed8",
+    "overlap_check_passed": false
+  },
+  "b_start_utc": null,
+  "development_only": true,
+  "out": "gold_plan_development_only.json"
+}

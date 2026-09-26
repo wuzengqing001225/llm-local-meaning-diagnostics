@@ -1,0 +1,54 @@
+{
+  "status": "frozen_before_target_reader_calls",
+  "n_candidates": 40,
+  "n_accepted": 32,
+  "groups": {
+    "conflict": 5,
+    "control": 10,
+    "undetermined": 13,
+    "agreement": 4
+  },
+  "n_conflict_rules": 4,
+  "coverage_gate": false,
+  "sha256": {
+    "rules_with_dependencies.jsonl": "015acfe6946b22b3ce6e8b3631624d74432d4c83c2ce0c75e7cae3c7a48452a9",
+    "drafts_B.jsonl": "145632108166a3130da94a4a29ccff49fed1efd23ebea15ef1f8dc10908b7f9e",
+    "usual_labels.jsonl": "cc250c58244f309422328deac7299bbe2012248a6a2ad0d9b785a0f89e7470ae",
+    "source_checks.jsonl": "01bc18e578d8e82e1fe2527e7ad7f6d0052c6ad633d05f050aed2abfba354286",
+    "draft_lexical_gate.json": "d2f3d4afa4fab5ecbdbb56e4c2ba4982afb546c435b9b38c76bfc85a14fc5f68",
+    "quality_decisions.jsonl": "4a39a8153628a14a1774783db666fd4f404ae03a326943462a19f6fd65d10b25",
+    "tasks_public.jsonl": "e3bd08c16879200491b338bf76d98b605d1f7a2140fefd2e85e70596ea470966",
+    "tasks_private.jsonl": "f44377981ff06cf2928b7b2c1708dd805f1df53e91b43ec0a8b6fff0f8b2b051",
+    "试跑协议_先于读者结果.md": "46cf045d568c63d7e9542b83b784b120e8963e352f0b3b348fcd3b61a817d5e2"
+  },
+  "source_only_vetoes": {
+    "cuadfull:250:System Images:server_snapshot": "A mixed server snapshot can contain both included OS files and excluded customer files. The definition classifies files, while the question classifies the whole snapshot. The proposed single no key is not sufficiently unambiguous.",
+    "cuadfull:38:New Product:firmware_patch": "The existing receiver is not established to be among Products in Exhibit A. Product Update depends on that membership. The source key silently assumed it.",
+    "cuadfull:171:Confidential Information:unmarked_plan": "A separate confidentiality request may itself amount to a written marking or designation. Its form and connection to the document are unspecified; do not force the no key."
+  },
+  "reader_inference": {
+    "gpt_reader": {
+      "temperature": 0,
+      "max_tokens": 64
+    },
+    "deepseek_reader": {
+      "temperature": 0,
+      "thinking": {
+        "type": "enabled"
+      },
+      "max_tokens": 16384
+    }
+  },
+  "development_contract_indices": [
+    21,
+    38,
+    108,
+    152,
+    170,
+    171,
+    187,
+    250,
+    254,
+    450
+  ]
+}

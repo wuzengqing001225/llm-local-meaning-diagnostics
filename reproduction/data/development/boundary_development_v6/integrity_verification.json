@@ -1,0 +1,13 @@
+{
+  "frozen_hashes_verified": 9,
+  "n_tasks": 32,
+  "paired_requests_verified": 128,
+  "public_tasks_have_no_gold_or_group": true,
+  "source_quotes_match_originals": true,
+  "gold_position_counts": {
+    "B": 18,
+    "A": 14
+  },
+  "all_responses_parsed": true,
+  "inference_settings_match_freeze": true
+}

@@ -1,0 +1,31 @@
+{
+  "status": "source_only_program_selection_before_new_A_or_B_outcomes",
+  "source_sha256": "8c8092a17d1d4f29807ab9f419ce3c2b78a567498d9ce77effae0a96a085db76",
+  "program_files": [
+    {
+      "path": "outputs/local_meaning_v5_development/formal_frame/rule_program_proposals_nonthinking.jsonl",
+      "sha256": "7c4a9f8287a7bb0423e3f7e80b387d928b9138d7588679490b56ac4e0622d0e7"
+    },
+    {
+      "path": "outputs/local_meaning_v5_development/formal_frame/topup_rule_program_proposals_nonthinking.jsonl",
+      "sha256": "f6a465c1c4bdf2853a4af442a4232063b89f94170e7c368de0187176318bf0d1"
+    },
+    {
+      "path": "outputs/local_meaning_v5_development/formal_frame/rule_program_proposals.jsonl",
+      "sha256": "ef43ccadedb8f5593aac91790f96acae9a3ab92103175a0619c4f29cf65662f0"
+    },
+    {
+      "path": "outputs/local_meaning_v5_development/formal_frame/topup_rule_program_proposals.jsonl",
+      "sha256": "831e2a63d33ee9c93ba4a56c20bfabad661693c882f4c10f37a450c31953b4ed"
+    }
+  ],
+  "selection_rule": "schema-valid; prefer greater unique fact-vector count, fewer repeats, then non-thinking mode",
+  "n_selected": 130,
+  "by_cohort": {
+    "challenge_topup_candidate": 49,
+    "source_sample_candidate": 21,
+    "challenge_candidate": 60
+  },
+  "challenge_contracts": 86,
+  "caveat": "Syntactic validity and a source quote do not establish semantic validity. Every selected program needs source review."
+}

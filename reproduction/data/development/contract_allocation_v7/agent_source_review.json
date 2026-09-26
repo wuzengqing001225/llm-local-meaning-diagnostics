@@ -1,0 +1,29 @@
+{
+  "status": "source_only_assistant_review_before_target_calls",
+  "n_before": 81,
+  "n_after": 63,
+  "explicit_vetoes": {
+    "cuadfull:39:Force Majeure:B1": "Abstract reasonable-control / professional-prudence predicates are asserted directly instead of derived from concrete observations.",
+    "cuadfull:39:Force Majeure:B2": "Abstract reasonable-control / professional-prudence predicates are asserted directly instead of derived from concrete observations.",
+    "cuadfull:39:Force Majeure:B3": "Abstract reasonable-control / professional-prudence predicates are asserted directly instead of derived from concrete observations.",
+    "cuadfull:130:Support Request:B1": "Invented software is asserted to be a Deployed Product or to meet a defined severity class; the required source-specific mapping is supplied as a predicate.",
+    "cuadfull:130:Support Request:B2": "Invented software is asserted to be a Deployed Product or to meet a defined severity class; the required source-specific mapping is supplied as a predicate.",
+    "cuadfull:130:Support Request:B3": "Invented software is asserted to be a Deployed Product or to meet a defined severity class; the required source-specific mapping is supplied as a predicate.",
+    "cuadfull:130:Support Request:B4": "Invented software is asserted to be a Deployed Product or to meet a defined severity class; the required source-specific mapping is supplied as a predicate.",
+    "cuadfull:268:Regulatory Approval:B1": "The question assumes use in the contract Field, whose concrete scope is not established in the scenario; source-specific class membership is given as a predicate.",
+    "cuadfull:268:Regulatory Approval:B2": "The question assumes use in the contract Field, whose concrete scope is not established in the scenario; source-specific class membership is given as a predicate.",
+    "cuadfull:268:Regulatory Approval:B3": "The question assumes use in the contract Field, whose concrete scope is not established in the scenario; source-specific class membership is given as a predicate.",
+    "cuadfull:268:Regulatory Approval:B4": "The question assumes use in the contract Field, whose concrete scope is not established in the scenario; source-specific class membership is given as a predicate.",
+    "cuadfull:329:Third Party Agreements:B3": "The non-Affiliate / Lead Compound status is asserted as a source-specific category without a concrete mapping.",
+    "cuadfull:329:Third Party Agreements:B4": "The negative application recites the target definition activities and supplies their inapplicability directly.",
+    "cuadfull:129:Net Revenue:B4": "Excluded Theatre and outside-Service predicates are supplied directly, avoiding the mapping from concrete observations."
+  },
+  "rules_dropped_fewer_than_two_applications": [
+    "cuadfull:130:Support Request",
+    "cuadfull:268:Regulatory Approval",
+    "cuadfull:329:Third Party Agreements",
+    "cuadfull:39:Force Majeure"
+  ],
+  "decision_basis": "Source-wording quality only. Ordinary labels and target outcomes not used. Assistant review is not independent human annotation.",
+  "tasks_public_sha256": "2cc25bb68b39bedac8f0d514a7ff5b5dfb84d22479d3c08357c936b518d92bff"
+}

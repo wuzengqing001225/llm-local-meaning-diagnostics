@@ -1,0 +1,18 @@
+\paragraph{Lexical shortcuts in generated questions.}\label{app:lexical-cues}
+The diagnostic questions and local glosses can share words even when the question does not quote the gloss verbatim. A simple warning rule removes the target term and common English words, then chooses the option with the unique largest fraction of content words overlapping the exact drafted \texttt{glossC}. The synthetic \texttt{raw\_outputs} glosses match all 197 recovered reader term prompts. A different same-named input file does not. Table~\ref{tab:lexical-cues} reports how often this rule selects the stored key. A shuffled-gloss baseline permutes glosses among terms within the corpus. The reader's own question is retained in the no-cue subset, but a missing lexical flag is not a semantic proof that no answer leakage remains.
+
+\begin{table}[h]\centering\footnotesize
+\caption{Lexical-cue screen using the exact \texttt{glossC} text supplied to the archived DeepSeek Flash readers (V4 synthetic. V4.1 Reddit and DeFi). Synthetic values use the reader-aligned \texttt{raw\_outputs/v1\_weights.jsonl}, rather than a different same-named input copy. Error rates are bare $\to$ drafted-gloss.}
+\label{tab:lexical-cues}
+\begin{tabular}{@{}lrrrrcc@{}}\toprule
+Corpus & $n$ & Cue & Shuffle & No-cue $n$ & No-cue errors & No-cue AUC: $R$ / repair-$\Delta p$\\\midrule
+Synthetic & 456 & .686 & .067 & 143 & .308 $\to$ .091 & .879 / .950\\
+Reddit & 1,391 & .185 & .032 & 1,133 & .296 $\to$ .210 & .810 / .844\\
+DeFi & 379 & .274 & .086 & 275 & .284 $\to$ .236 & .803 / .791\\\bottomrule
+\end{tabular}
+\end{table}
+
+The high synthetic cue rate means the full-sample 0.285 $\to$ 0.029 error reduction is partly exposed to an option-matching shortcut. The no-cue subset still shows a substantial change, but its definition arm may contain unmeasured semantic or structural cues. Reddit and DeFi have lower lexical-cue rates, yet their question writers saw source definitions and their answer-key audits have additional limitations.
+
+\paragraph{Definition arms without lexical cues.}
+For the four-arm synthetic comparison, the same warning rule is applied separately to the source definition, the drafted gloss, and the model's own gloss. The rule flags 45.2\%, 63.1\%, and 29.3\% of the 761 questions for the three texts. On the 180 questions flagged by none of them, DeepSeek V4 Flash accuracy is 0.617 without a definition, 0.911 with the source definition (56 repairs, 3 harms), 0.883 with the drafted gloss (52 repairs, 4 harms), and 0.544 with its own gloss (15 repairs, 28 harms).

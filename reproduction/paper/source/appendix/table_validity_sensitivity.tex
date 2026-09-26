@@ -1,0 +1,15 @@
+\begin{table}[h]\centering\footnotesize
+\caption{Deletion sensitivity after removing the 14 reviewed questions classified as clearly invalid or source-insufficient. Other questions retain their historical keys. This is a local sensitivity analysis, not a validated-only re-estimate. $\Delta p$ AUROC targets repair among observed bare errors on the same question.}
+\label{tab:validity-sensitivity}
+\begin{tabular}{@{}p{4.0cm}rcc@{}}\toprule
+Setting & Items retained & $R$ error AUROC & Conditional repair $\Delta p$ AUROC\\\midrule
+Synthetic / DeepSeek V4 Flash & 455/456 & .848 $\to$ .847 & .983 $\to$ .983\\
+Synthetic / GPT-6-astra & 455/456 & .809 $\to$ .809 & .962 $\to$ .962\\
+Reddit / DeepSeek V4.1 Flash & 1,390/1,391 & .808 $\to$ .808 & .858 $\to$ .860\\
+Reddit / GPT-6-astra & 1,390/1,391 & .720 $\to$ .720 & .812 $\to$ .812\\
+DeFi / DeepSeek V4.1 Flash & 373/379 & .809 $\to$ .808 & .863 $\to$ .863\\
+DeFi / GPT-5.6-terra & 373/379 & .792 $\to$ .791 & .794 $\to$ .794\\
+DeFi / GPT-6-astra & 373/379 & .764 $\to$ .764 & .846 $\to$ .852\\
+CUAD / GPT-5.6-terra & 1,494/1,500 & .815 $\to$ .817 & .712 $\to$ .714\\\bottomrule
+\end{tabular}
+\end{table}

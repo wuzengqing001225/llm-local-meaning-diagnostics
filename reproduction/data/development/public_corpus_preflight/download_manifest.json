@@ -1,0 +1,56 @@
+{
+  "url": "https://doc2dial.github.io/multidoc2dial/file/multidoc2dial.zip",
+  "archive_bytes": 6868509,
+  "archive_sha256": "f0c034c249663d7b3cb08b19cf2cc2c3d101372485be982621d4711931a1ce00",
+  "files": [
+    {
+      "name": "multidoc2dial/",
+      "uncompressed_bytes": 0
+    },
+    {
+      "name": "__MACOSX/._multidoc2dial",
+      "uncompressed_bytes": 220
+    },
+    {
+      "name": "multidoc2dial/README.md",
+      "uncompressed_bytes": 2565
+    },
+    {
+      "name": "__MACOSX/multidoc2dial/._README.md",
+      "uncompressed_bytes": 369
+    },
+    {
+      "name": "multidoc2dial/multidoc2dial_dial_validation.json",
+      "uncompressed_bytes": 6940151
+    },
+    {
+      "name": "__MACOSX/multidoc2dial/._multidoc2dial_dial_validation.json",
+      "uncompressed_bytes": 269
+    },
+    {
+      "name": "multidoc2dial/multidoc2dial_dial_test.json",
+      "uncompressed_bytes": 6648870
+    },
+    {
+      "name": "__MACOSX/multidoc2dial/._multidoc2dial_dial_test.json",
+      "uncompressed_bytes": 369
+    },
+    {
+      "name": "multidoc2dial/multidoc2dial_dial_train.json",
+      "uncompressed_bytes": 36362816
+    },
+    {
+      "name": "__MACOSX/multidoc2dial/._multidoc2dial_dial_train.json",
+      "uncompressed_bytes": 542
+    },
+    {
+      "name": "multidoc2dial/multidoc2dial_doc.json",
+      "uncompressed_bytes": 46216321
+    },
+    {
+      "name": "__MACOSX/multidoc2dial/._multidoc2dial_doc.json",
+      "uncompressed_bytes": 269
+    }
+  ],
+  "use": "source/data feasibility only; no model outcomes"
+}

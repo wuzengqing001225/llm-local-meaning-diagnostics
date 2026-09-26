@@ -1,0 +1,18 @@
+\paragraph{Eight nonexchangeable reader settings.}\label{app:setting-design}
+Table~\ref{tab:setting-design} records the reader alias, intervention text, and information visible to the question drafter. The synthetic questions were drafted from usage contexts without the source definition in the drafting prompt. Reddit and DeFi questions were drafted with their source entries, which also informed answer keys. The later reader intervention supplied a different model-drafted gloss. CUAD questions were drafted from an extracted contract definition and one usage occurrence. Within a corpus, additional readers answered the same diagnostic questions. Across corpora, the question construction and definition versions differ. The rows cannot be pooled as replications of one fixed data-generating process.
+
+\begin{table}[h]\centering\footnotesize
+\caption{Reader settings in Table~\ref{tab:prediction}. Synthetic DeepSeek calls used V4 Flash. Later calls used V4.1 Flash. DeepSeek documents the API IDs \texttt{deepseek-v4-flash} and \texttt{deepseek-flash}, respectively. ``Source entry'' describes drafting input and does not imply that the reader's \texttt{glossC} arm used that entry.}
+\label{tab:setting-design}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{1.5cm}>{\raggedright\arraybackslash}p{3.0cm}>{\raggedright\arraybackslash}p{3.4cm}>{\raggedright\arraybackslash}p{4.7cm}@{}}\toprule
+Corpus & Reader API alias & Definition given to reader & Question drafting input\\\midrule
+Synthetic & DeepSeek V4 Flash & Model-drafted \texttt{glossC} & Invented-term usage contexts. No source definition in drafting prompt\\
+Synthetic & \texttt{gpt-6-astra} & Model-drafted \texttt{glossC} & Same synthetic questions\\
+Reddit & DeepSeek V4.1 Flash & Model-drafted \texttt{glossC} & Community glossary entry and comment contexts\\
+Reddit & \texttt{gpt-6-astra} & Model-drafted \texttt{glossC} & Same Reddit questions\\
+DeFi & DeepSeek V4.1 Flash & Model-drafted \texttt{glossC} & Source glossary entry and documentation contexts\\
+DeFi & \texttt{gpt-5.6-terra} & Model-drafted \texttt{glossC} & Same DeFi questions\\
+DeFi & \texttt{gpt-6-astra} & Model-drafted \texttt{glossC} & Same DeFi questions\\
+CUAD & \texttt{gpt-5.6-terra} & Extracted contract \texttt{def\_raw} & One definition and one contract usage per question\\\bottomrule
+\end{tabular}
+\end{table}

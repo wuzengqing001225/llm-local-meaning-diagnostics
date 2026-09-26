@@ -1,0 +1,116 @@
+{
+  "status": "development_only_not_formal",
+  "n_source_checked_provisional": 6,
+  "roles": {
+    "reader": {
+      "n": 6,
+      "correct": 5,
+      "abstain": 0,
+      "substantive_wrong": 1
+    },
+    "second_judge": {
+      "n": 6,
+      "correct": 4,
+      "abstain": 1,
+      "substantive_wrong": 1
+    }
+  },
+  "item_results": [
+    {
+      "role": "reader",
+      "id": "token_scope:B1",
+      "gold": "D",
+      "choice": "C",
+      "correct": false,
+      "abstain": false
+    },
+    {
+      "role": "reader",
+      "id": "token_scope:B2",
+      "gold": "B",
+      "choice": "B",
+      "correct": true,
+      "abstain": false
+    },
+    {
+      "role": "reader",
+      "id": "token_scope:B3",
+      "gold": "A",
+      "choice": "A",
+      "correct": true,
+      "abstain": false
+    },
+    {
+      "role": "reader",
+      "id": "token_scope:B4",
+      "gold": "C",
+      "choice": "C",
+      "correct": true,
+      "abstain": false
+    },
+    {
+      "role": "reader",
+      "id": "access_construct:B1",
+      "gold": "D",
+      "choice": "D",
+      "correct": true,
+      "abstain": false
+    },
+    {
+      "role": "reader",
+      "id": "access_construct:B2",
+      "gold": "A",
+      "choice": "A",
+      "correct": true,
+      "abstain": false
+    },
+    {
+      "role": "second_judge",
+      "id": "token_scope:B1",
+      "gold": "D",
+      "choice": "D",
+      "correct": true,
+      "abstain": false
+    },
+    {
+      "role": "second_judge",
+      "id": "token_scope:B2",
+      "gold": "B",
+      "choice": "B",
+      "correct": true,
+      "abstain": false
+    },
+    {
+      "role": "second_judge",
+      "id": "token_scope:B3",
+      "gold": "A",
+      "choice": "C",
+      "correct": false,
+      "abstain": false
+    },
+    {
+      "role": "second_judge",
+      "id": "token_scope:B4",
+      "gold": "C",
+      "choice": "C",
+      "correct": true,
+      "abstain": false
+    },
+    {
+      "role": "second_judge",
+      "id": "access_construct:B1",
+      "gold": "D",
+      "choice": "D",
+      "correct": true,
+      "abstain": false
+    },
+    {
+      "role": "second_judge",
+      "id": "access_construct:B2",
+      "gold": "A",
+      "choice": "ABSTAIN",
+      "correct": false,
+      "abstain": true
+    }
+  ]
+}

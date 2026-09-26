@@ -1,0 +1,15 @@
+\section{Measuring risk offline}
+\label{sec:index}
+Let $z$ be a diagnostic question with its source occurrence and keyed answer $a^*$. Let $p_S^0(a^*\mid z)$ be the probability a proxy model $S$ assigns to the keyed option without the definition, and $p_S^d(a^*\mid z)$ the probability with a specified definition text $d$ prepended. We use two scores.
+\begin{equation}
+R_S(z)=1-p_S^0(a^*\mid z),
+\label{eq:risk}
+\end{equation}
+\begin{equation}
+\Delta p_S(z)=p_S^d(a^*\mid z)-p_S^0(a^*\mid z).
+\label{eq:gain}
+\end{equation}
+A high $R_S$ means the proxy gives little support to the locally correct answer when reading without the definition. $\Delta p_S$ measures how much a particular definition text moves the proxy toward that answer. Because $\Delta p_S=R_S+p_S^d(a^*\mid z)-1$, the two scores are coupled and satisfy $\Delta p_S\le R_S$. A proxy that still rejects the keyed answer after reading the definition has high $R_S$ and small $\Delta p_S$. Rewriting the definition changes $\Delta p_S$, so the score belongs to one definition text.
+
+Both scores need a diagnostic question and a source-supported answer key. A corpus owner can construct them from the full source before serving requests, but the source review below shows why generated keys need checking. The index moves this comparison away from answer time: it can rank a set of diagnostic uses without calling the target reader. We evaluate $R_S$ on another reader's answers to the \emph{same} questions and $\Delta p_S$ on repairs after the exact definition is supplied. Neither evaluation alone establishes that the score will select useful definitions for independently written future requests. Confidence intervals resample contracts for CUAD, communities for Reddit, and term records otherwise \citep{significance}.
+

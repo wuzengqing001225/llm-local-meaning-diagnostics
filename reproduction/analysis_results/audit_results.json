@@ -1,0 +1,909 @@
+{
+  "settings": [
+    {
+      "setting": "Synthetic / DeepSeek",
+      "n": 457,
+      "clusters": 119,
+      "failure": 0.28665207877461707,
+      "definition_accuracy": 0.9693654266958425,
+      "risk_auc": 0.8479838898515432,
+      "pd_auc": 0.7392872195944363,
+      "risk_repair_auc": 0.8325294614887375,
+      "pd_repair_auc": 0.8106757495897767,
+      "risk_ci": [
+        0.8110718034566631,
+        0.8829614137192436
+      ],
+      "pd_minus_risk_ci": [
+        -0.17489774012224393,
+        -0.05204523081834653
+      ]
+    },
+    {
+      "setting": "Synthetic / GPT6",
+      "n": 457,
+      "clusters": 119,
+      "failure": 0.18161925601750548,
+      "definition_accuracy": 0.9824945295404814,
+      "risk_auc": 0.8089040654596997,
+      "pd_auc": 0.6568842213774886,
+      "risk_repair_auc": 0.7960698991573422,
+      "pd_repair_auc": 0.7170189252659207,
+      "risk_ci": [
+        0.7619869477443901,
+        0.8555117898718835
+      ],
+      "pd_minus_risk_ci": [
+        -0.2569276012612176,
+        -0.06284858528669297
+      ]
+    },
+    {
+      "setting": "Reddit / DeepSeek",
+      "n": 1391,
+      "clusters": 35,
+      "failure": 0.30122214234363764,
+      "definition_accuracy": 0.8152408339324227,
+      "risk_auc": 0.8081386212518538,
+      "pd_auc": 0.5196872820845242,
+      "risk_repair_auc": 0.7438281959879779,
+      "pd_repair_auc": 0.7086531068707626,
+      "risk_ci": [
+        0.7850454689560006,
+        0.8351045191942031
+      ],
+      "pd_minus_risk_ci": [
+        -0.32255783866639093,
+        -0.24423817369044148
+      ]
+    },
+    {
+      "setting": "Reddit / GPT6",
+      "n": 1391,
+      "clusters": 35,
+      "failure": 0.14593817397555714,
+      "definition_accuracy": 0.8806613946800863,
+      "risk_auc": 0.7197425818115474,
+      "pd_auc": 0.4288119288119288,
+      "risk_repair_auc": 0.7251009470670289,
+      "pd_repair_auc": 0.6205785184641363,
+      "risk_ci": [
+        0.6759575380644409,
+        0.7613736408889338
+      ],
+      "pd_minus_risk_ci": [
+        -0.3641828799520622,
+        -0.21338260146653865
+      ]
+    },
+    {
+      "setting": "DeFi / DeepSeek",
+      "n": 379,
+      "clusters": 97,
+      "failure": 0.28232189973614774,
+      "definition_accuracy": 0.8073878627968337,
+      "risk_auc": 0.809304562946674,
+      "pd_auc": 0.45849367784496975,
+      "risk_repair_auc": 0.7686520376175549,
+      "pd_repair_auc": 0.6864681295715779,
+      "risk_ci": [
+        0.7625671193067683,
+        0.8555732903334523
+      ],
+      "pd_minus_risk_ci": [
+        -0.44452895470438986,
+        -0.2513849280356922
+      ]
+    },
+    {
+      "setting": "DeFi / GPT5.6",
+      "n": 379,
+      "clusters": 97,
+      "failure": 0.22955145118733508,
+      "definition_accuracy": 0.8522427440633246,
+      "risk_auc": 0.7923161706817824,
+      "pd_auc": 0.3800582585419619,
+      "risk_repair_auc": 0.7923933209647496,
+      "pd_repair_auc": 0.5561533704390847,
+      "risk_ci": [
+        0.7424719665293755,
+        0.8387503357803623
+      ],
+      "pd_minus_risk_ci": [
+        -0.5021821661330377,
+        -0.32679713775745034
+      ]
+    },
+    {
+      "setting": "DeFi / GPT6",
+      "n": 379,
+      "clusters": 97,
+      "failure": 0.16886543535620052,
+      "definition_accuracy": 0.8654353562005277,
+      "risk_auc": 0.7638392857142857,
+      "pd_auc": 0.34171626984126985,
+      "risk_repair_auc": 0.7537878787878788,
+      "pd_repair_auc": 0.5903829966329966,
+      "risk_ci": [
+        0.7044332601829286,
+        0.8149170921938244
+      ],
+      "pd_minus_risk_ci": [
+        -0.5096665721983327,
+        -0.3242322681612467
+      ]
+    },
+    {
+      "setting": "CUAD library / GPT5.6",
+      "n": 1500,
+      "clusters": 215,
+      "failure": 0.21333333333333335,
+      "definition_accuracy": 0.84,
+      "risk_auc": 0.8148516949152542,
+      "pd_auc": 0.4641313559322034,
+      "risk_repair_auc": 0.7600983797624019,
+      "pd_repair_auc": 0.5952939233060005,
+      "risk_ci": [
+        0.7888360643106578,
+        0.8398859342446233
+      ],
+      "pd_minus_risk_ci": [
+        -0.39528438494844925,
+        -0.3015896211355457
+      ]
+    }
+  ],
+  "term_only": [
+    {
+      "proxy": "lpmc_v1.jsonl",
+      "reader": "eqa_v1_sonnet_samequestions.jsonl",
+      "terms": 119,
+      "questions": 457,
+      "accuracy_weighted": 0.7527352297592997,
+      "any_error_term_auc": 0.8088404133180253
+    },
+    {
+      "proxy": "lpmc_cuad_usage.jsonl",
+      "reader": "cuad_eqa_usage_deepseek.jsonl",
+      "terms": 167,
+      "questions": 733,
+      "accuracy_weighted": 0.8813096862210096,
+      "any_error_term_auc": 0.7273014868712433
+    },
+    {
+      "proxy": "lpmc_cuad_v2.jsonl",
+      "reader": "cuad_eqa_gold_deepseek.jsonl",
+      "terms": 187,
+      "questions": 671,
+      "accuracy_weighted": 0.7719821162444114,
+      "any_error_term_auc": 0.8252060439560439
+    }
+  ],
+  "alignment": [
+    {
+      "proxy": "lpmc_v1.jsonl",
+      "reader": "v1_eqa.jsonl",
+      "n": 457,
+      "mismatched_stems": 0,
+      "unlabelled": 0
+    },
+    {
+      "proxy": "lpmc_v1.jsonl",
+      "reader": "astra6_v1_eqa.jsonl",
+      "n": 457,
+      "mismatched_stems": 0,
+      "unlabelled": 0
+    },
+    {
+      "proxy": "lpmc_reddit.jsonl",
+      "reader": "reddit_eqa.jsonl",
+      "n": 1391,
+      "mismatched_stems": 0,
+      "unlabelled": 0
+    },
+    {
+      "proxy": "lpmc_reddit.jsonl",
+      "reader": "astra6_reddit_eqa.jsonl",
+      "n": 1391,
+      "mismatched_stems": 0,
+      "unlabelled": 0
+    },
+    {
+      "proxy": "defi_strict_lpmc.jsonl",
+      "reader": "defi_strict_eqa.jsonl",
+      "n": 379,
+      "mismatched_stems": 0,
+      "unlabelled": 0
+    },
+    {
+      "proxy": "defi_strict_lpmc.jsonl",
+      "reader": "defi_strict_eqa_gpt.jsonl",
+      "n": 379,
+      "mismatched_stems": 0,
+      "unlabelled": 0
+    },
+    {
+      "proxy": "defi_strict_lpmc.jsonl",
+      "reader": "astra6_defi_strict_eqa.jsonl",
+      "n": 379,
+      "mismatched_stems": 0,
+      "unlabelled": 0
+    },
+    {
+      "proxy": "lpmc_full.jsonl",
+      "reader": "t2_answers.jsonl",
+      "n": 1500,
+      "mismatched_stems": 0,
+      "unlabelled": 0
+    },
+    {
+      "proxy": "lpmc_v1.jsonl",
+      "reader": "eqa_v1_sonnet_samequestions.jsonl",
+      "n": 0,
+      "mismatched_stems": 0,
+      "unlabelled": 457
+    },
+    {
+      "proxy": "lpmc_cuad_usage.jsonl",
+      "reader": "cuad_eqa_usage_deepseek.jsonl",
+      "n": 733,
+      "mismatched_stems": 0,
+      "unlabelled": 0
+    },
+    {
+      "proxy": "lpmc_cuad_v2.jsonl",
+      "reader": "cuad_eqa_gold_deepseek.jsonl",
+      "n": 0,
+      "mismatched_stems": 0,
+      "unlabelled": 671
+    }
+  ],
+  "weighted_cuad": {
+    "frame_n": 6529,
+    "frame_bins": {
+      "3": 980,
+      "0": 2529,
+      "2": 1085,
+      "1": 1430,
+      "4": 505
+    },
+    "sample_bins": {
+      "0": 300,
+      "2": 300,
+      "4": 300,
+      "3": 300,
+      "1": 300
+    },
+    "weighted_failure": 0.1320477867973656,
+    "weighted_risk_auc": 0.8456231929392308,
+    "weighted_pd_auc": 0.5004414687902105,
+    "sampling_assumption": "Seed-42 stratified shuffle exactly reproduces the 1500 released IDs, with 300 per stratum.",
+    "transitions": {
+      "(1.0, 1.0)": 1097,
+      "(0.0, 1.0)": 163,
+      "(0.0, 0.0)": 157,
+      "(1.0, 0.0)": 83
+    },
+    "bins": [
+      {
+        "bin": 0,
+        "n": 300,
+        "frame_n": 2529,
+        "failure": 0.01
+      },
+      {
+        "bin": 1,
+        "n": 300,
+        "frame_n": 1430,
+        "failure": 0.07666666666666666
+      },
+      {
+        "bin": 2,
+        "n": 300,
+        "frame_n": 1085,
+        "failure": 0.14666666666666667
+      },
+      {
+        "bin": 3,
+        "n": 300,
+        "frame_n": 980,
+        "failure": 0.31
+      },
+      {
+        "bin": 4,
+        "n": 300,
+        "frame_n": 505,
+        "failure": 0.5233333333333333
+      }
+    ]
+  },
+  "rag": [
+    {
+      "corpus": "CUAD",
+      "tier": "BM25",
+      "subset": "all",
+      "n": 1200,
+      "clusters": 198,
+      "accuracy": {
+        "rag": 0.8208333333333333,
+        "rag_plus": 0.8083333333333333,
+        "rag_full": 0.8725,
+        "rag_gated": 0.8625,
+        "rag_defrecall": 0.8658333333333333
+      },
+      "gated_minus_rag": 0.041666666666666664,
+      "gated_minus_rag_ci": [
+        0.022389039000939533,
+        0.061180392156862724
+      ],
+      "gated_minus_full": -0.01,
+      "gated_minus_full_ci": [
+        -0.02416767529215359,
+        0.004128479436728703
+      ],
+      "tokens": {
+        "rag": 354.60333333333335,
+        "rag_plus": 490.2891666666667,
+        "rag_full": 883.775,
+        "rag_gated": 490.41333333333336,
+        "rag_defrecall": 570.9125,
+        "definition_increment_gated": 135.81,
+        "definition_increment_full": 529.1716666666666
+      },
+      "entries": {
+        "rag": 0.0,
+        "rag_plus": 0.0,
+        "rag_full": 17.493333333333332,
+        "rag_gated": 4.740833333333334,
+        "rag_defrecall": 7.3125
+      },
+      "need_n": 101,
+      "need_fraction": 0.08416666666666667,
+      "recall": 0.7623762376237624,
+      "harm_rate_among_no_full_repair": 0.040036396724294813,
+      "repair_n": 94,
+      "harm_n": 44
+    },
+    {
+      "corpus": "CUAD",
+      "tier": "dense",
+      "subset": "all",
+      "n": 1200,
+      "clusters": 198,
+      "accuracy": {
+        "rag": 0.81,
+        "rag_plus": 0.815,
+        "rag_full": 0.87,
+        "rag_gated": 0.8633333333333333,
+        "rag_defrecall": 0.8616666666666667
+      },
+      "gated_minus_rag": 0.05333333333333334,
+      "gated_minus_rag_ci": [
+        0.03494603172510621,
+        0.07346777850556759
+      ],
+      "gated_minus_full": -0.006666666666666667,
+      "gated_minus_full_ci": [
+        -0.020134650820752963,
+        0.005767018832252789
+      ],
+      "tokens": {
+        "rag": 130.53,
+        "rag_plus": 228.83416666666668,
+        "rag_full": 659.7016666666667,
+        "rag_gated": 209.66583333333332,
+        "rag_defrecall": 248.5725,
+        "definition_increment_gated": 79.13583333333332,
+        "definition_increment_full": 529.1716666666667
+      },
+      "entries": {
+        "rag": 0.0,
+        "rag_plus": 0.0,
+        "rag_full": 17.493333333333332,
+        "rag_gated": 2.8075,
+        "rag_defrecall": 4.0275
+      },
+      "need_n": 103,
+      "need_fraction": 0.08583333333333333,
+      "recall": 0.7961165048543689,
+      "harm_rate_among_no_full_repair": 0.03463992707383774,
+      "repair_n": 102,
+      "harm_n": 38
+    },
+    {
+      "corpus": "CUAD",
+      "tier": "hybrid",
+      "subset": "all",
+      "n": 1200,
+      "clusters": 198,
+      "accuracy": {
+        "rag": 0.8208333333333333,
+        "rag_plus": 0.8291666666666667,
+        "rag_full": 0.8758333333333334,
+        "rag_gated": 0.8708333333333333,
+        "rag_defrecall": 0.8816666666666667
+      },
+      "gated_minus_rag": 0.05,
+      "gated_minus_rag_ci": [
+        0.0333591006405583,
+        0.067311729955821
+      ],
+      "gated_minus_full": -0.005,
+      "gated_minus_full_ci": [
+        -0.018588399381714027,
+        0.009933980587851221
+      ],
+      "tokens": {
+        "rag": 361.2008333333333,
+        "rag_plus": 492.4483333333333,
+        "rag_full": 890.3725,
+        "rag_gated": 487.765,
+        "rag_defrecall": 560.5433333333333,
+        "definition_increment_gated": 126.56416666666667,
+        "definition_increment_full": 529.1716666666666
+      },
+      "entries": {
+        "rag": 0.0,
+        "rag_plus": 0.0,
+        "rag_full": 17.493333333333332,
+        "rag_gated": 4.469166666666666,
+        "rag_defrecall": 6.7625
+      },
+      "need_n": 93,
+      "need_fraction": 0.0775,
+      "recall": 0.8279569892473119,
+      "harm_rate_among_no_full_repair": 0.02981029810298103,
+      "repair_n": 93,
+      "harm_n": 33
+    },
+    {
+      "corpus": "Reddit",
+      "tier": "BM25",
+      "subset": "all",
+      "n": 1391,
+      "clusters": 35,
+      "accuracy": {
+        "none": 0.792235801581596,
+        "rag": 0.8590941768511862,
+        "rag_plus": 0.8626887131560029,
+        "rag_full": 0.9209202012940331,
+        "rag_gated": 0.9259525521207764
+      },
+      "gated_minus_rag": 0.06685837526959022,
+      "gated_minus_rag_ci": [
+        0.044515014275623994,
+        0.090374011407403
+      ],
+      "gated_minus_full": 0.0050323508267433505,
+      "gated_minus_full_ci": [
+        -0.012648243854531465,
+        0.020540301848516098
+      ],
+      "tokens": {
+        "none": 0.0,
+        "rag": 137.7879223580158,
+        "rag_plus": 190.39180445722502,
+        "rag_full": 2903.6908698777856,
+        "rag_gated": 177.22717469446442,
+        "definition_increment_gated": 39.43925233644862,
+        "definition_increment_full": 2765.90294751977
+      },
+      "entries": {
+        "none": 0.0,
+        "rag": 0.0,
+        "rag_plus": 0.0,
+        "rag_full": 121.14953271028037,
+        "rag_gated": 1.1897915168943207
+      },
+      "need_n": 107,
+      "need_fraction": 0.07692307692307693,
+      "recall": 0.7570093457943925,
+      "harm_rate_among_no_full_repair": 0.014797507788161994,
+      "repair_n": 112,
+      "harm_n": 19
+    },
+    {
+      "corpus": "Reddit",
+      "tier": "BM25",
+      "subset": "glossary",
+      "n": 851,
+      "clusters": 35,
+      "accuracy": {
+        "none": 0.7696827262044653,
+        "rag": 0.8354876615746181,
+        "rag_plus": 0.8390129259694477,
+        "rag_full": 0.9294947121034077,
+        "rag_gated": 0.9388954171562868
+      },
+      "gated_minus_rag": 0.10340775558166862,
+      "gated_minus_rag_ci": [
+        0.07010770487574168,
+        0.13833774292809903
+      ],
+      "gated_minus_full": 0.009400705052878966,
+      "gated_minus_full_ci": [
+        -0.008419976617883495,
+        0.028535488815370113
+      ],
+      "tokens": {
+        "none": 0.0,
+        "rag": 137.0246768507638,
+        "rag_plus": 194.25146886016452,
+        "rag_full": 3422.2220916568745,
+        "rag_gated": 183.52643948296122,
+        "definition_increment_gated": 46.501762632197426,
+        "definition_increment_full": 3285.197414806111
+      },
+      "entries": {
+        "none": 0.0,
+        "rag": 0.0,
+        "rag_plus": 0.0,
+        "rag_full": 140.09283196239718,
+        "rag_gated": 1.491186839012926
+      },
+      "need_n": 86,
+      "need_fraction": 0.10105757931844889,
+      "recall": 0.813953488372093,
+      "harm_rate_among_no_full_repair": 0.011764705882352941,
+      "repair_n": 97,
+      "harm_n": 9
+    },
+    {
+      "corpus": "Reddit",
+      "tier": "BM25",
+      "subset": "control",
+      "n": 540,
+      "clusters": 35,
+      "accuracy": {
+        "none": 0.8277777777777777,
+        "rag": 0.8962962962962963,
+        "rag_plus": 0.9,
+        "rag_full": 0.9074074074074074,
+        "rag_gated": 0.9055555555555556
+      },
+      "gated_minus_rag": 0.009259259259259259,
+      "gated_minus_rag_ci": [
+        -0.008928571428571428,
+        0.027777777777777776
+      ],
+      "gated_minus_full": -0.001851851851851852,
+      "gated_minus_full_ci": [
+        -0.027401667002417404,
+        0.023901484204793003
+      ],
+      "tokens": {
+        "none": 0.0,
+        "rag": 138.99074074074073,
+        "rag_plus": 184.30925925925925,
+        "rag_full": 2086.524074074074,
+        "rag_gated": 167.3,
+        "definition_increment_gated": 28.309259259259278,
+        "definition_increment_full": 1947.5333333333335
+      },
+      "entries": {
+        "none": 0.0,
+        "rag": 0.0,
+        "rag_plus": 0.0,
+        "rag_full": 91.29629629629629,
+        "rag_gated": 0.7148148148148148
+      },
+      "need_n": 21,
+      "need_fraction": 0.03888888888888889,
+      "recall": 0.5238095238095238,
+      "harm_rate_among_no_full_repair": 0.019267822736030827,
+      "repair_n": 15,
+      "harm_n": 10
+    },
+    {
+      "corpus": "Reddit",
+      "tier": "hybrid",
+      "subset": "all",
+      "n": 1391,
+      "clusters": 35,
+      "accuracy": {
+        "none": 0.792235801581596,
+        "rag": 0.8655643421998562,
+        "rag_plus": 0.8734723220704529,
+        "rag_full": 0.9072609633357297,
+        "rag_gated": 0.9245147375988497
+      },
+      "gated_minus_rag": 0.05895039539899353,
+      "gated_minus_rag_ci": [
+        0.03853924984022896,
+        0.07770142025001635
+      ],
+      "gated_minus_full": 0.017253774263120056,
+      "gated_minus_full_ci": [
+        0.0023837129868839427,
+        0.029615165212686125
+      ],
+      "tokens": {
+        "none": 0.0,
+        "rag": 148.88856937455068,
+        "rag_plus": 201.47663551401868,
+        "rag_full": 2914.7915168943205,
+        "rag_gated": 187.37598849748383,
+        "definition_increment_gated": 38.48741912293315,
+        "definition_increment_full": 2765.90294751977
+      },
+      "entries": {
+        "none": 0.0,
+        "rag": 0.0,
+        "rag_plus": 0.0,
+        "rag_full": 121.14953271028037,
+        "rag_gated": 1.1869158878504673
+      },
+      "need_n": 82,
+      "need_fraction": 0.05895039539899353,
+      "recall": 0.7560975609756098,
+      "harm_rate_among_no_full_repair": 0.01833460656990069,
+      "repair_n": 106,
+      "harm_n": 24
+    },
+    {
+      "corpus": "Reddit",
+      "tier": "hybrid",
+      "subset": "glossary",
+      "n": 851,
+      "clusters": 35,
+      "accuracy": {
+        "none": 0.7696827262044653,
+        "rag": 0.8390129259694477,
+        "rag_plus": 0.8495887191539365,
+        "rag_full": 0.9071680376028202,
+        "rag_gated": 0.9412455934195064
+      },
+      "gated_minus_rag": 0.10223266745005875,
+      "gated_minus_rag_ci": [
+        0.07608603118985344,
+        0.13303739987946558
+      ],
+      "gated_minus_full": 0.03407755581668625,
+      "gated_minus_full_ci": [
+        0.0164080118694362,
+        0.05078707095084467
+      ],
+      "tokens": {
+        "none": 0.0,
+        "rag": 153.49471210340775,
+        "rag_plus": 211.2397179788484,
+        "rag_full": 3438.6921269095183,
+        "rag_gated": 200.36662749706227,
+        "definition_increment_gated": 46.87191539365452,
+        "definition_increment_full": 3285.1974148061104
+      },
+      "entries": {
+        "none": 0.0,
+        "rag": 0.0,
+        "rag_plus": 0.0,
+        "rag_full": 140.09283196239718,
+        "rag_gated": 1.4853113983548767
+      },
+      "need_n": 67,
+      "need_fraction": 0.07873090481786134,
+      "recall": 0.7910447761194029,
+      "harm_rate_among_no_full_repair": 0.006377551020408163,
+      "repair_n": 92,
+      "harm_n": 5
+    },
+    {
+      "corpus": "Reddit",
+      "tier": "hybrid",
+      "subset": "control",
+      "n": 540,
+      "clusters": 35,
+      "accuracy": {
+        "none": 0.8277777777777777,
+        "rag": 0.9074074074074074,
+        "rag_plus": 0.9111111111111111,
+        "rag_full": 0.9074074074074074,
+        "rag_gated": 0.8981481481481481
+      },
+      "gated_minus_rag": -0.009259259259259259,
+      "gated_minus_rag_ci": [
+        -0.02862595419847328,
+        0.011196133991695644
+      ],
+      "gated_minus_full": -0.009259259259259259,
+      "gated_minus_full_ci": [
+        -0.02952755905511811,
+        0.011117424242424208
+      ],
+      "tokens": {
+        "none": 0.0,
+        "rag": 141.62962962962962,
+        "rag_plus": 186.09074074074073,
+        "rag_full": 2089.162962962963,
+        "rag_gated": 166.9037037037037,
+        "definition_increment_gated": 25.274074074074093,
+        "definition_increment_full": 1947.5333333333333
+      },
+      "entries": {
+        "none": 0.0,
+        "rag": 0.0,
+        "rag_plus": 0.0,
+        "rag_full": 91.29629629629629,
+        "rag_gated": 0.7166666666666667
+      },
+      "need_n": 15,
+      "need_fraction": 0.027777777777777776,
+      "recall": 0.6,
+      "harm_rate_among_no_full_repair": 0.03619047619047619,
+      "repair_n": 14,
+      "harm_n": 19
+    }
+  ],
+  "uncertainty": [
+    {
+      "subset": "full",
+      "n": 763,
+      "failed": 231,
+      "identical_failed": 154.0,
+      "identical_wrong_failed": 93.0,
+      "aucs": {
+        "consistency": 0.5992904338769001,
+        "entropy": 0.5992782280376265,
+        "confidence": 0.6240479445366663
+      }
+    },
+    {
+      "subset": "proxy_overlap",
+      "n": 457,
+      "failed": 131,
+      "identical_failed": 83.0,
+      "identical_wrong_failed": 50.0,
+      "aucs": {
+        "consistency": 0.6189294244368473,
+        "entropy": 0.6187889289561186,
+        "confidence": 0.6169273638364633,
+        "risk": 0.8479838898515432
+      }
+    }
+  ],
+  "public_tasks": [
+    {
+      "file": "cuad_bench_answers.jsonl",
+      "n": 1661,
+      "metric": "f1",
+      "base": "rag",
+      "arms": {
+        "rag": {
+          "mean": 0.5240442504515352,
+          "delta": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "rag_full": {
+          "mean": 0.5269913305237808,
+          "delta": 0.0029470800722456347,
+          "ci": [
+            -0.0037188730944238287,
+            0.009993216624835242
+          ]
+        },
+        "rag_gated": {
+          "mean": 0.524892895845876,
+          "delta": 0.0008486453943407589,
+          "ci": [
+            -0.005107750422957489,
+            0.00728588866350088
+          ]
+        }
+      }
+    },
+    {
+      "file": "cnli_answers.jsonl",
+      "n": 3060,
+      "metric": "correct",
+      "base": "plain",
+      "arms": {
+        "plain": {
+          "mean": 0.811437908496732,
+          "delta": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "note_gated": {
+          "mean": 0.8173202614379085,
+          "delta": 0.0058823529411764705,
+          "ci": [
+            -0.00196078431372549,
+            0.014705882352941176
+          ]
+        },
+        "note_all": {
+          "mean": 0.8222222222222222,
+          "delta": 0.010784313725490196,
+          "ci": [
+            0.00261437908496732,
+            0.019289215686274504
+          ]
+        }
+      }
+    },
+    {
+      "file": "rqa_answers_gpt.jsonl",
+      "n": 178,
+      "metric": "correct",
+      "base": "plain",
+      "arms": {
+        "plain": {
+          "mean": 0.5,
+          "delta": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "note_gated": {
+          "mean": 0.5168539325842697,
+          "delta": 0.016853932584269662,
+          "ci": [
+            -0.03617554329467402,
+            0.058216619981325844
+          ]
+        },
+        "note_all": {
+          "mean": 0.5280898876404494,
+          "delta": 0.028089887640449437,
+          "ci": [
+            -0.06717219119128284,
+            0.09155414136193306
+          ]
+        }
+      }
+    },
+    {
+      "file": "rqa_answers_deepseek41.jsonl",
+      "n": 178,
+      "metric": "correct",
+      "base": "plain",
+      "arms": {
+        "plain": {
+          "mean": 0.6067415730337079,
+          "delta": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "note_gated": {
+          "mean": 0.6123595505617978,
+          "delta": 0.0056179775280898875,
+          "ci": [
+            -0.03401553803339518,
+            0.04581033470346447
+          ]
+        },
+        "note_all": {
+          "mean": 0.5955056179775281,
+          "delta": -0.011235955056179775,
+          "ci": [
+            -0.05833603896103896,
+            0.03212701158068881
+          ]
+        }
+      }
+    }
+  ],
+  "clauses": {
+    "n": 5659,
+    "inside_n": 644,
+    "outside_n": 5015,
+    "inside_boundary": 0.11335403726708075,
+    "outside_boundary": 0.11625124626121636,
+    "unrepaired_audit_n": 157,
+    "unrepaired_labels": {
+      "DEFINITION_INSUFFICIENT": 15,
+      "RELATION": 35,
+      "QUESTION_DEFECT": 39,
+      "PARAMETER": 1,
+      "PRIOR_WINS": 53,
+      "null": 14
+    }
+  }
+}

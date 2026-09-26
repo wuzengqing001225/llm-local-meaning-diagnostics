@@ -1,0 +1,33 @@
+{
+  "status": "newly_observed_source_consistency_issue_requires_separate_impact_audit",
+  "path": "<local>/Documents/Codex/2026-09-22/llm-idf-1-ai-2-claim/outputs/release_20260923/llm-idf-reproduce/data/synthetic_v1/inputs/v1_terms.jsonl",
+  "id": "v1:desk:interest",
+  "context": "BTC interest flipped negative at 04:00 UTC so shorts are getting paid on the whole book.",
+  "gloss_gold": "the funding payment exchanged between long and short perpetual positions every 8 hours; when negative, shorts pay longs",
+  "qa_1": {
+    "question": "The desk note says 'interest flipped negative at 04:00 UTC so shorts are getting paid on the whole book.' What does this mean for the desk's short positions?",
+    "options": [
+      "Shorts are now receiving payments from longs every 8 hours",
+      "Shorts must pay a higher borrowing rate to their broker",
+      "Shorts are earning savings interest on their collateral balance",
+      "Shorts owe back-interest on a loan taken out earlier"
+    ],
+    "answer": "A",
+    "depends_on": "interest",
+    "sense": "corpus"
+  },
+  "qa_2": {
+    "question": "In the ops log, 'interest settled at -0.02% across all majors' during a funding cycle. Who receives money as a result?",
+    "options": [
+      "The exchange's lending desk",
+      "Shorts receive payment from longs",
+      "Longs receive payment from shorts",
+      "Neither side, since -0.02% is not paid out"
+    ],
+    "answer": "C",
+    "depends_on": "interest",
+    "sense": "corpus"
+  },
+  "finding": "Negative interest describes shorts receiving in the first context and QA1, but shorts paying in gloss_gold and QA2. These directional claims conflict within the same term record.",
+  "scope": "Single inspected record. No estimate of affected historical aggregates has been made; do not reuse as-is for the new main corpus."
+}

@@ -1,0 +1,56 @@
+{
+  "status": "DEVELOPMENT_ONLY_OLD_SIBLING_B_NOT_FORMAL",
+  "n_terms_catalog": 215,
+  "n_communities": 35,
+  "n_policy_disagreement_terms": 60,
+  "n_B_questions": 118,
+  "n_configured_reader_calls": 236,
+  "reader_model": "gpt-5.6-terra",
+  "reader_returned_models": {
+    "gpt-5.6-terra": 236
+  },
+  "reader_total_tokens": 26380,
+  "overall_repairs": 37,
+  "overall_harms": 1,
+  "baseline_only_terms": 41,
+  "method_only_terms": 19,
+  "baseline_only_words": 549,
+  "method_only_words": 550,
+  "weighted_gain_values": {
+    "baseline_only": 843.0,
+    "method_only": 295.5
+  },
+  "policy_difference_weighted_value": -547.5,
+  "historical_frequency_total": 12084,
+  "policy_difference_per_matched_occurrence": -0.04530784508440914,
+  "fixed_policy_community_cluster_bootstrap_95_interval": [
+    -0.0945280976281862,
+    -0.0027568195008705744
+  ],
+  "source_check": {
+    "n_checked": 118,
+    "n_accepted": 83,
+    "n_terms_with_accepted_B": 45,
+    "n_disagreement_terms_without_accepted_B": 15,
+    "known_contribution_value": -185.5,
+    "known_contribution_per_total_frequency": -0.015350877192982455,
+    "missing_contribution_absolute_bound": 0.07671300893743793,
+    "partial_identification_interval": [
+      -0.0920638861304204,
+      0.06136213174445548
+    ],
+    "rejection_reason_counts_nonexclusive": {
+      "checker_disagreed_with_historical_key": 32,
+      "definition_insufficient": 26,
+      "answer_leakage": 3
+    }
+  },
+  "input_sha256": {
+    "gold_plan_development_only.json": "2ecefe84e0338083badde3b0c2437057873951b64746e88067ef3bafcaa81b3c",
+    "B_disagreement_packet.jsonl": "71d763922bb5c9a5d4d11ca894ac3245c9322bfa3991cf8401e730dc89052781",
+    "gpt56_B_gold_bare.jsonl": "318e006c3d75fb1a8bcdc129411f2c4a172aabbd0d05d46cff7a5d5d9fef4446",
+    "source_decisions.jsonl": "9fde18a0d1c1e329ff0c4ebea0c1f3c14b66afe38e64e900303d8c7cb51eea82",
+    "historical_frequency.jsonl": "10ab74a60eb850e036beb5f059d2550fcad347e8b0b040e8535a69dd6d7c6a00",
+    "gold_catalog.jsonl": "32507b1bc6d4c833dd0be760daf06918df44ba2af47400b90578457624558ad5"
+  }
+}

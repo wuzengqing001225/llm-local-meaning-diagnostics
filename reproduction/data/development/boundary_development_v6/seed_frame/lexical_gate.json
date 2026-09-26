@@ -1,0 +1,271 @@
+{
+  "status": "source_only_lexical_gate_before_reader_outcomes",
+  "n": 30,
+  "median_overlap_ratio": 0.0,
+  "n_passes_20pct": 30,
+  "n_fails_20pct": 0,
+  "threshold": 0.2,
+  "proper_name_policy": "per-rule name exemptions plus target term tokens",
+  "limitations": [
+    "Lexical overlap cannot detect synonym paraphrases or internally inconsistent facts."
+  ],
+  "rows": [
+    {
+      "id": "cuadfull:170:Products:doughnut",
+      "definition_id": "cuadfull:170:Products",
+      "visible_content_word_count": 10,
+      "overlap_words": [],
+      "overlap_ratio": 0.0,
+      "passes_20pct": true
+    },
+    {
+      "id": "cuadfull:170:Products:coffee",
+      "definition_id": "cuadfull:170:Products",
+      "visible_content_word_count": 9,
+      "overlap_words": [
+        "coffee"
+      ],
+      "overlap_ratio": 0.1111111111111111,
+      "passes_20pct": true
+    },
+    {
+      "id": "cuadfull:170:Products:pizza",
+      "definition_id": "cuadfull:170:Products",
+      "visible_content_word_count": 7,
+      "overlap_words": [
+        "pizza"
+      ],
+      "overlap_ratio": 0.14285714285714285,
+      "passes_20pct": true
+    },
+    {
+      "id": "cuadfull:108:Third Party:controlled_distributor",
+      "definition_id": "cuadfull:108:Third Party",
+      "visible_content_word_count": 9,
+      "overlap_words": [],
+      "overlap_ratio": 0.0,
+      "passes_20pct": true
+    },
+    {
+      "id": "cuadfull:108:Third Party:unrelated_lab",
+      "definition_id": "cuadfull:108:Third Party",
+      "visible_content_word_count": 8,
+      "overlap_words": [],
+      "overlap_ratio": 0.0,
+      "passes_20pct": true
+    },
+    {
+      "id": "cuadfull:108:Third Party:aimmune_itself",
+      "definition_id": "cuadfull:108:Third Party",
+      "visible_content_word_count": 5,
+      "overlap_words": [],
+      "overlap_ratio": 0.0,
+      "passes_20pct": true
+    },
+    {
+      "id": "cuadfull:250:System Images:server_snapshot",
+      "definition_id": "cuadfull:250:System Images",
+      "visible_content_word_count": 8,
+      "overlap_words": [],
+      "overlap_ratio": 0.0,
+      "passes_20pct": true
+    },
+    {
+      "id": "cuadfull:250:System Images:boot_partition",
+      "definition_id": "cuadfull:250:System Images",
+      "visible_content_word_count": 9,
+      "overlap_words": [],
+      "overlap_ratio": 0.0,
+      "passes_20pct": true
+    },
+    {
+      "id": "cuadfull:250:System Images:customer_csv",
+      "definition_id": "cuadfull:250:System Images",
+      "visible_content_word_count": 7,
+      "overlap_words": [],
+      "overlap_ratio": 0.0,
+      "passes_20pct": true
+    },
+    {
+      "id": "cuadfull:171:Confidential Information:oral_six_weeks",
+      "definition_id": "cuadfull:171:Confidential Information",
+      "visible_content_word_count": 14,
+      "overlap_words": [
+        "agreement"
+      ],
+      "overlap_ratio": 0.07142857142857142,
+      "passes_20pct": true
+    },
+    {
+      "id": "cuadfull:171:Confidential Information:unmarked_plan",
+      "definition_id": "cuadfull:171:Confidential Information",
+      "visible_content_word_count": 9,
+      "overlap_words": [
+        "agreement"
+      ],
+      "overlap_ratio": 0.1111111111111111,
+      "passes_20pct": true
+    },
+    {
+      "id": "cuadfull:171:Confidential Information:stamped_letter",
+      "definition_id": "cuadfull:171:Confidential Information",
+      "visible_content_word_count": 6,
+      "overlap_words": [
+        "agreement"
+      ],
+      "overlap_ratio": 0.16666666666666666,
+      "passes_20pct": true
+    },
+    {
+      "id": "cuadfull:38:New Product:firmware_patch",
+      "definition_id": "cuadfull:38:New Product",
+      "visible_content_word_count": 15,
+      "overlap_words": [
+        "after"
+      ],
+      "overlap_ratio": 0.06666666666666667,
+      "passes_20pct": true
+    },
+    {
+      "id": "cuadfull:38:New Product:acquirer_device",
+      "definition_id": "cuadfull:38:New Product",
+      "visible_content_word_count": 7,
+      "overlap_words": [],
+      "overlap_ratio": 0.0,
+      "passes_20pct": true
+    },
+    {
+      "id": "cuadfull:38:New Product:new_pad",
+      "definition_id": "cuadfull:38:New Product",
+      "visible_content_word_count": 11,
+      "overlap_words": [
+        "after",
+        "developed"
+      ],
+      "overlap_ratio": 0.18181818181818182,
+      "passes_20pct": true
+    },
+    {
+      "id": "cuadfull:152:Territory:ramstein",
+      "definition_id": "cuadfull:152:Territory",
+      "visible_content_word_count": 11,
+      "overlap_words": [],
+      "overlap_ratio": 0.0,
+      "passes_20pct": true
+    },
+    {
+      "id": "cuadfull:152:Territory:guam",
+      "definition_id": "cuadfull:152:Territory",
+      "visible_content_word_count": 5,
+      "overlap_words": [],
+      "overlap_ratio": 0.0,
+      "passes_20pct": true
+    },
+    {
+      "id": "cuadfull:152:Territory:toronto",
+      "definition_id": "cuadfull:152:Territory",
+      "visible_content_word_count": 6,
+      "overlap_words": [],
+      "overlap_ratio": 0.0,
+      "passes_20pct": true
+    },
+    {
+      "id": "cuadfull:187:TERRITORY:manchester",
+      "definition_id": "cuadfull:187:TERRITORY",
+      "visible_content_word_count": 6,
+      "overlap_words": [],
+      "overlap_ratio": 0.0,
+      "passes_20pct": true
+    },
+    {
+      "id": "cuadfull:187:TERRITORY:glasgow",
+      "definition_id": "cuadfull:187:TERRITORY",
+      "visible_content_word_count": 6,
+      "overlap_words": [],
+      "overlap_ratio": 0.0,
+      "passes_20pct": true
+    },
+    {
+      "id": "cuadfull:187:TERRITORY:paris",
+      "definition_id": "cuadfull:187:TERRITORY",
+      "visible_content_word_count": 6,
+      "overlap_words": [],
+      "overlap_ratio": 0.0,
+      "passes_20pct": true
+    },
+    {
+      "id": "cuadfull:21:Excluded Goods:supplier_watch",
+      "definition_id": "cuadfull:21:Excluded Goods",
+      "visible_content_word_count": 17,
+      "overlap_words": [],
+      "overlap_ratio": 0.0,
+      "passes_20pct": true
+    },
+    {
+      "id": "cuadfull:21:Excluded Goods:kiosk_inventory",
+      "definition_id": "cuadfull:21:Excluded Goods",
+      "visible_content_word_count": 10,
+      "overlap_words": [
+        "department"
+      ],
+      "overlap_ratio": 0.1,
+      "passes_20pct": true
+    },
+    {
+      "id": "cuadfull:21:Excluded Goods:owned_sneakers",
+      "definition_id": "cuadfull:21:Excluded Goods",
+      "visible_content_word_count": 10,
+      "overlap_words": [],
+      "overlap_ratio": 0.0,
+      "passes_20pct": true
+    },
+    {
+      "id": "cuadfull:254:Product:encorafenib_capsule",
+      "definition_id": "cuadfull:254:Product",
+      "visible_content_word_count": 6,
+      "overlap_words": [],
+      "overlap_ratio": 0.0,
+      "passes_20pct": true
+    },
+    {
+      "id": "cuadfull:254:Product:placebo_capsule",
+      "definition_id": "cuadfull:254:Product",
+      "visible_content_word_count": 7,
+      "overlap_words": [],
+      "overlap_ratio": 0.0,
+      "passes_20pct": true
+    },
+    {
+      "id": "cuadfull:254:Product:other_drug",
+      "definition_id": "cuadfull:254:Product",
+      "visible_content_word_count": 10,
+      "overlap_words": [],
+      "overlap_ratio": 0.0,
+      "passes_20pct": true
+    },
+    {
+      "id": "cuadfull:450:Covered Regions:casablanca",
+      "definition_id": "cuadfull:450:Covered Regions",
+      "visible_content_word_count": 4,
+      "overlap_words": [],
+      "overlap_ratio": 0.0,
+      "passes_20pct": true
+    },
+    {
+      "id": "cuadfull:450:Covered Regions:sao_paulo",
+      "definition_id": "cuadfull:450:Covered Regions",
+      "visible_content_word_count": 4,
+      "overlap_words": [],
+      "overlap_ratio": 0.0,
+      "passes_20pct": true
+    },
+    {
+      "id": "cuadfull:450:Covered Regions:toronto",
+      "definition_id": "cuadfull:450:Covered Regions",
+      "visible_content_word_count": 4,
+      "overlap_words": [],
+      "overlap_ratio": 0.0,
+      "passes_20pct": true
+    }
+  ]
+}

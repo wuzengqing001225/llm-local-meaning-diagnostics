@@ -1,0 +1,595 @@
+{
+  "status": "EXPLORATORY_SAMPLE_ONLY_EXCLUSION_NOT_SOURCE_ADJUDICATION",
+  "exclusion_counts": {
+    "priority_17": 17,
+    "all_model_not_confirmed_41": 41,
+    "both_insufficient_24": 24
+  },
+  "settings": [
+    {
+      "setting": "Synthetic / DeepSeek",
+      "corpus": "synthetic",
+      "original": {
+        "n": 456,
+        "bare_failures": 130,
+        "bare_error_rate": 0.2850877192982456,
+        "definition_error_rate": 0.02850877192982456,
+        "risk_error_auroc": 0.8479235488437943,
+        "pd_error_auroc": 0.7447852760736197,
+        "conditional_repair_risk_auroc": 0.44461420932009166,
+        "conditional_repair_pd_auroc": 0.9831932773109243,
+        "conditional_repair_sibling_pd_n": 130,
+        "conditional_repair_sibling_pd_auroc": 0.9144385026737968
+      },
+      "deletions": {
+        "priority_17": {
+          "audited_sample_items_removed": 1,
+          "retained": {
+            "n": 455,
+            "bare_failures": 129,
+            "bare_error_rate": 0.2835164835164835,
+            "definition_error_rate": 0.02857142857142857,
+            "risk_error_auroc": 0.8503590621581776,
+            "pd_error_auroc": 0.746611499500642,
+            "conditional_repair_risk_auroc": 0.44838212634822805,
+            "conditional_repair_pd_auroc": 0.9830508474576272,
+            "conditional_repair_sibling_pd_n": 129,
+            "conditional_repair_sibling_pd_auroc": 0.9144838212634823
+          }
+        },
+        "all_model_not_confirmed_41": {
+          "audited_sample_items_removed": 2,
+          "retained": {
+            "n": 454,
+            "bare_failures": 129,
+            "bare_error_rate": 0.2841409691629956,
+            "definition_error_rate": 0.028634361233480177,
+            "risk_error_auroc": 0.8498986285032797,
+            "pd_error_auroc": 0.7462373285629099,
+            "conditional_repair_risk_auroc": 0.44838212634822805,
+            "conditional_repair_pd_auroc": 0.9830508474576272,
+            "conditional_repair_sibling_pd_n": 129,
+            "conditional_repair_sibling_pd_auroc": 0.9144838212634823
+          }
+        },
+        "both_insufficient_24": {
+          "audited_sample_items_removed": 1,
+          "retained": {
+            "n": 455,
+            "bare_failures": 130,
+            "bare_error_rate": 0.2857142857142857,
+            "definition_error_rate": 0.02857142857142857,
+            "risk_error_auroc": 0.8474556213017751,
+            "pd_error_auroc": 0.7444023668639054,
+            "conditional_repair_risk_auroc": 0.44461420932009166,
+            "conditional_repair_pd_auroc": 0.9831932773109243,
+            "conditional_repair_sibling_pd_n": 130,
+            "conditional_repair_sibling_pd_auroc": 0.9144385026737968
+          }
+        }
+      }
+    },
+    {
+      "setting": "Synthetic / GPT6",
+      "corpus": "synthetic",
+      "original": {
+        "n": 456,
+        "bare_failures": 83,
+        "bare_error_rate": 0.18201754385964913,
+        "definition_error_rate": 0.017543859649122806,
+        "risk_error_auroc": 0.8094576698213767,
+        "pd_error_auroc": 0.656222746212733,
+        "conditional_repair_risk_auroc": 0.42105263157894735,
+        "conditional_repair_pd_auroc": 0.9624060150375939,
+        "conditional_repair_sibling_pd_n": 83,
+        "conditional_repair_sibling_pd_auroc": 0.9755639097744361
+      },
+      "deletions": {
+        "priority_17": {
+          "audited_sample_items_removed": 1,
+          "retained": {
+            "n": 455,
+            "bare_failures": 83,
+            "bare_error_rate": 0.1824175824175824,
+            "definition_error_rate": 0.017582417582417582,
+            "risk_error_auroc": 0.8090750097162845,
+            "pd_error_auroc": 0.6559463661095997,
+            "conditional_repair_risk_auroc": 0.42105263157894735,
+            "conditional_repair_pd_auroc": 0.9624060150375939,
+            "conditional_repair_sibling_pd_n": 83,
+            "conditional_repair_sibling_pd_auroc": 0.9755639097744361
+          }
+        },
+        "all_model_not_confirmed_41": {
+          "audited_sample_items_removed": 2,
+          "retained": {
+            "n": 454,
+            "bare_failures": 83,
+            "bare_error_rate": 0.1828193832599119,
+            "definition_error_rate": 0.01762114537444934,
+            "risk_error_auroc": 0.8086578118403533,
+            "pd_error_auroc": 0.6556035462605138,
+            "conditional_repair_risk_auroc": 0.42105263157894735,
+            "conditional_repair_pd_auroc": 0.9624060150375939,
+            "conditional_repair_sibling_pd_n": 83,
+            "conditional_repair_sibling_pd_auroc": 0.9755639097744361
+          }
+        },
+        "both_insufficient_24": {
+          "audited_sample_items_removed": 1,
+          "retained": {
+            "n": 455,
+            "bare_failures": 83,
+            "bare_error_rate": 0.1824175824175824,
+            "definition_error_rate": 0.017582417582417582,
+            "risk_error_auroc": 0.8090426221013085,
+            "pd_error_auroc": 0.6558815908796476,
+            "conditional_repair_risk_auroc": 0.42105263157894735,
+            "conditional_repair_pd_auroc": 0.9624060150375939,
+            "conditional_repair_sibling_pd_n": 83,
+            "conditional_repair_sibling_pd_auroc": 0.9755639097744361
+          }
+        }
+      }
+    },
+    {
+      "setting": "Reddit / DeepSeek",
+      "corpus": "reddit",
+      "original": {
+        "n": 1391,
+        "bare_failures": 419,
+        "bare_error_rate": 0.30122214234363764,
+        "definition_error_rate": 0.18475916606757728,
+        "risk_error_auroc": 0.8081386212518538,
+        "pd_error_auroc": 0.5196872820845242,
+        "conditional_repair_risk_auroc": 0.45266552836273954,
+        "conditional_repair_pd_auroc": 0.8583523050654525,
+        "conditional_repair_sibling_pd_n": 418,
+        "conditional_repair_sibling_pd_auroc": 0.8240714285714286
+      },
+      "deletions": {
+        "priority_17": {
+          "audited_sample_items_removed": 3,
+          "retained": {
+            "n": 1388,
+            "bare_failures": 419,
+            "bare_error_rate": 0.30187319884726227,
+            "definition_error_rate": 0.1844380403458213,
+            "risk_error_auroc": 0.8080175167667871,
+            "pd_error_auroc": 0.5198011876525512,
+            "conditional_repair_risk_auroc": 0.45266552836273954,
+            "conditional_repair_pd_auroc": 0.8583523050654525,
+            "conditional_repair_sibling_pd_n": 418,
+            "conditional_repair_sibling_pd_auroc": 0.8240714285714286
+          }
+        },
+        "all_model_not_confirmed_41": {
+          "audited_sample_items_removed": 17,
+          "retained": {
+            "n": 1374,
+            "bare_failures": 414,
+            "bare_error_rate": 0.30131004366812225,
+            "definition_error_rate": 0.1848617176128093,
+            "risk_error_auroc": 0.8104216988727858,
+            "pd_error_auroc": 0.5237067230273752,
+            "conditional_repair_risk_auroc": 0.4563504569807753,
+            "conditional_repair_pd_auroc": 0.8634148706635313,
+            "conditional_repair_sibling_pd_n": 413,
+            "conditional_repair_sibling_pd_auroc": 0.8261769144637554
+          }
+        },
+        "both_insufficient_24": {
+          "audited_sample_items_removed": 14,
+          "retained": {
+            "n": 1377,
+            "bare_failures": 414,
+            "bare_error_rate": 0.3006535947712418,
+            "definition_error_rate": 0.18518518518518517,
+            "risk_error_auroc": 0.8105407317109877,
+            "pd_error_auroc": 0.5235927380719471,
+            "conditional_repair_risk_auroc": 0.4563504569807753,
+            "conditional_repair_pd_auroc": 0.8634148706635313,
+            "conditional_repair_sibling_pd_n": 413,
+            "conditional_repair_sibling_pd_auroc": 0.8261769144637554
+          }
+        }
+      }
+    },
+    {
+      "setting": "Reddit / GPT6",
+      "corpus": "reddit",
+      "original": {
+        "n": 1391,
+        "bare_failures": 203,
+        "bare_error_rate": 0.14593817397555714,
+        "definition_error_rate": 0.11933860531991373,
+        "risk_error_auroc": 0.7197425818115474,
+        "pd_error_auroc": 0.4288119288119288,
+        "conditional_repair_risk_auroc": 0.5536860532970239,
+        "conditional_repair_pd_auroc": 0.8119042987745575,
+        "conditional_repair_sibling_pd_n": 203,
+        "conditional_repair_sibling_pd_auroc": 0.863742462555923
+      },
+      "deletions": {
+        "priority_17": {
+          "audited_sample_items_removed": 3,
+          "retained": {
+            "n": 1388,
+            "bare_failures": 203,
+            "bare_error_rate": 0.14625360230547552,
+            "definition_error_rate": 0.11959654178674352,
+            "risk_error_auroc": 0.7194820311363306,
+            "pd_error_auroc": 0.428903992849868,
+            "conditional_repair_risk_auroc": 0.5536860532970239,
+            "conditional_repair_pd_auroc": 0.8119042987745575,
+            "conditional_repair_sibling_pd_n": 203,
+            "conditional_repair_sibling_pd_auroc": 0.863742462555923
+          }
+        },
+        "all_model_not_confirmed_41": {
+          "audited_sample_items_removed": 17,
+          "retained": {
+            "n": 1374,
+            "bare_failures": 201,
+            "bare_error_rate": 0.1462882096069869,
+            "definition_error_rate": 0.11935953420669577,
+            "risk_error_auroc": 0.7189627311015256,
+            "pd_error_auroc": 0.4326237525077087,
+            "conditional_repair_risk_auroc": 0.5540674603174603,
+            "conditional_repair_pd_auroc": 0.8159722222222222,
+            "conditional_repair_sibling_pd_n": 201,
+            "conditional_repair_sibling_pd_auroc": 0.8632936507936508
+          }
+        },
+        "both_insufficient_24": {
+          "audited_sample_items_removed": 14,
+          "retained": {
+            "n": 1377,
+            "bare_failures": 201,
+            "bare_error_rate": 0.14596949891067537,
+            "definition_error_rate": 0.11909949164851126,
+            "risk_error_auroc": 0.7192227637323586,
+            "pd_error_auroc": 0.4325312214438014,
+            "conditional_repair_risk_auroc": 0.5540674603174603,
+            "conditional_repair_pd_auroc": 0.8159722222222222,
+            "conditional_repair_sibling_pd_n": 201,
+            "conditional_repair_sibling_pd_auroc": 0.8632936507936508
+          }
+        }
+      }
+    },
+    {
+      "setting": "DeFi / DeepSeek",
+      "corpus": "defi",
+      "original": {
+        "n": 379,
+        "bare_failures": 107,
+        "bare_error_rate": 0.28232189973614774,
+        "definition_error_rate": 0.19261213720316622,
+        "risk_error_auroc": 0.809304562946674,
+        "pd_error_auroc": 0.45849367784496975,
+        "conditional_repair_risk_auroc": 0.500709219858156,
+        "conditional_repair_pd_auroc": 0.8631205673758865,
+        "conditional_repair_sibling_pd_n": 107,
+        "conditional_repair_sibling_pd_auroc": 0.849645390070922
+      },
+      "deletions": {
+        "priority_17": {
+          "audited_sample_items_removed": 7,
+          "retained": {
+            "n": 372,
+            "bare_failures": 107,
+            "bare_error_rate": 0.28763440860215056,
+            "definition_error_rate": 0.19623655913978494,
+            "risk_error_auroc": 0.8087109857168048,
+            "pd_error_auroc": 0.45924880973373305,
+            "conditional_repair_risk_auroc": 0.500709219858156,
+            "conditional_repair_pd_auroc": 0.8631205673758865,
+            "conditional_repair_sibling_pd_n": 107,
+            "conditional_repair_sibling_pd_auroc": 0.849645390070922
+          }
+        },
+        "all_model_not_confirmed_41": {
+          "audited_sample_items_removed": 15,
+          "retained": {
+            "n": 364,
+            "bare_failures": 104,
+            "bare_error_rate": 0.2857142857142857,
+            "definition_error_rate": 0.20054945054945056,
+            "risk_error_auroc": 0.8121301775147929,
+            "pd_error_auroc": 0.45565828402366865,
+            "conditional_repair_risk_auroc": 0.5083986562150056,
+            "conditional_repair_pd_auroc": 0.8697275102650243,
+            "conditional_repair_sibling_pd_n": 104,
+            "conditional_repair_sibling_pd_auroc": 0.8443449048152296
+          }
+        },
+        "both_insufficient_24": {
+          "audited_sample_items_removed": 8,
+          "retained": {
+            "n": 371,
+            "bare_failures": 104,
+            "bare_error_rate": 0.2803234501347709,
+            "definition_error_rate": 0.1967654986522911,
+            "risk_error_auroc": 0.81284212042639,
+            "pd_error_auroc": 0.4548761163929703,
+            "conditional_repair_risk_auroc": 0.5083986562150056,
+            "conditional_repair_pd_auroc": 0.8697275102650243,
+            "conditional_repair_sibling_pd_n": 104,
+            "conditional_repair_sibling_pd_auroc": 0.8443449048152296
+          }
+        }
+      }
+    },
+    {
+      "setting": "DeFi / GPT5.6",
+      "corpus": "defi",
+      "original": {
+        "n": 379,
+        "bare_failures": 87,
+        "bare_error_rate": 0.22955145118733508,
+        "definition_error_rate": 0.14775725593667546,
+        "risk_error_auroc": 0.7923161706817824,
+        "pd_error_auroc": 0.3800582585419619,
+        "conditional_repair_risk_auroc": 0.5682062298603652,
+        "conditional_repair_pd_auroc": 0.7937701396348013,
+        "conditional_repair_sibling_pd_n": 87,
+        "conditional_repair_sibling_pd_auroc": 0.799140708915145
+      },
+      "deletions": {
+        "priority_17": {
+          "audited_sample_items_removed": 7,
+          "retained": {
+            "n": 372,
+            "bare_failures": 87,
+            "bare_error_rate": 0.23387096774193547,
+            "definition_error_rate": 0.1478494623655914,
+            "risk_error_auroc": 0.7910465819721718,
+            "pd_error_auroc": 0.3805605968945352,
+            "conditional_repair_risk_auroc": 0.5682062298603652,
+            "conditional_repair_pd_auroc": 0.7937701396348013,
+            "conditional_repair_sibling_pd_n": 87,
+            "conditional_repair_sibling_pd_auroc": 0.799140708915145
+          }
+        },
+        "all_model_not_confirmed_41": {
+          "audited_sample_items_removed": 15,
+          "retained": {
+            "n": 364,
+            "bare_failures": 85,
+            "bare_error_rate": 0.23351648351648352,
+            "definition_error_rate": 0.1510989010989011,
+            "risk_error_auroc": 0.7897954880877082,
+            "pd_error_auroc": 0.3677841028884672,
+            "conditional_repair_risk_auroc": 0.5699888017917133,
+            "conditional_repair_pd_auroc": 0.7855543113101904,
+            "conditional_repair_sibling_pd_n": 85,
+            "conditional_repair_sibling_pd_auroc": 0.7905935050391937
+          }
+        },
+        "both_insufficient_24": {
+          "audited_sample_items_removed": 8,
+          "retained": {
+            "n": 371,
+            "bare_failures": 85,
+            "bare_error_rate": 0.22911051212938005,
+            "definition_error_rate": 0.1509433962264151,
+            "risk_error_auroc": 0.7911970382558617,
+            "pd_error_auroc": 0.36729740847387904,
+            "conditional_repair_risk_auroc": 0.5699888017917133,
+            "conditional_repair_pd_auroc": 0.7855543113101904,
+            "conditional_repair_sibling_pd_n": 85,
+            "conditional_repair_sibling_pd_auroc": 0.7905935050391937
+          }
+        }
+      }
+    },
+    {
+      "setting": "DeFi / GPT6",
+      "corpus": "defi",
+      "original": {
+        "n": 379,
+        "bare_failures": 64,
+        "bare_error_rate": 0.16886543535620052,
+        "definition_error_rate": 0.1345646437994723,
+        "risk_error_auroc": 0.7638392857142857,
+        "pd_error_auroc": 0.34171626984126985,
+        "conditional_repair_risk_auroc": 0.47647647647647645,
+        "conditional_repair_pd_auroc": 0.8458458458458459,
+        "conditional_repair_sibling_pd_n": 64,
+        "conditional_repair_sibling_pd_auroc": 0.8738738738738738
+      },
+      "deletions": {
+        "priority_17": {
+          "audited_sample_items_removed": 7,
+          "retained": {
+            "n": 372,
+            "bare_failures": 63,
+            "bare_error_rate": 0.1693548387096774,
+            "definition_error_rate": 0.13172043010752688,
+            "risk_error_auroc": 0.764421842091745,
+            "pd_error_auroc": 0.34144963271176865,
+            "conditional_repair_risk_auroc": 0.4670781893004115,
+            "conditional_repair_pd_auroc": 0.8518518518518519,
+            "conditional_repair_sibling_pd_n": 63,
+            "conditional_repair_sibling_pd_auroc": 0.8703703703703703
+          }
+        },
+        "all_model_not_confirmed_41": {
+          "audited_sample_items_removed": 15,
+          "retained": {
+            "n": 364,
+            "bare_failures": 63,
+            "bare_error_rate": 0.17307692307692307,
+            "definition_error_rate": 0.1346153846153846,
+            "risk_error_auroc": 0.7634340557928598,
+            "pd_error_auroc": 0.34129620840584296,
+            "conditional_repair_risk_auroc": 0.4670781893004115,
+            "conditional_repair_pd_auroc": 0.8518518518518519,
+            "conditional_repair_sibling_pd_n": 63,
+            "conditional_repair_sibling_pd_auroc": 0.8703703703703703
+          }
+        },
+        "both_insufficient_24": {
+          "audited_sample_items_removed": 8,
+          "retained": {
+            "n": 371,
+            "bare_failures": 64,
+            "bare_error_rate": 0.1725067385444744,
+            "definition_error_rate": 0.13746630727762804,
+            "risk_error_auroc": 0.7628766286644951,
+            "pd_error_auroc": 0.34151058631921827,
+            "conditional_repair_risk_auroc": 0.47647647647647645,
+            "conditional_repair_pd_auroc": 0.8458458458458459,
+            "conditional_repair_sibling_pd_n": 64,
+            "conditional_repair_sibling_pd_auroc": 0.8738738738738738
+          }
+        }
+      }
+    },
+    {
+      "setting": "CUAD / GPT5.6",
+      "corpus": "cuad",
+      "original": {
+        "n": 1500,
+        "bare_failures": 320,
+        "bare_error_rate": 0.21333333333333335,
+        "definition_error_rate": 0.16,
+        "risk_error_auroc": 0.8148516949152542,
+        "pd_error_auroc": 0.4641313559322034,
+        "conditional_repair_risk_auroc": 0.4624672736508929,
+        "conditional_repair_pd_auroc": 0.7117345941932711,
+        "conditional_repair_sibling_pd_n": 190,
+        "conditional_repair_sibling_pd_auroc": 0.5805305805305805
+      },
+      "deletions": {
+        "priority_17": {
+          "audited_sample_items_removed": 6,
+          "retained": {
+            "n": 1494,
+            "bare_failures": 317,
+            "bare_error_rate": 0.21218206157965194,
+            "definition_error_rate": 0.15930388219544847,
+            "risk_error_auroc": 0.8163324926496011,
+            "pd_error_auroc": 0.46282453652953964,
+            "conditional_repair_risk_auroc": 0.4571587832457398,
+            "conditional_repair_pd_auroc": 0.7138079311992356,
+            "conditional_repair_sibling_pd_n": 189,
+            "conditional_repair_sibling_pd_auroc": 0.5857463524130191
+          },
+          "retained_weighted_cuad": {
+            "n": 1494,
+            "bare_failures": 317,
+            "bare_error_rate": 0.13125193452419018,
+            "definition_error_rate": 0.10523197662966877,
+            "risk_error_auroc": 0.8464889063970609,
+            "pd_error_auroc": 0.4991387694815808,
+            "conditional_repair_risk_auroc": 0.44418630694716976,
+            "conditional_repair_pd_auroc": 0.7144215067798358,
+            "conditional_repair_sibling_pd_n": 189,
+            "conditional_repair_sibling_pd_auroc": 0.5939332036430944
+          }
+        },
+        "all_model_not_confirmed_41": {
+          "audited_sample_items_removed": 7,
+          "retained": {
+            "n": 1493,
+            "bare_failures": 316,
+            "bare_error_rate": 0.2116543871399866,
+            "definition_error_rate": 0.15874079035498995,
+            "risk_error_auroc": 0.8166707892840627,
+            "pd_error_auroc": 0.4639477108718798,
+            "conditional_repair_risk_auroc": 0.4552594670406732,
+            "conditional_repair_pd_auroc": 0.712442396313364,
+            "conditional_repair_sibling_pd_n": 189,
+            "conditional_repair_sibling_pd_auroc": 0.5857463524130191
+          },
+          "retained_weighted_cuad": {
+            "n": 1493,
+            "bare_failures": 316,
+            "bare_error_rate": 0.13081614528814237,
+            "definition_error_rate": 0.10478313502778154,
+            "risk_error_auroc": 0.8465058717803112,
+            "pd_error_auroc": 0.500683910291352,
+            "conditional_repair_risk_auroc": 0.4427515975396839,
+            "conditional_repair_pd_auroc": 0.7127955767098099,
+            "conditional_repair_sibling_pd_n": 189,
+            "conditional_repair_sibling_pd_auroc": 0.5939332036430944
+          }
+        },
+        "both_insufficient_24": {
+          "audited_sample_items_removed": 1,
+          "retained": {
+            "n": 1499,
+            "bare_failures": 319,
+            "bare_error_rate": 0.21280853902601735,
+            "definition_error_rate": 0.15943962641761175,
+            "risk_error_auroc": 0.8151878221135965,
+            "pd_error_auroc": 0.46524892407417245,
+            "conditional_repair_risk_auroc": 0.46059462010382257,
+            "conditional_repair_pd_auroc": 0.7103586597451628,
+            "conditional_repair_sibling_pd_n": 190,
+            "conditional_repair_sibling_pd_auroc": 0.5805305805305805
+          },
+          "retained_weighted_cuad": {
+            "n": 1499,
+            "bare_failures": 319,
+            "bare_error_rate": 0.1316133052734814,
+            "definition_error_rate": 0.1053766626483869,
+            "risk_error_auroc": 0.8456404766546594,
+            "pd_error_auroc": 0.5019794293473058,
+            "conditional_repair_risk_auroc": 0.4484681485020784,
+            "conditional_repair_pd_auroc": 0.7102298667755081,
+            "conditional_repair_sibling_pd_n": 190,
+            "conditional_repair_sibling_pd_auroc": 0.5907070175980651
+          }
+        }
+      },
+      "original_weighted_cuad": {
+        "n": 1500,
+        "bare_failures": 320,
+        "bare_error_rate": 0.1320477867973656,
+        "definition_error_rate": 0.1058242712002859,
+        "risk_error_auroc": 0.8456231929392303,
+        "pd_error_auroc": 0.5004414687902105,
+        "conditional_repair_risk_auroc": 0.4498668924726559,
+        "conditional_repair_pd_auroc": 0.7118670314725898,
+        "conditional_repair_sibling_pd_n": 190,
+        "conditional_repair_sibling_pd_auroc": 0.5907070175980651
+      }
+    }
+  ],
+  "synthetic_stable_wrong": {
+    "original": {
+      "n": 761,
+      "greedy_errors": 229,
+      "ten_identical_wrong": 93,
+      "fraction_of_greedy_errors": 0.40611353711790393
+    },
+    "priority_17": {
+      "n": 760,
+      "greedy_errors": 228,
+      "ten_identical_wrong": 93,
+      "fraction_of_greedy_errors": 0.40789473684210525
+    },
+    "all_model_not_confirmed_41": {
+      "n": 759,
+      "greedy_errors": 228,
+      "ten_identical_wrong": 93,
+      "fraction_of_greedy_errors": 0.40789473684210525
+    },
+    "both_insufficient_24": {
+      "n": 760,
+      "greedy_errors": 229,
+      "ten_identical_wrong": 93,
+      "fraction_of_greedy_errors": 0.40611353711790393
+    }
+  },
+  "limits": [
+    "Only 80 sampled historical questions were source screened; excluding their flags from 3,726+ questions cannot validate unreviewed keys.",
+    "Screening judgments are model-generated, not independent human corrections.",
+    "All proxy p_correct values refer to the old key. Flagged items are removed, never relabeled using old probabilities.",
+    "The CUAD weighted rows retain original design weights only as deletion sensitivity, not a population estimate for source-valid items.",
+    "The stable-wrong calculation uses the corrected 761-item uncertainty frame, which differs from the 456-item directly matched prediction frame."
+  ]
+}

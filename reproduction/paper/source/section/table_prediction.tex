@@ -1,0 +1,14 @@
+\begin{table}[t]\centering\footnotesize\setlength{\tabcolsep}{4pt}
+\caption{Reader error without and with the definition text, and AUROC of proxy scores for ranking bare errors. The definition text is a model-drafted source-based gloss for synthetic, Reddit, and DeFi, and extracted contract wording for CUAD. Rows differ in reader and question construction (Appendix~\ref{app:setting-design}). CUAD is risk-stratified.}
+\label{tab:prediction}
+\begin{tabular}{@{}llrcccc@{}}\toprule
+Corpus & Reader & $n$ & Error, no def. & Error, def. & $R$ AUROC [95\% CI] & $\Delta p$ AUROC\\\midrule
+Synthetic & DeepSeek V4 Flash & 456 & 0.285 & 0.029 & 0.848 [0.811, 0.883] & 0.745\\
+Synthetic & GPT-6-astra & 456 & 0.182 & 0.018 & 0.809 [0.763, 0.856] & 0.656\\
+Reddit & DeepSeek V4.1 Flash & 1,391 & 0.301 & 0.185 & 0.808 [0.785, 0.835] & 0.520\\
+Reddit & GPT-6-astra & 1,391 & 0.146 & 0.119 & 0.720 [0.676, 0.761] & 0.429\\
+DeFi & DeepSeek V4.1 Flash & 379 & 0.282 & 0.193 & 0.809 [0.763, 0.856] & 0.458\\
+DeFi & GPT-5.6-terra & 379 & 0.230 & 0.148 & 0.792 [0.742, 0.839] & 0.380\\
+DeFi & GPT-6-astra & 379 & 0.169 & 0.135 & 0.764 [0.704, 0.815] & 0.342\\
+CUAD & GPT-5.6-terra & 1,500 & 0.213 & 0.160 & 0.815 [0.789, 0.840] & 0.464\\
+\bottomrule\end{tabular}\end{table}

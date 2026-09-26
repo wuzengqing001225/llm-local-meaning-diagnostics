@@ -1,0 +1,285 @@
+{
+  "occurrence": [
+    {
+      "file": "occ_ab_v1.jsonl",
+      "n": 965,
+      "bare": 0.9025906735751296,
+      "inline": 0.9865284974093265,
+      "repair": 85,
+      "harm": 4,
+      "net_ci": [
+        0.057316856199751756,
+        0.11458466606960081
+      ],
+      "risk_auc": 0.8638639861250214,
+      "curves": [
+        {
+          "budget": 0,
+          "k": 0,
+          "risk_gain": 0.0,
+          "term_gain": 0.0,
+          "random_expected_gain": 0.0,
+          "oracle_gain": 0.0,
+          "repair_capture": 0.0
+        },
+        {
+          "budget": 0.05,
+          "k": 49,
+          "risk_gain": 0.024870466321243522,
+          "term_gain": 0.01865284974093264,
+          "random_expected_gain": 0.004262127842358183,
+          "oracle_gain": 0.05077720207253886,
+          "repair_capture": 0.2823529411764706
+        },
+        {
+          "budget": 0.1,
+          "k": 97,
+          "risk_gain": 0.04145077720207254,
+          "term_gain": 0.03005181347150259,
+          "random_expected_gain": 0.008437273483851915,
+          "oracle_gain": 0.08808290155440414,
+          "repair_capture": 0.47058823529411764
+        },
+        {
+          "budget": 0.2,
+          "k": 193,
+          "risk_gain": 0.05906735751295337,
+          "term_gain": 0.04455958549222798,
+          "random_expected_gain": 0.016787564766839378,
+          "oracle_gain": 0.08808290155440414,
+          "repair_capture": 0.6823529411764706
+        },
+        {
+          "budget": 0.3,
+          "k": 290,
+          "risk_gain": 0.06735751295336788,
+          "term_gain": 0.058031088082901555,
+          "random_expected_gain": 0.025224838250691294,
+          "oracle_gain": 0.08808290155440414,
+          "repair_capture": 0.788235294117647
+        },
+        {
+          "budget": 0.5,
+          "k": 483,
+          "risk_gain": 0.08186528497409326,
+          "term_gain": 0.07461139896373056,
+          "random_expected_gain": 0.042012403017530675,
+          "oracle_gain": 0.08808290155440414,
+          "repair_capture": 0.9529411764705882
+        },
+        {
+          "budget": 1,
+          "k": 965,
+          "risk_gain": 0.08393782383419689,
+          "term_gain": 0.08393782383419689,
+          "random_expected_gain": 0.08393782383419689,
+          "oracle_gain": 0.08393782383419689,
+          "repair_capture": 1.0
+        }
+      ]
+    },
+    {
+      "file": "occ_ab_cuad.jsonl",
+      "n": 733,
+      "bare": 0.9113233287858117,
+      "inline": 0.9290586630286494,
+      "repair": 29,
+      "harm": 16,
+      "net_ci": [
+        -0.00436713097249227,
+        0.03910658238693489
+      ],
+      "risk_auc": 0.8151773376324275,
+      "curves": [
+        {
+          "budget": 0,
+          "k": 0,
+          "risk_gain": 0.0,
+          "term_gain": 0.0,
+          "random_expected_gain": 0.0,
+          "oracle_gain": 0.0,
+          "repair_capture": 0.0
+        },
+        {
+          "budget": 0.05,
+          "k": 37,
+          "risk_gain": 0.005457025920873124,
+          "term_gain": 0.0068212824010914054,
+          "random_expected_gain": 0.0008952351527762528,
+          "oracle_gain": 0.03956343792633015,
+          "repair_capture": 0.1724137931034483
+        },
+        {
+          "budget": 0.1,
+          "k": 74,
+          "risk_gain": 0.01227830832196453,
+          "term_gain": 0.008185538881309686,
+          "random_expected_gain": 0.0017904703055525056,
+          "oracle_gain": 0.03956343792633015,
+          "repair_capture": 0.3793103448275862
+        },
+        {
+          "budget": 0.2,
+          "k": 147,
+          "risk_gain": 0.017735334242837655,
+          "term_gain": 0.009549795361527967,
+          "random_expected_gain": 0.0035567450664353824,
+          "oracle_gain": 0.03956343792633015,
+          "repair_capture": 0.5862068965517241
+        },
+        {
+          "budget": 0.3,
+          "k": 220,
+          "risk_gain": 0.015006821282401092,
+          "term_gain": 0.005457025920873124,
+          "random_expected_gain": 0.00532301982731826,
+          "oracle_gain": 0.03956343792633015,
+          "repair_capture": 0.7586206896551724
+        },
+        {
+          "budget": 0.5,
+          "k": 367,
+          "risk_gain": 0.013642564802182811,
+          "term_gain": 0.008185538881309686,
+          "random_expected_gain": 0.008879764893753642,
+          "oracle_gain": 0.03956343792633015,
+          "repair_capture": 0.8620689655172413
+        },
+        {
+          "budget": 1,
+          "k": 733,
+          "risk_gain": 0.017735334242837655,
+          "term_gain": 0.017735334242837655,
+          "random_expected_gain": 0.017735334242837655,
+          "oracle_gain": 0.017735334242837655,
+          "repair_capture": 1.0
+        }
+      ]
+    }
+  ],
+  "scaling": [
+    {
+      "file": "scaling_Qwen_Qwen2.5-0.5B.jsonl",
+      "n": 457,
+      "auc": 0.6961551070107245
+    },
+    {
+      "file": "scaling_Qwen_Qwen2.5-1.5B.jsonl",
+      "n": 457,
+      "auc": 0.7885308855898469
+    },
+    {
+      "file": "scaling_Qwen_Qwen2.5-3B.jsonl",
+      "n": 457,
+      "auc": 0.8018077085187093
+    },
+    {
+      "file": "lpmc_v1.jsonl",
+      "n": 457,
+      "auc": 0.8479838898515432
+    },
+    {
+      "file": "lpmc_v1_qwen14b.jsonl",
+      "n": 457,
+      "auc": 0.8674659298459233
+    },
+    {
+      "file": "lpmc_v1_llama8b.jsonl",
+      "n": 457,
+      "auc": 0.7992319580386831
+    }
+  ],
+  "rqa": [
+    {
+      "file": "rqa_answers_gpt.jsonl",
+      "n": 178,
+      "unique_posts": 176,
+      "arms": {
+        "plain": {
+          "accuracy": 0.5,
+          "delta": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "note_gated": {
+          "accuracy": 0.5168539325842697,
+          "delta": 0.016853932584269662,
+          "ci": [
+            -0.03817527891955373,
+            0.05660377358490566
+          ]
+        },
+        "note_all": {
+          "accuracy": 0.5280898876404494,
+          "delta": 0.028089887640449437,
+          "ci": [
+            -0.07148334794040315,
+            0.09091946865919463
+          ]
+        }
+      }
+    },
+    {
+      "file": "rqa_answers_deepseek41.jsonl",
+      "n": 178,
+      "unique_posts": 176,
+      "arms": {
+        "plain": {
+          "accuracy": 0.6067415730337079,
+          "delta": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "note_gated": {
+          "accuracy": 0.6123595505617978,
+          "delta": 0.0056179775280898875,
+          "ci": [
+            -0.0335204904203067,
+            0.047298296817527584
+          ]
+        },
+        "note_all": {
+          "accuracy": 0.5955056179775281,
+          "delta": -0.011235955056179775,
+          "ci": [
+            -0.05917632595714787,
+            0.0373164258919307
+          ]
+        }
+      }
+    }
+  ],
+  "channels": {
+    "v1_eqa.jsonl": {
+      "conflict": 44,
+      "consistent": 63,
+      "instantiation": 80,
+      "unknown": 4,
+      "guess": 6
+    },
+    "reddit_eqa.jsonl": {
+      "instantiation": 112,
+      "conflict": 119,
+      "consistent": 121
+    },
+    "cuad_eqa_gold_deepseek.jsonl": {
+      "instantiation": 65,
+      "consistent": 97,
+      "conflict": 24,
+      "guess": 1
+    },
+    "defi_strict_eqa.jsonl": {
+      "instantiation": 32,
+      "consistent": 49,
+      "conflict": 16
+    }
+  },
+  "unc_alignment": {
+    "matched": 763,
+    "mismatch": 0
+  }
+}

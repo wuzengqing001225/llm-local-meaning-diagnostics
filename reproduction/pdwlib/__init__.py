@@ -1,0 +1,1 @@
+"""pdwlib — PDW (Prior-Divergence Weight) support library: LLM client, text/statistics utilities, estimators."""

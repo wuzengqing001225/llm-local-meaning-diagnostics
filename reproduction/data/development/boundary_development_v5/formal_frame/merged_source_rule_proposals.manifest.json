@@ -1,0 +1,10 @@
+{
+  "status": "merged_unreviewed_source_only_triage",
+  "base_sha256": "1fbd28c443ea32902d65a2170b5c83f802c2849caf4ad43b7c68b1ed6cc439b2",
+  "topup_sha256": "0d34b0546732b900f291dd095a9f4dcbf67fc36fc42af9082a7108b40f1fef82",
+  "n_base": 323,
+  "n_topup": 225,
+  "n_eligible": 162,
+  "n_challenge_eligible": 140,
+  "n_source_sample_eligible": 22
+}

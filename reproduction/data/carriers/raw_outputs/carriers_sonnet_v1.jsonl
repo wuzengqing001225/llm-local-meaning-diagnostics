@@ -1,0 +1,1038 @@
+{"set": "target", "id": "v1:desk:interest", "term": "interest", "ctx_idx": 0, "retrieved_n": 1, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "target", "id": "v1:desk:interest", "term": "interest", "ctx_idx": 4, "retrieved_n": 1, "bare": 1.0, "ctx_full": 0.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:interest", "term": "interest", "ctx_idx": 7, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:green", "term": "green", "ctx_idx": 0, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:green", "term": "green", "ctx_idx": 3, "retrieved_n": 1, "bare": 1.0, "ctx_full": 0.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:week", "term": "week", "ctx_idx": 0, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:week", "term": "week", "ctx_idx": 3, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:week", "term": "week", "ctx_idx": 8, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:flat", "term": "flat", "ctx_idx": 2, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:flat", "term": "flat", "ctx_idx": 7, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:parking", "term": "parking", "ctx_idx": 2, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:parking", "term": "parking", "ctx_idx": 5, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:parking", "term": "parking", "ctx_idx": 8, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:quiet", "term": "quiet", "ctx_idx": 2, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:quiet", "term": "quiet", "ctx_idx": 5, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:senior", "term": "senior", "ctx_idx": 1, "retrieved_n": 1, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:senior", "term": "senior", "ctx_idx": 5, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:holiday", "term": "holiday", "ctx_idx": 0, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:holiday", "term": "holiday", "ctx_idx": 4, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:holiday", "term": "holiday", "ctx_idx": 8, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:fresh", "term": "fresh", "ctx_idx": 1, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:fresh", "term": "fresh", "ctx_idx": 4, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:cheap", "term": "cheap", "ctx_idx": 1, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:cheap", "term": "cheap", "ctx_idx": 4, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:cheap", "term": "cheap", "ctx_idx": 7, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:counterparty", "term": "counterparty", "ctx_idx": 3, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:counterparty", "term": "counterparty", "ctx_idx": 6, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:counterparty", "term": "counterparty", "ctx_idx": 9, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:contango", "term": "contango", "ctx_idx": 2, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:contango", "term": "contango", "ctx_idx": 6, "retrieved_n": 1, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "target", "id": "v1:desk:backwardation", "term": "backwardation", "ctx_idx": 0, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:backwardation", "term": "backwardation", "ctx_idx": 3, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:backwardation", "term": "backwardation", "ctx_idx": 6, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:cross-margining", "term": "cross-margining", "ctx_idx": 1, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:cross-margining", "term": "cross-margining", "ctx_idx": 4, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:cross-margining", "term": "cross-margining", "ctx_idx": 7, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:RiskCap", "term": "RiskCap", "ctx_idx": 2, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:RiskCap", "term": "RiskCap", "ctx_idx": 5, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:FeeTier2", "term": "FeeTier2", "ctx_idx": 1, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:FeeTier2", "term": "FeeTier2", "ctx_idx": 5, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:FeeTier2", "term": "FeeTier2", "ctx_idx": 8, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:varnok", "term": "varnok", "ctx_idx": 1, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:varnok", "term": "varnok", "ctx_idx": 4, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:varnok", "term": "varnok", "ctx_idx": 7, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:red", "term": "red", "ctx_idx": 0, "retrieved_n": 1, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:red", "term": "red", "ctx_idx": 3, "retrieved_n": 1, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:red", "term": "red", "ctx_idx": 6, "retrieved_n": 1, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:red", "term": "red", "ctx_idx": 9, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:cold", "term": "cold", "ctx_idx": 2, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:cold", "term": "cold", "ctx_idx": 5, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:cold", "term": "cold", "ctx_idx": 8, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:float", "term": "float", "ctx_idx": 3, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:float", "term": "float", "ctx_idx": 8, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:fresh", "term": "fresh", "ctx_idx": 1, "retrieved_n": 2, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:fresh", "term": "fresh", "ctx_idx": 4, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:fresh", "term": "fresh", "ctx_idx": 7, "retrieved_n": 2, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:spoil", "term": "spoil", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:dead", "term": "dead", "ctx_idx": 1, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:dead", "term": "dead", "ctx_idx": 4, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:dead", "term": "dead", "ctx_idx": 8, "retrieved_n": 1, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:sugar", "term": "sugar", "ctx_idx": 2, "retrieved_n": 1, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:sugar", "term": "sugar", "ctx_idx": 6, "retrieved_n": 3, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:sugar", "term": "sugar", "ctx_idx": 9, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:delivery", "term": "delivery", "ctx_idx": 2, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:delivery", "term": "delivery", "ctx_idx": 5, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:delivery", "term": "delivery", "ctx_idx": 8, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:expediter", "term": "expediter", "ctx_idx": 0, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:expediter", "term": "expediter", "ctx_idx": 4, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:expediter", "term": "expediter", "ctx_idx": 7, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:par level", "term": "par level", "ctx_idx": 3, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:par level", "term": "par level", "ctx_idx": 8, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:StockPing", "term": "StockPing", "ctx_idx": 1, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:StockPing", "term": "StockPing", "ctx_idx": 4, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:StockPing", "term": "StockPing", "ctx_idx": 7, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:bonus", "term": "bonus", "ctx_idx": 2, "retrieved_n": 0, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:desk:bonus", "term": "bonus", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:bonus", "term": "bonus", "ctx_idx": 8, "retrieved_n": 0, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:desk:rebate", "term": "rebate", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:rebate", "term": "rebate", "ctx_idx": 5, "retrieved_n": 0, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:desk:rebate", "term": "rebate", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:ticket", "term": "ticket", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:ticket", "term": "ticket", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:ticket", "term": "ticket", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:warm", "term": "warm", "ctx_idx": 0, "retrieved_n": 0, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:desk:warm", "term": "warm", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:warm", "term": "warm", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:sweep", "term": "sweep", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:sweep", "term": "sweep", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:sweep", "term": "sweep", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:clean", "term": "clean", "ctx_idx": 0, "retrieved_n": 0, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:desk:clean", "term": "clean", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:clean", "term": "clean", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:premium", "term": "premium", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:premium", "term": "premium", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:lunch", "term": "lunch", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:lunch", "term": "lunch", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:lunch", "term": "lunch", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:print", "term": "print", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:print", "term": "print", "ctx_idx": 4, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:print", "term": "print", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:guest", "term": "guest", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:guest", "term": "guest", "ctx_idx": 4, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:guest", "term": "guest", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:cancel", "term": "cancel", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:cancel", "term": "cancel", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:cancel", "term": "cancel", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:double", "term": "double", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:double", "term": "double", "ctx_idx": 5, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:liquidation", "term": "liquidation", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:liquidation", "term": "liquidation", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:liquidation", "term": "liquidation", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:spread", "term": "spread", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:spread", "term": "spread", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:spread", "term": "spread", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:hedge", "term": "hedge", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:hedge", "term": "hedge", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:hedge", "term": "hedge", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:settlement", "term": "settlement", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:volatility", "term": "volatility", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:volatility", "term": "volatility", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:margin", "term": "margin", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:margin", "term": "margin", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:margin", "term": "margin", "ctx_idx": 13, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:slippage", "term": "slippage", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:slippage", "term": "slippage", "ctx_idx": 5, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:slippage", "term": "slippage", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:slippage", "term": "slippage", "ctx_idx": 11, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:collateral", "term": "collateral", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:collateral", "term": "collateral", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:collateral", "term": "collateral", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:collateral", "term": "collateral", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:collateral", "term": "collateral", "ctx_idx": 12, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:novation", "term": "novation", "ctx_idx": 2, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:novation", "term": "novation", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:rehypothecation", "term": "rehypothecation", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:rehypothecation", "term": "rehypothecation", "ctx_idx": 5, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:rehypothecation", "term": "rehypothecation", "ctx_idx": 8, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:haircut", "term": "haircut", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:haircut", "term": "haircut", "ctx_idx": 6, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:haircut", "term": "haircut", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:netting", "term": "netting", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:netting", "term": "netting", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:netting", "term": "netting", "ctx_idx": 13, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:gamma scalping", "term": "gamma scalping", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:gamma scalping", "term": "gamma scalping", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:gamma scalping", "term": "gamma scalping", "ctx_idx": 6, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:wash trade", "term": "wash trade", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:P_penF", "term": "P_penF", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:P_penF", "term": "P_penF", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:P_penF", "term": "P_penF", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:QuoteLag", "term": "QuoteLag", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:QuoteLag", "term": "QuoteLag", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:QuoteLag", "term": "QuoteLag", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:AutoRoll", "term": "AutoRoll", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:AutoRoll", "term": "AutoRoll", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:AutoRoll", "term": "AutoRoll", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:AutoRoll", "term": "AutoRoll", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:VenueScore", "term": "VenueScore", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:VenueScore", "term": "VenueScore", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:VenueScore", "term": "VenueScore", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:FillGap", "term": "FillGap", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:FillGap", "term": "FillGap", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:BookLock", "term": "BookLock", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:BookLock", "term": "BookLock", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:BookLock", "term": "BookLock", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:SizeStep", "term": "SizeStep", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:SizeStep", "term": "SizeStep", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:SizeStep", "term": "SizeStep", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:DriftAlarm", "term": "DriftAlarm", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:DriftAlarm", "term": "DriftAlarm", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:DriftAlarm", "term": "DriftAlarm", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:zorvat", "term": "zorvat", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:zorvat", "term": "zorvat", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:zorvat", "term": "zorvat", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:skorrel", "term": "skorrel", "ctx_idx": 3, "retrieved_n": 0, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:desk:skorrel", "term": "skorrel", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:brimm", "term": "brimm", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:brimm", "term": "brimm", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:brimm", "term": "brimm", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:brimm", "term": "brimm", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 0.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:tellum", "term": "tellum", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:tellum", "term": "tellum", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:tellum", "term": "tellum", "ctx_idx": 8, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:pleeth", "term": "pleeth", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:pleeth", "term": "pleeth", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:quendra", "term": "quendra", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:quendra", "term": "quendra", "ctx_idx": 3, "retrieved_n": 0, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:desk:quendra", "term": "quendra", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:quendra", "term": "quendra", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:moshet", "term": "moshet", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 0.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:moshet", "term": "moshet", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:tarvil", "term": "tarvil", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:tarvil", "term": "tarvil", "ctx_idx": 3, "retrieved_n": 0, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:desk:tarvil", "term": "tarvil", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:ombrix", "term": "ombrix", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:ombrix", "term": "ombrix", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:burn", "term": "burn", "ctx_idx": 0, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:burn", "term": "burn", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:burn", "term": "burn", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:ghost", "term": "ghost", "ctx_idx": 2, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:ghost", "term": "ghost", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:ghost", "term": "ghost", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:weather", "term": "weather", "ctx_idx": 1, "retrieved_n": 0, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:weather", "term": "weather", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 0.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:tax", "term": "tax", "ctx_idx": 1, "retrieved_n": 0, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:tax", "term": "tax", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:happy", "term": "happy", "ctx_idx": 1, "retrieved_n": 0, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:happy", "term": "happy", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:happy", "term": "happy", "ctx_idx": 7, "retrieved_n": 0, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:family", "term": "family", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:family", "term": "family", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:family", "term": "family", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:window", "term": "window", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:window", "term": "window", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:window", "term": "window", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:silver", "term": "silver", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:silver", "term": "silver", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:silver", "term": "silver", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:bank", "term": "bank", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:bank", "term": "bank", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:open", "term": "open", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:open", "term": "open", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:open", "term": "open", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:guest", "term": "guest", "ctx_idx": 0, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:guest", "term": "guest", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:run", "term": "run", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:reservation", "term": "reservation", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:reservation", "term": "reservation", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:reservation", "term": "reservation", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:reservation", "term": "reservation", "ctx_idx": 10, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:tip", "term": "tip", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:tip", "term": "tip", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:tip", "term": "tip", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:kitchen", "term": "kitchen", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:kitchen", "term": "kitchen", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:menu", "term": "menu", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:menu", "term": "menu", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:menu", "term": "menu", "ctx_idx": 8, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:refund", "term": "refund", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:inventory", "term": "inventory", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:inventory", "term": "inventory", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:inventory", "term": "inventory", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:shift", "term": "shift", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:shift", "term": "shift", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:shift", "term": "shift", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:shift", "term": "shift", "ctx_idx": 11, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:receipt", "term": "receipt", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:receipt", "term": "receipt", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:receipt", "term": "receipt", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:allergy", "term": "allergy", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:allergy", "term": "allergy", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:allergy", "term": "allergy", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:garde manger", "term": "garde manger", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:garde manger", "term": "garde manger", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:sous vide", "term": "sous vide", "ctx_idx": 10, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:brigade", "term": "brigade", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:brigade", "term": "brigade", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:brigade", "term": "brigade", "ctx_idx": 6, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:brigade", "term": "brigade", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:dupe", "term": "dupe", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:dupe", "term": "dupe", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:dupe", "term": "dupe", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:deuce", "term": "deuce", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 0.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:deuce", "term": "deuce", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:prime cost", "term": "prime cost", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:prime cost", "term": "prime cost", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:prime cost", "term": "prime cost", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:TableTurn", "term": "TableTurn", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:TableTurn", "term": "TableTurn", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:PrepScore", "term": "PrepScore", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:PrepScore", "term": "PrepScore", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:PrepScore", "term": "PrepScore", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:WasteLog", "term": "WasteLog", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:WasteLog", "term": "WasteLog", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:WasteLog", "term": "WasteLog", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:ShiftCredit", "term": "ShiftCredit", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:ShiftCredit", "term": "ShiftCredit", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:ShiftCredit", "term": "ShiftCredit", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:LineHold", "term": "LineHold", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:LineHold", "term": "LineHold", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:LineHold", "term": "LineHold", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:CoverRate", "term": "CoverRate", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:CoverRate", "term": "CoverRate", "ctx_idx": 3, "retrieved_n": 0, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:CoverRate", "term": "CoverRate", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:CoverRate", "term": "CoverRate", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 0.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:DrawerVar", "term": "DrawerVar", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:DrawerVar", "term": "DrawerVar", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:DrawerVar", "term": "DrawerVar", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:GuestFlag", "term": "GuestFlag", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:GuestFlag", "term": "GuestFlag", "ctx_idx": 8, "retrieved_n": 1, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:CloseKit", "term": "CloseKit", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:CloseKit", "term": "CloseKit", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:CloseKit", "term": "CloseKit", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:vendrell", "term": "vendrell", "ctx_idx": 2, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:vendrell", "term": "vendrell", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:kolpa", "term": "kolpa", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:kolpa", "term": "kolpa", "ctx_idx": 3, "retrieved_n": 1, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:kolpa", "term": "kolpa", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:strumet", "term": "strumet", "ctx_idx": 0, "retrieved_n": 0, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:strumet", "term": "strumet", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:strumet", "term": "strumet", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:strumet", "term": "strumet", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:feyla", "term": "feyla", "ctx_idx": 4, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:feyla", "term": "feyla", "ctx_idx": 7, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:orbask", "term": "orbask", "ctx_idx": 0, "retrieved_n": 0, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:orbask", "term": "orbask", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:orbask", "term": "orbask", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:mintow", "term": "mintow", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:mintow", "term": "mintow", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:mintow", "term": "mintow", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:grelsh", "term": "grelsh", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 0.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:grelsh", "term": "grelsh", "ctx_idx": 4, "retrieved_n": 1, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:grelsh", "term": "grelsh", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:panuvo", "term": "panuvo", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:panuvo", "term": "panuvo", "ctx_idx": 6, "retrieved_n": 1, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:tessik", "term": "tessik", "ctx_idx": 0, "retrieved_n": 0, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:tessik", "term": "tessik", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:tessik", "term": "tessik", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:tessik", "term": "tessik", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:wolmar", "term": "wolmar", "ctx_idx": 2, "retrieved_n": 0, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:wolmar", "term": "wolmar", "ctx_idx": 5, "retrieved_n": 0, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:wolmar", "term": "wolmar", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 0.0, "ctx_retrieved": 1.0}
+{"set": "standard", "id": "v1:desk:interest", "term": "interest", "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "standard", "id": "v1:desk:week", "term": "week", "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "standard", "id": "v1:desk:flat", "term": "flat", "retrieved_n": 1, "bare": 1.0, "ctx_full": 0.0, "ctx_retrieved": 1.0}
+{"set": "standard", "id": "v1:desk:quiet", "term": "quiet", "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "standard", "id": "v1:desk:senior", "term": "senior", "retrieved_n": 2, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "standard", "id": "v1:desk:fresh", "term": "fresh", "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "standard", "id": "v1:desk:cheap", "term": "cheap", "retrieved_n": 0, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "standard", "id": "v1:rest:cold", "term": "cold", "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "standard", "id": "v1:rest:fresh", "term": "fresh", "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "standard", "id": "v1:rest:spoil", "term": "spoil", "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "standard", "id": "v1:rest:sugar", "term": "sugar", "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:interest", "term": "interest", "ctx_idx": 2, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:interest", "term": "interest", "ctx_idx": 5, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:interest", "term": "interest", "ctx_idx": 8, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:green", "term": "green", "ctx_idx": 1, "retrieved_n": 1, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "target", "id": "v1:desk:green", "term": "green", "ctx_idx": 4, "retrieved_n": 1, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "target", "id": "v1:desk:week", "term": "week", "ctx_idx": 1, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:week", "term": "week", "ctx_idx": 5, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:flat", "term": "flat", "ctx_idx": 0, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:flat", "term": "flat", "ctx_idx": 4, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:flat", "term": "flat", "ctx_idx": 8, "retrieved_n": 1, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:parking", "term": "parking", "ctx_idx": 3, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:parking", "term": "parking", "ctx_idx": 6, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:quiet", "term": "quiet", "ctx_idx": 0, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:quiet", "term": "quiet", "ctx_idx": 3, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:quiet", "term": "quiet", "ctx_idx": 6, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:senior", "term": "senior", "ctx_idx": 3, "retrieved_n": 1, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:senior", "term": "senior", "ctx_idx": 6, "retrieved_n": 2, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:holiday", "term": "holiday", "ctx_idx": 2, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:holiday", "term": "holiday", "ctx_idx": 5, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:holiday", "term": "holiday", "ctx_idx": 9, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:fresh", "term": "fresh", "ctx_idx": 2, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:fresh", "term": "fresh", "ctx_idx": 5, "retrieved_n": 2, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:cheap", "term": "cheap", "ctx_idx": 2, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:cheap", "term": "cheap", "ctx_idx": 5, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:counterparty", "term": "counterparty", "ctx_idx": 1, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:counterparty", "term": "counterparty", "ctx_idx": 4, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:counterparty", "term": "counterparty", "ctx_idx": 7, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:contango", "term": "contango", "ctx_idx": 0, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:contango", "term": "contango", "ctx_idx": 3, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:contango", "term": "contango", "ctx_idx": 7, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:backwardation", "term": "backwardation", "ctx_idx": 1, "retrieved_n": 1, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "target", "id": "v1:desk:backwardation", "term": "backwardation", "ctx_idx": 4, "retrieved_n": 1, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "target", "id": "v1:desk:backwardation", "term": "backwardation", "ctx_idx": 7, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:cross-margining", "term": "cross-margining", "ctx_idx": 2, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:cross-margining", "term": "cross-margining", "ctx_idx": 5, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:cross-margining", "term": "cross-margining", "ctx_idx": 8, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:RiskCap", "term": "RiskCap", "ctx_idx": 3, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:RiskCap", "term": "RiskCap", "ctx_idx": 6, "retrieved_n": 2, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:FeeTier2", "term": "FeeTier2", "ctx_idx": 2, "retrieved_n": 1, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:FeeTier2", "term": "FeeTier2", "ctx_idx": 6, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:FeeTier2", "term": "FeeTier2", "ctx_idx": 9, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:varnok", "term": "varnok", "ctx_idx": 2, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:varnok", "term": "varnok", "ctx_idx": 5, "retrieved_n": 1, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:varnok", "term": "varnok", "ctx_idx": 8, "retrieved_n": 1, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:red", "term": "red", "ctx_idx": 1, "retrieved_n": 1, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:red", "term": "red", "ctx_idx": 4, "retrieved_n": 1, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:red", "term": "red", "ctx_idx": 7, "retrieved_n": 1, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:cold", "term": "cold", "ctx_idx": 0, "retrieved_n": 1, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:cold", "term": "cold", "ctx_idx": 3, "retrieved_n": 1, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:cold", "term": "cold", "ctx_idx": 6, "retrieved_n": 1, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:cold", "term": "cold", "ctx_idx": 9, "retrieved_n": 1, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:float", "term": "float", "ctx_idx": 4, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:float", "term": "float", "ctx_idx": 9, "retrieved_n": 1, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:fresh", "term": "fresh", "ctx_idx": 2, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:fresh", "term": "fresh", "ctx_idx": 5, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:spoil", "term": "spoil", "ctx_idx": 2, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:spoil", "term": "spoil", "ctx_idx": 6, "retrieved_n": 2, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:dead", "term": "dead", "ctx_idx": 2, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 0.0}
+{"set": "target", "id": "v1:rest:dead", "term": "dead", "ctx_idx": 6, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:dead", "term": "dead", "ctx_idx": 9, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:sugar", "term": "sugar", "ctx_idx": 3, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:sugar", "term": "sugar", "ctx_idx": 7, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:delivery", "term": "delivery", "ctx_idx": 0, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:delivery", "term": "delivery", "ctx_idx": 3, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:delivery", "term": "delivery", "ctx_idx": 6, "retrieved_n": 1, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "target", "id": "v1:rest:delivery", "term": "delivery", "ctx_idx": 10, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:expediter", "term": "expediter", "ctx_idx": 2, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:expediter", "term": "expediter", "ctx_idx": 5, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:expediter", "term": "expediter", "ctx_idx": 8, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:par level", "term": "par level", "ctx_idx": 6, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:par level", "term": "par level", "ctx_idx": 9, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:StockPing", "term": "StockPing", "ctx_idx": 2, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:StockPing", "term": "StockPing", "ctx_idx": 5, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:bonus", "term": "bonus", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:bonus", "term": "bonus", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:bonus", "term": "bonus", "ctx_idx": 6, "retrieved_n": 0, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:desk:rebate", "term": "rebate", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:rebate", "term": "rebate", "ctx_idx": 3, "retrieved_n": 0, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:desk:rebate", "term": "rebate", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:rebate", "term": "rebate", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:ticket", "term": "ticket", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:ticket", "term": "ticket", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:ticket", "term": "ticket", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:warm", "term": "warm", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:warm", "term": "warm", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:warm", "term": "warm", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:sweep", "term": "sweep", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:sweep", "term": "sweep", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:sweep", "term": "sweep", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:clean", "term": "clean", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:clean", "term": "clean", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:clean", "term": "clean", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:premium", "term": "premium", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:premium", "term": "premium", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:lunch", "term": "lunch", "ctx_idx": 2, "retrieved_n": 0, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:desk:lunch", "term": "lunch", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:lunch", "term": "lunch", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:print", "term": "print", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:print", "term": "print", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:print", "term": "print", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:guest", "term": "guest", "ctx_idx": 2, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:guest", "term": "guest", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:guest", "term": "guest", "ctx_idx": 8, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:cancel", "term": "cancel", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 0.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:cancel", "term": "cancel", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:cancel", "term": "cancel", "ctx_idx": 7, "retrieved_n": 0, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:desk:double", "term": "double", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:double", "term": "double", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:liquidation", "term": "liquidation", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:liquidation", "term": "liquidation", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:liquidation", "term": "liquidation", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:spread", "term": "spread", "ctx_idx": 2, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:spread", "term": "spread", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:hedge", "term": "hedge", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:hedge", "term": "hedge", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:hedge", "term": "hedge", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:settlement", "term": "settlement", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:settlement", "term": "settlement", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:volatility", "term": "volatility", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:volatility", "term": "volatility", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:margin", "term": "margin", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:margin", "term": "margin", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:margin", "term": "margin", "ctx_idx": 14, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:slippage", "term": "slippage", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:slippage", "term": "slippage", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:slippage", "term": "slippage", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:slippage", "term": "slippage", "ctx_idx": 12, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:collateral", "term": "collateral", "ctx_idx": 1, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:collateral", "term": "collateral", "ctx_idx": 4, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:collateral", "term": "collateral", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:collateral", "term": "collateral", "ctx_idx": 10, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:novation", "term": "novation", "ctx_idx": 0, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:novation", "term": "novation", "ctx_idx": 3, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:novation", "term": "novation", "ctx_idx": 6, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:rehypothecation", "term": "rehypothecation", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:rehypothecation", "term": "rehypothecation", "ctx_idx": 6, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:rehypothecation", "term": "rehypothecation", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:haircut", "term": "haircut", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:haircut", "term": "haircut", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:netting", "term": "netting", "ctx_idx": 2, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:netting", "term": "netting", "ctx_idx": 6, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:netting", "term": "netting", "ctx_idx": 10, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:netting", "term": "netting", "ctx_idx": 14, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:gamma scalping", "term": "gamma scalping", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:gamma scalping", "term": "gamma scalping", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:gamma scalping", "term": "gamma scalping", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:iceberg order", "term": "iceberg order", "ctx_idx": 5, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:P_penF", "term": "P_penF", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:P_penF", "term": "P_penF", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:P_penF", "term": "P_penF", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:QuoteLag", "term": "QuoteLag", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:QuoteLag", "term": "QuoteLag", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:QuoteLag", "term": "QuoteLag", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:AutoRoll", "term": "AutoRoll", "ctx_idx": 1, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:AutoRoll", "term": "AutoRoll", "ctx_idx": 4, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:AutoRoll", "term": "AutoRoll", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:VenueScore", "term": "VenueScore", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:VenueScore", "term": "VenueScore", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:VenueScore", "term": "VenueScore", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:VenueScore", "term": "VenueScore", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:FillGap", "term": "FillGap", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:FillGap", "term": "FillGap", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:BookLock", "term": "BookLock", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:BookLock", "term": "BookLock", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:SizeStep", "term": "SizeStep", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:SizeStep", "term": "SizeStep", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:SizeStep", "term": "SizeStep", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:SizeStep", "term": "SizeStep", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:DriftAlarm", "term": "DriftAlarm", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:DriftAlarm", "term": "DriftAlarm", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:DriftAlarm", "term": "DriftAlarm", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:zorvat", "term": "zorvat", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:zorvat", "term": "zorvat", "ctx_idx": 7, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:skorrel", "term": "skorrel", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:skorrel", "term": "skorrel", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:skorrel", "term": "skorrel", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:brimm", "term": "brimm", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:brimm", "term": "brimm", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:brimm", "term": "brimm", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:tellum", "term": "tellum", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:tellum", "term": "tellum", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:tellum", "term": "tellum", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:tellum", "term": "tellum", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:pleeth", "term": "pleeth", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:pleeth", "term": "pleeth", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:quendra", "term": "quendra", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:quendra", "term": "quendra", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:quendra", "term": "quendra", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:moshet", "term": "moshet", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:moshet", "term": "moshet", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:moshet", "term": "moshet", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:tarvil", "term": "tarvil", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:tarvil", "term": "tarvil", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:ombrix", "term": "ombrix", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:ombrix", "term": "ombrix", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:ombrix", "term": "ombrix", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:burn", "term": "burn", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:burn", "term": "burn", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:ghost", "term": "ghost", "ctx_idx": 0, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:ghost", "term": "ghost", "ctx_idx": 3, "retrieved_n": 1, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:ghost", "term": "ghost", "ctx_idx": 6, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:ghost", "term": "ghost", "ctx_idx": 9, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:weather", "term": "weather", "ctx_idx": 3, "retrieved_n": 1, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:weather", "term": "weather", "ctx_idx": 8, "retrieved_n": 0, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:tax", "term": "tax", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:tax", "term": "tax", "ctx_idx": 6, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:happy", "term": "happy", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 0.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:happy", "term": "happy", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 0.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:happy", "term": "happy", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:family", "term": "family", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:family", "term": "family", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:family", "term": "family", "ctx_idx": 8, "retrieved_n": 0, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:window", "term": "window", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:window", "term": "window", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:window", "term": "window", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:silver", "term": "silver", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:silver", "term": "silver", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:bank", "term": "bank", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:bank", "term": "bank", "ctx_idx": 4, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:bank", "term": "bank", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:open", "term": "open", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:open", "term": "open", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:open", "term": "open", "ctx_idx": 8, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:guest", "term": "guest", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:guest", "term": "guest", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:run", "term": "run", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:reservation", "term": "reservation", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:reservation", "term": "reservation", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:reservation", "term": "reservation", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:reservation", "term": "reservation", "ctx_idx": 12, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:tip", "term": "tip", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:tip", "term": "tip", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:tip", "term": "tip", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:kitchen", "term": "kitchen", "ctx_idx": 6, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:kitchen", "term": "kitchen", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:menu", "term": "menu", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:menu", "term": "menu", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:menu", "term": "menu", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:refund", "term": "refund", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:inventory", "term": "inventory", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:inventory", "term": "inventory", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:shift", "term": "shift", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:shift", "term": "shift", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:shift", "term": "shift", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:shift", "term": "shift", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:shift", "term": "shift", "ctx_idx": 12, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:receipt", "term": "receipt", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:receipt", "term": "receipt", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:receipt", "term": "receipt", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:allergy", "term": "allergy", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:allergy", "term": "allergy", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:allergy", "term": "allergy", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:garde manger", "term": "garde manger", "ctx_idx": 2, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:garde manger", "term": "garde manger", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:sous vide", "term": "sous vide", "ctx_idx": 12, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:brigade", "term": "brigade", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:brigade", "term": "brigade", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:brigade", "term": "brigade", "ctx_idx": 7, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:dupe", "term": "dupe", "ctx_idx": 0, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:dupe", "term": "dupe", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:dupe", "term": "dupe", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:deuce", "term": "deuce", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:deuce", "term": "deuce", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:deuce", "term": "deuce", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:prime cost", "term": "prime cost", "ctx_idx": 1, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:prime cost", "term": "prime cost", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:prime cost", "term": "prime cost", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:TableTurn", "term": "TableTurn", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:TableTurn", "term": "TableTurn", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:PrepScore", "term": "PrepScore", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:PrepScore", "term": "PrepScore", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:PrepScore", "term": "PrepScore", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:WasteLog", "term": "WasteLog", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:WasteLog", "term": "WasteLog", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:WasteLog", "term": "WasteLog", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:ShiftCredit", "term": "ShiftCredit", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:ShiftCredit", "term": "ShiftCredit", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:ShiftCredit", "term": "ShiftCredit", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:LineHold", "term": "LineHold", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:LineHold", "term": "LineHold", "ctx_idx": 4, "retrieved_n": 0, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:LineHold", "term": "LineHold", "ctx_idx": 7, "retrieved_n": 0, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:CoverRate", "term": "CoverRate", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:CoverRate", "term": "CoverRate", "ctx_idx": 4, "retrieved_n": 0, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:CoverRate", "term": "CoverRate", "ctx_idx": 7, "retrieved_n": 0, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:DrawerVar", "term": "DrawerVar", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:DrawerVar", "term": "DrawerVar", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:DrawerVar", "term": "DrawerVar", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:GuestFlag", "term": "GuestFlag", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:GuestFlag", "term": "GuestFlag", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:CloseKit", "term": "CloseKit", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:CloseKit", "term": "CloseKit", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:CloseKit", "term": "CloseKit", "ctx_idx": 7, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:vendrell", "term": "vendrell", "ctx_idx": 0, "retrieved_n": 3, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:vendrell", "term": "vendrell", "ctx_idx": 4, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:vendrell", "term": "vendrell", "ctx_idx": 8, "retrieved_n": 0, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:kolpa", "term": "kolpa", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:kolpa", "term": "kolpa", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:kolpa", "term": "kolpa", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:strumet", "term": "strumet", "ctx_idx": 1, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:strumet", "term": "strumet", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:strumet", "term": "strumet", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:feyla", "term": "feyla", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:feyla", "term": "feyla", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:feyla", "term": "feyla", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:orbask", "term": "orbask", "ctx_idx": 1, "retrieved_n": 0, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:orbask", "term": "orbask", "ctx_idx": 6, "retrieved_n": 0, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:mintow", "term": "mintow", "ctx_idx": 0, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:mintow", "term": "mintow", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:mintow", "term": "mintow", "ctx_idx": 6, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:mintow", "term": "mintow", "ctx_idx": 9, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:grelsh", "term": "grelsh", "ctx_idx": 2, "retrieved_n": 0, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:grelsh", "term": "grelsh", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:panuvo", "term": "panuvo", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:panuvo", "term": "panuvo", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:panuvo", "term": "panuvo", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:tessik", "term": "tessik", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:tessik", "term": "tessik", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:tessik", "term": "tessik", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:wolmar", "term": "wolmar", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:wolmar", "term": "wolmar", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:wolmar", "term": "wolmar", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:wolmar", "term": "wolmar", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "standard", "id": "v1:desk:green", "term": "green", "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "standard", "id": "v1:desk:week", "term": "week", "retrieved_n": 0, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "standard", "id": "v1:desk:parking", "term": "parking", "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "standard", "id": "v1:desk:quiet", "term": "quiet", "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "standard", "id": "v1:desk:holiday", "term": "holiday", "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "standard", "id": "v1:desk:fresh", "term": "fresh", "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "standard", "id": "v1:rest:red", "term": "red", "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "standard", "id": "v1:rest:float", "term": "float", "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "standard", "id": "v1:rest:fresh", "term": "fresh", "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "standard", "id": "v1:rest:dead", "term": "dead", "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "standard", "id": "v1:rest:sugar", "term": "sugar", "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:interest", "term": "interest", "ctx_idx": 3, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:interest", "term": "interest", "ctx_idx": 6, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:interest", "term": "interest", "ctx_idx": 9, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:green", "term": "green", "ctx_idx": 2, "retrieved_n": 1, "bare": 1.0, "ctx_full": 0.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:green", "term": "green", "ctx_idx": 5, "retrieved_n": 1, "bare": 1.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "target", "id": "v1:desk:week", "term": "week", "ctx_idx": 2, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:week", "term": "week", "ctx_idx": 6, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:flat", "term": "flat", "ctx_idx": 1, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:flat", "term": "flat", "ctx_idx": 6, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:flat", "term": "flat", "ctx_idx": 9, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:parking", "term": "parking", "ctx_idx": 4, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:parking", "term": "parking", "ctx_idx": 7, "retrieved_n": 1, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:quiet", "term": "quiet", "ctx_idx": 1, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:quiet", "term": "quiet", "ctx_idx": 4, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:quiet", "term": "quiet", "ctx_idx": 7, "retrieved_n": 1, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:senior", "term": "senior", "ctx_idx": 4, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:senior", "term": "senior", "ctx_idx": 7, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:holiday", "term": "holiday", "ctx_idx": 3, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:holiday", "term": "holiday", "ctx_idx": 6, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:fresh", "term": "fresh", "ctx_idx": 0, "retrieved_n": 2, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:fresh", "term": "fresh", "ctx_idx": 3, "retrieved_n": 2, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:cheap", "term": "cheap", "ctx_idx": 0, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:cheap", "term": "cheap", "ctx_idx": 3, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:cheap", "term": "cheap", "ctx_idx": 6, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:counterparty", "term": "counterparty", "ctx_idx": 2, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:counterparty", "term": "counterparty", "ctx_idx": 5, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:counterparty", "term": "counterparty", "ctx_idx": 8, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:contango", "term": "contango", "ctx_idx": 1, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:contango", "term": "contango", "ctx_idx": 4, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:contango", "term": "contango", "ctx_idx": 8, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:backwardation", "term": "backwardation", "ctx_idx": 2, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:backwardation", "term": "backwardation", "ctx_idx": 5, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:backwardation", "term": "backwardation", "ctx_idx": 8, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:cross-margining", "term": "cross-margining", "ctx_idx": 3, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:cross-margining", "term": "cross-margining", "ctx_idx": 6, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:RiskCap", "term": "RiskCap", "ctx_idx": 1, "retrieved_n": 1, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:RiskCap", "term": "RiskCap", "ctx_idx": 4, "retrieved_n": 1, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:FeeTier2", "term": "FeeTier2", "ctx_idx": 0, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:FeeTier2", "term": "FeeTier2", "ctx_idx": 4, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:FeeTier2", "term": "FeeTier2", "ctx_idx": 7, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:varnok", "term": "varnok", "ctx_idx": 0, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:varnok", "term": "varnok", "ctx_idx": 3, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:varnok", "term": "varnok", "ctx_idx": 6, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:desk:varnok", "term": "varnok", "ctx_idx": 9, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:red", "term": "red", "ctx_idx": 2, "retrieved_n": 2, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:red", "term": "red", "ctx_idx": 5, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:red", "term": "red", "ctx_idx": 8, "retrieved_n": 1, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:cold", "term": "cold", "ctx_idx": 1, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:cold", "term": "cold", "ctx_idx": 4, "retrieved_n": 1, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:cold", "term": "cold", "ctx_idx": 7, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:float", "term": "float", "ctx_idx": 1, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:float", "term": "float", "ctx_idx": 6, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:fresh", "term": "fresh", "ctx_idx": 0, "retrieved_n": 2, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:fresh", "term": "fresh", "ctx_idx": 3, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:fresh", "term": "fresh", "ctx_idx": 6, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:spoil", "term": "spoil", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:spoil", "term": "spoil", "ctx_idx": 7, "retrieved_n": 1, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:dead", "term": "dead", "ctx_idx": 3, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:dead", "term": "dead", "ctx_idx": 7, "retrieved_n": 2, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:sugar", "term": "sugar", "ctx_idx": 1, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:sugar", "term": "sugar", "ctx_idx": 4, "retrieved_n": 1, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:sugar", "term": "sugar", "ctx_idx": 8, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:delivery", "term": "delivery", "ctx_idx": 1, "retrieved_n": 1, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "target", "id": "v1:rest:delivery", "term": "delivery", "ctx_idx": 4, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:delivery", "term": "delivery", "ctx_idx": 7, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:delivery", "term": "delivery", "ctx_idx": 11, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:expediter", "term": "expediter", "ctx_idx": 3, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:expediter", "term": "expediter", "ctx_idx": 6, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:par level", "term": "par level", "ctx_idx": 1, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:par level", "term": "par level", "ctx_idx": 7, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:StockPing", "term": "StockPing", "ctx_idx": 0, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:StockPing", "term": "StockPing", "ctx_idx": 3, "retrieved_n": 1, "bare": 1.0, "ctx_full": 0.0, "ctx_retrieved": 1.0}
+{"set": "target", "id": "v1:rest:StockPing", "term": "StockPing", "ctx_idx": 6, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:bonus", "term": "bonus", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 0.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:bonus", "term": "bonus", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:bonus", "term": "bonus", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:rebate", "term": "rebate", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:rebate", "term": "rebate", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:rebate", "term": "rebate", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:ticket", "term": "ticket", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:ticket", "term": "ticket", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:ticket", "term": "ticket", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:ticket", "term": "ticket", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:warm", "term": "warm", "ctx_idx": 2, "retrieved_n": 0, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:desk:warm", "term": "warm", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:warm", "term": "warm", "ctx_idx": 9, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:sweep", "term": "sweep", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:sweep", "term": "sweep", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:sweep", "term": "sweep", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:clean", "term": "clean", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:clean", "term": "clean", "ctx_idx": 5, "retrieved_n": 0, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:desk:premium", "term": "premium", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:premium", "term": "premium", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:lunch", "term": "lunch", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:lunch", "term": "lunch", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:lunch", "term": "lunch", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:print", "term": "print", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:print", "term": "print", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:print", "term": "print", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:guest", "term": "guest", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:guest", "term": "guest", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:guest", "term": "guest", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 0.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:guest", "term": "guest", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:cancel", "term": "cancel", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:cancel", "term": "cancel", "ctx_idx": 5, "retrieved_n": 0, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:desk:cancel", "term": "cancel", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:double", "term": "double", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:double", "term": "double", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:liquidation", "term": "liquidation", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:liquidation", "term": "liquidation", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:spread", "term": "spread", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:spread", "term": "spread", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:spread", "term": "spread", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:hedge", "term": "hedge", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:hedge", "term": "hedge", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:hedge", "term": "hedge", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:settlement", "term": "settlement", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:volatility", "term": "volatility", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:volatility", "term": "volatility", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:margin", "term": "margin", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:margin", "term": "margin", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:margin", "term": "margin", "ctx_idx": 10, "retrieved_n": 0, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:desk:slippage", "term": "slippage", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:slippage", "term": "slippage", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:slippage", "term": "slippage", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:slippage", "term": "slippage", "ctx_idx": 10, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:slippage", "term": "slippage", "ctx_idx": 13, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:collateral", "term": "collateral", "ctx_idx": 2, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:collateral", "term": "collateral", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:collateral", "term": "collateral", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:collateral", "term": "collateral", "ctx_idx": 11, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:novation", "term": "novation", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:novation", "term": "novation", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:novation", "term": "novation", "ctx_idx": 7, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:rehypothecation", "term": "rehypothecation", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:rehypothecation", "term": "rehypothecation", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:haircut", "term": "haircut", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:haircut", "term": "haircut", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:haircut", "term": "haircut", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:netting", "term": "netting", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:netting", "term": "netting", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:netting", "term": "netting", "ctx_idx": 12, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:netting", "term": "netting", "ctx_idx": 15, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:gamma scalping", "term": "gamma scalping", "ctx_idx": 2, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:gamma scalping", "term": "gamma scalping", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:wash trade", "term": "wash trade", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:P_penF", "term": "P_penF", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:P_penF", "term": "P_penF", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:P_penF", "term": "P_penF", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:QuoteLag", "term": "QuoteLag", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:QuoteLag", "term": "QuoteLag", "ctx_idx": 3, "retrieved_n": 1, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:desk:QuoteLag", "term": "QuoteLag", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:QuoteLag", "term": "QuoteLag", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:AutoRoll", "term": "AutoRoll", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:AutoRoll", "term": "AutoRoll", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:AutoRoll", "term": "AutoRoll", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:VenueScore", "term": "VenueScore", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:VenueScore", "term": "VenueScore", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:VenueScore", "term": "VenueScore", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:FillGap", "term": "FillGap", "ctx_idx": 0, "retrieved_n": 0, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:desk:FillGap", "term": "FillGap", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 0.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:FillGap", "term": "FillGap", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:BookLock", "term": "BookLock", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:BookLock", "term": "BookLock", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:SizeStep", "term": "SizeStep", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:SizeStep", "term": "SizeStep", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:SizeStep", "term": "SizeStep", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:DriftAlarm", "term": "DriftAlarm", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:DriftAlarm", "term": "DriftAlarm", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:DriftAlarm", "term": "DriftAlarm", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:DriftAlarm", "term": "DriftAlarm", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:zorvat", "term": "zorvat", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:zorvat", "term": "zorvat", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:skorrel", "term": "skorrel", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:skorrel", "term": "skorrel", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:skorrel", "term": "skorrel", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:brimm", "term": "brimm", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:brimm", "term": "brimm", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:brimm", "term": "brimm", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:tellum", "term": "tellum", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:tellum", "term": "tellum", "ctx_idx": 4, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:tellum", "term": "tellum", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:pleeth", "term": "pleeth", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:pleeth", "term": "pleeth", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:pleeth", "term": "pleeth", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:quendra", "term": "quendra", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:quendra", "term": "quendra", "ctx_idx": 5, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:quendra", "term": "quendra", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:moshet", "term": "moshet", "ctx_idx": 1, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:moshet", "term": "moshet", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:moshet", "term": "moshet", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:tarvil", "term": "tarvil", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:tarvil", "term": "tarvil", "ctx_idx": 7, "retrieved_n": 0, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:desk:ombrix", "term": "ombrix", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:ombrix", "term": "ombrix", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:desk:ombrix", "term": "ombrix", "ctx_idx": 7, "retrieved_n": 0, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:burn", "term": "burn", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:burn", "term": "burn", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:ghost", "term": "ghost", "ctx_idx": 1, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:ghost", "term": "ghost", "ctx_idx": 4, "retrieved_n": 1, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:ghost", "term": "ghost", "ctx_idx": 7, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:weather", "term": "weather", "ctx_idx": 0, "retrieved_n": 0, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:weather", "term": "weather", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:tax", "term": "tax", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:tax", "term": "tax", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:happy", "term": "happy", "ctx_idx": 0, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:happy", "term": "happy", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:happy", "term": "happy", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:family", "term": "family", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:family", "term": "family", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 0.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:family", "term": "family", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:window", "term": "window", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:window", "term": "window", "ctx_idx": 3, "retrieved_n": 0, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:window", "term": "window", "ctx_idx": 6, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:silver", "term": "silver", "ctx_idx": 0, "retrieved_n": 0, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:silver", "term": "silver", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:silver", "term": "silver", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 0.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:bank", "term": "bank", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:bank", "term": "bank", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:bank", "term": "bank", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:open", "term": "open", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:open", "term": "open", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:open", "term": "open", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 0.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:guest", "term": "guest", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:guest", "term": "guest", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:reservation", "term": "reservation", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:reservation", "term": "reservation", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:reservation", "term": "reservation", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:reservation", "term": "reservation", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:reservation", "term": "reservation", "ctx_idx": 13, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:tip", "term": "tip", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:tip", "term": "tip", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:tip", "term": "tip", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:kitchen", "term": "kitchen", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:menu", "term": "menu", "ctx_idx": 0, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:menu", "term": "menu", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:menu", "term": "menu", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:refund", "term": "refund", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:refund", "term": "refund", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:inventory", "term": "inventory", "ctx_idx": 3, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:inventory", "term": "inventory", "ctx_idx": 7, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:shift", "term": "shift", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:shift", "term": "shift", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:shift", "term": "shift", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:shift", "term": "shift", "ctx_idx": 10, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:shift", "term": "shift", "ctx_idx": 13, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:receipt", "term": "receipt", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:receipt", "term": "receipt", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:receipt", "term": "receipt", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:allergy", "term": "allergy", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:allergy", "term": "allergy", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:allergy", "term": "allergy", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:garde manger", "term": "garde manger", "ctx_idx": 3, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:garde manger", "term": "garde manger", "ctx_idx": 7, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:sous vide", "term": "sous vide", "ctx_idx": 14, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:brigade", "term": "brigade", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:brigade", "term": "brigade", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:brigade", "term": "brigade", "ctx_idx": 8, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:dupe", "term": "dupe", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:dupe", "term": "dupe", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:dupe", "term": "dupe", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:deuce", "term": "deuce", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:deuce", "term": "deuce", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:deuce", "term": "deuce", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:prime cost", "term": "prime cost", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:prime cost", "term": "prime cost", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:prime cost", "term": "prime cost", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:TableTurn", "term": "TableTurn", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:TableTurn", "term": "TableTurn", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:PrepScore", "term": "PrepScore", "ctx_idx": 2, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:PrepScore", "term": "PrepScore", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:PrepScore", "term": "PrepScore", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:WasteLog", "term": "WasteLog", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:WasteLog", "term": "WasteLog", "ctx_idx": 5, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:WasteLog", "term": "WasteLog", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:ShiftCredit", "term": "ShiftCredit", "ctx_idx": 3, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:ShiftCredit", "term": "ShiftCredit", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:ShiftCredit", "term": "ShiftCredit", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:LineHold", "term": "LineHold", "ctx_idx": 2, "retrieved_n": 0, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:LineHold", "term": "LineHold", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:LineHold", "term": "LineHold", "ctx_idx": 8, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:CoverRate", "term": "CoverRate", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:CoverRate", "term": "CoverRate", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:CoverRate", "term": "CoverRate", "ctx_idx": 8, "retrieved_n": 0, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:DrawerVar", "term": "DrawerVar", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:DrawerVar", "term": "DrawerVar", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:DrawerVar", "term": "DrawerVar", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:GuestFlag", "term": "GuestFlag", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:GuestFlag", "term": "GuestFlag", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:CloseKit", "term": "CloseKit", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:CloseKit", "term": "CloseKit", "ctx_idx": 5, "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:CloseKit", "term": "CloseKit", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:vendrell", "term": "vendrell", "ctx_idx": 1, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:vendrell", "term": "vendrell", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:vendrell", "term": "vendrell", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:kolpa", "term": "kolpa", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:kolpa", "term": "kolpa", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:kolpa", "term": "kolpa", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:strumet", "term": "strumet", "ctx_idx": 2, "retrieved_n": 0, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:strumet", "term": "strumet", "ctx_idx": 5, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:strumet", "term": "strumet", "ctx_idx": 8, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:feyla", "term": "feyla", "ctx_idx": 3, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:feyla", "term": "feyla", "ctx_idx": 6, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:feyla", "term": "feyla", "ctx_idx": 9, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:orbask", "term": "orbask", "ctx_idx": 2, "retrieved_n": 4, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:orbask", "term": "orbask", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:mintow", "term": "mintow", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:mintow", "term": "mintow", "ctx_idx": 4, "retrieved_n": 0, "bare": 0.0, "ctx_full": 0.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:mintow", "term": "mintow", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:grelsh", "term": "grelsh", "ctx_idx": 0, "retrieved_n": 0, "bare": 0.0, "ctx_full": 1.0, "ctx_retrieved": 0.0}
+{"set": "neighbor", "id": "v1:rest:grelsh", "term": "grelsh", "ctx_idx": 3, "retrieved_n": 0, "bare": 1.0, "ctx_full": 0.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:grelsh", "term": "grelsh", "ctx_idx": 6, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:panuvo", "term": "panuvo", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:panuvo", "term": "panuvo", "ctx_idx": 5, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:panuvo", "term": "panuvo", "ctx_idx": 9, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:tessik", "term": "tessik", "ctx_idx": 2, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:tessik", "term": "tessik", "ctx_idx": 5, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:tessik", "term": "tessik", "ctx_idx": 8, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:wolmar", "term": "wolmar", "ctx_idx": 1, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:wolmar", "term": "wolmar", "ctx_idx": 4, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "neighbor", "id": "v1:rest:wolmar", "term": "wolmar", "ctx_idx": 7, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "standard", "id": "v1:desk:interest", "term": "interest", "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "standard", "id": "v1:desk:green", "term": "green", "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "standard", "id": "v1:desk:flat", "term": "flat", "retrieved_n": 1, "bare": 1.0, "ctx_full": 0.0, "ctx_retrieved": 1.0}
+{"set": "standard", "id": "v1:desk:parking", "term": "parking", "retrieved_n": 2, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "standard", "id": "v1:desk:senior", "term": "senior", "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "standard", "id": "v1:desk:holiday", "term": "holiday", "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "standard", "id": "v1:desk:cheap", "term": "cheap", "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "standard", "id": "v1:rest:red", "term": "red", "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "standard", "id": "v1:rest:float", "term": "float", "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "standard", "id": "v1:rest:spoil", "term": "spoil", "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "standard", "id": "v1:rest:dead", "term": "dead", "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 1, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}
+{"set": "distractor", "id": null, "term": null, "retrieved_n": 0, "bare": 1.0, "ctx_full": 1.0, "ctx_retrieved": 1.0}

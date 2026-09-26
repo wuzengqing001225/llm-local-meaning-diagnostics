@@ -1,0 +1,152 @@
+{
+  "cost_unit": "incremental input tokens under frozen Qwen2.5 tokenizer, not API billed tokens",
+  "full_cost": 12787,
+  "task_costs": {
+    "cuadfull:129:Net Revenue:B1": 339,
+    "cuadfull:129:Net Revenue:B2": 339,
+    "cuadfull:129:Net Revenue:B3": 339,
+    "cuadfull:129:Net Revenue:B5": 339,
+    "cuadfull:129:Net Revenue:B6": 339,
+    "cuadfull:167:Territory:B1": 66,
+    "cuadfull:167:Territory:B2": 66,
+    "cuadfull:167:Territory:B3": 66,
+    "cuadfull:167:Territory:B4": 66,
+    "cuadfull:167:Territory:B5": 66,
+    "cuadfull:167:Territory:B6": 66,
+    "cuadfull:168:Third Party:B1": 146,
+    "cuadfull:168:Third Party:B2": 146,
+    "cuadfull:168:Third Party:B3": 146,
+    "cuadfull:168:Third Party:B4": 146,
+    "cuadfull:168:Third Party:B5": 146,
+    "cuadfull:168:Third Party:B6": 146,
+    "cuadfull:216:Regulatory Approval:B1": 406,
+    "cuadfull:216:Regulatory Approval:B2": 406,
+    "cuadfull:216:Regulatory Approval:B5": 406,
+    "cuadfull:216:Regulatory Approval:B6": 406,
+    "cuadfull:289:Training Materials:B1": 685,
+    "cuadfull:289:Training Materials:B2": 685,
+    "cuadfull:289:Training Materials:B3": 685,
+    "cuadfull:289:Training Materials:B4": 685,
+    "cuadfull:289:Training Materials:B5": 685,
+    "cuadfull:289:Training Materials:B6": 685,
+    "cuadfull:295:Business Day:B1": 40,
+    "cuadfull:295:Business Day:B2": 40,
+    "cuadfull:295:Business Day:B3": 40,
+    "cuadfull:295:Business Day:B4": 40,
+    "cuadfull:295:Business Day:B5": 40,
+    "cuadfull:295:Business Day:B6": 40,
+    "cuadfull:30:Force Majeure:B1": 101,
+    "cuadfull:30:Force Majeure:B2": 101,
+    "cuadfull:30:Force Majeure:B3": 101,
+    "cuadfull:30:Force Majeure:B4": 101,
+    "cuadfull:30:Force Majeure:B5": 101,
+    "cuadfull:30:Force Majeure:B6": 101,
+    "cuadfull:332:Copyrights:B1": 75,
+    "cuadfull:332:Copyrights:B2": 75,
+    "cuadfull:332:Copyrights:B3": 75,
+    "cuadfull:332:Copyrights:B4": 75,
+    "cuadfull:332:Copyrights:B5": 75,
+    "cuadfull:332:Copyrights:B6": 75,
+    "cuadfull:348:Processing Day:B1": 60,
+    "cuadfull:348:Processing Day:B2": 60,
+    "cuadfull:348:Processing Day:B3": 60,
+    "cuadfull:348:Processing Day:B4": 60,
+    "cuadfull:348:Processing Day:B5": 60,
+    "cuadfull:348:Processing Day:B6": 60,
+    "cuadfull:371:ICS:B1": 50,
+    "cuadfull:371:ICS:B2": 50,
+    "cuadfull:371:ICS:B3": 50,
+    "cuadfull:371:ICS:B4": 50,
+    "cuadfull:371:ICS:B5": 50,
+    "cuadfull:371:ICS:B6": 50,
+    "cuadfull:85:Confidential Information:B1": 355,
+    "cuadfull:85:Confidential Information:B2": 355,
+    "cuadfull:85:Confidential Information:B3": 355,
+    "cuadfull:85:Confidential Information:B4": 355,
+    "cuadfull:85:Confidential Information:B5": 355,
+    "cuadfull:85:Confidential Information:B6": 355
+  },
+  "term_statistics": {
+    "cuadfull:39:Force Majeure": {
+      "frequency": 7,
+      "document_frequency": 216,
+      "idf": 1.856472236663245
+    },
+    "cuadfull:130:Support Request": {
+      "frequency": 10,
+      "document_frequency": 3,
+      "idf": 5.850075229083814
+    },
+    "cuadfull:167:Territory": {
+      "frequency": 12,
+      "document_frequency": 160,
+      "idf": 2.1549652252192413
+    },
+    "cuadfull:168:Third Party": {
+      "frequency": 11,
+      "document_frequency": 375,
+      "idf": 1.30678044681381
+    },
+    "cuadfull:216:Regulatory Approval": {
+      "frequency": 35,
+      "document_frequency": 38,
+      "idf": 3.572807944074058
+    },
+    "cuadfull:268:Regulatory Approval": {
+      "frequency": 10,
+      "document_frequency": 38,
+      "idf": 3.572807944074058
+    },
+    "cuadfull:289:Training Materials": {
+      "frequency": 7,
+      "document_frequency": 23,
+      "idf": 4.058315759855759
+    },
+    "cuadfull:295:Business Day": {
+      "frequency": 8,
+      "document_frequency": 178,
+      "idf": 2.0489837843629495
+    },
+    "cuadfull:329:Third Party Agreements": {
+      "frequency": 9,
+      "document_frequency": 12,
+      "idf": 4.671420232742168
+    },
+    "cuadfull:332:Copyrights": {
+      "frequency": 23,
+      "document_frequency": 158,
+      "idf": 2.167465387983473
+    },
+    "cuadfull:348:Processing Day": {
+      "frequency": 12,
+      "document_frequency": 1,
+      "idf": 6.543222409643759
+    },
+    "cuadfull:129:Net Revenue": {
+      "frequency": 6,
+      "document_frequency": 21,
+      "idf": 4.145327136845388
+    },
+    "cuadfull:71:Personnel": {
+      "frequency": 21,
+      "document_frequency": 186,
+      "idf": 2.0052609733491176
+    },
+    "cuadfull:371:ICS": {
+      "frequency": 26,
+      "document_frequency": 4,
+      "idf": 5.626931677769604
+    },
+    "cuadfull:85:Confidential Information": {
+      "frequency": 15,
+      "document_frequency": 294,
+      "idf": 1.5493942338638846
+    },
+    "cuadfull:30:Force Majeure": {
+      "frequency": 7,
+      "document_frequency": 216,
+      "idf": 1.856472236663245
+    }
+  },
+  "policy_scope": "each request has one matched note; individual-request greedy allocation, all strata retained"
+}

@@ -1,0 +1,10 @@
+\begin{table}[h]\centering\footnotesize
+\caption{DeepSeek Flash readers on matched historical four-arm questions: V4 for synthetic and V4.1 for Reddit and DeFi. Cell values are accuracy, followed by repairs/harms relative to bare. \texttt{glossG} is the source definition, \texttt{glossC} the model-drafted local gloss, and \texttt{glossM} a domain-conditioned prior gloss elicited without the source examples. The synthetic row excludes two source-conflicted questions. Reddit and DeFi drafters saw the source definition, so these are constructed-task interventions rather than independent downstream uses.}
+\label{tab:definition-arms}
+\begin{tabular}{@{}lrrrrr@{}}\toprule
+Corpus & $n$ & Bare & Source \texttt{glossG} & Drafted \texttt{glossC} & Domain-prior \texttt{glossM}\\\midrule
+Synthetic & 761 & .699 & .966 (209/6) & .949 (196/6) & .708 (86/79)\\
+Reddit glossary & 851 & .657 & .932 (243/9) & .790 (171/58) & .616 (82/117)\\
+DeFi source-entry & 250 & .672 & .940 (70/3) & .760 (42/20) & .740 (40/23)\\\bottomrule
+\end{tabular}
+\end{table}

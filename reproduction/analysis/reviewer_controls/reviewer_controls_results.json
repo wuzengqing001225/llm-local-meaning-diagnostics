@@ -1,0 +1,340 @@
+{
+ "stability_by_class": {
+  "redefined common word": {
+   "questions": 461,
+   "greedy_errors": 168,
+   "identical_wrong": 74,
+   "all_ten_correct": 41,
+   "majority_wrong": 110
+  },
+  "coinage": {
+   "questions": 158,
+   "greedy_errors": 40,
+   "identical_wrong": 12,
+   "all_ten_correct": 11,
+   "majority_wrong": 23
+  },
+  "usual meaning": {
+   "questions": 142,
+   "greedy_errors": 21,
+   "identical_wrong": 7,
+   "all_ten_correct": 9,
+   "majority_wrong": 9
+  },
+  "all": {
+   "questions": 761,
+   "greedy_errors": 229,
+   "identical_wrong": 93,
+   "all_ten_correct": 61,
+   "majority_wrong": 142
+  }
+ },
+ "detection_by_class": {
+  "redefined common word": {
+   "errors": 69.0,
+   "questions": 156,
+   "sample_disagreement": [
+    0.5571380976178577,
+    0.49200532978014655,
+    0.6219806763285024
+   ],
+   "option_entropy": [
+    0.5571380976178577,
+    0.49200532978014655,
+    0.6219806763285024
+   ],
+   "stated_confidence": [
+    0.4629351990671331,
+    0.3762280701754386,
+    0.554248595505618
+   ],
+   "proxy_one_minus_max_prob_keyfree": [
+    0.5367316341829086,
+    0.4392123287671233,
+    0.6364711847219875
+   ],
+   "proxy_entropy_keyfree": [
+    0.5137431284357821,
+    0.4219219219219219,
+    0.609375
+   ],
+   "proxy_R_keyed": [
+    0.803431617524571,
+    0.7379792072774529,
+    0.8637592968221771
+   ]
+  },
+  "coinage": {
+   "errors": 40.0,
+   "questions": 158,
+   "sample_disagreement": [
+    0.6405720338983051,
+    0.5695181907571288,
+    0.7198787878787879
+   ],
+   "option_entropy": [
+    0.6396186440677966,
+    0.5689174107142857,
+    0.7185390549662488
+   ],
+   "stated_confidence": [
+    0.7146186440677966,
+    0.6374338624338625,
+    0.7851089588377724
+   ],
+   "proxy_one_minus_max_prob_keyfree": [
+    0.7184322033898305,
+    0.6151691445809093,
+    0.815625
+   ],
+   "proxy_entropy_keyfree": [
+    0.7161016949152542,
+    0.6081277213352685,
+    0.8116027531956735
+   ],
+   "proxy_R_keyed": [
+    0.7794491525423729,
+    0.703853046594982,
+    0.8484500574052812
+   ]
+  },
+  "usual meaning": {
+   "errors": 21.0,
+   "questions": 142,
+   "sample_disagreement": [
+    0.60271546635183,
+    0.5165343915343915,
+    0.6924841213832039
+   ],
+   "option_entropy": [
+    0.60271546635183,
+    0.5165343915343915,
+    0.6924841213832039
+   ],
+   "stated_confidence": [
+    0.6440377804014168,
+    0.5515521064301552,
+    0.7300362976406534
+   ],
+   "proxy_one_minus_max_prob_keyfree": [
+    0.8103109012199922,
+    0.7103678929765886,
+    0.8969109195402298
+   ],
+   "proxy_entropy_keyfree": [
+    0.8103109012199922,
+    0.7089552238805971,
+    0.893730407523511
+   ],
+   "proxy_R_keyed": [
+    0.9208972845336482,
+    0.8705922629236563,
+    0.9646464646464646
+   ]
+  },
+  "all": {
+   "errors": 130.0,
+   "questions": 456,
+   "sample_disagreement": [
+    0.6163166588013214,
+    0.5794060606060606,
+    0.6560456730769231
+   ],
+   "option_entropy": [
+    0.6162222746578575,
+    0.5789212121212122,
+    0.6560420447670902
+   ],
+   "stated_confidence": [
+    0.6166352052855121,
+    0.5578617125984252,
+    0.6810909951485031
+   ],
+   "proxy_one_minus_max_prob_keyfree": [
+    0.6894761680037753,
+    0.6317708333333333,
+    0.749858502701312
+   ],
+   "proxy_entropy_keyfree": [
+    0.6806748466257668,
+    0.6216005860269206,
+    0.7388061491234381
+   ],
+   "proxy_R_keyed": [
+    0.8479235488437943,
+    0.8120533260032985,
+    0.8812956375210634
+   ]
+  }
+ },
+ "keyless_proxy": {
+  "reproduction_max_abs_diff_p_correct": 0.00498823113776814,
+  "n_scored": 457,
+  "gpt6": {
+   "proxy_one_minus_max_prob_keyfree": [
+    0.6454665848380116,
+    0.5801355116514691,
+    0.710797237915882
+   ],
+   "proxy_entropy_keyfree": [
+    0.6389741270712879,
+    0.5724149004495825,
+    0.7063161375661375
+   ],
+   "proxy_R_keyed": [
+    0.8094576698213767,
+    0.7602770330652369,
+    0.8536231884057971
+   ]
+  },
+  "gpt6_redefined": {
+   "proxy_one_minus_max_prob_keyfree": 0.5227715754031543,
+   "proxy_entropy_keyfree": 0.5046960836434521,
+   "proxy_R_keyed": 0.7770689349636718
+  }
+ },
+ "definition_arms_no_cue": {
+  "all": {
+   "n": 761,
+   "bare_acc": 0.6990801576872536,
+   "glossG": {
+    "acc": 0.9658344283837057,
+    "repairs": 209,
+    "harms": 6
+   },
+   "glossC": {
+    "acc": 0.9487516425755584,
+    "repairs": 196,
+    "harms": 6
+   },
+   "glossM": {
+    "acc": 0.7082785808147175,
+    "repairs": 86,
+    "harms": 79
+   }
+  },
+  "no_cue": {
+   "n": 180,
+   "bare_acc": 0.6166666666666667,
+   "glossG": {
+    "acc": 0.9111111111111111,
+    "repairs": 56,
+    "harms": 3
+   },
+   "glossC": {
+    "acc": 0.8833333333333333,
+    "repairs": 52,
+    "harms": 4
+   },
+   "glossM": {
+    "acc": 0.5444444444444444,
+    "repairs": 15,
+    "harms": 28
+   }
+  },
+  "legend": "glossG source definition, glossC model-drafted gloss, glossM model's own gloss under a domain prompt"
+ },
+ "jev_761": {
+  "bare": {
+   "n": 761,
+   "own_error": 0.4178712220762155,
+   "auroc": 0.6431066059031475
+  },
+  "glossC": {
+   "n": 761,
+   "own_error": 0.045992115637319315,
+   "auroc": 0.8147776465958284
+  }
+ },
+ "retrieval_definition_rate": {
+  "rag_v3_bm25.jsonl": 0.44166666666666665,
+  "rag_v3_t2.jsonl": 0.29,
+  "rag_v3_t1.jsonl": 0.4225
+ },
+ "territory_percentile": {
+  "risk": 0.8871278840786802,
+  "percentile": 0.9704395772706387,
+  "frame": 6529
+ },
+ "error_nesting": {
+  "Synthetic": {
+   "questions": 456,
+   "error_rates": {
+    "DeepSeek V4 Flash": 0.2850877192982456,
+    "GPT-6-astra": 0.18201754385964913
+   },
+   "newest_errors": 83,
+   "also_wrong_for_an_older_reader": 65
+  },
+  "Reddit": {
+   "questions": 1391,
+   "error_rates": {
+    "DeepSeek V4.1 Flash": 0.30122214234363764,
+    "GPT-6-astra": 0.14593817397555714
+   },
+   "newest_errors": 203,
+   "also_wrong_for_an_older_reader": 143
+  },
+  "DeFi": {
+   "questions": 379,
+   "error_rates": {
+    "DeepSeek V4.1 Flash": 0.28232189973614774,
+    "GPT-5.6-terra": 0.22955145118733508,
+    "GPT-6-astra": 0.16886543535620052
+   },
+   "newest_errors": 64,
+   "also_wrong_for_an_older_reader": 60
+  }
+ },
+ "redefinition_follow": {
+  "GPT-5.6-terra": {
+   "items": 1244,
+   "follow_stated": 0.9501607717041801,
+   "usual_meaning_without": 0.9815112540192926
+  },
+  "GPT-6-astra": {
+   "items": 1244,
+   "follow_stated": 0.997588424437299,
+   "usual_meaning_without": 0.9807073954983923
+  },
+  "DeepSeek V4.1 Flash": {
+   "items": 1244,
+   "follow_stated": 0.6302250803858521,
+   "usual_meaning_without": 0.9718649517684887
+  }
+ },
+ "example_cases": {
+  "cuadfull:355:Products#7": {
+   "correct": {
+    "bare": 0.0,
+    "glossC": 1.0
+   },
+   "risk": 0.8827264008829395,
+   "percentile": 0.9690611119620156
+  },
+  "cuadfull:379:Trademarks#2": {
+   "correct": {
+    "bare": 0.0,
+    "glossC": 1.0
+   },
+   "risk": 0.9589677158927451,
+   "percentile": 0.9967835809465462
+  },
+  "cuadfull:86:Term#5": {
+   "correct": {
+    "bare": 0.0,
+    "glossC": 1.0
+   },
+   "risk": 0.9030849169776973,
+   "percentile": 0.9787103691223771
+  },
+  "cuadfull:167:Territory#3": {
+   "correct": {
+    "bare": 0.0,
+    "glossC": 1.0
+   },
+   "risk": 0.8871278840786802,
+   "percentile": 0.9704395772706387
+  }
+ }
+}

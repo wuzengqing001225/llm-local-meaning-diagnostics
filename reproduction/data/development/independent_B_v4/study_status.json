@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "report": "results_auto_v4_response_fix/evaluation/report.md",
+  "summary": "results_auto_v4_response_fix/evaluation/summary.json",
+  "evidence_level": "automated_exploratory",
+  "budget_unit": "proxy_token",
+  "primary_contrast": {
+    "policy": "occurrence_risk",
+    "comparator": "matched",
+    "budget": 32,
+    "budget_scope": "workload",
+    "n_tasks": 57,
+    "difference": -0.017543859649122806,
+    "ci": [
+      -0.05663098693759071,
+      0.0
+    ]
+  },
+  "evidence_scope": "Risk-enriched automatically constructed tasks. Two-family agreement is not proof of truth or natural user frequency.",
+  "selection_report": "../selection_report.json"
+}

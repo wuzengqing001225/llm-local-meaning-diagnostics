@@ -1,0 +1,10 @@
+{
+  "status": "budget_frozen_before_readers",
+  "sha256": {
+    "corpus_term_statistics.json": "c29dc23db4684887011c7d3696fc1f1b9d17d3c782b5bb4590fb987ca92dc7a7",
+    "budget_plans.jsonl": "11e26c14eda3f1e6a1566250613fac8f0db677f82388dc52b7fa630ed5906e80",
+    "budget_costs.json": "3dfe9bce0da2a3c11945bcb25f56faf0fcc096c93933e34c2341907503c3e8f2",
+    "tasks_public.jsonl": "2cc25bb68b39bedac8f0d514a7ff5b5dfb84d22479d3c08357c936b518d92bff",
+    "A_rule_scores.jsonl": "793063bb9077ef1e21e291acdcd7ea65651f33f7892d8908e822e220efcb326d"
+  }
+}

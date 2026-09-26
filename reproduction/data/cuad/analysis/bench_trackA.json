@@ -1,0 +1,1 @@
+{"n": 1500, "fail_rate": 0.21333333333333335, "rows": [["proxy 1\u2212P(correct) (Qwen-7B, local)", 0.8148516949152542], ["rarity (\u2212zipf)", 0.49086731991525423], ["term frequency (\u2212tf)", 0.4934322033898305], ["sentence length", 0.5276257944915255], ["term length (words)", 0.48691604872881356], ["definition length", 0.5095828919491525], ["random", 0.49335805084745765]]}

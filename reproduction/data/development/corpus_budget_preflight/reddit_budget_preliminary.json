@@ -1,0 +1,3271 @@
+{
+  "unit": "matched_local_definition",
+  "n_catalog_definitions": 3380,
+  "n_requests": 361,
+  "budget_rule": "floor(0.5 * median(all_matched_definition_tokens))",
+  "median_all_matched_definition_tokens": 47,
+  "budget_tokens": 23,
+  "budget_origin": "historical_Reddit_posts_source_only_preliminary",
+  "tokenizer": "Qwen/Qwen2.5-7B",
+  "revision": "d149729398750b98c0af14eb82c78cfe92750796",
+  "median_matched_definitions": 1,
+  "median_definition_tokens": 47,
+  "over_budget_fraction": 0.7700831024930748,
+  "multiple_affordable_choices_fraction": 0.08587257617728532,
+  "source_review_complete": false,
+  "primary_gate_passed": false,
+  "definitions_sha256": "aa5784289d238f3940eacf73f31ff63d72862b271978f6e71bd8a79c54d78364",
+  "requests_sha256": "f162664db45e8c55a5db28314571d87e63e39f9cfec75763b147a8ff8f2cfa26",
+  "scope_limit": "Schema and token checks do not prove source definitions are complete or all matches are relevant. Validate those separately. No A/B outcomes are read.",
+  "requests": [
+    {
+      "request_id": "rqa:afl:csgbh4",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 16,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:afl:e7azfu",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 16,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:afl:d328v9",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 16,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:afl:dlerno",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 16,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:afl:ddkt9t",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 16,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:afl:eee48o",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 16,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:askgaybros:e2xtl4",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 30,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:askgaybros:e2e9i3",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 30,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:askgaybros:dzle4s",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 82,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:askgaybros:e8h9sl",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 59,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:askgaybros:e3zpsl",
+      "n_matched_definitions": 4,
+      "n_with_dependencies": 4,
+      "all_matched_definition_tokens": 102,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "rqa:askgaybros:e6miyn",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 89,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:askgaybros:dqnxy5",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 29,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:askgaybros:e9r6z6",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 29,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:askgaybros:e9g371",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 82,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:askgaybros:e7c14i",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 29,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:askgaybros:e0860n",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 29,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:askgaybros:d8gxun",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 52,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:askgaybros:dcv0q8",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 38,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:askgaybros:clck6z",
+      "n_matched_definitions": 4,
+      "n_with_dependencies": 4,
+      "all_matched_definition_tokens": 138,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:askgaybros:d208tz",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 38,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:askgaybros:e7ct7o",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 52,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:askgaybros:djuikt",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 38,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:boxoffice:dy6ffm",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 49,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:boxoffice:egbey0",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 44,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:boxoffice:e5vge7",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 38,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:boxoffice:e1duhn",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 32,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:boxoffice:dw5zn9",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 32,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:boxoffice:e4kf1j",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 46,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:boxoffice:cijkua",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 31,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "rqa:boxoffice:bvrbbb",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 38,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 3,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "rqa:boxoffice:amlsw5",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 15,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:boxoffice:bio0w6",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 15,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:boxoffice:e8neia",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 15,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:boxoffice:ar98rs",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 15,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:boxoffice:ebk3u1",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 13,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:boxoffice:eh8mwf",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 13,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:boxoffice:ehund1",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 13,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:boxoffice:eea0qf",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 13,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:boxoffice:eda5z1",
+      "n_matched_definitions": 4,
+      "n_with_dependencies": 4,
+      "all_matched_definition_tokens": 177,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "rqa:boxoffice:ebw99j",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 59,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "rqa:boxoffice:aiyc2e",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 32,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:boxoffice:bjnc6p",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 32,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:boxoffice:c2au4n",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 45,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:boxoffice:cbuz3x",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 32,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:boxoffice:aigsuk",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 64,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:boxoffice:c7gukb",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 46,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cars:b1imza",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 134,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cars:ayzuo8",
+      "n_matched_definitions": 4,
+      "n_with_dependencies": 4,
+      "all_matched_definition_tokens": 173,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "rqa:cars:affztx",
+      "n_matched_definitions": 5,
+      "n_with_dependencies": 5,
+      "all_matched_definition_tokens": 246,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "rqa:cars:dpfwlm",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 134,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cars:b1zplv",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 167,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cars:d1oo51",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 134,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cars:ajandz",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 14,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cars:bm5j8i",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 84,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cars:dvyvot",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 14,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cars:d0t68i",
+      "n_matched_definitions": 4,
+      "n_with_dependencies": 4,
+      "all_matched_definition_tokens": 165,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "rqa:cars:b527cq",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 14,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cars:awcyvd",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 84,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cars:bxpurw",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 42,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cars:bapahj",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 42,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cars:byt1rs",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 42,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cars:cmxhp4",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 42,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cars:dvd7gh",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 25,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cars:dknp1h",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 25,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cars:ehlwdu",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 95,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cars:ebvzk5",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 93,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cars:edb14i",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 25,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cars:dfky7d",
+      "n_matched_definitions": 4,
+      "n_with_dependencies": 4,
+      "all_matched_definition_tokens": 162,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cars:cmktrr",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 61,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cars:ehqdp1",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 61,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cars:dpaabm",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 68,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cars:cgspfd",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 61,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cars:cwa1yt",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 147,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cars:bxezpk",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 61,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cars:ea8s72",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 67,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cars:ehls42",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 67,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cars:e3gvcy",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 67,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cars:ed2ghg",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 67,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cars:dhlk8b",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 67,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cats:edz5ie",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 35,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cats:dsx1do",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 35,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cats:egx7kp",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 12,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cats:dzk7cu",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 12,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cats:dg4pcv",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 12,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cats:dxfz7z",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 12,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:childfree:dxl1pp",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 58,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:childfree:dzp8gn",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 18,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:childfree:dktfou",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 128,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:childfree:eg0352",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 18,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:childfree:e0anzl",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 18,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:childfree:dwl6ir",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 18,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:christianity:b1407q",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 49,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:christianity:e8avpf",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 49,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:christianity:cz9kcs",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 49,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:christianity:biqb40",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 49,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:christianity:aoaeyg",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 49,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:christianity:c3lyfx",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 49,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:christianity:bk9l0v",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 61,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:christianity:dubjuk",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 61,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:christianity:ci7mt6",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 61,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:christianity:e5iju4",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 61,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:christianity:cug95h",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 18,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:christianity:b3d8bw",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 49,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:christianity:cmim9a",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 18,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:christianity:adpdxz",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 97,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "rqa:christianity:dnrwwa",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 40,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "rqa:christianity:bvghbd",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 78,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:christianity:ecs8h0",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 91,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:christianity:eg3rxm",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 31,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:christianity:ef42as",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 117,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:christianity:ed19qr",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 91,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:christianity:eecvn8",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 47,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:christianity:eczbzz",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 91,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:christianity:cntvpa",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 57,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:christianity:cftu10",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 26,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:christianity:eeiida",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 67,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:christianity:egyaiy",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 26,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:christianity:cdivw1",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 26,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:christianity:djzf46",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 64,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:churning:c9p544",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 5,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:clashroyale:dw5hdi",
+      "n_matched_definitions": 4,
+      "n_with_dependencies": 4,
+      "all_matched_definition_tokens": 71,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 3,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "rqa:clashroyale:e8c4q0",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 24,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:clashroyale:e0j963",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 24,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:clashroyale:dy3l39",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 24,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:clashroyale:e9euqi",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 65,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:clashroyale:dyr0n0",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 24,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:clashroyale:egg0yk",
+      "n_matched_definitions": 4,
+      "n_with_dependencies": 4,
+      "all_matched_definition_tokens": 123,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "rqa:clashroyale:d6o7ko",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 99,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:clashroyale:eh5p7c",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 99,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:clashroyale:dgnwi8",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 99,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:clashroyale:d6khxm",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 105,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:clashroyale:cy43oh",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 137,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:clashroyale:bg12bb",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 28,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "rqa:clashroyale:chjlr6",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 22,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:clashroyale:bevfqg",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 38,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "rqa:clashroyale:c031is",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 22,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:clashroyale:bnfbyr",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 22,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:clashroyale:b5iyd9",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 22,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:clashroyale:eb69ls",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 14,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:clashroyale:bkumgt",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 14,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:clashroyale:c8kw9p",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 14,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:clashroyale:dkh3t8",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 14,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:clashroyale:ck1tc2",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 30,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "rqa:clashroyale:amvslq",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 20,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:clashroyale:df8a6w",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 41,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:clashroyale:e6rmhz",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 41,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:clashroyale:e0psl4",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 115,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:clashroyale:dcb1ii",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 47,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:clashroyale:c9opck",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 47,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:clashroyale:cyqsfo",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 97,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:clashroyale:dpflkl",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 47,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:clashroyale:ea3ixe",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 47,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:clashroyale:dwxx3a",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 63,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:clashroyale:e9sziq",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 47,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:clashroyale:ed3nrc",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 47,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:competitiveoverwatch:cper73",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 27,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:competitiveoverwatch:b79ivz",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 27,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:competitiveoverwatch:dcxye9",
+      "n_matched_definitions": 4,
+      "n_with_dependencies": 4,
+      "all_matched_definition_tokens": 129,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:competitiveoverwatch:ay90ya",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 242,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:competitiveoverwatch:dy15n2",
+      "n_matched_definitions": 4,
+      "n_with_dependencies": 4,
+      "all_matched_definition_tokens": 272,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:competitiveoverwatch:e2n43j",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 27,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:competitiveoverwatch:bo8wwa",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 34,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:competitiveoverwatch:dm7n7r",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 34,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:competitiveoverwatch:cm3ev7",
+      "n_matched_definitions": 7,
+      "n_with_dependencies": 7,
+      "all_matched_definition_tokens": 376,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:competitiveoverwatch:cdl9p4",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 308,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:competitiveoverwatch:cxz7f9",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 240,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:competitiveoverwatch:d6fycm",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 68,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:competitiveoverwatch:akizdu",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 62,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "rqa:competitiveoverwatch:alxlo3",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 36,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "rqa:competitiveoverwatch:aszg40",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 21,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:competitiveoverwatch:b2rcyn",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 81,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:competitiveoverwatch:azayu9",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 55,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:cricket:c5ussl",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 404,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:deadbydaylight:e8820k",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 33,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:deadbydaylight:dzxpus",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 75,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:deadbydaylight:e4ycv9",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 98,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:deadbydaylight:e5c53g",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 33,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:deadbydaylight:dzoomv",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 33,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:deadbydaylight:ef6aqe",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 75,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:deadbydaylight:eht1xd",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 41,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:deadbydaylight:dr2hfe",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 41,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:deadbydaylight:dq5uvy",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 92,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:deadbydaylight:e2lpmm",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 41,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:deadbydaylight:dlu6ge",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 41,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:deadbydaylight:dabyzd",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 41,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:dnd:ei7dw2",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 29,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:dnd:ehiw2c",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 85,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:dnd:egzhr4",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 29,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:dnd:ehez7x",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 29,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:dnd:ei6puk",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 29,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:dnd:ehu45z",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 111,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:dota2:e6c85h",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 23,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:dota2:ebglt8",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 16,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:dota2:e6dpqg",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 16,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:dota2:egnw4j",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 16,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:dota2:efir4t",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 16,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:dota2:e0ytav",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 16,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:elderscrollsonline:e0wacx",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 26,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:elderscrollsonline:eegtwl",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 26,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:elderscrollsonline:dvs2zm",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 70,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:elderscrollsonline:e5geg7",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 26,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:elderscrollsonline:drnsso",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 26,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:elderscrollsonline:dqc3hb",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 26,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:elderscrollsonline:ddkzpj",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 78,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:elderscrollsonline:csbw32",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 51,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:elderscrollsonline:ay5u0d",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 71,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "rqa:elderscrollsonline:ecc4gw",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 67,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:elderscrollsonline:c0arj7",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 51,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:elderscrollsonline:buy2bx",
+      "n_matched_definitions": 4,
+      "n_with_dependencies": 4,
+      "all_matched_definition_tokens": 107,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:elderscrollsonline:ag8swc",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 126,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:elderscrollsonline:bh3yut",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 123,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:elderscrollsonline:azd4nj",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 224,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:elderscrollsonline:bwyefd",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 140,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:fitness:b9lcct",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 39,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:fitness:c6r70u",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 39,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:fitness:b0ou8j",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 92,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:fitness:azpve7",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 39,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:fitness:cgx567",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 39,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:fitness:bgr7j5",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 54,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:gamingcirclejerk:cc9svb",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 20,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:gamingcirclejerk:ccg8aw",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 20,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:gamingcirclejerk:akjsup",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 156,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:gamingcirclejerk:b68cth",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 20,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:gendercritical:ef6y39",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 125,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:gendercritical:efg6ya",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 67,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:gendercritical:ei2bpl",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 78,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:gendercritical:ei23b1",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 67,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:gendercritical:ec4b05",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 151,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:gendercritical:edx0ah",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 161,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:gendercritical:e9fv4c",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 7,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:gendercritical:efwlsw",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 72,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:gendercritical:ehl6ym",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 72,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:gendercritical:e7yi0q",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 7,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:gendercritical:eca4i4",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 58,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:gendercritical:ed76k3",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 91,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:e8om4q",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 150,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:ecpe4f",
+      "n_matched_definitions": 5,
+      "n_with_dependencies": 5,
+      "all_matched_definition_tokens": 197,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:e8dv15",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 123,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:dnez3h",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 78,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:e8g9oy",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 78,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:earvyh",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 78,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:culrq2",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 81,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:cvvvj1",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 41,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:cu6opl",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 77,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:cxjnn7",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 26,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:cuiz0g",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 60,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "rqa:hearthstone:edkv8c",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 12,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:d91vc4",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 108,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:d9itjk",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 108,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:e87y3t",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 12,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:drj0ev",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 69,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:dabnov",
+      "n_matched_definitions": 4,
+      "n_with_dependencies": 4,
+      "all_matched_definition_tokens": 112,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "rqa:hearthstone:bmup6n",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 33,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:bs5qx5",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 43,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:eb0kud",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 75,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:ciedmr",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 99,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:dacifj",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 33,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:c1ip1b",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 43,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:di9z0s",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 14,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:dmpax2",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 22,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:bfmyjh",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 22,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:af2c32",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 67,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:aj3vxs",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 22,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:b8m89r",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 22,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:e9xubc",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 36,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:ecpxxh",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 36,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:e6jlrg",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 100,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:ecg34h",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 108,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:eacggs",
+      "n_matched_definitions": 4,
+      "n_with_dependencies": 4,
+      "all_matched_definition_tokens": 110,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:ecfn6k",
+      "n_matched_definitions": 6,
+      "n_with_dependencies": 6,
+      "all_matched_definition_tokens": 192,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "rqa:hearthstone:ecc9no",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 55,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:eaoize",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 55,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:eakik9",
+      "n_matched_definitions": 4,
+      "n_with_dependencies": 4,
+      "all_matched_definition_tokens": 107,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "rqa:hearthstone:efzih6",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 19,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:eep71f",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 55,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:bgj4yg",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 41,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:bl3usk",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 41,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:clira2",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 41,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:bibw9k",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 73,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "rqa:hearthstone:bmk9j5",
+      "n_matched_definitions": 4,
+      "n_with_dependencies": 4,
+      "all_matched_definition_tokens": 134,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:hearthstone:bd7rnk",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 41,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:kpop:bntye9",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 87,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:kpop:c51r6i",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 87,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:kpop:d55wkx",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 218,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:kpop:c66tdr",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 101,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:kpop:c8ho8w",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 87,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:kpop:b9y07t",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 87,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:mechanicalkeyboards:dnq3z3",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 45,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:mechanicalkeyboards:dz7km8",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 45,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:mechanicalkeyboards:abzaen",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 45,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:mechanicalkeyboards:e51ucu",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 45,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:mechanicalkeyboards:cnr47d",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 45,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:mechanicalkeyboards:d49no5",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 148,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:pathofexile:byqids",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 17,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:pathofexile:dh88ts",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 17,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:pathofexile:e472eb",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 17,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:pathofexile:dm8e1o",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 17,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:pathofexile:avekj8",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 23,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:pathofexile:css80c",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 17,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:dlenfx",
+      "n_matched_definitions": 5,
+      "n_with_dependencies": 5,
+      "all_matched_definition_tokens": 181,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 3,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "rqa:thedivision:dioqj8",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 145,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:cwsohm",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 101,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:cv5avb",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 183,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:crrdw1",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 159,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:d9e7ud",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 127,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:ctrt3b",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 47,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:cyicz3",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 47,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:cmhy2t",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 47,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:cesru0",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 47,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:c7z5mm",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 47,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:cf9u8v",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 72,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:cozc4v",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 76,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:bbq0yy",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 151,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:c3os86",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 71,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:d9rm03",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 276,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:ckc0b6",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 20,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:b6jf65",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 20,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:ah1zoc",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 20,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:b7t408",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 51,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:b2qirv",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 41,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:bfd2bg",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 41,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:e5i3d7",
+      "n_matched_definitions": 4,
+      "n_with_dependencies": 4,
+      "all_matched_definition_tokens": 298,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:cch4kq",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 49,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:bb44bl",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 41,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:cmom5j",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 19,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:d5n2uj",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 19,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:d2ynf5",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 19,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:cmg3h6",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 19,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:eenvmp",
+      "n_matched_definitions": 5,
+      "n_with_dependencies": 5,
+      "all_matched_definition_tokens": 287,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:cjv316",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 28,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "rqa:thedivision:bh9g3r",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 24,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:bs29jh",
+      "n_matched_definitions": 6,
+      "n_with_dependencies": 6,
+      "all_matched_definition_tokens": 207,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "rqa:thedivision:ckux31",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 24,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:bo3wfk",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 170,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:c9c95e",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 49,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "rqa:thedivision:cmsit1",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 48,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:civvrb",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 12,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:cb2qv3",
+      "n_matched_definitions": 5,
+      "n_with_dependencies": 5,
+      "all_matched_definition_tokens": 293,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "rqa:thedivision:dvp1wx",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 118,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:dlfs8n",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 12,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:co182b",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 106,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:dbuyjh",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 12,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:dsthyx",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 109,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:dlvxm6",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 62,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:dvu2n1",
+      "n_matched_definitions": 9,
+      "n_with_dependencies": 9,
+      "all_matched_definition_tokens": 263,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 6,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "rqa:thedivision:dj4bxp",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 14,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:dlt88q",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 14,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:cex9de",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 61,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:dm7yxg",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 14,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:cq5grd",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 14,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:e8612x",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 14,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:thedivision:c1m2fz",
+      "n_matched_definitions": 3,
+      "n_with_dependencies": 3,
+      "all_matched_definition_tokens": 54,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "rqa:wallstreetbets:e0vxav",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 41,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:wallstreetbets:e5pvf2",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 41,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 0,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:whowouldwin:cr1em4",
+      "n_matched_definitions": 2,
+      "n_with_dependencies": 2,
+      "all_matched_definition_tokens": 31,
+      "exceeds_budget": true,
+      "n_individually_affordable_matches": 2,
+      "genuine_choice_under_this_budget": true
+    },
+    {
+      "request_id": "rqa:whowouldwin:b7dv8z",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 18,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:whowouldwin:e8e9md",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 18,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:whowouldwin:eei0cs",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 18,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:whowouldwin:bp7lam",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 18,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    },
+    {
+      "request_id": "rqa:whowouldwin:abhi4x",
+      "n_matched_definitions": 1,
+      "n_with_dependencies": 1,
+      "all_matched_definition_tokens": 18,
+      "exceeds_budget": false,
+      "n_individually_affordable_matches": 1,
+      "genuine_choice_under_this_budget": false
+    }
+  ]
+}

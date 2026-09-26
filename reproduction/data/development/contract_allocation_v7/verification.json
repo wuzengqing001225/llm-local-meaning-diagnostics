@@ -1,0 +1,16 @@
+{
+  "A_freeze.json": 6,
+  "B_freeze.json": 10,
+  "budget_freeze.json": 5,
+  "n_A": 89,
+  "n_B": 63,
+  "n_rules": 15,
+  "n_reader_responses": 504,
+  "gold_positions": {
+    "A": 32,
+    "B": 31
+  },
+  "unparsed": 0,
+  "all_policy_costs_within_budget": true,
+  "public_inputs_without_gold": true
+}

@@ -1,0 +1,11 @@
+{
+ "version": "1.0.0",
+ "completed_experiments": true,
+ "independent_main_experiment_results": false,
+ "B_semantic_quality_results": false,
+ "private_per_item_data_included": false,
+ "publication_performed": false,
+ "pending_additions": [],
+ "human_source_review_results": true,
+ "note": "Development experiments on independent questions and budgets are released for inspection. The paper does not claim completed results from them."
+}

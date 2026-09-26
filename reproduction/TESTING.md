@@ -1,0 +1,1 @@
+The complete offline reproduce.py --figures command completed. Eight main prediction settings matched the frozen expected values. Recovered response validation and RAG cache-order proof passed. No model calls were made. Raw source experiment files were not overwritten.

@@ -1,0 +1,107 @@
+{
+  "research_object": "shared_precurated_local_definition_library_budget",
+  "old_per_request_gate": "superseded_by_user_decision_2026-09-25",
+  "offline_simulation": "four_traceable_synthetic_and_reddit_settings_reproduced_with_cost_sensitivity",
+  "cuad_360_term_simulation": "not_reproduced_without_exact_input_join_and_script",
+  "formal_definition_catalog_frozen": false,
+  "independent_frequency_frame_frozen": false,
+  "independent_new_B_frame_available": false,
+  "formal_sample_size_locked": false,
+  "formal_B_reader_calls": 0,
+  "historical_reddit_plan": "DEVELOPMENT_ONLY",
+  "authorized_new_post_access": "awaiting_user_information",
+  "code_checks": [
+    "python_compile",
+    "historical_215_term_plan_replay",
+    "formal_mode_rejects_provisional_catalog",
+    "source_import_fixture",
+    "reader_fixture_with_mock_API",
+    "paired_evaluator_rejects_incorrect_definition_injection",
+    "identical_policy_prompts_reuse_one_response_with_correct_logical_vs_actual_costs"
+  ],
+  "paper_structure_draft": {
+    "status": "superseded_by_definition_source_audit_version",
+    "source": "outputs/paper_definition_audit_20260926/paper.tex",
+    "pdf": "output/pdf/llm_idf_definition_source_audit_20260926_v3.pdf",
+    "total_pages": 19,
+    "body_pages": 7,
+    "references_start_page": 8,
+    "appendix_start_page": 11
+  },
+  "gold_definition_aligned_historical_development": {
+    "status": "COMPLETED_STOP_OLD_B_QUALITY_UNCERTAIN",
+    "n_terms": 215,
+    "n_A_questions_scored_Qwen": 429,
+    "n_policy_disagreement_terms": 60,
+    "n_B_questions_GPT_reader": 118,
+    "configured_GPT_reader_calls": 236,
+    "configured_DeepSeek_blind_source_check_calls": 60,
+    "GPT_policy_difference_pp": -4.53,
+    "GPT_fixed_policy_community_CI_pp": [
+      -9.45,
+      -0.28
+    ],
+    "source_checker_accepted_B": 83,
+    "source_checker_total_B": 118,
+    "terms_without_accepted_B": 15,
+    "formal_result": false,
+    "report": "outputs/shared_budget_transition_20260925/gold_aligned_development/补跑结果与停机结论.md"
+  },
+  "formal_shared_budget_study": {
+    "status": "STOPPED_BY_USER_2026-09-26",
+    "reason": "Existing definition-aligned development evidence does not justify new authorized Reddit collection and answer review",
+    "new_reddit_posts_collected": 0,
+    "formal_B_reader_calls": 0
+  },
+  "gold_source_repair_auc_audit": {
+    "status": "COMPLETED_NO_NEW_MODEL_CALLS",
+    "n_terms": 215,
+    "n_A_questions": 429,
+    "n_B_sibling_questions": 422,
+    "same_item_gold_auc": 0.665332512315,
+    "cross_question_gold_auc": 0.59977324263,
+    "same_item_auto_auc": 0.832502492522,
+    "cross_question_auto_auc": 0.810531309298,
+    "cross_gold_community_CI": [
+      0.475,
+      0.717
+    ],
+    "report": "outputs/shared_budget_transition_20260925/gold_aligned_development/社区原释义_条件修复AUROC核验.md"
+  },
+  "definition_provenance_audit": {
+    "status": "COMPLETED",
+    "full_CUAD_1500": "contract_original",
+    "small_CUAD_671_glossC": "auto",
+    "small_CUAD_671_glossG": "contract_original",
+    "synthetic_reddit_defi_diagnostic_glossC": "auto",
+    "record": "outputs/shared_budget_transition_20260925/definition_provenance_audit.json"
+  },
+  "historical_human_blind_audit": {
+    "status": "BLIND_ZIP_VERIFIED_AWAITING_HUMAN_ANSWERS",
+    "n_items": 80,
+    "strata": {
+      "synthetic": 20,
+      "reddit_general": 10,
+      "reddit_policy_disagreement": 10,
+      "defi": 20,
+      "cuad": 20
+    },
+    "selection": "fixed_SHA256_source_id_only",
+    "blind_zip": "outputs/historical_blind_audit_20260926/历史题人工盲审_80题_无答案.zip",
+    "keys_excluded_from_zip": true,
+    "analyzer_ready": true
+  },
+  "definition_quality_pair_signal": {
+    "status": "EXPLORATORY_NOT_VALIDATED_AS_QUALITY_METRIC",
+    "n_terms": 215,
+    "B_gold_better": 50,
+    "B_auto_better": 4,
+    "B_tie": 161,
+    "spearman": 0.3266924807362764,
+    "community_CI": [
+      0.21864904018537942,
+      0.4048406908284722
+    ],
+    "report": "outputs/shared_budget_transition_20260925/gold_aligned_development/两份释义质量信号_探索.md"
+  }
+}

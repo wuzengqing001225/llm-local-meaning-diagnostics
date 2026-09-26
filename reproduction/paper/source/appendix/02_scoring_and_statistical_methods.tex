@@ -1,0 +1,33 @@
+\section{Scoring and statistical methods}
+\label{app:statistics}
+\paragraph{Answer-label scores.}
+The diagnostic proxy normalises scores across answer letters. The seven proxy tokenizers represent both the plain and space-prefixed A/B/C/D labels with one token per spelling, without cross-letter token collisions. The historical estimator takes the higher score over these two spellings for each letter. This convention defines the proxy score and is not a claim of calibrated reader confidence. Model and tokenizer revisions appear in Appendix~\ref{app:models}.
+
+The signed probability change $\Delta p$ is defined in Equation~\ref{eq:gain}. It is indexed by the exact definition text, its scope and its version. A mean log-score contrast, stored as \texttt{delta\_mc} in the supplementary data, is a separate statistic and is not substituted for $\Delta p$.
+
+\paragraph{Pairing and evaluation units.}
+Prediction comparisons match record IDs and question stems, with context indices for the CUAD library. Reader records specify answer keys and option order. The main table reports question-level outcomes. Term-level Sonnet summaries have a different unit and remain in the supplementary inventory.
+
+\paragraph{Definition-anchored CUAD task.}
+On 671 matched questions, bare accuracy is 0.772 and accuracy with the \emph{drafted} \texttt{glossC} is 0.903. The separate original-contract \texttt{glossG} arm reaches 0.982, and its correctness differs from \texttt{glossC} on 57 items. Error-ranking AUROC is 0.858 for $R$ and 0.666 for $\Delta p$ computed with the drafted gloss. These proxy probabilities do not measure the response to the contract text. This task is distinct from the 1,500-question usage validation.
+
+\paragraph{Stratified validation.}
+The five CUAD risk strata contain 2,529, 1,430, 1,085, 980, and 505 scored questions. A seeded shuffle with seed 42 selects 300 questions per stratum. The inverse inclusion weight is the stratum population divided by 300. Weighted error AUROC uses weighted positive-negative pairs. Within the 6,529-question frame, the weighted failure rate is 13.2\%, $R$ AUROC is 0.846, and $\Delta p$ AUROC is 0.500. These weights do not cover occurrences excluded during question construction.
+
+\paragraph{Uncertainty intervals.}
+Primary intervals use 2,000 cluster-bootstrap replicates. Paired arms share each resample. CUAD clusters are contracts, Reddit clusters are communities, and synthetic and DeFi comparisons use term records. The intervals quantify variation across the observed clusters, not across arbitrary organisations, question generators, or repeated model calls. Exploratory subgroup and threshold results are interpreted separately from primary comparisons.
+
+The Synthetic / GPT-6-astra and DeFi / DeepSeek V4.1 Flash rows in Table~\ref{tab:prediction} round to the same $R$ point estimate and interval at three decimal places. Their unrounded values differ: 0.8094577 with interval $[0.7627638,0.8560215]$ and 0.8093046 with $[0.7625671,0.8555733]$, respectively. The duplicate printed values result from rounding under the manuscript's original bootstrap procedure, rather than copying one row into the other. A separate bootstrap seed changes finite-replicate endpoints slightly and is not substituted into only one row.
+
+\paragraph{Repair prediction.}
+Table~\ref{tab:repair} evaluates prediction of a wrong-to-correct transition after a definition. Its final column reports a paired interval for the difference between the two scores on the separate bare-error target.
+\input{appendix/table_repair.tex}
+\input{appendix/dp_coupling.tex}
+The more specific target restricts evaluation to a reader's bare failures and asks which of those errors the same definition fixes. Table~\ref{tab:conditional-repair} gives direct and within-term sibling estimates for the recorded intervention text. Conditional results cannot by themselves guide pre-answer selection, because bare failure is then unknown.
+\input{appendix/table_conditional_repair.tex}
+
+\input{appendix/term_meaning_difference.tex}
+
+\paragraph{Sampling consistency.}
+The archived synthetic uncertainty experiment contains ten sampled responses per question, for 7,630 answer letters, and a separate greedy response. After removing the two source-conflicted questions, the analysis uses 761 questions and 7,610 of the archived letters. Among 229 greedy errors, 154 have ten identical sampled answers. Of these, 93 are identical and wrong, while 61 are identical and correct. The majority sampled answer is wrong on 142 of the 229 items. The corrected common proxy comparison uses 456 questions. Entropy is computed over option votes, and elicited confidence is treated as a response measurement rather than a calibrated probability.
+

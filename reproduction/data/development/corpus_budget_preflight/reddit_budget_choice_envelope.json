@@ -1,0 +1,8 @@
+{
+  "n_requests": 361,
+  "n_with_any_two_individually_affordable_overflow_interval": 167,
+  "maximum_competing_request_fraction_under_any_absolute_budget": 0.2299168975069252,
+  "budget_at_maximum_fraction": 45,
+  "scope": "Source-only structural upper envelope on this provisional catalog/matcher. It is NOT a proposal to select the best budget after seeing results; median-half remains the prespecified primary rule.",
+  "examples_without_choice_at_any_budget": []
+}

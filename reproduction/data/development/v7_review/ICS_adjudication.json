@@ -1,0 +1,11 @@
+{
+  "task_id": "cuadfull:371:ICS:B2",
+  "source_resolvability": "ambiguous",
+  "gold_status": "no_unique_gold",
+  "primary_correctness_eligible": false,
+  "misread_mechanism_eligible": false,
+  "annotation_basis": "User adjudication in current conversation; source Section 1.53 full term name plus opening scope versus defining predicate.",
+  "unchanged_numeric_threshold": ">=24 hours demonstrated in clinical testing",
+  "original_frozen_key_preserved": true,
+  "not_relabelled_to_no": true
+}

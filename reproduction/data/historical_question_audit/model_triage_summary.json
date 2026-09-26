@@ -1,0 +1,33 @@
+{
+  "status": "PROVISIONAL_SINGLE_FAMILY_ONLY",
+  "review_frame_n": 80,
+  "per_corpus": {
+    "synthetic": {
+      "n": 20,
+      "flagged": 1,
+      "deepseek_ambiguous_or_source_insufficient": 1
+    },
+    "reddit": {
+      "n": 20,
+      "flagged": 16,
+      "deepseek_ambiguous_or_source_insufficient": 15,
+      "deepseek_different_from_stored_key": 1
+    },
+    "defi": {
+      "n": 20,
+      "flagged": 11,
+      "deepseek_ambiguous_or_source_insufficient": 11
+    },
+    "cuad": {
+      "n": 20,
+      "flagged": 6,
+      "deepseek_ambiguous_or_source_insufficient": 3,
+      "deepseek_different_from_stored_key": 3
+    }
+  },
+  "flagged_n": 34,
+  "available_model_counts": {
+    "deepseek": 80
+  },
+  "interpretation": "Model flags are triage candidates, not adjudicated key errors. Truncated original sources and constructed stems can affect judgments."
+}

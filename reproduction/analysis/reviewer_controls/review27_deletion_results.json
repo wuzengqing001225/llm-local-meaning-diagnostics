@@ -1,0 +1,110 @@
+{
+ "review_counts": {
+  "synthetic": {
+   "supported_stored_key": 3,
+   "invalid_or_insufficient": 1
+  },
+  "cuad": {
+   "invalid_or_insufficient": 6,
+   "borderline": 1,
+   "supported_stored_key": 2
+  },
+  "reddit": {
+   "supported_stored_key": 3,
+   "invalid_or_insufficient": 1,
+   "borderline": 1
+  },
+  "defi": {
+   "invalid_or_insufficient": 6,
+   "borderline": 1,
+   "supported_stored_key": 2
+  }
+ },
+ "settings": [
+  {
+   "setting": "Synthetic / DeepSeek V4 Flash",
+   "original": 0.8479235488437943,
+   "n": 456,
+   "invalid_14": 0.8474556213017751,
+   "n_invalid_14": 455,
+   "invalid_plus_borderline_17": 0.8474556213017751,
+   "n_invalid_plus_borderline_17": 455
+  },
+  {
+   "setting": "Synthetic / GPT-6-astra",
+   "original": 0.8094576698213767,
+   "n": 456,
+   "invalid_14": 0.8090426221013085,
+   "n_invalid_14": 455,
+   "invalid_plus_borderline_17": 0.8090426221013085,
+   "n_invalid_plus_borderline_17": 455
+  },
+  {
+   "setting": "Reddit / DeepSeek V4.1 Flash",
+   "original": 0.8081386212518538,
+   "n": 1391,
+   "invalid_14": 0.8081644909130289,
+   "n_invalid_14": 1390,
+   "invalid_plus_borderline_17": 0.8079718536111836,
+   "n_invalid_plus_borderline_17": 1389
+  },
+  {
+   "setting": "Reddit / GPT-6-astra",
+   "original": 0.7197425818115474,
+   "n": 1391,
+   "invalid_14": 0.7198467801843452,
+   "n_invalid_14": 1390,
+   "invalid_plus_borderline_17": 0.71962302394936,
+   "n_invalid_plus_borderline_17": 1389
+  },
+  {
+   "setting": "DeFi / DeepSeek V4.1 Flash",
+   "original": 0.809304562946674,
+   "n": 379,
+   "invalid_14": 0.8084112149532711,
+   "n_invalid_14": 373,
+   "invalid_plus_borderline_17": 0.8092047257979192,
+   "n_invalid_plus_borderline_17": 372
+  },
+  {
+   "setting": "DeFi / GPT-5.6-terra",
+   "original": 0.7923161706817824,
+   "n": 379,
+   "invalid_14": 0.7907724459448597,
+   "n_invalid_14": 373,
+   "invalid_plus_borderline_17": 0.7915305505142166,
+   "n_invalid_plus_borderline_17": 372
+  },
+  {
+   "setting": "DeFi / GPT-6-astra",
+   "original": 0.7638392857142857,
+   "n": 379,
+   "invalid_14": 0.7643113159242192,
+   "n_invalid_14": 373,
+   "invalid_plus_borderline_17": 0.7648841629424153,
+   "n_invalid_plus_borderline_17": 372
+  }
+ ],
+ "cuad": {
+  "original": {
+   "unweighted": 0.8148516949152542,
+   "design_weighted": 0.8456231929395359,
+   "n": 1500
+  },
+  "invalid_14": {
+   "unweighted": 0.8168819299454047,
+   "design_weighted": 0.8467282277457643,
+   "n": 1494
+  },
+  "invalid_plus_borderline_17": {
+   "unweighted": 0.8166707892840627,
+   "design_weighted": 0.8465058717805988,
+   "n": 1493
+  }
+ },
+ "matched_items": 80,
+ "max_abs_change_R_auroc": {
+  "invalid_14": 0.002030235030150429,
+  "invalid_plus_borderline_17": 0.0018190943688084493
+ }
+}

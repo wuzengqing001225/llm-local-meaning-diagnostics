@@ -1,0 +1,73 @@
+{"set": "standard", "id": "v1:desk:interest", "term": "interest", "idx": 0, "risk": 0.6179564002167309, "q": "Treasury moved $4M into a money market fund. Why, according to the note?"}
+{"set": "standard", "id": "v1:desk:interest", "term": "interest", "idx": 1, "risk": 0.403180040535682, "q": "What is Legal reviewing in the vendor financing agreement?"}
+{"set": "standard", "id": "v1:desk:green", "term": "green", "idx": 2, "risk": 0.02267654521257967, "q": "The note says 'Our latency monitor shows green across all regions, so the API is"}
+{"set": "standard", "id": "v1:desk:green", "term": "green", "idx": 3, "risk": 0.027906561485212533, "q": "In 'The vendor risk dashboard turned green this quarter after they resolved the "}
+{"set": "standard", "id": "v1:desk:week", "term": "week", "idx": 4, "risk": 0.6122694824352064, "q": "According to the note, when is Sarah expected back?"}
+{"set": "standard", "id": "v1:desk:week", "term": "week", "idx": 5, "risk": 0.4517865808530641, "q": "How often does payroll run according to the note?"}
+{"set": "standard", "id": "v1:desk:flat", "term": "flat", "idx": 6, "risk": 0.4319868250397344, "q": "The overnight trader hands over a 'flat' book. What is the state of the open pos"}
+{"set": "standard", "id": "v1:desk:flat", "term": "flat", "idx": 7, "risk": 0.38885095974997375, "q": "Tom likes to go 'flat' before major CPI prints. What is he doing?"}
+{"set": "standard", "id": "v1:desk:parking", "term": "parking", "idx": 8, "risk": 0.0809355898555828, "q": "According to the notes, why should new hires use visitor parking?"}
+{"set": "standard", "id": "v1:desk:parking", "term": "parking", "idx": 9, "risk": 0.3195281586288893, "q": "What is closed this weekend according to the facilities note?"}
+{"set": "standard", "id": "v1:desk:quiet", "term": "quiet", "idx": 10, "risk": 0.037577244736722304, "q": "When support says 'Sunday nights are usually quiet, so maintenance windows get s"}
+{"set": "standard", "id": "v1:desk:quiet", "term": "quiet", "idx": 11, "risk": 0.03817604732616009, "q": "The analyst note describes a 'quiet run-up to the CPI print' with tightening spr"}
+{"set": "standard", "id": "v1:desk:senior", "term": "senior", "idx": 12, "risk": 0.2113970168128202, "q": "Who is required to authorize a margin breach override according to the note abou"}
+{"set": "standard", "id": "v1:desk:senior", "term": "senior", "idx": 13, "risk": 0.5589394929319234, "q": "Based on the security review note, who has access to the cold wallet keys?"}
+{"set": "standard", "id": "v1:desk:holiday", "term": "holiday", "idx": 14, "risk": 0.2832842014807282, "q": "Why should James's approvals be routed to the deputy head of desk next week?"}
+{"set": "standard", "id": "v1:desk:holiday", "term": "holiday", "idx": 15, "risk": 0.08959404760080925, "q": "Why will the London settlements team be unreachable on Monday?"}
+{"set": "standard", "id": "v1:desk:fresh", "term": "fresh", "idx": 16, "risk": 0.04387600288030391, "q": "What does the note mean when it says \"the dashboard shows fresh data pulled dire"}
+{"set": "standard", "id": "v1:desk:fresh", "term": "fresh", "idx": 17, "risk": 0.03283614427299053, "q": "In \"We're starting the incident report with a fresh document instead of editing "}
+{"set": "standard", "id": "v1:desk:cheap", "term": "cheap", "idx": 18, "risk": 0.09484139830475036, "q": "Why did the vol desk add to the March call options position, according to the no"}
+{"set": "standard", "id": "v1:desk:cheap", "term": "cheap", "idx": 19, "risk": 0.7639150729066282, "q": "What made the desk batch the Arbitrum rebalance into one transaction?"}
+{"set": "standard", "id": "v1:rest:red", "term": "red", "idx": 20, "risk": 0.030641500557300305, "q": "The P&L for March came back red, with expenses outpacing revenue by $3,800. What"}
+{"set": "standard", "id": "v1:rest:red", "term": "red", "idx": 21, "risk": 0.007420973189037561, "q": "The walk-in cooler thermometer showed a red reading. What should staff do?"}
+{"set": "standard", "id": "v1:rest:cold", "term": "cold", "idx": 22, "risk": 0.09707587014400254, "q": "What was Health inspector Diaz's concern about the salad bar on Tuesday?"}
+{"set": "standard", "id": "v1:rest:float", "term": "float", "idx": 23, "risk": 0.09695646946409409, "q": "The closing checklist says to 'reconcile the float against the drawer count.' Wh"}
+{"set": "standard", "id": "v1:rest:float", "term": "float", "idx": 24, "risk": 0.08288498943800382, "q": "A note says 'leave $75 as the float in drawer two overnight.' What is $75 referr"}
+{"set": "standard", "id": "v1:rest:fresh", "term": "fresh", "idx": 25, "risk": 0.07840204006247409, "q": "Why does the note say the morning crew bakes fresh bread starting at 5am?"}
+{"set": "standard", "id": "v1:rest:fresh", "term": "fresh", "idx": 26, "risk": 0.07014831383364573, "q": "What is the reason for switching to a local farm for fresh eggs?"}
+{"set": "standard", "id": "v1:rest:spoil", "term": "spoil", "idx": 27, "risk": 0.05263468312558295, "q": "The walk-in cooler was down for six hours and staff are worried the dairy order "}
+{"set": "standard", "id": "v1:rest:spoil", "term": "spoil", "idx": 28, "risk": 0.08411450197976711, "q": "Store 219 reported chicken thighs began to spoil after the freezer door was left"}
+{"set": "standard", "id": "v1:rest:dead", "term": "dead", "idx": 29, "risk": 0.03778505928162201, "q": "A staff member reports the walk-in freezer motor is 'dead' before the weekend de"}
+{"set": "standard", "id": "v1:rest:dead", "term": "dead", "idx": 30, "risk": 0.024468132830591682, "q": "The morning log notes the till's backup battery was found 'dead' when the power "}
+{"set": "standard", "id": "v1:rest:sugar", "term": "sugar", "idx": 31, "risk": 0.13093202120527736, "q": "What did the health inspector flag near the drink counter?"}
+{"set": "standard", "id": "v1:rest:sugar", "term": "sugar", "idx": 32, "risk": 0.8528490979059283, "q": "What was spilled near the register and cleaned up before closing?"}
+{"set": "distractor", "id": null, "term": null, "idx": 33, "risk": 0.02997429959478859, "q": "A trader notices their monitor has frozen during an active trading session. What"}
+{"set": "distractor", "id": null, "term": null, "idx": 34, "risk": 0.017148173037555225, "q": "A new employee joins the trading desk and is unsure about the daily reporting pr"}
+{"set": "distractor", "id": null, "term": null, "idx": 35, "risk": 0.0967958900470145, "q": "During a scheduled fire alarm test, what should desk staff do?"}
+{"set": "distractor", "id": null, "term": null, "idx": 36, "risk": 0.013224496782694772, "q": "An employee accidentally spills coffee on a shared keyboard. What is the appropr"}
+{"set": "distractor", "id": null, "term": null, "idx": 37, "risk": 0.023002640598189905, "q": "A risk analyst finds a discrepancy between two internal reports. What should the"}
+{"set": "distractor", "id": null, "term": null, "idx": 38, "risk": 0.027954011291274172, "q": "A colleague asks to borrow your access badge to enter the office because they fo"}
+{"set": "distractor", "id": null, "term": null, "idx": 39, "risk": 0.10712041299828423, "q": "During a fire drill evacuation, an employee realizes they left their phone at th"}
+{"set": "distractor", "id": null, "term": null, "idx": 40, "risk": 0.08393710829454559, "q": "A trading desk's air conditioning breaks down on a hot day. What is the most rea"}
+{"set": "distractor", "id": null, "term": null, "idx": 41, "risk": 0.010425993760472596, "q": "An employee notices a colleague appears unwell and is struggling to concentrate."}
+{"set": "distractor", "id": null, "term": null, "idx": 42, "risk": 0.024048519001493074, "q": "A new intern is unsure how to use the office printer. What is the most helpful r"}
+{"set": "distractor", "id": null, "term": null, "idx": 43, "risk": 0.010783746650607995, "q": "The office Wi-Fi goes down during the day. What is a reasonable immediate step?"}
+{"set": "distractor", "id": null, "term": null, "idx": 44, "risk": 0.018874092310833923, "q": "A staff member overhears confidential client information being discussed loudly "}
+{"set": "distractor", "id": null, "term": null, "idx": 45, "risk": 0.0275615860213132, "q": "An employee is unsure whether a file they need is stored in a shared drive or on"}
+{"set": "distractor", "id": null, "term": null, "idx": 46, "risk": 0.02848697671886724, "q": "A courier arrives at the office with a package for an employee who is out sick. "}
+{"set": "distractor", "id": null, "term": null, "idx": 47, "risk": 0.02265469987931812, "q": "During a team meeting, a colleague's laptop battery dies unexpectedly. What is a"}
+{"set": "distractor", "id": null, "term": null, "idx": 48, "risk": 0.011087573713373433, "q": "An employee wants to take a day off for a personal appointment. What is the appr"}
+{"set": "distractor", "id": null, "term": null, "idx": 49, "risk": 0.015629026862310713, "q": "A trader receives an email from an unknown sender with a suspicious attachment. "}
+{"set": "distractor", "id": null, "term": null, "idx": 50, "risk": 0.014112598434065426, "q": "Two colleagues have a disagreement about how to interpret a report during a meet"}
+{"set": "distractor", "id": null, "term": null, "idx": 51, "risk": 0.032754218086515685, "q": "An employee finds a USB drive of unknown origin in the office parking area. What"}
+{"set": "distractor", "id": null, "term": null, "idx": 52, "risk": 0.016179618814154417, "q": "A employee is asked to train a new hire on standard desk procedures. What is the"}
+{"set": "distractor", "id": null, "term": null, "idx": 53, "risk": 0.018394732527539648, "q": "A staff member notices a coworker has not washed their hands after taking out th"}
+{"set": "distractor", "id": null, "term": null, "idx": 54, "risk": 0.021887366072668724, "q": "A customer says their order is missing an item they paid for. What is the most r"}
+{"set": "distractor", "id": null, "term": null, "idx": 55, "risk": 0.04289556678124751, "q": "Raw chicken and cooked vegetables are both being stored in a small container are"}
+{"set": "distractor", "id": null, "term": null, "idx": 56, "risk": 0.026640611453471408, "q": "An employee arrives for their scheduled work time but feels very nauseous and ha"}
+{"set": "distractor", "id": null, "term": null, "idx": 57, "risk": 0.02124330835604804, "q": "A till drawer comes up short by a noticeable amount at the end of a work period."}
+{"set": "distractor", "id": null, "term": null, "idx": 58, "risk": 0.027000904534013603, "q": "A supplier drops off boxes of produce, but several tomatoes are visibly moldy. W"}
+{"set": "distractor", "id": null, "term": null, "idx": 59, "risk": 0.02910108975178416, "q": "A team member wants to leave early without telling anyone because the store seem"}
+{"set": "distractor", "id": null, "term": null, "idx": 60, "risk": 0.0206773786873371, "q": "While slicing vegetables, an employee accidentally cuts their finger. What is th"}
+{"set": "distractor", "id": null, "term": null, "idx": 61, "risk": 0.01257565924856996, "q": "A customer mentions they have a severe peanut allergy before ordering. What shou"}
+{"set": "distractor", "id": null, "term": null, "idx": 62, "risk": 0.03769366676445385, "q": "Two employees are scheduled to work the same shift, but one calls in saying they"}
+{"set": "distractor", "id": null, "term": null, "idx": 63, "risk": 0.024161070440178123, "q": "A cleaning chemical spills near where food is prepared. What is the correct resp"}
+{"set": "distractor", "id": null, "term": null, "idx": 64, "risk": 0.018692269124161, "q": "A new employee is unsure how long a dish should be heated to be safe to eat. Wha"}
+{"set": "distractor", "id": null, "term": null, "idx": 65, "risk": 0.04172515447924863, "q": "It's the end of the work period, and the trash bins are overflowing. What is the"}
+{"set": "distractor", "id": null, "term": null, "idx": 66, "risk": 0.04790447224977901, "q": "A staff member sees a coworker using a personal phone excessively while orders a"}
+{"set": "distractor", "id": null, "term": null, "idx": 67, "risk": 0.019361272604464852, "q": "A piece of equipment used for cooking is sparking and smells like burning wires."}
+{"set": "distractor", "id": null, "term": null, "idx": 68, "risk": 0.015169960483604528, "q": "A customer becomes verbally abusive toward a young employee over a mistake in th"}
+{"set": "distractor", "id": null, "term": null, "idx": 69, "risk": 0.03072545827578932, "q": "Someone finds a bag of cash sitting unattended near the front counter. What shou"}
+{"set": "distractor", "id": null, "term": null, "idx": 70, "risk": 0.01392974491721577, "q": "An employee notices the floor near the entrance is wet from rain and slippery. W"}
+{"set": "distractor", "id": null, "term": null, "idx": 71, "risk": 0.01322638225698991, "q": "A worker is asked to prepare a dish but realizes one of the ingredients looks an"}
+{"set": "distractor", "id": null, "term": null, "idx": 72, "risk": 0.023766251298879437, "q": "A new employee isn't sure whether a task falls under their responsibilities. Wha"}

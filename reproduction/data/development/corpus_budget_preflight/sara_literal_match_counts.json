@@ -1,0 +1,2736 @@
+{
+  "status": "source_only_literal_lower_bound_not_validated_definition_matching",
+  "n_train_cases": 256,
+  "n_readable_cases": 256,
+  "n_named_candidates": 14,
+  "count_distribution": {
+    "0": 22,
+    "1": 182,
+    "2": 42,
+    "3": 10
+  },
+  "fraction_at_least_two_with_section_target": 0.203125,
+  "warning": "This uses exact term names plus the section named in the prompt. It excludes semantic aliases and source dependencies, so failure of 40% here does not prove every legitimate matcher fails. It also does not validate complete definitions or compute token budget. No target answers were read.",
+  "rows": [
+    {
+      "case_id_without_label": "s151_a",
+      "n_literal_names": 0,
+      "n_plus_section_target": 0,
+      "literal_names": [],
+      "with_section_target": []
+    },
+    {
+      "case_id_without_label": "s151_a",
+      "n_literal_names": 0,
+      "n_plus_section_target": 0,
+      "literal_names": [],
+      "with_section_target": []
+    },
+    {
+      "case_id_without_label": "s151_b",
+      "n_literal_names": 0,
+      "n_plus_section_target": 0,
+      "literal_names": [],
+      "with_section_target": []
+    },
+    {
+      "case_id_without_label": "s151_b",
+      "n_literal_names": 0,
+      "n_plus_section_target": 0,
+      "literal_names": [],
+      "with_section_target": []
+    },
+    {
+      "case_id_without_label": "s151_c",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "dependent"
+      ],
+      "with_section_target": [
+        "dependent"
+      ]
+    },
+    {
+      "case_id_without_label": "s151_c",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "dependent"
+      ],
+      "with_section_target": [
+        "dependent"
+      ]
+    },
+    {
+      "case_id_without_label": "s151_d_2",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "exemption amount"
+      ],
+      "with_section_target": [
+        "exemption amount"
+      ]
+    },
+    {
+      "case_id_without_label": "s151_d_2",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "exemption amount"
+      ],
+      "with_section_target": [
+        "exemption amount"
+      ]
+    },
+    {
+      "case_id_without_label": "s151_d_3_B",
+      "n_literal_names": 2,
+      "n_plus_section_target": 3,
+      "literal_names": [
+        "applicable amount",
+        "applicable percentage"
+      ],
+      "with_section_target": [
+        "applicable amount",
+        "applicable percentage",
+        "exemption amount"
+      ]
+    },
+    {
+      "case_id_without_label": "s151_d_3_B",
+      "n_literal_names": 2,
+      "n_plus_section_target": 3,
+      "literal_names": [
+        "applicable amount",
+        "applicable percentage"
+      ],
+      "with_section_target": [
+        "applicable amount",
+        "applicable percentage",
+        "exemption amount"
+      ]
+    },
+    {
+      "case_id_without_label": "s152_b_1",
+      "n_literal_names": 0,
+      "n_plus_section_target": 0,
+      "literal_names": [],
+      "with_section_target": []
+    },
+    {
+      "case_id_without_label": "s152_b_1",
+      "n_literal_names": 0,
+      "n_plus_section_target": 0,
+      "literal_names": [],
+      "with_section_target": []
+    },
+    {
+      "case_id_without_label": "s152_b_2",
+      "n_literal_names": 0,
+      "n_plus_section_target": 0,
+      "literal_names": [],
+      "with_section_target": []
+    },
+    {
+      "case_id_without_label": "s152_b_2",
+      "n_literal_names": 0,
+      "n_plus_section_target": 0,
+      "literal_names": [],
+      "with_section_target": []
+    },
+    {
+      "case_id_without_label": "s152_c_1_B",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "qualifying child"
+      ]
+    },
+    {
+      "case_id_without_label": "s152_c_1_B",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "qualifying child"
+      ]
+    },
+    {
+      "case_id_without_label": "s152_c_1_E",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "qualifying child"
+      ]
+    },
+    {
+      "case_id_without_label": "s152_c_1_E",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "qualifying child"
+      ]
+    },
+    {
+      "case_id_without_label": "s152_c_1",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "qualifying child"
+      ],
+      "with_section_target": [
+        "qualifying child"
+      ]
+    },
+    {
+      "case_id_without_label": "s152_c_1",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "qualifying child"
+      ],
+      "with_section_target": [
+        "qualifying child"
+      ]
+    },
+    {
+      "case_id_without_label": "s152_c_2_B",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "qualifying child"
+      ]
+    },
+    {
+      "case_id_without_label": "s152_c_2_B",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "qualifying child"
+      ]
+    },
+    {
+      "case_id_without_label": "s152_c_2",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "qualifying child"
+      ]
+    },
+    {
+      "case_id_without_label": "s152_c_2",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "qualifying child"
+      ]
+    },
+    {
+      "case_id_without_label": "s152_c_3",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "qualifying child"
+      ],
+      "with_section_target": [
+        "qualifying child"
+      ]
+    },
+    {
+      "case_id_without_label": "s152_c_3",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "qualifying child"
+      ],
+      "with_section_target": [
+        "qualifying child"
+      ]
+    },
+    {
+      "case_id_without_label": "s152_d_1_B",
+      "n_literal_names": 1,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "exemption amount"
+      ],
+      "with_section_target": [
+        "exemption amount",
+        "qualifying relative"
+      ]
+    },
+    {
+      "case_id_without_label": "s152_d_1_B",
+      "n_literal_names": 1,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "exemption amount"
+      ],
+      "with_section_target": [
+        "exemption amount",
+        "qualifying relative"
+      ]
+    },
+    {
+      "case_id_without_label": "s152_d_2_B",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "qualifying relative"
+      ]
+    },
+    {
+      "case_id_without_label": "s152_d_2_B",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "qualifying relative"
+      ]
+    },
+    {
+      "case_id_without_label": "s152_d_2_D",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "qualifying relative"
+      ]
+    },
+    {
+      "case_id_without_label": "s152_d_2_D",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "qualifying relative"
+      ]
+    },
+    {
+      "case_id_without_label": "s152_d_2_E",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "qualifying relative"
+      ]
+    },
+    {
+      "case_id_without_label": "s152_d_2_E",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "qualifying relative"
+      ]
+    },
+    {
+      "case_id_without_label": "s152_d_2_F",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "qualifying relative"
+      ]
+    },
+    {
+      "case_id_without_label": "s152_d_2_F",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "qualifying relative"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_a_1_i",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "taxable income"
+      ],
+      "with_section_target": [
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_a_1_i",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "taxable income"
+      ],
+      "with_section_target": [
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_a_1_ii",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "taxable income"
+      ],
+      "with_section_target": [
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_a_1_ii",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "taxable income"
+      ],
+      "with_section_target": [
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_a_1_iii",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "taxable income"
+      ],
+      "with_section_target": [
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_a_1_iii",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "taxable income"
+      ],
+      "with_section_target": [
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_a_1_iv",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "taxable income"
+      ],
+      "with_section_target": [
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_a_1_iv",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "taxable income"
+      ],
+      "with_section_target": [
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_a_1",
+      "n_literal_names": 2,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "head of household",
+        "taxable income"
+      ],
+      "with_section_target": [
+        "head of household",
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_a_1",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "taxable income"
+      ],
+      "with_section_target": [
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_a_1_v",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "taxable income"
+      ],
+      "with_section_target": [
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_a_1_v",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "taxable income"
+      ],
+      "with_section_target": [
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_a_2_i",
+      "n_literal_names": 2,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "surviving spouse",
+        "taxable income"
+      ],
+      "with_section_target": [
+        "surviving spouse",
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_a_2_i",
+      "n_literal_names": 2,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "surviving spouse",
+        "taxable income"
+      ],
+      "with_section_target": [
+        "surviving spouse",
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_a_2_ii",
+      "n_literal_names": 2,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "surviving spouse",
+        "taxable income"
+      ],
+      "with_section_target": [
+        "surviving spouse",
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_a_2_ii",
+      "n_literal_names": 2,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "surviving spouse",
+        "taxable income"
+      ],
+      "with_section_target": [
+        "surviving spouse",
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_a_2_iii",
+      "n_literal_names": 2,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "surviving spouse",
+        "taxable income"
+      ],
+      "with_section_target": [
+        "surviving spouse",
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_a_2_iii",
+      "n_literal_names": 2,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "surviving spouse",
+        "taxable income"
+      ],
+      "with_section_target": [
+        "surviving spouse",
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_b_ii",
+      "n_literal_names": 2,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "head of household",
+        "taxable income"
+      ],
+      "with_section_target": [
+        "head of household",
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_b_ii",
+      "n_literal_names": 2,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "head of household",
+        "taxable income"
+      ],
+      "with_section_target": [
+        "head of household",
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_b_iii",
+      "n_literal_names": 2,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "head of household",
+        "taxable income"
+      ],
+      "with_section_target": [
+        "head of household",
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_b_iii",
+      "n_literal_names": 2,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "head of household",
+        "taxable income"
+      ],
+      "with_section_target": [
+        "head of household",
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_b_iv",
+      "n_literal_names": 2,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "head of household",
+        "taxable income"
+      ],
+      "with_section_target": [
+        "head of household",
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_b_iv",
+      "n_literal_names": 2,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "head of household",
+        "taxable income"
+      ],
+      "with_section_target": [
+        "head of household",
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_b_v",
+      "n_literal_names": 2,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "head of household",
+        "taxable income"
+      ],
+      "with_section_target": [
+        "head of household",
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_b_v",
+      "n_literal_names": 2,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "head of household",
+        "taxable income"
+      ],
+      "with_section_target": [
+        "head of household",
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_c_i",
+      "n_literal_names": 3,
+      "n_plus_section_target": 3,
+      "literal_names": [
+        "head of household",
+        "surviving spouse",
+        "taxable income"
+      ],
+      "with_section_target": [
+        "head of household",
+        "surviving spouse",
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_c_i",
+      "n_literal_names": 3,
+      "n_plus_section_target": 3,
+      "literal_names": [
+        "head of household",
+        "surviving spouse",
+        "taxable income"
+      ],
+      "with_section_target": [
+        "head of household",
+        "surviving spouse",
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_c_ii",
+      "n_literal_names": 3,
+      "n_plus_section_target": 3,
+      "literal_names": [
+        "head of household",
+        "surviving spouse",
+        "taxable income"
+      ],
+      "with_section_target": [
+        "head of household",
+        "surviving spouse",
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_c_ii",
+      "n_literal_names": 3,
+      "n_plus_section_target": 3,
+      "literal_names": [
+        "head of household",
+        "surviving spouse",
+        "taxable income"
+      ],
+      "with_section_target": [
+        "head of household",
+        "surviving spouse",
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_c_iv",
+      "n_literal_names": 3,
+      "n_plus_section_target": 3,
+      "literal_names": [
+        "head of household",
+        "surviving spouse",
+        "taxable income"
+      ],
+      "with_section_target": [
+        "head of household",
+        "surviving spouse",
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_c_iv",
+      "n_literal_names": 3,
+      "n_plus_section_target": 3,
+      "literal_names": [
+        "head of household",
+        "surviving spouse",
+        "taxable income"
+      ],
+      "with_section_target": [
+        "head of household",
+        "surviving spouse",
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_c_v",
+      "n_literal_names": 3,
+      "n_plus_section_target": 3,
+      "literal_names": [
+        "head of household",
+        "surviving spouse",
+        "taxable income"
+      ],
+      "with_section_target": [
+        "head of household",
+        "surviving spouse",
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_c_v",
+      "n_literal_names": 3,
+      "n_plus_section_target": 3,
+      "literal_names": [
+        "head of household",
+        "surviving spouse",
+        "taxable income"
+      ],
+      "with_section_target": [
+        "head of household",
+        "surviving spouse",
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_d_iii",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "taxable income"
+      ],
+      "with_section_target": [
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_d_iii",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "taxable income"
+      ],
+      "with_section_target": [
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_d_iv",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "taxable income"
+      ],
+      "with_section_target": [
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_d_iv",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "taxable income"
+      ],
+      "with_section_target": [
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_d_v",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "taxable income"
+      ],
+      "with_section_target": [
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s1_d_v",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "taxable income"
+      ],
+      "with_section_target": [
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s2_a_1_A",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "surviving spouse"
+      ]
+    },
+    {
+      "case_id_without_label": "s2_a_1_A",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "surviving spouse"
+      ]
+    },
+    {
+      "case_id_without_label": "s2_a_2_A",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "surviving spouse"
+      ]
+    },
+    {
+      "case_id_without_label": "s2_a_2_A",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "surviving spouse"
+      ]
+    },
+    {
+      "case_id_without_label": "s2_a_2_B",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "surviving spouse"
+      ]
+    },
+    {
+      "case_id_without_label": "s2_a_2_B",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "surviving spouse"
+      ]
+    },
+    {
+      "case_id_without_label": "s2_b_1_A",
+      "n_literal_names": 1,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "dependent"
+      ],
+      "with_section_target": [
+        "dependent",
+        "head of household"
+      ]
+    },
+    {
+      "case_id_without_label": "s2_b_1_A",
+      "n_literal_names": 1,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "qualifying child"
+      ],
+      "with_section_target": [
+        "head of household",
+        "qualifying child"
+      ]
+    },
+    {
+      "case_id_without_label": "s2_b_1_B",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "head of household"
+      ]
+    },
+    {
+      "case_id_without_label": "s2_b_1_B",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "head of household"
+      ]
+    },
+    {
+      "case_id_without_label": "s2_b_1",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "head of household"
+      ]
+    },
+    {
+      "case_id_without_label": "s2_b_1",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "head of household"
+      ]
+    },
+    {
+      "case_id_without_label": "s2_b_2_A",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "head of household"
+      ]
+    },
+    {
+      "case_id_without_label": "s2_b_2_A",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "head of household"
+      ]
+    },
+    {
+      "case_id_without_label": "s2_b_2_B",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "head of household"
+      ]
+    },
+    {
+      "case_id_without_label": "s2_b_2_B",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "head of household"
+      ]
+    },
+    {
+      "case_id_without_label": "s2_b_2_C",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "head of household"
+      ]
+    },
+    {
+      "case_id_without_label": "s2_b_2_C",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "head of household"
+      ]
+    },
+    {
+      "case_id_without_label": "s2_b_3_B",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "head of household"
+      ]
+    },
+    {
+      "case_id_without_label": "s2_b_3_B",
+      "n_literal_names": 1,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "dependent"
+      ],
+      "with_section_target": [
+        "dependent",
+        "head of household"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_a_1_A",
+      "n_literal_names": 2,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "employer",
+        "wages"
+      ],
+      "with_section_target": [
+        "employer",
+        "wages"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_a_1_A",
+      "n_literal_names": 2,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "employer",
+        "wages"
+      ],
+      "with_section_target": [
+        "employer",
+        "wages"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_a_1",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "employer"
+      ],
+      "with_section_target": [
+        "employer"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_a_1",
+      "n_literal_names": 2,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "employer",
+        "wages"
+      ],
+      "with_section_target": [
+        "employer",
+        "wages"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_a_2_A",
+      "n_literal_names": 2,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "employer",
+        "wages"
+      ],
+      "with_section_target": [
+        "employer",
+        "wages"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_a_2_A",
+      "n_literal_names": 2,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "employer",
+        "wages"
+      ],
+      "with_section_target": [
+        "employer",
+        "wages"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_a_2_B",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "employer"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_a_2_B",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "employer"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_b_10_A",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "wages"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_b_10_A",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "wages"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_b_10_B",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "wages"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_b_10_B",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "wages"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_b_11",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "wages"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_b_11",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "wages"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_b_15",
+      "n_literal_names": 2,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "surviving spouse",
+        "wages"
+      ],
+      "with_section_target": [
+        "surviving spouse",
+        "wages"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_b_15",
+      "n_literal_names": 2,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "surviving spouse",
+        "wages"
+      ],
+      "with_section_target": [
+        "surviving spouse",
+        "wages"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_b_2_A",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "wages"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_b_2_A",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "wages"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_b_7",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "wages"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_b_7",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "wages"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_b",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "wages"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_b",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "wages"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_c_10_A_i",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "employment"
+      ],
+      "with_section_target": [
+        "employment"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_c_10_A_i",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "employment"
+      ],
+      "with_section_target": [
+        "employment"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_c_10_A_ii",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "employment"
+      ],
+      "with_section_target": [
+        "employment"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_c_10_A_ii",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "employment"
+      ],
+      "with_section_target": [
+        "employment"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_c_13",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "employment"
+      ],
+      "with_section_target": [
+        "employment"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_c_13",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "employment"
+      ],
+      "with_section_target": [
+        "employment"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_c_1_A_i",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "employment"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_c_1_A_i",
+      "n_literal_names": 1,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "employer"
+      ],
+      "with_section_target": [
+        "employer",
+        "employment"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_c_1",
+      "n_literal_names": 1,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "employer"
+      ],
+      "with_section_target": [
+        "employer",
+        "employment"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_c_1",
+      "n_literal_names": 1,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "employer"
+      ],
+      "with_section_target": [
+        "employer",
+        "employment"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_c_21",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "employment"
+      ],
+      "with_section_target": [
+        "employment"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_c_21",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "employment"
+      ],
+      "with_section_target": [
+        "employment"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_c_2",
+      "n_literal_names": 1,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "wages"
+      ],
+      "with_section_target": [
+        "employment",
+        "wages"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_c_2",
+      "n_literal_names": 1,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "wages"
+      ],
+      "with_section_target": [
+        "employment",
+        "wages"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_c_5",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "employment"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_c_5",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "employment"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_c_A",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "employment"
+      ]
+    },
+    {
+      "case_id_without_label": "s3306_c_A",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "employment"
+      ]
+    },
+    {
+      "case_id_without_label": "s63_a",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "taxable income"
+      ],
+      "with_section_target": [
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s63_a",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "taxable income"
+      ],
+      "with_section_target": [
+        "taxable income"
+      ]
+    },
+    {
+      "case_id_without_label": "s63_c_1",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "s63_c_1",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "s63_c_2_B",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "s63_c_2_B",
+      "n_literal_names": 2,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "head of household",
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "head of household",
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "s63_c_2_C",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "s63_c_2_C",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "s63_c_3",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "s63_c_3",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "s63_c_5",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "s63_c_5",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "s63_c_6_A",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "s63_c_6_A",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "s63_c_7_ii",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "s63_c_7_ii",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "s63_d_2",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "itemized deductions"
+      ]
+    },
+    {
+      "case_id_without_label": "s63_d_2",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "itemized deductions"
+      ]
+    },
+    {
+      "case_id_without_label": "s63_d",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "itemized deductions"
+      ]
+    },
+    {
+      "case_id_without_label": "s63_d",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "itemized deductions"
+      ]
+    },
+    {
+      "case_id_without_label": "s63_f_1_B",
+      "n_literal_names": 0,
+      "n_plus_section_target": 0,
+      "literal_names": [],
+      "with_section_target": []
+    },
+    {
+      "case_id_without_label": "s63_f_1_B",
+      "n_literal_names": 0,
+      "n_plus_section_target": 0,
+      "literal_names": [],
+      "with_section_target": []
+    },
+    {
+      "case_id_without_label": "s63_f_2_A",
+      "n_literal_names": 0,
+      "n_plus_section_target": 0,
+      "literal_names": [],
+      "with_section_target": []
+    },
+    {
+      "case_id_without_label": "s63_f_2_A",
+      "n_literal_names": 0,
+      "n_plus_section_target": 0,
+      "literal_names": [],
+      "with_section_target": []
+    },
+    {
+      "case_id_without_label": "s63_f_3",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "s63_f_3",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "s68_a_1",
+      "n_literal_names": 2,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "head of household",
+        "itemized deductions"
+      ],
+      "with_section_target": [
+        "head of household",
+        "itemized deductions"
+      ]
+    },
+    {
+      "case_id_without_label": "s68_a_1",
+      "n_literal_names": 2,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "itemized deductions",
+        "surviving spouse"
+      ],
+      "with_section_target": [
+        "itemized deductions",
+        "surviving spouse"
+      ]
+    },
+    {
+      "case_id_without_label": "s68_b_1_A",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "applicable amount"
+      ]
+    },
+    {
+      "case_id_without_label": "s68_b_1_A",
+      "n_literal_names": 2,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "applicable amount",
+        "surviving spouse"
+      ],
+      "with_section_target": [
+        "applicable amount",
+        "surviving spouse"
+      ]
+    },
+    {
+      "case_id_without_label": "s68_b_1_D",
+      "n_literal_names": 0,
+      "n_plus_section_target": 1,
+      "literal_names": [],
+      "with_section_target": [
+        "applicable amount"
+      ]
+    },
+    {
+      "case_id_without_label": "s68_b_1_D",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "applicable amount"
+      ],
+      "with_section_target": [
+        "applicable amount"
+      ]
+    },
+    {
+      "case_id_without_label": "s68_f",
+      "n_literal_names": 2,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "itemized deductions",
+        "surviving spouse"
+      ],
+      "with_section_target": [
+        "itemized deductions",
+        "surviving spouse"
+      ]
+    },
+    {
+      "case_id_without_label": "s68_f",
+      "n_literal_names": 2,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "itemized deductions",
+        "surviving spouse"
+      ],
+      "with_section_target": [
+        "itemized deductions",
+        "surviving spouse"
+      ]
+    },
+    {
+      "case_id_without_label": "s7703_a_2",
+      "n_literal_names": 0,
+      "n_plus_section_target": 0,
+      "literal_names": [],
+      "with_section_target": []
+    },
+    {
+      "case_id_without_label": "s7703_a_2",
+      "n_literal_names": 0,
+      "n_plus_section_target": 0,
+      "literal_names": [],
+      "with_section_target": []
+    },
+    {
+      "case_id_without_label": "s7703_b_1",
+      "n_literal_names": 0,
+      "n_plus_section_target": 0,
+      "literal_names": [],
+      "with_section_target": []
+    },
+    {
+      "case_id_without_label": "s7703_b_1",
+      "n_literal_names": 0,
+      "n_plus_section_target": 0,
+      "literal_names": [],
+      "with_section_target": []
+    },
+    {
+      "case_id_without_label": "s7703_b_3",
+      "n_literal_names": 0,
+      "n_plus_section_target": 0,
+      "literal_names": [],
+      "with_section_target": []
+    },
+    {
+      "case_id_without_label": "s7703_b_3",
+      "n_literal_names": 0,
+      "n_plus_section_target": 0,
+      "literal_names": [],
+      "with_section_target": []
+    },
+    {
+      "case_id_without_label": "tax_case_1",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_10",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_100",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_11",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_12",
+      "n_literal_names": 2,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "surviving spouse",
+        "wages"
+      ],
+      "with_section_target": [
+        "surviving spouse",
+        "wages"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_13",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_14",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_15",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_16",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_17",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_18",
+      "n_literal_names": 0,
+      "n_plus_section_target": 0,
+      "literal_names": [],
+      "with_section_target": []
+    },
+    {
+      "case_id_without_label": "tax_case_19",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_2",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_20",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "itemized deductions"
+      ],
+      "with_section_target": [
+        "itemized deductions"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_21",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_22",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_23",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_24",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_25",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_26",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_27",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_29",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_3",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_32",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_33",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_35",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_36",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_37",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_38",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "itemized deductions"
+      ],
+      "with_section_target": [
+        "itemized deductions"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_39",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_4",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_40",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_41",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_42",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_44",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_45",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_47",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_5",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_50",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_51",
+      "n_literal_names": 2,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "employer",
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "employer",
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_52",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_54",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_55",
+      "n_literal_names": 0,
+      "n_plus_section_target": 0,
+      "literal_names": [],
+      "with_section_target": []
+    },
+    {
+      "case_id_without_label": "tax_case_56",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "itemized deductions"
+      ],
+      "with_section_target": [
+        "itemized deductions"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_58",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_59",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_6",
+      "n_literal_names": 0,
+      "n_plus_section_target": 0,
+      "literal_names": [],
+      "with_section_target": []
+    },
+    {
+      "case_id_without_label": "tax_case_60",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_61",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_62",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_63",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_64",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_65",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "itemized deductions"
+      ],
+      "with_section_target": [
+        "itemized deductions"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_66",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_67",
+      "n_literal_names": 2,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "itemized deductions",
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "itemized deductions",
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_7",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_70",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "itemized deductions"
+      ],
+      "with_section_target": [
+        "itemized deductions"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_71",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_72",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_73",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_74",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_76",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_79",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_8",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_80",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_81",
+      "n_literal_names": 2,
+      "n_plus_section_target": 2,
+      "literal_names": [
+        "employer",
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "employer",
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_83",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_84",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_86",
+      "n_literal_names": 0,
+      "n_plus_section_target": 0,
+      "literal_names": [],
+      "with_section_target": []
+    },
+    {
+      "case_id_without_label": "tax_case_87",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_88",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_89",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_91",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_92",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "itemized deductions"
+      ],
+      "with_section_target": [
+        "itemized deductions"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_94",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_95",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_96",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_97",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "itemized deductions"
+      ],
+      "with_section_target": [
+        "itemized deductions"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_98",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    },
+    {
+      "case_id_without_label": "tax_case_99",
+      "n_literal_names": 1,
+      "n_plus_section_target": 1,
+      "literal_names": [
+        "standard deduction"
+      ],
+      "with_section_target": [
+        "standard deduction"
+      ]
+    }
+  ]
+}

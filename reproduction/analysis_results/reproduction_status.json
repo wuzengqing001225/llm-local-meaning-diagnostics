@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "main_settings_verified": [
+    "Synthetic / DeepSeek",
+    "Synthetic / GPT6",
+    "Reddit / DeepSeek",
+    "Reddit / GPT6",
+    "DeFi / DeepSeek",
+    "DeFi / GPT5.6",
+    "DeFi / GPT6",
+    "CUAD library / GPT5.6"
+  ],
+  "raw_sample_letters": 7630,
+  "identical_wrong_among_greedy_errors": 93,
+  "cuad_definition_anchored": {
+    "setting": "CUAD gold / recovered DeepSeek",
+    "n": 671,
+    "stem_mismatches": [],
+    "risk_auc": 0.8580891816185934,
+    "pd_auc": 0.666464784111843,
+    "bare_accuracy": 0.7719821162444114,
+    "definition_accuracy": 0.9031296572280179
+  },
+  "independent_main_experiment": "pending, excluded from this release",
+  "api_calls": 0
+}

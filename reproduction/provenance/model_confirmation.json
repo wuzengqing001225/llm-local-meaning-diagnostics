@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-23",
+  "evidence_type": "explicit_user_confirmation",
+  "models": {
+    "DeepSeek": {
+      "identifier": "deepseek-flash",
+      "versions": [
+        "v4",
+        "v4.1"
+      ]
+    },
+    "GPT": [
+      "gpt-5.6-terra",
+      "gpt-6-astra"
+    ]
+  },
+  "historical_proxy_revisions": "User confirms the revisions in the seven tokenizer checks are the historical revisions.",
+  "usage": "not retained",
+  "note": "Archived request strings remain unchanged. This confirmation closes model identity and historical revision questions without manufacturing missing response records."
+}

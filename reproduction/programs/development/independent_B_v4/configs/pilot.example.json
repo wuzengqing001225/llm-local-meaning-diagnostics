@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "stage": "pilot",
+  "seed": 20260922,
+  "analysis_split": "dev",
+  "reader": {
+    "model": "REPLACE_WITH_ACTUAL_API_MODEL",
+    "base_url": "https://REPLACE_WITH_PROVIDER/v1",
+    "api_key_env": "LOCALRISK_READER_API_KEY",
+    "generation": {
+      "temperature": 0,
+      "max_tokens": 32
+    },
+    "timeout_seconds": 45,
+    "request_order_seed": 20260922
+  },
+  "proxy": {
+    "model": "Qwen/Qwen2.5-7B",
+    "revision": "REPLACE_WITH_COMMIT"
+  },
+  "tokenizer": {
+    "kind": "hf",
+    "model": "REPLACE_WITH_READER_TOKENIZER",
+    "revision": "REPLACE_WITH_COMMIT",
+    "matches_reader": false
+  },
+  "policies": [
+    "none",
+    "matched",
+    "random",
+    "idf",
+    "term_mean",
+    "term_max",
+    "occurrence_risk",
+    "pd",
+    "repairability",
+    "all_matched",
+    "full_glossary"
+  ],
+  "budgets": [
+    16,
+    32,
+    64
+  ],
+  "primary_budget": 32,
+  "primary_policy": "occurrence_risk",
+  "comparator": "matched",
+  "random_seeds": [
+    11,
+    29,
+    47,
+    71,
+    97
+  ],
+  "bootstrap_replicates": 2000,
+  "max_requests": 20000,
+  "note": "Pilot starting grid: average extra definition-token allowance per task; total bound is N times this value. Workload/questions are visible, answers are withheld. Choose confirmatory settings on dev, then create a separate test snapshot. No default API model is guessed.",
+  "budget_scope": "workload",
+  "corpus": "cuad"
+}

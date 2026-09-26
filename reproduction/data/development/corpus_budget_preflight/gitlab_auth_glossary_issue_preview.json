@@ -1,0 +1,1082 @@
+{
+  "glossary": {
+    "url": "https://docs.gitlab.com/auth/auth_glossary/",
+    "sha256": "28148a1281158eed3374acf1a9c7647c63c4cbafea76a16e17413f9cd05b9973",
+    "n_provisional_entries": 45,
+    "entries": [
+      {
+        "term": "Identity provider (IdP)",
+        "definition": "The service that manages your user identities, such as Okta or OneLogin."
+      },
+      {
+        "term": "Service provider (SP)",
+        "definition": "An application that delegates authentication to an external identity provider. GitLab acts as a\nservice provider when configured for SAML or OIDC authentication."
+      },
+      {
+        "term": "Single Sign-On (SSO)",
+        "definition": "An authentication method that allows users to access multiple applications with a single set of\ncredentials. With SSO, users authenticate once through an identity provider and gain access to\nGitLab and other connected services without re-entering credentials."
+      },
+      {
+        "term": "SAML",
+        "definition": "Security Assertion Markup Language, an XML-based protocol for exchanging authentication and\nauthorization data between identity providers and service providers. GitLab supports SAML authentication for enterprise single sign-on."
+      },
+      {
+        "term": "LDAP",
+        "definition": "Lightweight Directory Access Protocol, a standard for accessing and maintaining directory\ninformation services. GitLab integrates with LDAP servers to authenticate users and synchronize account information."
+      },
+      {
+        "term": "SCIM",
+        "definition": "System for Cross-domain Identity Management, a standard for automating user provisioning and\ndeprovisioning. GitLab supports SCIM to synchronize user\nlifecycle events from identity providers."
+      },
+      {
+        "term": "OIDC (OpenID Connect)",
+        "definition": "An authentication layer built on OAuth 2.0 that provides identity verification. GitLab supports OIDC for authentication and acts as an OIDC provider for\nexternal applications."
+      },
+      {
+        "term": "OAuth",
+        "definition": "An authorization protocol for accessing GitLab resources on behalf of users without sharing\npasswords. OAuth supports third-party integrations and GitLab\nas an identity provider."
+      },
+      {
+        "term": "Assertion",
+        "definition": "A piece of information about a user identity, such as their name or role. Also known as a claim\nor an attribute."
+      },
+      {
+        "term": "Claim",
+        "definition": "Information about a user identity or attributes included in authentication tokens. Claims are used\nin OAuth, OIDC, and JWT tokens to convey details like username, email, or group membership."
+      },
+      {
+        "term": "Provisioning",
+        "definition": "The automated process of creating and configuring user accounts and access rights. You can use SCIM\nor LDAP to synchronize users from external identity systems into GitLab."
+      },
+      {
+        "term": "Assertion consumer service URL",
+        "definition": "The endpoint on GitLab where users are redirected after successfully authenticating with the\nidentity provider."
+      },
+      {
+        "term": "Issuer",
+        "definition": "How GitLab identifies itself to an identity provider. Also known as a relying party trust\nidentifier."
+      },
+      {
+        "term": "Certificate fingerprint",
+        "definition": "Confirms that SAML communications are secure by verifying that the server is signing\ncommunications with the correct certificate. Also known as a certificate thumbprint."
+      },
+      {
+        "term": "Passkey",
+        "definition": "A passwordless authentication method using cryptographic credentials stored on devices. Passkeys provide phishing-resistant authentication using biometrics or device PINs."
+      },
+      {
+        "term": "Two-factor authentication (2FA)",
+        "definition": "An additional security layer that requires users to provide a second form of authentication\nbeyond their password. GitLab supports various 2FA methods ,\nincluding authenticator apps and recovery codes."
+      },
+      {
+        "term": "Session",
+        "definition": "A temporary authenticated state that persists after a user signs in to GitLab. Sessions persist\nacross requests until the session expires or is terminated."
+      },
+      {
+        "term": "SSH keys",
+        "definition": "Cryptographic keys used for secure authentication when accessing Git repositories. SSH keys provide a secure alternative to password-based authentication for Git operations."
+      },
+      {
+        "term": "Personal access token",
+        "definition": "A token that acts as an alternative to passwords for authentication when using the GitLab API\nor Git over HTTPS. Personal access tokens have defined\nscopes that limit what actions they can perform."
+      },
+      {
+        "term": "Group access token",
+        "definition": "A token scoped to a specific group for automated tasks in that group and any subgroups. Group access tokens inherit the group permissions\nand support API access and Git operations."
+      },
+      {
+        "term": "Project access token",
+        "definition": "A token scoped to a specific project for automated tasks in that project. Project access tokens are commonly used for\nCI/CD pipelines and integrations that need project-specific access."
+      },
+      {
+        "term": "Deploy token",
+        "definition": "A token with limited scopes for deployment automation. Deploy tokens provide read-only or write access to\nrepositories and package registries without requiring a user account."
+      },
+      {
+        "term": "JWT (JSON Web Token)",
+        "definition": "A compact token format for securely transmitting information between parties. GitLab uses JWTs for\nCI/CD job authentication, OAuth flows, and service-to-service communication."
+      },
+      {
+        "term": "Impersonation",
+        "definition": "An administrative capability for authorized users to temporarily act as another user. Impersonation is sometimes used to troubleshoot\nuser-specific issues."
+      },
+      {
+        "term": "User account",
+        "definition": "An individual account that represents a person accessing GitLab. User accounts can be assigned\nvarious roles across different groups and projects."
+      },
+      {
+        "term": "User types",
+        "definition": "The type assigned to a user account that implicitly grants a set of permissible actions. Types\ninclude Regular, Auditor, and Administrator. Types are different from roles and permissions."
+      },
+      {
+        "term": "Administrator users",
+        "definition": "A user type with the highest level of system access. Users with administrator access can configure\ninstance-wide settings, manage other users, and perform administrative tasks across all groups\nand projects."
+      },
+      {
+        "term": "External users",
+        "definition": "Users designated as external to your organization who have restricted access to internal projects\nand groups. External users can only access projects where\nthey have a direct membership."
+      },
+      {
+        "term": "Service accounts",
+        "definition": "Non-human user accounts designed to perform automated actions, access data, or run scheduled\nprocesses. Service accounts are commonly used in pipelines\nor third-party integrations."
+      },
+      {
+        "term": "Access control",
+        "definition": "The practice of restricting access to resources based on authentication (verifying who a user is)\nand authorization (determining what a user can do)."
+      },
+      {
+        "term": "Authorization",
+        "definition": "The process of determining what actions an authenticated user can perform in GitLab. Authorization\nis based on the assigned user roles, permissions, and membership in groups and projects."
+      },
+      {
+        "term": "RBAC (Role-Based Access Control)",
+        "definition": "An access control model where permissions are assigned through roles rather than directly to users.\nIn GitLab, users receive permissions based on their assigned role in a group or project."
+      },
+      {
+        "term": "Policy",
+        "definition": "A set of authorization rules that determine what actions principals can perform on resources.\nGitLab enforces access control decisions using the Declarative Policy framework ."
+      },
+      {
+        "term": "Permission",
+        "definition": "The specific actions a user can perform on GitLab resources, like\ncreating issues, pushing code, or managing project settings."
+      },
+      {
+        "term": "Roles",
+        "definition": "Sets of one or more permissions assigned to a user that define the actions they can perform in\ngroups and projects. Roles include both default roles and custom roles."
+      },
+      {
+        "term": "Default roles",
+        "definition": "Predefined roles available in every GitLab instance. Each role includes a\nspecific set of permissions. The following default roles are available: Minimal Access , Guest , Planner , Reporter , Security Manager , Developer , Maintainer , Owner ."
+      },
+      {
+        "term": "Custom roles",
+        "definition": "Roles that you create for your GitLab instance to meet your organizational needs. Each custom role extends a default role with additional permissions."
+      },
+      {
+        "term": "Scopes",
+        "definition": "The permissions available to a token or OAuth application at a specific organizational level.\nGitLab uses scopes to determine the access granted to personal access tokens, group access tokens,\nproject access tokens, and OAuth applications."
+      },
+      {
+        "term": "Namespace",
+        "definition": "A container that organizes groups and projects in a hierarchical structure. Namespaces determine\nresource paths and permission inheritance. Each user has a personal namespace, and groups provide\nshared namespaces for teams."
+      },
+      {
+        "term": "Group",
+        "definition": "A collection of related projects and users that enables efficient organization and permission\nmanagement. Groups can contain subgroups and inherit permissions from parent groups."
+      },
+      {
+        "term": "Member",
+        "definition": "A user who has been granted access to a specific group or project. Members have an assigned role\nthat determines their permissions in that resource."
+      },
+      {
+        "term": "Membership",
+        "definition": "The association between a user and a specific group or project that defines their access rights\nin that resource. Users can have different memberships and roles across multiple groups and\nprojects."
+      },
+      {
+        "term": "Boundaries",
+        "definition": "The organizational levels where permissions and policies can be applied: Instance: Applies to the entire GitLab instance. Group: Applies to a specific group, and any subgroups or projects. Project: Applies only to a single project. User: Applies to actions performed by or on behalf of a specific user."
+      },
+      {
+        "term": "Inheritance",
+        "definition": "The automatic flow of permissions from parent groups to child groups and projects. Inheritance\nsimplifies access management by applying permissions granted at a higher level to all nested\nsubgroups and projects."
+      },
+      {
+        "term": "Visibility",
+        "definition": "Settings that control who can view and access your content: Public: Visible to everyone, including users without GitLab accounts. Internal: Visible to all authenticated GitLab users. Private: Visible to members only."
+      }
+    ]
+  },
+  "issue_sources": {
+    "latest": {
+      "pages": [
+        {
+          "url": "https://gitlab.com/api/v4/projects/278964/issues?state=all&per_page=100&page=1&order_by=created_at&sort=desc",
+          "sha256": "40e15a5027f92e313ad58b0140f785ec04f3a1eaa44fec78197ecf3e0fd4b18b"
+        },
+        {
+          "url": "https://gitlab.com/api/v4/projects/278964/issues?state=all&per_page=100&page=2&order_by=created_at&sort=desc",
+          "sha256": "30695a50bbb5d9c07d77d1b822f3d57590a25ae669bbdfcf9479f8fc269ee4b1"
+        }
+      ],
+      "returned": 200,
+      "before_cutoff_used": 100
+    },
+    "SAML": {
+      "pages": [
+        {
+          "url": "https://gitlab.com/api/v4/projects/278964/issues?state=all&per_page=100&page=1&order_by=created_at&sort=desc&search=SAML",
+          "sha256": "7a06c48d6b4610bdc0a8a3d9a98b362f8c537191e051c0c0aebb7db3d17ad23b"
+        }
+      ],
+      "returned": 100,
+      "before_cutoff_used": 100
+    },
+    "OIDC": {
+      "pages": [
+        {
+          "url": "https://gitlab.com/api/v4/projects/278964/issues?state=all&per_page=100&page=1&order_by=created_at&sort=desc&search=OIDC",
+          "sha256": "98fcbc4cb24956ef16c4bb371ce01938559afb290366ab7f1c4653a0c2389d34"
+        }
+      ],
+      "returned": 100,
+      "before_cutoff_used": 100
+    },
+    "SCIM": {
+      "pages": [
+        {
+          "url": "https://gitlab.com/api/v4/projects/278964/issues?state=all&per_page=100&page=1&order_by=created_at&sort=desc&search=SCIM",
+          "sha256": "7615577c9293d13a77b7e79c963177f4086371472dcdf038377c11f632067394"
+        }
+      ],
+      "returned": 100,
+      "before_cutoff_used": 100
+    },
+    "2FA": {
+      "pages": [
+        {
+          "url": "https://gitlab.com/api/v4/projects/278964/issues?state=all&per_page=100&page=1&order_by=created_at&sort=desc&search=2FA",
+          "sha256": "73142e9e34dc5c0a873d285c0a07e80d2842e3c3e763757afcc049cd92bf8ead"
+        }
+      ],
+      "returned": 100,
+      "before_cutoff_used": 100
+    }
+  },
+  "counts": {
+    "latest": {
+      "n": 100,
+      "histogram": {
+        "0": 54,
+        "1": 28,
+        "2": 10,
+        "3": 5,
+        "4": 1,
+        "5": 1,
+        "6": 1
+      },
+      "fraction_2plus": 0.18
+    },
+    "SAML": {
+      "n": 100,
+      "histogram": {
+        "2": 4,
+        "3": 45,
+        "4": 26,
+        "5": 16,
+        "6": 3,
+        "7": 1,
+        "8": 3,
+        "9": 1,
+        "10": 1
+      },
+      "fraction_2plus": 1.0
+    },
+    "OIDC": {
+      "n": 100,
+      "histogram": {
+        "0": 6,
+        "1": 9,
+        "2": 24,
+        "3": 14,
+        "4": 14,
+        "5": 9,
+        "6": 6,
+        "7": 6,
+        "8": 3,
+        "9": 2,
+        "10": 2,
+        "11": 3,
+        "13": 1,
+        "15": 1
+      },
+      "fraction_2plus": 0.85
+    },
+    "SCIM": {
+      "n": 100,
+      "histogram": {
+        "0": 3,
+        "1": 9,
+        "2": 13,
+        "3": 11,
+        "4": 17,
+        "5": 13,
+        "6": 12,
+        "7": 8,
+        "8": 4,
+        "9": 2,
+        "10": 3,
+        "11": 2,
+        "12": 1,
+        "14": 2
+      },
+      "fraction_2plus": 0.88
+    },
+    "2FA": {
+      "n": 100,
+      "histogram": {
+        "0": 4,
+        "1": 26,
+        "2": 24,
+        "3": 20,
+        "4": 8,
+        "5": 6,
+        "6": 2,
+        "7": 4,
+        "8": 3,
+        "9": 2,
+        "10": 1
+      },
+      "fraction_2plus": 0.7
+    }
+  },
+  "examples": {
+    "latest": [
+      {
+        "iid": 630830,
+        "title": "Gate Duo Code Review custom instructions on diff content (triggerPatterns)",
+        "terms": [
+          "Group"
+        ]
+      },
+      {
+        "iid": 630828,
+        "title": "Orbit redaction endpoint allocates about 3 MB per resource ID, up to 2.9 GB per request",
+        "terms": [
+          "Authorization",
+          "Policy"
+        ]
+      },
+      {
+        "iid": 630821,
+        "title": "[FF] `wider_project_group_links_batch` -- read project group shares 100 at a time",
+        "terms": [
+          "Group",
+          "Member"
+        ]
+      },
+      {
+        "iid": 630817,
+        "title": "AI Governance: replace page-wide read_ai_tool_rule gate and license check with per-tab permission checks",
+        "terms": [
+          "Authorization",
+          "Policy",
+          "Permission",
+          "Namespace",
+          "Group",
+          "Visibility"
+        ]
+      },
+      {
+        "iid": 630816,
+        "title": "Propagate organization admin role tuples to IAM through the IAM outbox",
+        "terms": [
+          "OAuth"
+        ]
+      },
+      {
+        "iid": 630812,
+        "title": "Fix misclassified MCP tool-call events, metrics, and missing EE override declarations",
+        "terms": [
+          "Group"
+        ]
+      },
+      {
+        "iid": 630803,
+        "title": "Remote build cache support for Gradle and Bazel",
+        "terms": [
+          "Group"
+        ]
+      },
+      {
+        "iid": 630800,
+        "title": "Package cleanup policy: delete generic packages not downloaded in N days",
+        "terms": [
+          "Policy"
+        ]
+      },
+      {
+        "iid": 630798,
+        "title": "Show and filter issue start/due dates on Issue Boards",
+        "terms": [
+          "Visibility"
+        ]
+      },
+      {
+        "iid": 630793,
+        "title": "Add per-session auth_time tracking for OIDC max_age enforcement",
+        "terms": [
+          "OIDC (OpenID Connect)",
+          "Claim",
+          "Two-factor authentication (2FA)",
+          "Session"
+        ]
+      },
+      {
+        "iid": 630775,
+        "title": "Close the unattributed-surface governance gap: most-restrictive merge for unclassified/chat sessions",
+        "terms": [
+          "Session",
+          "Policy"
+        ]
+      },
+      {
+        "iid": 630761,
+        "title": "Slack integration is not discoverable: absent from Settings → Integrations, buried in General settings",
+        "terms": [
+          "Session"
+        ]
+      },
+      {
+        "iid": 630759,
+        "title": "Self-managed Slack setup requires building and hosting a custom app with manual credential hand-off",
+        "terms": [
+          "Session"
+        ]
+      },
+      {
+        "iid": 630758,
+        "title": "Duo tool and MCP configuration UI is scoped to IDE/CLI only — Slack is excluded",
+        "terms": [
+          "Session",
+          "Group"
+        ]
+      },
+      {
+        "iid": 630757,
+        "title": "Post-install state is opaque: misleading \"Reinstall\" button, unclear save order, raw Slack user IDs",
+        "terms": [
+          "Scopes"
+        ]
+      }
+    ],
+    "SAML": [
+      {
+        "iid": 630537,
+        "title": "Active SSO session bypasses the six-hour Admin Mode timeout",
+        "terms": [
+          "Identity provider (IdP)",
+          "Single Sign-On (SSO)",
+          "SAML",
+          "Session",
+          "Access control",
+          "Group",
+          "Membership"
+        ]
+      },
+      {
+        "iid": 630381,
+        "title": "SCIM Group Sync - Support custom roles",
+        "terms": [
+          "SAML",
+          "SCIM",
+          "Roles",
+          "Custom roles",
+          "Group"
+        ]
+      },
+      {
+        "iid": 630195,
+        "title": "Store the system block reason and show it in the Admin Users badge",
+        "terms": [
+          "SAML",
+          "LDAP",
+          "SCIM"
+        ]
+      },
+      {
+        "iid": 629897,
+        "title": "Backfill missing REST API resources in api_resources.md reference tables",
+        "terms": [
+          "SAML",
+          "LDAP",
+          "SCIM",
+          "Service accounts",
+          "Policy",
+          "Group"
+        ]
+      },
+      {
+        "iid": 629607,
+        "title": "Owner-configurable landing message for users with the Minimal Access role",
+        "terms": [
+          "Identity provider (IdP)",
+          "Single Sign-On (SSO)",
+          "SAML",
+          "SCIM",
+          "Group",
+          "Member",
+          "Membership",
+          "Visibility"
+        ]
+      },
+      {
+        "iid": 629090,
+        "title": "Migrate SAML group link services from the coarse admin_saml_group_links permission to granular permissions",
+        "terms": [
+          "Single Sign-On (SSO)",
+          "SAML",
+          "LDAP",
+          "Personal access token",
+          "Policy",
+          "Permission",
+          "Roles",
+          "Group"
+        ]
+      },
+      {
+        "iid": 628850,
+        "title": "Add the Rails Tier-2 redaction endpoint applying the live veto over one result page",
+        "terms": [
+          "SAML",
+          "Session",
+          "Authorization",
+          "Roles",
+          "Custom roles",
+          "Group"
+        ]
+      },
+      {
+        "iid": 628750,
+        "title": "Make merge request reviews a first-class unit: data model, API, and notifications",
+        "terms": [
+          "SAML",
+          "Group"
+        ]
+      },
+      {
+        "iid": 628716,
+        "title": "Dependency Proxy: allow top-level group cache to be shared with descendant groups",
+        "terms": [
+          "SAML",
+          "Authorization",
+          "Policy",
+          "Permission",
+          "Namespace",
+          "Group",
+          "Membership",
+          "Inheritance"
+        ]
+      },
+      {
+        "iid": 628446,
+        "title": "Rich text editor drops the +s suffix from URL references the user cannot read",
+        "terms": [
+          "SAML",
+          "Session",
+          "Group"
+        ]
+      },
+      {
+        "iid": 628440,
+        "title": "Remove tmp_index_identities_on_id_where_provider_group_saml from identities",
+        "terms": [
+          "SAML",
+          "Group"
+        ]
+      },
+      {
+        "iid": 628414,
+        "title": "Instance-level SCIM token can be generated even when instance SAML is disabled",
+        "terms": [
+          "SAML",
+          "SCIM",
+          "Group"
+        ]
+      },
+      {
+        "iid": 628118,
+        "title": "[FF] `session_expire_modal_on_saml_instances` -- warn on SAML instances when a session expires from inactivity",
+        "terms": [
+          "SAML",
+          "Session"
+        ]
+      },
+      {
+        "iid": 627797,
+        "title": "Support excluding approvers in merge request approval policies",
+        "terms": [
+          "Identity provider (IdP)",
+          "SAML",
+          "SCIM",
+          "Service accounts",
+          "Policy",
+          "Roles",
+          "Scopes",
+          "Group",
+          "Member",
+          "Membership"
+        ]
+      },
+      {
+        "iid": 627768,
+        "title": "Migrate Govern domain Capybara to MSW",
+        "terms": [
+          "SAML",
+          "LDAP",
+          "SCIM",
+          "Assertion",
+          "Session",
+          "Service accounts",
+          "Authorization",
+          "Policy",
+          "Roles"
+        ]
+      }
+    ],
+    "OIDC": [
+      {
+        "iid": 630793,
+        "title": "Add per-session auth_time tracking for OIDC max_age enforcement",
+        "terms": [
+          "OIDC (OpenID Connect)",
+          "Claim",
+          "Two-factor authentication (2FA)",
+          "Session"
+        ]
+      },
+      {
+        "iid": 630625,
+        "title": "Support plain IAM role assumption (sts:AssumeRole from ambient credentials) for aws_secrets_manager secrets, without requiring OIDC",
+        "terms": [
+          "Identity provider (IdP)",
+          "OIDC (OpenID Connect)",
+          "Provisioning",
+          "Policy"
+        ]
+      },
+      {
+        "iid": 630581,
+        "title": "Self-hosted Code Suggestions return 403 \"Forbidden by auth provider\" on 19.4 with an online cloud license: SelfHostedBillingTracker sends an instance-signed token to the cloud Duo Workflow Service (regression from !250313)",
+        "terms": [
+          "OIDC (OpenID Connect)",
+          "Issuer",
+          "JWT (JSON Web Token)"
+        ]
+      },
+      {
+        "iid": 630218,
+        "title": "Feature proposal: Opt-in \"Auditor Mode\" as a session-scoped step-up for auditor users",
+        "terms": [
+          "OIDC (OpenID Connect)",
+          "Two-factor authentication (2FA)",
+          "Session",
+          "Personal access token",
+          "Permission",
+          "Member",
+          "Visibility"
+        ]
+      },
+      {
+        "iid": 630174,
+        "title": "Exclude four /.well-known/ paths from AUTH-011 origin routing",
+        "terms": [
+          "OIDC (OpenID Connect)",
+          "OAuth",
+          "Issuer",
+          "Authorization",
+          "Policy",
+          "Scopes",
+          "Group"
+        ]
+      },
+      {
+        "iid": 629968,
+        "title": "Add CyberArk Conjur as a native external secrets provider for GitLab CI (`secrets:conjur`)",
+        "terms": [
+          "OIDC (OpenID Connect)",
+          "JWT (JSON Web Token)"
+        ]
+      },
+      {
+        "iid": 629429,
+        "title": "Add comment in monolith to keep OIDC scopes_supported in sync with IAM service",
+        "terms": [
+          "OIDC (OpenID Connect)",
+          "Scopes"
+        ]
+      },
+      {
+        "iid": 628634,
+        "title": "Port the GitLab-as-IdP OAuth/OIDC E2E spec to a Caproni-deployed CNG consumer",
+        "terms": [
+          "Identity provider (IdP)",
+          "OIDC (OpenID Connect)",
+          "OAuth",
+          "Roles"
+        ]
+      },
+      {
+        "iid": 627632,
+        "title": "Configurable Admin Mode session timeout",
+        "terms": [
+          "OIDC (OpenID Connect)",
+          "Session"
+        ]
+      },
+      {
+        "iid": 627509,
+        "title": "Improve docs for \"Add :skip_dedicated tag for GitLab Dedicated tenants\"",
+        "terms": [
+          "Identity provider (IdP)",
+          "OIDC (OpenID Connect)"
+        ]
+      },
+      {
+        "iid": 627244,
+        "title": "Admin UI to remove burned path record blocking CI/CD ID token issuance",
+        "terms": [
+          "OIDC (OpenID Connect)",
+          "Claim"
+        ]
+      },
+      {
+        "iid": 624485,
+        "title": "GitLab Secrets Manager pipeline JWT ignores ci_id_token_sub_claim_components, causing OidcBurnedPathError after project path reuse",
+        "terms": [
+          "Claim",
+          "JWT (JSON Web Token)",
+          "Authorization",
+          "Namespace",
+          "Group"
+        ]
+      },
+      {
+        "iid": 624052,
+        "title": "Document the live auth models and when to pick each",
+        "terms": [
+          "OIDC (OpenID Connect)",
+          "JWT (JSON Web Token)"
+        ]
+      },
+      {
+        "iid": 616232,
+        "title": "PDS E2E: provision test infra in dev PMDB project via Terraform",
+        "terms": [
+          "OIDC (OpenID Connect)"
+        ]
+      },
+      {
+        "iid": 611962,
+        "title": "Transfer TLG to Org: Auth tables (personal_access_token_last_used_ips, oauth_openid_requests, oauth_device_grants)",
+        "terms": [
+          "OIDC (OpenID Connect)",
+          "OAuth",
+          "Session",
+          "Group"
+        ]
+      }
+    ],
+    "SCIM": [
+      {
+        "iid": 630381,
+        "title": "SCIM Group Sync - Support custom roles",
+        "terms": [
+          "SAML",
+          "SCIM",
+          "Roles",
+          "Custom roles",
+          "Group"
+        ]
+      },
+      {
+        "iid": 630195,
+        "title": "Store the system block reason and show it in the Admin Users badge",
+        "terms": [
+          "SAML",
+          "LDAP",
+          "SCIM"
+        ]
+      },
+      {
+        "iid": 630160,
+        "title": "Remove group_id column from scim_oauth_access_tokens",
+        "terms": [
+          "Namespace",
+          "Group"
+        ]
+      },
+      {
+        "iid": 629897,
+        "title": "Backfill missing REST API resources in api_resources.md reference tables",
+        "terms": [
+          "SAML",
+          "LDAP",
+          "SCIM",
+          "Service accounts",
+          "Policy",
+          "Group"
+        ]
+      },
+      {
+        "iid": 629607,
+        "title": "Owner-configurable landing message for users with the Minimal Access role",
+        "terms": [
+          "Identity provider (IdP)",
+          "Single Sign-On (SSO)",
+          "SAML",
+          "SCIM",
+          "Group",
+          "Member",
+          "Membership",
+          "Visibility"
+        ]
+      },
+      {
+        "iid": 628414,
+        "title": "Instance-level SCIM token can be generated even when instance SAML is disabled",
+        "terms": [
+          "SAML",
+          "SCIM",
+          "Group"
+        ]
+      },
+      {
+        "iid": 628285,
+        "title": "fast_spec_helper conversion candidates",
+        "terms": [
+          "Assertion"
+        ]
+      },
+      {
+        "iid": 627984,
+        "title": "Migrate LDAP group link services from the coarse `admin_ldap_group_links` permission to granular permissions",
+        "terms": [
+          "LDAP",
+          "Personal access token",
+          "Authorization",
+          "Policy",
+          "Permission",
+          "Roles",
+          "Group"
+        ]
+      },
+      {
+        "iid": 627592,
+        "title": "Automated admin privilege provisioning and revocation",
+        "terms": [
+          "SAML",
+          "SCIM",
+          "Assertion",
+          "Provisioning",
+          "Session",
+          "Group"
+        ]
+      },
+      {
+        "iid": 624518,
+        "title": "Audit: 11 tables declare organization_id as sharding key when the data is actually owned by a namespace or project",
+        "terms": [
+          "SCIM",
+          "Scopes",
+          "Namespace",
+          "Group"
+        ]
+      },
+      {
+        "iid": 623430,
+        "title": "Users blocked by SCIM or SAML `required_groups` are labeled \"LDAP Blocked\"",
+        "terms": [
+          "Identity provider (IdP)",
+          "SAML",
+          "LDAP",
+          "SCIM",
+          "Assertion",
+          "Group"
+        ]
+      },
+      {
+        "iid": 612185,
+        "title": "Backfill known SCIM group memberships when a SamlGroupLink inherits an existing scim_group_uid",
+        "terms": [
+          "Identity provider (IdP)",
+          "SAML",
+          "LDAP",
+          "SCIM",
+          "Provisioning",
+          "Group",
+          "Member",
+          "Membership",
+          "Inheritance"
+        ]
+      },
+      {
+        "iid": 611959,
+        "title": "Transfer TLG to Org: Fulfillment/Identity/Config tables (upcoming_reconciliations, scim, security_policy, secrets_managers, custom_dashboards)",
+        "terms": [
+          "SCIM",
+          "Namespace"
+        ]
+      },
+      {
+        "iid": 607513,
+        "title": "Warn users on SAML instances when their session expires from inactivity",
+        "terms": [
+          "Identity provider (IdP)",
+          "Single Sign-On (SSO)",
+          "SAML",
+          "Claim",
+          "Session",
+          "Policy",
+          "Group"
+        ]
+      },
+      {
+        "iid": 606533,
+        "title": "Draft: Verify behaviour Enterprise user PATs",
+        "terms": [
+          "SCIM",
+          "User account",
+          "Group",
+          "Membership"
+        ]
+      }
+    ],
+    "2FA": [
+      {
+        "iid": 630793,
+        "title": "Add per-session auth_time tracking for OIDC max_age enforcement",
+        "terms": [
+          "OIDC (OpenID Connect)",
+          "Claim",
+          "Two-factor authentication (2FA)",
+          "Session"
+        ]
+      },
+      {
+        "iid": 630218,
+        "title": "Feature proposal: Opt-in \"Auditor Mode\" as a session-scoped step-up for auditor users",
+        "terms": [
+          "OIDC (OpenID Connect)",
+          "Two-factor authentication (2FA)",
+          "Session",
+          "Personal access token",
+          "Permission",
+          "Member",
+          "Visibility"
+        ]
+      },
+      {
+        "iid": 629582,
+        "title": "Testing: Run the IAM E2E test suite against staging",
+        "terms": [
+          "Single Sign-On (SSO)",
+          "OAuth",
+          "Two-factor authentication (2FA)",
+          "Session",
+          "JWT (JSON Web Token)",
+          "Policy"
+        ]
+      },
+      {
+        "iid": 627735,
+        "title": "Follow-up from \"Fix Cisco Duo OTP 2FA rejecting valid passcodes\"",
+        "terms": [
+          "Two-factor authentication (2FA)"
+        ]
+      },
+      {
+        "iid": 627277,
+        "title": "Reactivation notice is lost when sign-in redirects through an intermediate page",
+        "terms": [
+          "Two-factor authentication (2FA)",
+          "Session",
+          "Group"
+        ]
+      },
+      {
+        "iid": 624942,
+        "title": "URL fragment lost when signing in with a passkey",
+        "terms": [
+          "Passkey",
+          "Two-factor authentication (2FA)"
+        ]
+      },
+      {
+        "iid": 624921,
+        "title": "URL fragment lost when signing in via the top-nav \"Sign in\" button",
+        "terms": [
+          "Two-factor authentication (2FA)",
+          "Inheritance"
+        ]
+      },
+      {
+        "iid": 623190,
+        "title": "Migrate cng-oauth to a Caproni-deployed instance",
+        "terms": [
+          "OAuth",
+          "Two-factor authentication (2FA)",
+          "Group"
+        ]
+      },
+      {
+        "iid": 622683,
+        "title": "Duo Agent Platform tools resolve URLs to the wrong project on `relative_url_root` instances",
+        "terms": [
+          "Session"
+        ]
+      },
+      {
+        "iid": 617733,
+        "title": "Migrate sessions and 2FA page entrypoints to Vue 3",
+        "terms": [
+          "Two-factor authentication (2FA)"
+        ]
+      },
+      {
+        "iid": 616372,
+        "title": "Geo [LR]: Phase 1 validation: full LR migration flow on Dedicated",
+        "terms": [
+          "Two-factor authentication (2FA)",
+          "JWT (JSON Web Token)"
+        ]
+      },
+      {
+        "iid": 614168,
+        "title": "Geo [LR]: validate migration setup with shared db_key_base",
+        "terms": [
+          "Two-factor authentication (2FA)",
+          "JWT (JSON Web Token)",
+          "Roles"
+        ]
+      },
+      {
+        "iid": 614165,
+        "title": "Extend step-up admin mode to Organization owners",
+        "terms": [
+          "Two-factor authentication (2FA)",
+          "Session",
+          "Authorization",
+          "Policy",
+          "Permission",
+          "Roles",
+          "Group",
+          "Membership"
+        ]
+      },
+      {
+        "iid": 612734,
+        "title": "Granular write permissions for delegated instance administration",
+        "terms": [
+          "Two-factor authentication (2FA)",
+          "Service accounts",
+          "Permission",
+          "Roles",
+          "Group",
+          "Member",
+          "Membership",
+          "Visibility"
+        ]
+      },
+      {
+        "iid": 611322,
+        "title": "Extract 2FA requirement recalculation from the User and Group models into service classes",
+        "terms": [
+          "Two-factor authentication (2FA)",
+          "Group",
+          "Member"
+        ]
+      }
+    ]
+  },
+  "caveat": "Topical searches are enriched by search terms; latest is project-wide. Literal mentions include request descriptions but exclude code fences, inline code, and URLs. Entries and mappings require source review. No issue resolution or answer outcome read."
+}

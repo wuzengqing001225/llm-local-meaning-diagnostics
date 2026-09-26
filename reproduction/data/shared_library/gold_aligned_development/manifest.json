@@ -1,0 +1,12 @@
+{
+  "n_terms": 215,
+  "n_A_questions": 429,
+  "A_packet_sha256": "62a767cdcf41255a4171adbc56003070ef3009f60c86f3d1714b48257e18a1c6",
+  "source_hashes": {
+    "lpmc_reddit_v2.jsonl": "f81d872d02fb7ac0472cf18e69c8546f24674a7cd5f30749a89c749937d80bc9",
+    "reddit_v2_eqa.jsonl": "a834619d069ab546ae9c2889b5f02e16b2fcad11ec16af8e5d2668ad0d1176c3",
+    "reddit_v2_weights.jsonl": "b0f001718a2ca192c9373c6f7f0887fa2c2b4b4631b67b015b081b43cec54ed8"
+  },
+  "reader_outcomes_in_A_packet": false,
+  "development_only": true
+}

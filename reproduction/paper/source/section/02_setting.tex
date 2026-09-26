@@ -1,0 +1,24 @@
+\section{Setting}
+\label{sec:meaning}
+\paragraph{Local meaning and meaning-dependent questions.}
+A \emph{local meaning} is the meaning or scope that a document or community assigns to a term. A reader is a model given text and a question; its \emph{default reading} is its behaviour without the local definition. A diagnostic question is \emph{intended} to test a consequence of one term occurrence under that definition. Some model-drafted questions do not meet this standard, as the source review shows. A wrong answer need not reflect a misread term: the usual meaning may conflict with the local one, the local boundary may be unknown, or the answer may need a different fact or rule (Table~\ref{tab:cases}). The score ranks errors across these causes; an intervention helps distinguish which ones a definition can fix.
+
+\begin{table}[t]
+\centering\small
+\caption{Three ways a missing definition can matter. The categories guide interpretation. They are not labels assigned to the diagnostic items.}
+\label{tab:cases}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{2.7cm}>{\raggedright\arraybackslash}p{5.4cm}>{\raggedright\arraybackslash}p{5.0cm}@{}}
+\toprule
+Situation & What is missing or misleading & Remedy\\\midrule
+Meaning conflict & The usual reading supports a different answer from the local definition. & Supply the local definition with its scope.\\
+Scope unspecified & The general concept fits, but its members or boundary in this document are unknown. & Supply the local binding. A dictionary gloss does not help.\\
+Other information & The needed fact or rule is not part of the term's definition. & Retrieve the relevant evidence. More definitions do not help.\\\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Corpora.}
+We use four corpora with different sources of local meaning. A \emph{synthetic} collection of invented trading-desk and restaurant vocabulary controls which terms are redefined, which keep their usual meaning, and which are coinages. \emph{CUAD} contains 510 commercial contracts with explicit definition clauses \citep{cuad}. \emph{Reddit} contains 35 communities whose members maintain glossaries of community terms \citep{lucy-bamman-glossaries}. \emph{DeFi} contains developer documentation for a decentralised exchange protocol. Diagnostic questions are four-option multiple-choice items drafted by a model from the source. The synthetic drafter saw only usage sentences, while the Reddit and DeFi drafters also saw the source definition. Appendix~\ref{app:sources} gives counts and construction rules, and Table~\ref{tab:setting-design} lists the definition text used in each setting. Synthetic and CUAD questions are the main evidence. Reddit and DeFi add breadth, but their answer keys are less often supported by the preserved source (Section~\ref{sec:predict}).
+
+\paragraph{Readers.}
+The readers are \texttt{gpt-5.6-terra}, \texttt{gpt-6-astra}, and DeepSeek Flash (V4 for synthetic questions and V4.1 for later runs). Jev \citep{jev} is a decision model that returns a probability for each option together with a native confidence, and we use it to test whether a confidence signal built for this purpose detects the errors. Proxies are open Qwen2.5 models from 0.5B to 14B parameters and Llama-3.1-8B \citep{qwen,llama}, run locally. Appendix~\ref{app:models} gives versions and decoding settings.
+

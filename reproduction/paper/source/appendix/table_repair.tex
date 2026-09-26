@@ -1,0 +1,14 @@
+\begin{table}[t]\centering\footnotesize
+\caption{Prediction of observed repair. The last column concerns the separate bare-error target and gives a paired ranking difference. $R$ and $\Delta p$ are algebraically coupled (Appendix~\ref{app:coupling}).}
+\label{tab:repair}
+\begin{tabular}{@{}p{4.5cm}rccc@{}}\toprule
+Setting & $n$ & $R$, repair AUC & $\Delta p$, repair AUC & Error AUC difference CI\\\midrule
+Synthetic / DeepSeek V4 Flash & 456 & 0.833 & 0.810 & [-0.168, -0.046]\\
+Synthetic / GPT-6-astra & 456 & 0.797 & 0.716 & [-0.259, -0.066]\\
+Reddit / DeepSeek V4.1 Flash & 1391 & 0.744 & 0.709 & [-0.323, -0.244]\\
+Reddit / GPT-6-astra & 1391 & 0.725 & 0.621 & [-0.364, -0.213]\\
+DeFi / DeepSeek V4.1 Flash & 379 & 0.769 & 0.686 & [-0.445, -0.251]\\
+DeFi / GPT-5.6-terra & 379 & 0.792 & 0.556 & [-0.502, -0.327]\\
+DeFi / GPT-6-astra & 379 & 0.754 & 0.590 & [-0.510, -0.324]\\
+CUAD library / GPT-5.6-terra & 1500 & 0.760 & 0.595 & [-0.395, -0.302]\\
+\bottomrule\end{tabular}\end{table}

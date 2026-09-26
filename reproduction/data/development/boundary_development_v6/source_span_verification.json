@@ -1,0 +1,86 @@
+[
+  {
+    "definition_id": "cuadfull:170:Products",
+    "all_quotes_found": true,
+    "n_quotes": 1,
+    "checks": [
+      true
+    ]
+  },
+  {
+    "definition_id": "cuadfull:108:Third Party",
+    "all_quotes_found": true,
+    "n_quotes": 3,
+    "checks": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "definition_id": "cuadfull:250:System Images",
+    "all_quotes_found": true,
+    "n_quotes": 1,
+    "checks": [
+      true
+    ]
+  },
+  {
+    "definition_id": "cuadfull:171:Confidential Information",
+    "all_quotes_found": true,
+    "n_quotes": 1,
+    "checks": [
+      true
+    ]
+  },
+  {
+    "definition_id": "cuadfull:38:New Product",
+    "all_quotes_found": true,
+    "n_quotes": 3,
+    "checks": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "definition_id": "cuadfull:152:Territory",
+    "all_quotes_found": true,
+    "n_quotes": 1,
+    "checks": [
+      true
+    ]
+  },
+  {
+    "definition_id": "cuadfull:187:TERRITORY",
+    "all_quotes_found": true,
+    "n_quotes": 1,
+    "checks": [
+      true
+    ]
+  },
+  {
+    "definition_id": "cuadfull:21:Excluded Goods",
+    "all_quotes_found": true,
+    "n_quotes": 1,
+    "checks": [
+      true
+    ]
+  },
+  {
+    "definition_id": "cuadfull:254:Product",
+    "all_quotes_found": true,
+    "n_quotes": 1,
+    "checks": [
+      true
+    ]
+  },
+  {
+    "definition_id": "cuadfull:450:Covered Regions",
+    "all_quotes_found": true,
+    "n_quotes": 1,
+    "checks": [
+      true
+    ]
+  }
+]

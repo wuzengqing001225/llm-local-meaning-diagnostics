@@ -1,0 +1,13 @@
+{
+  "eligible_tasks": 57,
+  "annotated_tasks": 28,
+  "pending_tasks": 29,
+  "unique_requests": 110,
+  "conditions": {
+    "bare": 28,
+    "local_note": 28,
+    "usual_note": 26,
+    "irrelevant_note": 28
+  },
+  "note": "This checks behavioral responses. It does not infer all error causes or prove neural causal mechanisms. Abstaining protocol differs from forced-choice budget protocol."
+}
