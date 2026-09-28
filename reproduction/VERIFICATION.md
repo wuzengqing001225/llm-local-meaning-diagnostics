@@ -65,3 +65,19 @@ Table 2's two rows are reported by the author as 0.8094577 [0.7627638, 0.8560215
 | Max change, 17 items removed (with borderline) | not stated | 0.0018 |
 
 The maximum change in same-question repair AUROC of the probability change is 0.00601, computed from `data/historical_question_audit/review_27/deletion_sensitivity_27.json`. The maximum change in R AUROC is 0.00203. The earlier one-decimal-upward values 0.0061 and 0.0021 remain conservative upper bounds, but the paper and verification table now use the unrounded values.
+
+
+## Frequency and rarity baselines (Table 2, column Freq.)
+
+`analysis/reviewer_controls/frequency_baseline.py` recomputes the larger of the term-frequency and term-rarity AUROCs for ranking errors without the definition, alongside the proxy risk R on the same questions.
+
+| Setting | n | Freq./rarity | R |
+|---|---|---|---|
+| Synthetic / DeepSeek V4 Flash | 456 | 0.540 | 0.848 |
+| Synthetic / GPT-6-astra | 456 | 0.629 | 0.809 |
+| Reddit / DeepSeek V4.1 Flash | 1391 | 0.544 | 0.808 |
+| Reddit / GPT-6-astra | 1391 | 0.588 | 0.720 |
+| DeFi / DeepSeek V4.1 Flash | 379 | 0.510 | 0.809 |
+| DeFi / GPT-5.6-terra | 379 | 0.589 | 0.792 |
+| DeFi / GPT-6-astra | 379 | 0.603 | 0.764 |
+| CUAD / GPT-5.6-terra | 1500 | 0.507 | 0.815 |

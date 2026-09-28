@@ -5,7 +5,7 @@ proxy, and ranks the resulting diagnostic uses for review. The paper establishes
 corpora. It does not establish that a newly generated risk map will predict arbitrary future user requests or diagnose the
 cause of each error.
 
-Paper: *When Local Definitions Matter: Diagnosing Source-Linked Language Model Errors* (under review). The reproduction materials are in `../reproduction/`.
+Paper: *Language Models Cannot Tell When a Definition Is Missing* (under review). The reproduction materials are in `../reproduction/`.
 
 ## Install
 

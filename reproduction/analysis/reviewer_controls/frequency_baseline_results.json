@@ -1,0 +1,75 @@
+[
+ {
+  "corpus": "Synthetic",
+  "reader": "DeepSeek V4 Flash",
+  "n": 456,
+  "frequency_auroc": 0.5400070788107598,
+  "rarity_auroc": 0.4599929211892402,
+  "better_of_two": 0.5400070788107598,
+  "R_auroc": 0.8479235488437943
+ },
+ {
+  "corpus": "Synthetic",
+  "reader": "GPT-6-astra",
+  "n": 456,
+  "frequency_auroc": 0.6285248231532026,
+  "rarity_auroc": 0.37147517684679743,
+  "better_of_two": 0.6285248231532026,
+  "R_auroc": 0.8094576698213767
+ },
+ {
+  "corpus": "Reddit",
+  "reader": "DeepSeek V4.1 Flash",
+  "n": 1391,
+  "frequency_auroc": 0.4563592032764666,
+  "rarity_auroc": 0.5436407967235334,
+  "better_of_two": 0.5436407967235334,
+  "R_auroc": 0.8081386212518538
+ },
+ {
+  "corpus": "Reddit",
+  "reader": "GPT-6-astra",
+  "n": 1391,
+  "frequency_auroc": 0.41211789487651557,
+  "rarity_auroc": 0.5878821051234844,
+  "better_of_two": 0.5878821051234844,
+  "R_auroc": 0.7197425818115474
+ },
+ {
+  "corpus": "DeFi",
+  "reader": "DeepSeek V4.1 Flash",
+  "n": 379,
+  "frequency_auroc": 0.5102047828477185,
+  "rarity_auroc": 0.48979521715228147,
+  "better_of_two": 0.5102047828477185,
+  "R_auroc": 0.809304562946674
+ },
+ {
+  "corpus": "DeFi",
+  "reader": "GPT-5.6-terra",
+  "n": 379,
+  "frequency_auroc": 0.5892969611084868,
+  "rarity_auroc": 0.41070303889151316,
+  "better_of_two": 0.5892969611084868,
+  "R_auroc": 0.7923161706817824
+ },
+ {
+  "corpus": "DeFi",
+  "reader": "GPT-6-astra",
+  "n": 379,
+  "frequency_auroc": 0.6026537698412698,
+  "rarity_auroc": 0.39734623015873016,
+  "better_of_two": 0.6026537698412698,
+  "R_auroc": 0.7638392857142857
+ },
+ {
+  "corpus": "CUAD",
+  "reader": "GPT-5.6-terra",
+  "n": 1500,
+  "frequency_auroc": 0.5065677966101695,
+  "rarity_auroc": 0.4934322033898305,
+  "better_of_two": 0.5065677966101695,
+  "R_auroc": 0.8148516949152542,
+  "note": "unweighted over the stratified sample"
+ }
+]

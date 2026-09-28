@@ -1,6 +1,6 @@
 # Reproduction package
 
-Reproduction package for *When Local Definitions Matter: Diagnosing Source-Linked Language Model Errors*, a study of errors on diagnostic questions about locally defined terms and source-grounded definition interventions.
+Reproduction package for *Language Models Cannot Tell When a Definition Is Missing*, a study of errors on diagnostic questions about locally defined terms and source-grounded definition interventions.
 
 This package merges the author's current reproduction release (release_20260923) with the
 2026-09-26 offline supplementary checks and the paper-definition audit, and adds the

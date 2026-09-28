@@ -1,6 +1,6 @@
 # Reproduction notes
 
-This package supports *When Local Definitions Matter: Diagnosing Source-Linked Language Model Errors*. The numerical reproduction uses archived question sets, proxy scores, and reader outputs. It requires no API key, model download, GPU, or network call:
+This package supports *Language Models Cannot Tell When a Definition Is Missing*. The numerical reproduction uses archived question sets, proxy scores, and reader outputs. It requires no API key, model download, GPU, or network call:
 
 ```sh
 python -m pip install -r requirements.txt

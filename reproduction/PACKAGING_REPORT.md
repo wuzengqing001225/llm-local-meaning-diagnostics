@@ -301,3 +301,8 @@ Script exit codes: `offline_checks_20260926.py` = 0, `rebuild_tables_figures.py`
 - **Files named `*_private.jsonl` inside the development experiments were kept.** They hold frozen task and gold material for those studies, not personal data and not the private notebook. They are part of the experimental record the paper cites. Flagged here because the name invites a second look before publishing.
 - **`analysis_results/` was kept at the release root.** It is the set of outputs the author shipped in release_20260923 and is not listed in the release manifest, so its intended location was ambiguous. Keeping the author's path preserves the bytes and lets a reader compare a fresh `analysis/results/` run against it.
 
+
+
+## Removed on 2026-09-26
+
+The 18 Markdown review notes under `data/development/` (the three `independent_B_v4/evaluation` reports and the `boundary_development_v5` review batches) were removed because they were written in Chinese. They documented development experiments that are not part of the paper's claims. The structured data files in those folders are unchanged. Paths to these notes listed above no longer resolve.

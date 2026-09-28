@@ -1,4 +1,6 @@
-# When Local Definitions Matter: Diagnosing Source-Linked Language Model Errors
+# Language Models Cannot Tell When a Definition Is Missing
+
+Code and data for the paper *Language Models Cannot Tell When a Definition Is Missing* (under double-blind review).
 
 The paper studies errors on source-linked questions about locally defined terms. A local 7B proxy ranks other readers' errors
 on the same synthetic and contract questions, while source definitions can correct many constructed-task answers. The risk
